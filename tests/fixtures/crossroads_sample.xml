@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trimmed copy of the real Crossroads_20261115.xml structure (first recipe's
+     values are real; the rest are representative). -->
+<EatecExchange>
+  <menu id="357" name="XRDS Fall 26 Brunch 08/25/2026 - 12/19/2026" servedate="20261115" location="Crossroads" mealperiodname="Fall - Brunch" menubulletin="" mealendtime="16:00" mealstarttime="11:00">
+    <nutrients>Calories (kcal)|Total Lipid/Fat (g)|Saturated fatty acid (g)|Trans Fat (g)|Cholesterol (mg)|Sodium (mg)|Carbohydrate (g)|Total Dietary Fiber (g)|Sugar (g)|Protein (g)|Vitamin A (iu)|Vitamin C (mg)|Calcium (mg)|Iron (mg)|Water (g)|Ash (g)|Vitamin A (rae)|Potassium (mg)|Vitamin D(iu)|Carbon Footprint (kg CO2)|</nutrients>
+    <recipes>
+      <recipe id="1275" category="Center Plate" description="Taco Breakfast Texas Style" shortName="Texas-style Breakfast Taco" servingSize="5.54" servingSizeUnit="oz" servingDescription="1 SV" nutrients="585.95|43.87|14.94|0|170.37|1549|20.84|0.57|0.39|27.83|0.22|0.8|151.01|1.41|0.94|0|0|514.82|0.09|0.25|">
+        <allergens>
+          <allergen id="Milk">Yes</allergen><allergen id="Egg">Yes</allergen><allergen id="Fish">No</allergen><allergen id="Shellfish">No</allergen><allergen id="Tree Nuts">No</allergen><allergen id="Wheat">Yes</allergen><allergen id="Peanuts">No</allergen><allergen id="Soybeans">No</allergen><allergen id="Gluten">Yes</allergen><allergen id="Alcohol">No</allergen><allergen id="Sesame">No</allergen><allergen id="Pork">Yes</allergen>
+        </allergens>
+        <dietaryChoices>
+          <dietaryChoice id="Vegan Option">No</dietaryChoice><dietaryChoice id="Vegetarian Option">No</dietaryChoice><dietaryChoice id="Halal">No</dietaryChoice><dietaryChoice id="Kosher">No</dietaryChoice>
+        </dietaryChoices>
+        <ingredients>ignored</ingredients>
+      </recipe>
+      <recipe id="2001" category="Midday Mains" shortName="Grilled Paprika Tofu" servingSize="4" servingSizeUnit="oz" nutrients="210|11|1.5|0|0|380|6|2|1|21|0|0|0|0|0|0|0|0|0|0.05|">
+        <allergens><allergen id="Soybeans">Yes</allergen><allergen id="Milk">No</allergen></allergens>
+        <dietaryChoices><dietaryChoice id="Vegan Option">Yes</dietaryChoice></dietaryChoices>
+      </recipe>
+      <recipe id="2002" category="Salad Bar" shortName="Baby Spinach" servingSize="1" servingSizeUnit="oz" nutrients="7|0.1|0|0|0|22|1.1|0.6|0.1|0.8|0|0|0|0|0|0|0|0|0|0.01|">
+        <dietaryChoices><dietaryChoice id="Vegan Option">Yes</dietaryChoice></dietaryChoices>
+      </recipe>
+      <recipe id="2002" category="Salad Bar" shortName="Baby Spinach" servingSize="1" servingSizeUnit="oz" nutrients="7|0.1|0|0|0|22|1.1|0.6|0.1|0.8|0|0|0|0|0|0|0|0|0|0.01|"/>
+      <recipe id="2003" category="Dessert" shortName="Strawberry Shortcake" servingSize="3" servingSizeUnit="oz" nutrients="320|14|8|0|60|200|44|1|28|4|0|0|0|0|0|0|0|0|0|0.1|">
+        <dietaryChoices><dietaryChoice id="Vegetarian Option">Yes</dietaryChoice><dietaryChoice id="Halal">Yes</dietaryChoice></dietaryChoices>
+      </recipe>
+      <recipe id="2004" category="Center Plate" shortName="Bulk Rice Pan" servingSize="1" servingSizeUnit="pan" nutrients="9800|20|0|0|0|0|2100|0|0|180|0|0|0|0|0|0|0|0|0|1|"/>
+      <recipe id="2005" category="Center Plate" shortName="" description="" nutrients="100|1|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|"/>
+    </recipes>
+  </menu>
+  <menu id="358" name="XRDS Fall 26 Dinner" servedate="20261115" location="Crossroads" mealperiodname="Fall - Dinner" menubulletin="" mealendtime="21:00" mealstarttime="16:30">
+    <nutrients>Calories (kcal)|Total Lipid/Fat (g)|Saturated fatty acid (g)|Trans Fat (g)|Cholesterol (mg)|Sodium (mg)|Carbohydrate (g)|Total Dietary Fiber (g)|Sugar (g)|Protein (g)|Vitamin A (iu)|Vitamin C (mg)|Calcium (mg)|Iron (mg)|Water (g)|Ash (g)|Vitamin A (rae)|Potassium (mg)|Vitamin D(iu)|Carbon Footprint (kg CO2)|</nutrients>
+    <recipes>
+      <recipe id="3001" category="Center Plate" shortName="Harissa Roasted Chicken" servingSize="4" servingSizeUnit="oz" nutrients="260|12|3|0|110|420|3|1|1|34|0|0|0|0|0|0|0|0|0|0.15|">
+        <allergens><allergen id="Milk">No</allergen></allergens>
+        <dietaryChoices><dietaryChoice id="Halal">Yes</dietaryChoice></dietaryChoices>
+      </recipe>
+    </recipes>
+  </menu>
+</EatecExchange>
