@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's Open · Berkeley Dining</title>
+<meta name="description" content="Which Berkeley dining halls are open right now, and what they're serving.">
+<meta name="theme-color" content="#14325c">
+
+<!--
+  HOW THIS PAGE WORKS (read top to bottom)
+  -----------------------------------------
+  1. <style>   How it looks. Colors live in variables at the top (--accent etc.)
+               so you can retheme the whole page by changing a few lines.
+  2. <body>    An almost-empty shell. JavaScript fills in the content.
+  3. <script>  The logic, in this order:
+                 CONFIG          where the data lives
+                 time helpers    "what time is it at Berkeley right now?"
+                 data loading    fetch the JSON your scraper saves to GitHub
+                 meal logic      open / opens soon / closed
+                 YOUR TURN       filters you'll build
+                 rendering       turn data into HTML
+                 init            run everything when the page loads
+-->
+
+<style>
+  :root {
+    --bg: #f5f3ee;
+    --card: #ffffff;
+    --ink: #1a1c21;
+    --muted: #6a6f79;
+    --line: #e4e0d6;
+    --accent: #14325c;      /* deep blue */
+    --gold: #f0b429;        /* Berkeley-ish gold */
+    --gold-ink: #6b4a00;
+    --gold-bg: #fdf3d8;
+    --open: #17804a;
+    --open-bg: #e3f4ea;
+    --soon: #9a6400;
+    --soon-bg: #fbefd7;
+    --closed: #7d838c;
+    --closed-bg: #eceef1;
+    --chip: #eef1f6;
+    --chip-ink: #3c4350;
+    --veg: #2f7a3e;
+    --veg-bg: #e6f3e7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101216;
+      --card: #191c22;
+      --ink: #eceef2;
+      --muted: #9aa1ad;
+      --line: #2a2e36;
+      --accent: #9cc2ff;
+      --gold: #f2c14e;
+      --gold-ink: #f7d784;
+      --gold-bg: #3a3017;
+      --open: #4fd08a;
+      --open-bg: #14321f;
+      --soon: #f0b860;
+      --soon-bg: #3a2c12;
+      --closed: #8b929c;
+      --closed-bg: #23272e;
+      --chip: #232833;
+      --chip-ink: #c9cfda;
+      --veg: #7fd38c;
+      --veg-bg: #163020;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 0 16px; }
+
+  /* ---------- Header ---------- */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px);
+    -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 16px 0 10px; }
+  h1 { margin: 0; font-size: 24px; letter-spacing: -0.02em; }
+  h1 span { color: var(--gold); }
+  .clock { color: var(--muted); font-size: 14px; white-space: nowrap; }
+
+  .periods { display: flex; gap: 6px; padding-bottom: 12px; overflow-x: auto; scrollbar-width: none; }
+  .periods::-webkit-scrollbar { display: none; }
+  .period {
+    flex: 0 0 auto;
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    padding: 7px 14px; border-radius: 999px; font: inherit; font-size: 14px; font-weight: 600;
+    cursor: pointer;
+  }
+  .period[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+
+  .banner {
+    margin: 14px 0 0; padding: 10px 12px; border-radius: 10px;
+    background: var(--chip); color: var(--chip-ink); font-size: 14px;
+  }
+
+  /* ---------- Hall cards ---------- */
+  main { padding: 14px 0 32px; display: grid; gap: 14px; }
+  .hall {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 16px 16px 6px;
+  }
+  .hall.is-closed { opacity: 0.72; }
+  .hall-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .hall-name { margin: 0; font-size: 20px; letter-spacing: -0.01em; }
+  .hours { color: var(--muted); font-size: 13px; margin: 2px 0 10px; }
+
+  .status { font-size: 12px; font-weight: 700; padding: 4px 9px; border-radius: 999px; white-space: nowrap; }
+  .status.open { color: var(--open); background: var(--open-bg); }
+  .status.soon { color: var(--soon); background: var(--soon-bg); }
+  .status.closed, .status.none { color: var(--closed); background: var(--closed-bg); }
+  .status.open::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 1px; }
+
+  .dishes { list-style: none; margin: 0; padding: 0; }
+  .dish { padding: 10px 0; border-top: 1px solid var(--line); }
+  .station { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .dish-name { font-weight: 600; margin: 1px 0 2px; }
+  .meta { font-size: 13px; color: var(--muted); }
+  .meta b { color: var(--ink); font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  .chip { font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--chip-ink); }
+  .chip.protein { background: var(--gold-bg); color: var(--gold-ink); }
+  .chip.veg { background: var(--veg-bg); color: var(--veg); }
+  .allergens { font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+  details { border-top: 1px solid var(--line); }
+  summary {
+    cursor: pointer; list-style: none; padding: 11px 0;
+    font-size: 14px; font-weight: 600; color: var(--accent);
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: " ▾"; }
+  details[open] > summary::after { content: " ▴"; }
+  details .dishes .dish:first-child { border-top: 0; }
+
+  .empty { color: var(--muted); font-size: 14px; padding: 4px 0 12px; }
+
+  footer { color: var(--muted); font-size: 12px; padding: 0 0 40px; }
+  footer p { margin: 6px 0; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="top">
+        <h1>What's open<span>.</span></h1>
+        <div class="clock" id="clock"></div>
+      </div>
+      <nav class="periods" id="periods" aria-label="Choose a meal"></nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div id="banner"></div>
+    <main id="halls"><p class="empty">Loading today's menus…</p></main>
+    <footer id="footer"></footer>
+  </div>
+
+<script>
+/* =====================================================================
+   CONFIG: where the data lives
+   Your GitHub Action saves one JSON file per day into docs/data/, right
+   next to this page. Loading it from the same site (a relative path, no
+   "https://") means browsers and blockers never treat it as a request to
+   some other website.
+   ===================================================================== */
+const CONFIG = {
+  dataBase: "data/berkeley/",
+  timezone: "America/Los_Angeles", // always use Berkeley time, even if the viewer is elsewhere
+  previewCount: 6,                 // how many main dishes to show before "Show all"
+};
+
+/* =====================================================================
+   TIME HELPERS
+   Times in the data look like "16:30". Comparing minutes-since-midnight
+   (16*60 + 30 = 990) is much easier than comparing strings.
+   ===================================================================== */
+
+// What date and time is it at Berkeley right now?
+function campusNow() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: CONFIG.timezone,
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", hourCycle: "h23",
+  }).formatToParts(new Date());
+  const get = (type) => parts.find((p) => p.type === type).value;
+  return {
+    date: `${get("year")}-${get("month")}-${get("day")}`,        // "2026-11-15"
+    minutes: Number(get("hour")) * 60 + Number(get("minute")),  // e.g. 990
+  };
+}
+
+// "16:30" -> 990
+function toMinutes(hhmm) {
+  if (!hhmm) return null;
+  const [h, m] = hhmm.split(":").map(Number);
+  return h * 60 + m;
+}
+
+// "16:30" -> "4:30pm"
+function prettyTime(hhmm) {
+  const mins = toMinutes(hhmm);
+  if (mins === null) return "";
+  const h = Math.floor(mins / 60), m = mins % 60;
+  const h12 = ((h + 11) % 12) + 1;
+  return `${h12}${m ? ":" + String(m).padStart(2, "0") : ""}${h < 12 ? "am" : "pm"}`;
+}
+
+// "2026-11-15" + 1 -> "2026-11-16"
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + "T12:00:00Z");
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+// "2026-11-15" -> "Sun, Nov 15"
+function prettyDate(dateStr) {
+  return new Date(dateStr + "T12:00:00Z").toLocaleDateString("en-US", {
+    weekday: "short", month: "short", day: "numeric", timeZone: "UTC",
+  });
+}
+
+/* =====================================================================
+   DATA LOADING
+   fetch() asks a server for a file and waits (await) for the answer.
+   ===================================================================== */
+async function loadMenu(dateStr) {
+  try {
+    const res = await fetch(CONFIG.dataBase + dateStr + ".json", { cache: "no-cache" });
+    if (!res.ok) return null;  // 404 = no menu saved for that day
+    return await res.json();
+  } catch (err) {
+    console.error("Could not load menu for", dateStr, err);
+    return null;
+  }
+}
+
+/* =====================================================================
+   MEAL LOGIC
+   ===================================================================== */
+
+// Is this meal open, starting later, or over? Returns a label + CSS class.
+function mealStatus(meal, nowMinutes, isToday) {
+  if (!meal) return { cls: "none", text: "Not serving", rank: 3 };
+  if (!isToday) return { cls: "soon", text: `Opens ${prettyTime(meal.start)}`, rank: 1 };
+
+  const start = toMinutes(meal.start), end = toMinutes(meal.end);
+  if (nowMinutes >= start && nowMinutes < end) {
+    return { cls: "open", text: `Open · until ${prettyTime(meal.end)}`, rank: 0 };
+  }
+  if (nowMinutes < start) {
+    const wait = start - nowMinutes;
+    const text = wait <= 60 ? `Opens in ${wait} min` : `Opens ${prettyTime(meal.start)}`;
+    return { cls: "soon", text, rank: 1 };
+  }
+  return { cls: "closed", text: "Closed", rank: 2 };
+}
+
+// All meal periods in the day, ordered by start time: ["Brunch", "Dinner"]
+function periodsInMenu(menu) {
+  const earliest = {};
+  for (const loc of menu.locations) {
+    for (const meal of loc.meals) {
+      const s = toMinutes(meal.start) ?? 9999;
+      earliest[meal.period] = Math.min(earliest[meal.period] ?? 9999, s);
+    }
+  }
+  return Object.keys(earliest).sort((a, b) => earliest[a] - earliest[b]);
+}
+
+// Which meal should we show first? The one open now, else the next one.
+function defaultPeriod(menu, nowMinutes, isToday) {
+  const periods = periodsInMenu(menu);
+  if (!isToday) return periods[0];
+  for (const p of periods) {
+    const anyOpenOrLater = menu.locations.some((loc) => {
+      const meal = loc.meals.find((m) => m.period === p);
+      return meal && toMinutes(meal.end) > nowMinutes;
+    });
+    if (anyOpenOrLater) return p;
+  }
+  return periods[periods.length - 1];
+}
+
+// Is any meal anywhere still to come today?
+function hasMealsLeft(menu, nowMinutes) {
+  return menu.locations.some((loc) => loc.meals.some((m) => toMinutes(m.end) > nowMinutes));
+}
+
+/* =====================================================================
+   YOUR TURN
+   Right now every dish is shown. Build these yourself:
+
+   Challenge 1: "High protein" toggle
+     - Add a button to the header (look at how renderPeriods() makes buttons).
+     - When it's on, keep only dishes whose tags include "high_protein".
+       Hint: items.filter((item) => item.tags.includes("high_protein"))
+     - Store whether it's on in `state.filters`, then call render().
+
+   Challenge 2: "Vegetarian" toggle (vegan dishes count as vegetarian too).
+
+   Challenge 3: "Avoid an allergen" (e.g. no peanuts).
+     Each dish has item.allergens, like ["milk", "egg"].
+
+   Stuck? Open the browser console (Cmd+Option+J in Chrome) and try
+   console.log(state.menu) to look at the data.
+   ===================================================================== */
+function filterItems(items) {
+  // const f = state.filters;
+  return items;
+}
+
+/* =====================================================================
+   RENDERING: data -> HTML
+   ===================================================================== */
+
+// Dish names come from outside data, so escape them before putting them in
+// HTML. Otherwise a name like "<b>" would be treated as code.
+function esc(text) {
+  return String(text).replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+const CHIP_LABELS = {
+  high_protein: ["High protein", "protein"],
+  vegan: ["Vegan", "veg"],
+  vegetarian: ["Vegetarian", "veg"],
+};
+const DIET_LABELS = { halal: "Halal", kosher: "Kosher" };
+
+function dishHTML(item) {
+  const n = item.nutrition;
+  const meta = [];
+  if (n.kcal != null) meta.push(`${Math.round(n.kcal)} cal`);
+  if (n.protein_g != null) meta.push(`<b>${Math.round(n.protein_g)}g</b> protein`);
+  if (n.serving) meta.push(esc(n.serving));
+
+  const chips = [];
+  for (const tag of item.tags) {
+    if (CHIP_LABELS[tag]) chips.push(`<span class="chip ${CHIP_LABELS[tag][1]}">${CHIP_LABELS[tag][0]}</span>`);
+  }
+  for (const diet of item.diets) {
+    if (DIET_LABELS[diet]) chips.push(`<span class="chip">${DIET_LABELS[diet]}</span>`);
+  }
+
+  const allergens = item.allergens.length
+    ? `<div class="allergens">Contains ${esc(item.allergens.join(", ").replace(/_/g, " "))}</div>`
+    : "";
+
+  return `
+    <li class="dish">
+      <div class="station">${esc(item.station)}</div>
+      <div class="dish-name">${esc(item.name)}</div>
+      <div class="meta">${meta.join(" · ")}</div>
+      ${chips.length ? `<div class="chips">${chips.join("")}</div>` : ""}
+      ${allergens}
+    </li>`;
+}
+
+function hallHTML(loc, meal, status) {
+  if (!meal) {
+    return `
+      <section class="hall is-closed">
+        <div class="hall-head"><h2 class="hall-name">${esc(loc.name)}</h2>
+          <span class="status none">Not serving</span></div>
+        <p class="empty">No ${esc(state.period.toLowerCase())} here today.</p>
+      </section>`;
+  }
+
+  const items = filterItems(meal.items);
+  const mains = items.filter((i) => i.station_type === "main");
+  const others = items.filter((i) => i.station_type !== "main");
+  const preview = mains.slice(0, CONFIG.previewCount);
+  const rest = mains.slice(CONFIG.previewCount);
+
+  return `
+    <section class="hall ${status.cls === "closed" ? "is-closed" : ""}">
+      <div class="hall-head">
+        <h2 class="hall-name">${esc(loc.name)}</h2>
+        <span class="status ${status.cls}">${status.text}</span>
+      </div>
+      <div class="hours">${esc(meal.period)} · ${prettyTime(meal.start)}–${prettyTime(meal.end)}</div>
+
+      ${mains.length ? `<ul class="dishes">${preview.map(dishHTML).join("")}</ul>`
+                     : `<p class="empty">No matching dishes.</p>`}
+
+      ${rest.length ? `
+        <details>
+          <summary>Show ${rest.length} more mains</summary>
+          <ul class="dishes">${rest.map(dishHTML).join("")}</ul>
+        </details>` : ""}
+
+      ${others.length ? `
+        <details>
+          <summary>Sides, salad bar &amp; desserts (${others.length})</summary>
+          <ul class="dishes">${others.map(dishHTML).join("")}</ul>
+        </details>` : ""}
+    </section>`;
+}
+
+function renderPeriods() {
+  const nav = document.getElementById("periods");
+  nav.innerHTML = periodsInMenu(state.menu)
+    .map((p) => `<button class="period" aria-pressed="${p === state.period}" data-period="${esc(p)}">${esc(p)}</button>`)
+    .join("");
+  // When a button is clicked, remember the choice and redraw.
+  nav.querySelectorAll("button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.period = btn.dataset.period;
+      render();
+    });
+  });
+}
+
+function render() {
+  const now = campusNow();
+  const isToday = state.menu.date === now.date;
+
+  // The clock always shows the real current time at Berkeley.
+  const nowHHMM = String(Math.floor(now.minutes / 60)) + ":" + String(now.minutes % 60).padStart(2, "0");
+  document.getElementById("clock").textContent = `${prettyDate(now.date)} · ${prettyTime(nowHHMM)}`;
+
+  document.getElementById("banner").innerHTML = isToday ? "" :
+    `<p class="banner">Dining is closed for the night. Here's ${esc(prettyDate(state.menu.date))}'s menu.</p>`;
+
+  renderPeriods();
+
+  // Build one card per location, then sort: open first, then opening soon, then closed.
+  const cards = state.menu.locations.map((loc) => {
+    const meal = loc.meals.find((m) => m.period === state.period);
+    const status = mealStatus(meal, now.minutes, isToday);
+    const kindRank = loc.kind === "dining_hall" ? 0 : 1;
+    return { loc, meal, status, sortKey: status.rank * 10 + kindRank };
+  });
+  cards.sort((a, b) => a.sortKey - b.sortKey);
+
+  document.getElementById("halls").innerHTML =
+    cards.map((c) => hallHTML(c.loc, c.meal, c.status)).join("") ||
+    `<p class="empty">No menus posted for this day.</p>`;
+
+  const updated = new Date(state.menu.scraped_at).toLocaleString("en-US", {
+    timeZone: CONFIG.timezone, month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+  });
+  document.getElementById("footer").innerHTML = `
+    <p>Menus and nutrition from Berkeley Dining · updated ${esc(updated)}.</p>
+    <p>Nutrition is per serving and can vary. If you have a serious allergy, confirm with dining staff.</p>`;
+}
+
+/* =====================================================================
+   INIT: runs once when the page loads
+   ===================================================================== */
+const state = {
+  menu: null,     // the day's JSON
+  period: null,   // which meal tab is selected, e.g. "Dinner"
+  filters: {},    // for YOUR TURN
+};
+
+async function init() {
+  const now = campusNow();
+  let menu = await loadMenu(now.date);
+
+  // After the last meal of the day, show tomorrow instead.
+  if (!menu || !hasMealsLeft(menu, now.minutes)) {
+    const tomorrow = await loadMenu(addDays(now.date, 1));
+    if (tomorrow && tomorrow.locations.length) menu = tomorrow;
+  }
+
+  if (!menu) {
+    document.getElementById("halls").innerHTML =
+      `<p class="empty">No menus found. Dining may be closed (breaks or holidays), or the scraper hasn't run yet.</p>`;
+    return;
+  }
+
+  state.menu = menu;
+  state.period = defaultPeriod(menu, now.minutes, menu.date === now.date);
+  render();
+
+  // Re-check every minute so "Open" / "Closed" stays accurate.
+  setInterval(render, 60 * 1000);
+}
+
+init();
+</script>
+</body>
+</html>

@@ -5,7 +5,7 @@ Command-line entry point.
     python -m scraper.run --date 2026-11-16     # a specific day
     python -m scraper.run --days 3              # today + next 2 days
 
-Writes data/<school>/<date>.json, plus data/<school>/today.json for today.
+Writes docs/data/<school>/<date>.json, plus today.json for today.
 Exits with an error if no menu items were found, so a scheduled job
 can alert you when the source breaks.
 """
@@ -30,7 +30,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--school", default="berkeley", choices=sorted(SCHOOLS))
     p.add_argument("--date", help="YYYY-MM-DD (default: today, school's local time)")
     p.add_argument("--days", type=int, default=1, help="number of days to scrape")
-    p.add_argument("--out", default="data", help="output folder")
+    p.add_argument("--out", default="docs/data", help="output folder (docs/ is what GitHub Pages serves)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args(argv)
 
