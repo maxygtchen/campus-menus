@@ -83,8 +83,26 @@ either the site changed or dining is closed (breaks and holidays).
 3. Schools on Nutrislice share one API, so one Nutrislice scraper can cover
    many campuses at once.
 
+## The app (`docs/`)
+
+GitHub Pages serves the `docs/` folder as the website.
+
+| File | What it does |
+| --- | --- |
+| `docs/index.html` | Page skeleton and styles |
+| `docs/js/app.js` | Loads menus, draws the page, handles taps (start here) |
+| `docs/js/scoring.js` | Dish ratings, hall scores, picks for a goal |
+| `docs/js/backend.js` | Where votes are stored (this device, or Supabase) |
+| `docs/js/config.js` | Settings and scoring numbers |
+| `supabase/schema.sql` | Ratings table and its security rules |
+
+Run it locally with `cd docs && python3 -m http.server 8000`. Add `?demo=1`
+to the URL to see it with sample ratings. To make ratings shared between
+everyone, follow `SETUP-RATINGS.md`.
+
 ## Tests
 
 ```bash
-pip install pytest && python -m pytest
+pip install pytest && python -m pytest       # scraper
+node --test tests/scoring.test.mjs           # scoring
 ```
