@@ -9,12 +9,14 @@ export const CONFIG = {
 
   /* ---- Ratings database (Supabase) --------------------------------
      Leave these empty and ratings are saved on this device only.
-     Fill them in (see SETUP-RATINGS.md) and ratings are shared by
+     Fill them in from the Supabase dashboard (SETUP-RATINGS.md) —
+     use your real project ref, not the YOUR-PROJECT placeholder.
+     Then ratings are shared by
      everyone. The "publishable" / "anon" key is designed to be public,
      so it's fine in this file. NEVER put the "secret" / "service_role"
      key here. */
-  supabaseUrl: "",
-  supabaseKey: "",
+  supabaseUrl: "https://maarpzlnxrwtliwqgjlp.supabase.co",
+  supabaseKey: "sb_publishable_s2wBIj1YTDpoYQpS4J4FtQ_lbIIsw-q",
 
   /* ---- How scores are calculated (see scoring.js) ------------------ */
   scoring: {

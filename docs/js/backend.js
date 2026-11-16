@@ -134,9 +134,18 @@ function demoBackend() {
 }
 
 /* --------------------------- choose one ------------------------------ */
+function supabaseConfigured(config) {
+  const url = (config.supabaseUrl || "").trim();
+  const key = (config.supabaseKey || "").trim();
+  if (!url || !key) return false;
+  // Setup doc placeholders — must be replaced with real dashboard values.
+  if (url.includes("YOUR-PROJECT") || key.includes("...")) return false;
+  return true;
+}
+
 export async function createBackend(config) {
   if (new URLSearchParams(location.search).has("demo")) return demoBackend();
-  if (config.supabaseUrl && config.supabaseKey) {
+  if (supabaseConfigured(config)) {
     try {
       return await sharedBackend(config);
     } catch (err) {
