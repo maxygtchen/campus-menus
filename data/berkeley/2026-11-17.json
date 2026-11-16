@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-17",
-  "scraped_at": "2026-11-16T02:43:54+00:00",
+  "scraped_at": "2026-11-16T07:05:28+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -10262,77 +10262,47 @@
           "end": "21:00",
           "items": [
             {
-              "name": "Lemon Ricotta Chicken",
+              "name": "Chicken Piccata",
               "station": "Centerplate",
               "station_type": "main",
-              "dish_key": "berkeley:lemon-ricotta-chicken",
+              "dish_key": "berkeley:chicken-piccata",
               "nutrition": {
-                "kcal": 185.2,
-                "protein_g": 21.0,
-                "carbs_g": 2.2,
-                "fat_g": 9.9,
-                "fiber_g": 0.6,
-                "sugar_g": 0.3,
-                "sodium_mg": 235.2,
-                "serving": "3.62 oz"
+                "kcal": 60.5,
+                "protein_g": 0.4,
+                "carbs_g": 3.0,
+                "fat_g": 4.1,
+                "fiber_g": 0.2,
+                "sugar_g": 0.4,
+                "sodium_mg": 213.8,
+                "serving": "4 oz"
               },
               "allergens": [
-                "milk"
+                "milk",
+                "wheat",
+                "gluten",
+                "alcohol"
               ],
               "diets": [],
               "tags": [
-                "high_protein",
                 "lighter"
               ],
-              "carbon_kg": 0.4,
-              "source_id": "173"
+              "carbon_kg": 0.0,
+              "source_id": "2902"
             },
             {
-              "name": "Tofu Parmesan Bake (Vegan)",
+              "name": "Baked Tofu Piccata",
               "station": "Centerplate",
               "station_type": "main",
-              "dish_key": "berkeley:tofu-parmesan-bake-vegan",
+              "dish_key": "berkeley:baked-tofu-piccata",
               "nutrition": {
-                "kcal": 356.2,
-                "protein_g": 24.9,
-                "carbs_g": 27.8,
-                "fat_g": 16.6,
-                "fiber_g": 5.5,
-                "sugar_g": 0.4,
-                "sodium_mg": 839.2,
-                "serving": "5.98 oz"
-              },
-              "allergens": [
-                "tree_nuts",
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "high_protein",
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.3,
-              "source_id": "2467"
-            },
-            {
-              "name": "Sauteed Vegan Santa Maria Strips Halal",
-              "station": "Centerplate",
-              "station_type": "main",
-              "dish_key": "berkeley:sauteed-vegan-santa-maria-strips-halal",
-              "nutrition": {
-                "kcal": 180.6,
-                "protein_g": 26.9,
+                "kcal": 208.6,
+                "protein_g": 18.1,
                 "carbs_g": 9.2,
-                "fat_g": 7.7,
-                "fiber_g": 1.4,
-                "sugar_g": 0.1,
-                "sodium_mg": 440.4,
-                "serving": "4.17 oz"
+                "fat_g": 11.0,
+                "fiber_g": 2.7,
+                "sugar_g": 0.2,
+                "sodium_mg": 150.4,
+                "serving": "4.52 oz"
               },
               "allergens": [
                 "wheat",
@@ -10343,12 +10313,39 @@
                 "vegan"
               ],
               "tags": [
-                "high_protein",
                 "lighter",
                 "vegan"
               ],
               "carbon_kg": 0.2,
-              "source_id": "1215"
+              "source_id": "1240"
+            },
+            {
+              "name": "Eggplant Parmesan (Vegan)",
+              "station": "Centerplate",
+              "station_type": "main",
+              "dish_key": "berkeley:eggplant-parmesan-vegan",
+              "nutrition": {
+                "kcal": 288.7,
+                "protein_g": 6.9,
+                "carbs_g": 26.9,
+                "fat_g": 17.7,
+                "fiber_g": 8.0,
+                "sugar_g": 6.3,
+                "sodium_mg": 1047.7,
+                "serving": "8 oz"
+              },
+              "allergens": [
+                "tree_nuts"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "2477"
             },
             {
               "name": "Steamed Green Beans",
@@ -10429,30 +10426,31 @@
               "source_id": "1125"
             },
             {
-              "name": "Sauteed Pinto Beans with Green Chili",
+              "name": "Lemon Herb White Bean & Spinach Bake",
               "station": "Centerplate",
               "station_type": "main",
-              "dish_key": "berkeley:sauteed-pinto-beans-with-green-chili",
+              "dish_key": "berkeley:lemon-herb-white-bean-spinach-bake",
               "nutrition": {
-                "kcal": 170.3,
-                "protein_g": 8.9,
-                "carbs_g": 29.1,
-                "fat_g": 2.2,
-                "fiber_g": 6.8,
-                "sugar_g": 2.8,
-                "sodium_mg": 168.0,
-                "serving": "6.82 oz"
+                "kcal": 225.8,
+                "protein_g": 11.5,
+                "carbs_g": 32.6,
+                "fat_g": 4.7,
+                "fiber_g": 17.2,
+                "sugar_g": 1.8,
+                "sodium_mg": 2509.8,
+                "serving": "8 oz"
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegan",
+                "kosher"
               ],
               "tags": [
                 "lighter",
                 "vegan"
               ],
-              "carbon_kg": 0.3,
-              "source_id": "409"
+              "carbon_kg": 0.1,
+              "source_id": "2511"
             },
             {
               "name": "Brown Rice",
