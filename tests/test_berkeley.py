@@ -84,3 +84,15 @@ def test_display_name_and_market_kind():
 def test_bad_xml_returns_none():
     assert berkeley.parse_location_xml("<not xml") is None
     assert berkeley.parse_location_xml("<EatecExchange/>") is None
+
+
+def test_extra_nutrients_for_meal_calculator():
+    n = load().meals[0].items[0].nutrition  # real values from the Texas-style taco
+    assert n.sat_fat_g == 14.9
+    assert n.cholesterol_mg == 170.4
+    assert n.calcium_mg == 151.0
+    assert n.iron_mg == 1.4
+    assert n.potassium_mg == 514.8
+    assert n.vitamin_c_mg == 0.8
+    assert n.vitamin_d_iu == 0.1
+    assert n.vitamin_a_iu == 0.2

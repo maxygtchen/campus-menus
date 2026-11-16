@@ -49,6 +49,12 @@ def main(argv: list[str] | None = None) -> int:
         count = menu.item_count()
         total += count
 
+        # Never replace a saved menu with an empty one. An empty result
+        # usually means the network or the source failed, not "no food".
+        if count == 0:
+            print(f"{args.school} {day}: nothing found, keeping any existing file")
+            continue
+
         payload = json.dumps(menu.to_dict(), indent=2, ensure_ascii=False)
         (out_dir / f"{day}.json").write_text(payload, encoding="utf-8")
         if day == today.isoformat():

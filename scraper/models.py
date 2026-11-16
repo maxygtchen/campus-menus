@@ -22,6 +22,15 @@ class Nutrition:
     sugar_g: Optional[float] = None
     sodium_mg: Optional[float] = None
     serving: str = ""  # e.g. "5.54 oz"
+    # Extra detail for the meal calculator (often missing in the source)
+    sat_fat_g: Optional[float] = None
+    cholesterol_mg: Optional[float] = None
+    calcium_mg: Optional[float] = None
+    iron_mg: Optional[float] = None
+    potassium_mg: Optional[float] = None
+    vitamin_c_mg: Optional[float] = None
+    vitamin_d_iu: Optional[float] = None
+    vitamin_a_iu: Optional[float] = None
 
 
 @dataclass

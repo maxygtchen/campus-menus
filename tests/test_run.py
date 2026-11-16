@@ -38,3 +38,13 @@ def test_cli_fails_loudly_when_empty(tmp_path, monkeypatch):
     monkeypatch.setattr(berkeley, "_get", lambda s, u: None)
     monkeypatch.setattr(berkeley, "REQUEST_DELAY_S", 0)
     assert run.main(["--date", "2026-12-25", "--out", str(tmp_path)]) == 1
+
+
+def test_empty_result_never_overwrites_a_saved_menu(tmp_path, monkeypatch):
+    saved = tmp_path / "berkeley" / "2026-11-15.json"
+    saved.parent.mkdir(parents=True)
+    saved.write_text("GOOD DATA")
+    monkeypatch.setattr(berkeley, "_get", lambda s, u: None)   # network down
+    monkeypatch.setattr(berkeley, "REQUEST_DELAY_S", 0)
+    assert run.main(["--date", "2026-11-15", "--out", str(tmp_path)]) == 1
+    assert saved.read_text() == "GOOD DATA"

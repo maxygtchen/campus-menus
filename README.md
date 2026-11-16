@@ -91,7 +91,9 @@ GitHub Pages serves the `docs/` folder as the website.
 | --- | --- |
 | `docs/index.html` | Page skeleton and styles |
 | `docs/js/app.js` | Loads menus, draws the page, handles taps (start here) |
-| `docs/js/scoring.js` | Dish ratings, hall scores, picks for a goal |
+| `docs/js/scoring.js` | Everyone's dish ratings, hall scores, goal fit |
+| `docs/js/taste.js` | Learns what one person likes from their thumbs (on the phone) |
+| `docs/js/plate.js` | Meal calculator: plate, meal and day totals |
 | `docs/js/backend.js` | Where votes are stored (this device, or Supabase) |
 | `docs/js/config.js` | Settings and scoring numbers |
 | `supabase/schema.sql` | Ratings table and its security rules |
@@ -104,5 +106,5 @@ everyone, follow `SETUP-RATINGS.md`.
 
 ```bash
 pip install pytest && python -m pytest       # scraper
-node --test tests/scoring.test.mjs           # scoring
+node --test tests/*.test.mjs                 # scoring, taste model, meal calculator
 ```

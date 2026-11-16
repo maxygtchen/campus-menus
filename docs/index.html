@@ -12,7 +12,9 @@
   The logic lives in the js/ folder:
     js/config.js    settings
     js/app.js       loads menus, draws the page, handles taps   <- start here
-    js/scoring.js   ratings and goal maths
+    js/scoring.js   everyone's ratings and goal maths
+    js/taste.js     learns what one person likes
+    js/plate.js     the meal calculator
     js/backend.js   where votes are stored
 -->
 
@@ -84,21 +86,31 @@
   button { font: inherit; }
 
   /* ---------- Header ---------- */
-  header {
+  .tabs {
     position: sticky; top: 0; z-index: 10;
     background: color-mix(in srgb, var(--bg) 88%, transparent);
     backdrop-filter: saturate(1.4) blur(10px);
     -webkit-backdrop-filter: saturate(1.4) blur(10px);
     border-bottom: 1px solid var(--line);
+    padding-top: 8px;
   }
-  .top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 14px 0 10px; }
+  .top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 14px 0 4px; }
   h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
   h1 span { color: var(--gold); }
   .clock { color: var(--muted); font-size: 13px; white-space: nowrap; }
 
   .pills { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
   .pills::-webkit-scrollbar { display: none; }
-  #periods { padding-bottom: 12px; }
+  #halls-nav, #periods { padding-bottom: 8px; }
+  [hidden] { display: none !important; }
+
+  /* Hall tabs: a dot shows open / opening soon / closed */
+  .hall-tab .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+                   margin-right: 6px; vertical-align: 1px; background: var(--closed); }
+  .hall-tab.open .dot { background: var(--open); }
+  .hall-tab.soon .dot { background: var(--gold); }
+  .tab-score { font-weight: 500; opacity: 0.75; margin-left: 2px; }
+  #periods .pill { padding: 5px 12px; font-size: 13px; }
   .pill {
     flex: 0 0 auto;
     border: 1px solid var(--line); background: var(--card); color: var(--ink);
@@ -113,7 +125,7 @@
   }
 
   /* ---------- Goal picker ---------- */
-  .goal-label { margin: 16px 0 8px; font-size: 13px; font-weight: 700; color: var(--muted);
+  .goal-label { margin: 14px 0 8px; font-size: 13px; font-weight: 700; color: var(--muted);
                 letter-spacing: 0.04em; text-transform: uppercase; }
 
   /* ---------- Recommendation card ---------- */
@@ -123,13 +135,16 @@
   }
   .hero-kicker { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
                  color: var(--hero-kicker); }
-  .hero-hall { margin: 2px 0 0; font-size: 26px; letter-spacing: -0.02em; }
-  .hero-why { font-size: 14px; opacity: 0.85; margin: 2px 0 10px; }
+  .hero-hint { font-size: 13px; opacity: 0.85; margin: 10px 0 0; }
   .picks { list-style: none; margin: 0; padding: 0; counter-reset: pick; }
   .picks li {
     counter-increment: pick; position: relative;
+    display: flex; align-items: center; gap: 10px;
     padding: 9px 0 9px 30px; border-top: 1px solid var(--on-accent-muted);
   }
+  .picks li:first-child { border-top: 0; }
+  .pick-text { flex: 1; min-width: 0; }
+  .pick-meta b { font-weight: 700; }
   .picks li::before {
     content: counter(pick); position: absolute; left: 0; top: 10px;
     width: 20px; height: 20px; border-radius: 50%;
@@ -158,8 +173,8 @@
                          background: currentColor; margin-right: 6px; vertical-align: 1px; }
 
   .dishes { list-style: none; margin: 0; padding: 0; }
-  .dish { display: flex; gap: 10px; align-items: flex-start; padding: 10px 0; border-top: 1px solid var(--line); }
-  .dish-info { flex: 1; min-width: 0; }
+  .dish { padding: 10px 0; border-top: 1px solid var(--line); }
+  .actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; }
   .station { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
   .dish-name { font-weight: 600; margin: 1px 0 2px; }
   .meta { font-size: 13px; color: var(--muted); }
@@ -168,13 +183,27 @@
   .chip { font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--chip-ink); }
   .chip.protein { background: var(--gold-bg); color: var(--gold-ink); }
   .chip.veg { background: var(--veg-bg); color: var(--veg); }
+  .chip.you { background: var(--accent); color: var(--on-accent); }
+
+  /* ---------- Add to plate ---------- */
+  .add {
+    border: 1px solid var(--accent); background: transparent; color: var(--accent);
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer;
+    white-space: nowrap;
+  }
+  .stepper { display: inline-flex; align-items: center; border-radius: 999px;
+             background: var(--accent); color: var(--on-accent); }
+  .stepper button { width: 34px; height: 34px; border: 0; background: transparent; color: inherit;
+                    font-size: 18px; font-weight: 700; cursor: pointer; }
+  .stepper span { min-width: 18px; text-align: center; font-weight: 700; font-size: 14px; }
+  .hero .add { border-color: var(--on-accent); color: var(--on-accent); }
+  .hero .stepper { background: var(--on-accent); color: var(--accent); }
   .allergens { font-size: 12px; color: var(--muted); margin-top: 4px; }
 
   /* ---------- Thumbs up / down ---------- */
-  .vote { flex: 0 0 auto; text-align: center; padding-top: 12px; }
-  .vote-btns { display: flex; gap: 6px; }
+  .vote { display: flex; align-items: center; gap: 6px; margin-left: auto; }
   .vote-btn {
-    width: 40px; height: 40px; border-radius: 50%;
+    width: 38px; height: 38px; border-radius: 50%;
     border: 1px solid var(--line); background: var(--card);
     font-size: 17px; line-height: 1; cursor: pointer;
     filter: grayscale(1); opacity: 0.7;
@@ -182,7 +211,75 @@
   .vote-btn[aria-pressed="true"] { filter: none; opacity: 1; }
   .vote-btn.up[aria-pressed="true"] { background: var(--open-bg); border-color: var(--open); }
   .vote-btn.down[aria-pressed="true"] { background: var(--down-bg); border-color: var(--down); }
-  .vote-pct { font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+  .vote-pct { font-size: 12px; color: var(--muted); margin-right: 2px; }
+
+  .link { border: 0; background: none; padding: 0 0 10px; color: var(--accent);
+          font-size: 13px; font-weight: 600; text-decoration: underline; cursor: pointer; }
+  .link.danger { color: var(--down); padding: 6px 0 0; }
+
+  /* ---------- First visit: pick a hall ---------- */
+  .pick-hall { padding-bottom: 16px; margin-top: 14px; }
+  .pick-list { display: grid; gap: 8px; margin-top: 12px; }
+  .pick-list button {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 14px; border-radius: 12px; border: 1px solid var(--line);
+    background: var(--bg); color: var(--ink); font-size: 16px; font-weight: 600; cursor: pointer;
+  }
+
+  /* ---------- Plate bar (pinned to the bottom) ---------- */
+  body.has-plate { padding-bottom: 84px; }
+  #plate-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+               padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); pointer-events: none; }
+  .plate-open {
+    pointer-events: auto; width: 100%; max-width: 608px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr auto; column-gap: 12px; align-items: center; text-align: left;
+    padding: 11px 16px; border: 0; border-radius: 14px; cursor: pointer;
+    background: var(--ink); color: var(--bg); box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  }
+  .plate-title { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.75; }
+  .plate-sum { grid-column: 1; font-size: 16px; font-weight: 700; }
+  .plate-go { grid-column: 2; grid-row: 1 / span 2; font-size: 14px; font-weight: 700;
+              padding: 7px 14px; border-radius: 999px; background: var(--gold); color: #3b2a00; }
+
+  /* ---------- Plate sheet ---------- */
+  #sheet {
+    border: 0; padding: 0; margin: auto auto 0; width: 100%; max-width: 640px; max-height: 88vh;
+    border-radius: 18px 18px 0 0; background: var(--card); color: var(--ink);
+  }
+  #sheet::backdrop { background: rgba(0,0,0,0.45); }
+  #sheet-body { padding: 16px 16px calc(20px + env(safe-area-inset-bottom)); }
+  .sheet-head { display: flex; align-items: center; justify-content: space-between; }
+  .sheet-head h2 { margin: 0; font-size: 20px; }
+  .sheet-close { width: 36px; height: 36px; border-radius: 50%; border: 0; cursor: pointer;
+                 background: var(--chip); color: var(--chip-ink); font-size: 15px; }
+  .seg { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 12px 0 4px; padding: 4px;
+         border-radius: 12px; background: var(--chip); }
+  .seg button { border: 0; border-radius: 9px; padding: 8px; background: transparent; color: var(--chip-ink);
+                font-size: 14px; font-weight: 600; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+  .plate-list { list-style: none; margin: 0; padding: 0; }
+  .plate-item { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .plate-item-text { flex: 1; min-width: 0; }
+  .big-nums { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 14px 0 6px; }
+  .big-num { background: var(--bg); border-radius: 12px; padding: 10px 4px; text-align: center; }
+  .big-value { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
+  .big-label { font-size: 11.5px; color: var(--muted); }
+  .goal-box { margin: 10px 0 4px; padding: 12px; border-radius: 12px; background: var(--gold-bg); color: var(--gold-ink); }
+  .goal-line { font-size: 14px; }
+  .goal-bar, .nut-bar { display: block; height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; }
+  .goal-bar { margin: 6px 0 10px; background: color-mix(in srgb, var(--gold-ink) 18%, transparent); }
+  .goal-bar span { display: block; height: 100%; background: var(--gold-ink); }
+  .nut-bar span { display: block; height: 100%; background: var(--accent); }
+  .goal-input { font-size: 13px; font-weight: 600; }
+  .goal-input input { width: 76px; margin-left: 6px; padding: 6px 8px; font: inherit; font-size: 16px;
+                      border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); }
+  .nut-head { display: flex; justify-content: space-between; margin: 16px 0 4px;
+              font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+  .nut-row { display: grid; grid-template-columns: 104px 1fr 64px 40px; gap: 8px; align-items: center;
+             padding: 6px 0; font-size: 14px; }
+  .nut-value { text-align: right; font-weight: 600; }
+  .nut-share { text-align: right; font-size: 12px; color: var(--muted); }
+  .sheet-note { font-size: 12px; color: var(--muted); margin: 14px 0 4px; }
 
   details { border-top: 1px solid var(--line); }
   summary { cursor: pointer; list-style: none; padding: 11px 0; font-size: 14px; font-weight: 600; color: var(--accent); }
@@ -197,26 +294,35 @@
 </style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <div class="top">
-        <h1>What should I eat<span>?</span></h1>
-        <div class="clock" id="clock"></div>
-      </div>
-      <nav class="pills" id="periods" aria-label="Choose a meal"></nav>
+  <header class="wrap">
+    <div class="top">
+      <h1>What should I eat<span>?</span></h1>
+      <div class="clock" id="clock"></div>
     </div>
   </header>
+
+  <div class="tabs">
+    <div class="wrap">
+      <nav class="pills" id="halls-nav" aria-label="Choose a dining hall" hidden></nav>
+      <nav class="pills" id="periods" aria-label="Choose a meal"></nav>
+    </div>
+  </div>
 
   <div class="wrap">
     <div id="banner"></div>
 
-    <div class="goal-label" id="goal-label">I want to</div>
-    <div class="pills" id="goals" role="group" aria-labelledby="goal-label"></div>
+    <div id="goal-wrap" hidden>
+      <div class="goal-label" id="goal-label">I want to</div>
+      <div class="pills" id="goals" role="group" aria-labelledby="goal-label"></div>
+    </div>
 
     <div id="hero"></div>
     <main id="halls"><p class="empty">Loading today's menus…</p></main>
     <footer id="footer"></footer>
   </div>
+
+  <div id="plate-bar" hidden></div>
+  <dialog id="sheet" aria-label="My plate"><div id="sheet-body"></div></dialog>
 
   <script type="module" src="js/app.js"></script>
 </body>

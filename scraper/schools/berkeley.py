@@ -79,7 +79,18 @@ NUTRIENT_COLUMNS = {
     "protein_g": "Protein",
     "sodium_mg": "Sodium",
     "carbon_kg": "Carbon Footprint",
+    # Extra detail for the meal calculator
+    "sat_fat_g": "Saturated",
+    "cholesterol_mg": "Cholesterol",
+    "calcium_mg": "Calcium",
+    "iron_mg": "Iron",
+    "potassium_mg": "Potassium",
+    "vitamin_c_mg": "Vitamin C",
+    "vitamin_d_iu": "Vitamin D",
+    "vitamin_a_iu": "Vitamin A (iu)",
 }
+EXTRA_NUTRIENTS = ("sat_fat_g", "cholesterol_mg", "calcium_mg", "iron_mg",
+                   "potassium_mg", "vitamin_c_mg", "vitamin_d_iu", "vitamin_a_iu")
 
 MAX_NAME_LEN = 80        # longer "names" are location blurbs, not dishes
 MAX_SANE_KCAL = 2500     # bulk-serving data entry errors
@@ -194,6 +205,7 @@ def parse_recipe(rec: ET.Element, columns: list[str]) -> Optional[MenuItem]:
             fiber_g=found["fiber_g"], sugar_g=found["sugar_g"],
             sodium_mg=found["sodium_mg"],
             serving=f"{size} {unit}".strip() if size else "",
+            **{key: found[key] for key in EXTRA_NUTRIENTS},
         ),
         allergens=_yes_flags(rec.find("allergens"), "allergen", ALLERGENS),
         diets=_yes_flags(rec.find("dietaryChoices"), "dietaryChoice", DIETS),
