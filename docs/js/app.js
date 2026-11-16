@@ -15,13 +15,14 @@
    Other files:
      config.js    settings              scoring.js   everyone's ratings + goals
      backend.js   where votes are kept  taste.js     learns what YOU like
-     plate.js     the meal calculator
+     plate.js     the meal calculator   profile.js   daily calorie + protein goals
    ===================================================================== */
 import { CONFIG } from "./config.js";
 import { createBackend } from "./backend.js";
 import { GOALS, indexScores, dishRating, hallRating, goalScore } from "./scoring.js";
 import { loadTaste, recordTaste, trainFromVotes, predict, blend } from "./taste.js";
 import * as Plate from "./plate.js";
+import * as Profile from "./profile.js";
 
 const S = CONFIG.scoring;
 const $ = (id) => document.getElementById(id);
@@ -51,7 +52,8 @@ const state = {
 
   // Meal calculator (see plate.js)
   plates: {},
-  proteinGoal: 0,
+  profile: { ...Profile.EMPTY },   // see profile.js
+  boost: 0,              // today's "active day" bump on calories
   sheet: { open: false, scope: "meal" },
 
   open: new Set(),       // which "Show more" sections are expanded
@@ -522,18 +524,28 @@ function renderPlateBar() {
   const meal = Plate.mealEntries(state.plates, date, state.period);
   const day = Plate.dayEntries(state.plates, date);
   const bar = $("plate-bar");
-  bar.hidden = day.length === 0;
-  document.body.classList.toggle("has-plate", day.length > 0);
-  if (!day.length) return;
+  const tracking = day.length > 0 || Profile.goalsFor(state.profile).base || state.profile.customProtein;
+  bar.hidden = !tracking;
+  document.body.classList.toggle("has-plate", !!tracking);
+  if (!tracking) return;
 
-  const shown = meal.length ? meal : day;
+  // With goals set, the bar tracks the whole day against them.
+  // Without goals, it shows the meal you're building.
+  const goals = Profile.goalsFor(state.profile, state.boost);
+  const hasGoals = goals.calories || goals.protein;
+  const shown = hasGoals || !meal.length ? day : meal;
   const t = Plate.totals(shown);
   const n = Plate.servingsCount(shown);
+  const cal = Math.round(t.kcal.total).toLocaleString(), protein = Math.round(t.protein_g.total);
+  const title = hasGoals || !meal.length ? "Today" : esc(state.period) + " plate";
+  const sum = hasGoals
+    ? [goals.calories ? `${cal} of ${goals.calories.toLocaleString()} cal` : `${cal} cal`,
+       goals.protein ? `${protein} of ${goals.protein}g protein` : `${protein}g protein`].join(" · ")
+    : `${cal} cal · ${protein}g protein`;
   bar.innerHTML = `
     <button class="plate-open" data-sheet-open>
-      <span class="plate-title">${meal.length ? esc(state.period) + " plate" : "Today's plates"} ·
-        ${n} serving${n === 1 ? "" : "s"}</span>
-      <span class="plate-sum">${Math.round(t.kcal.total)} cal · ${Math.round(t.protein_g.total)}g protein</span>
+      <span class="plate-title">${n ? `${title} · ${n} serving${n === 1 ? "" : "s"}` : "Today's goals"}</span>
+      <span class="plate-sum">${sum}</span>
       <span class="plate-go">View</span>
     </button>`;
 }
@@ -586,19 +598,31 @@ function renderSheet() {
       <div class="big-label">${s.label}</div>
     </div>`).join("");
 
-  // Optional daily protein goal, shown with the whole-day totals.
-  const goal = state.proteinGoal;
-  const protein = Math.round(Plate.totals(Plate.dayEntries(state.plates, date)).protein_g.total);
-  const goalBlock = scope !== "day" ? "" : `
-    <div class="goal-box">
-      ${goal ? `
-        <div class="goal-line"><b>${protein}g</b> of ${goal}g protein today</div>
-        <div class="goal-bar"><span style="width:${Math.min(100, Math.round((protein / goal) * 100))}%"></span></div>` : ""}
-      <label class="goal-input">Daily protein goal (optional)
-        <input type="number" id="protein-goal" inputmode="numeric" min="0" max="400" step="5"
-               placeholder="e.g. 120" value="${goal || ""}"> g
-      </label>
-    </div>`;
+  // Daily goals (set in Profile): how far along the whole day is.
+  const goals = Profile.goalsFor(state.profile, state.boost);
+  const dayTotals = Plate.totals(Plate.dayEntries(state.plates, date));
+  const goalBar = (label, eaten, goal, unit) => (!goal ? "" : `
+    <div class="goal">
+      <div class="goal-top"><span>${label}</span>
+        <span><b>${Math.round(eaten).toLocaleString()}${unit}</b> of ${goal.toLocaleString()}${unit}</span></div>
+      <div class="goal-bar"><span style="width:${Math.min(100, Math.round((eaten / goal) * 100))}%"></span></div>
+    </div>`);
+  const goalBlock = goals.calories || goals.protein ? `
+    <div class="goals">
+      <div class="goals-head"><span>Today's goals</span>
+        <button class="link" data-profile-open>Edit</button></div>
+      ${goalBar("Calories", dayTotals.kcal.total, goals.calories, "")}
+      ${goalBar("Protein", dayTotals.protein_g.total, goals.protein, "g")}
+      ${goals.calories ? `
+        <div class="seg small" role="group" aria-label="How active is today">
+          ${Profile.BOOSTS.map((b) =>
+            `<button data-boost="${b.value}" aria-pressed="${b.value === state.boost}">${b.label}</button>`).join("")}
+        </div>` : ""}
+    </div>` : `
+    <button class="goals-empty" data-profile-open>
+      <b>Set daily goals</b>
+      <span>Calories and protein, suggested from a few details or your own numbers.</span>
+    </button>`;
 
   const rows = (group) => Plate.NUTRIENTS.filter((s) => s.group === group)
     .map((s) => nutrientRowHTML(s, t)).join("");
@@ -765,7 +789,9 @@ function openSheet() {
 }
 
 function onClick(event) {
-  if (event.target === $("sheet")) { $("sheet").close(); return; }   // tapped the dim backdrop
+  if (event.target === $("sheet") || event.target === $("profile")) {   // tapped the dim backdrop
+    event.target.close(); return;
+  }
   const btn = event.target.closest("button");
   if (!btn) return;
   const d = btn.dataset;
@@ -792,6 +818,21 @@ function onClick(event) {
     $("sheet").close();
   } else if (d.scope) {
     state.sheet.scope = d.scope; renderSheet();
+  } else if ("profileOpen" in d) {
+    openProfile();
+  } else if ("profileClose" in d) {
+    $("profile").close();
+  } else if ("profileSave" in d) {
+    state.profile = readProfileForm();
+    Profile.saveProfile(state.profile);
+    $("profile").close(); render();
+  } else if ("profileClear" in d) {
+    state.profile = Profile.clearProfile(); state.boost = 0;
+    $("profile").close(); render();
+  } else if (d.boost !== undefined) {
+    state.boost = Number(d.boost);
+    Profile.saveBoost(state.menu.date, state.boost);
+    render();
   } else if ("plateClear" in d) {
     Plate.clearMeal(state.plates, state.menu.date, state.period);
     Plate.savePlates(state.plates, campusNow().date);
@@ -799,12 +840,119 @@ function onClick(event) {
   }
 }
 
-function onChange(event) {
-  if (event.target.id !== "protein-goal") return;
-  const grams = Math.max(0, Math.min(400, Math.round(Number(event.target.value) || 0)));
-  state.proteinGoal = grams;
-  Plate.saveProteinGoal(grams);
-  renderSheet();
+/* ------------------------- profile + goals ---------------------------- */
+// Read the profile form into a tidy object (see Profile.clean).
+function readProfileForm() {
+  const f = new FormData($("profile-form"));
+  const feet = Number(f.get("heightFt")) || 0, inches = Number(f.get("heightInch")) || 0;
+  return Profile.clean({
+    sex: f.get("sex"), weightLb: f.get("weightLb"), age: f.get("age"),
+    heightIn: feet ? feet * 12 + inches : null,
+    activity: f.get("activity"), aim: f.get("aim"),
+    customCalories: f.get("customCalories"), customProtein: f.get("customProtein"),
+  });
+}
+
+function suggestionHTML(profile) {
+  const s = Profile.suggest(profile);
+  if (!s.calories && !s.protein) {
+    return "Add your weight for a protein suggestion. Add height and age too for calories.";
+  }
+  const parts = [];
+  if (s.calories) parts.push(`<b>${s.calories.toLocaleString()} cal</b>`);
+  if (s.protein) parts.push(`<b>${s.protein}g protein</b>`);
+  return `Suggested for you: ${parts.join(" · ")} a day${
+    s.calories ? "" : ". Add height and age for a calorie suggestion."}`;
+}
+
+// As they type, update the suggestion without redrawing the form
+// (redrawing would kick the cursor out of the box they're typing in).
+function onProfileInput() {
+  const draft = readProfileForm();
+  const s = Profile.suggest(draft);
+  $("profile-suggest").innerHTML = suggestionHTML(draft);
+  $("custom-calories").placeholder = s.calories ? String(s.calories) : "e.g. 2400";
+  $("custom-protein").placeholder = s.protein ? String(s.protein) : "e.g. 120";
+}
+
+function renderProfile() {
+  const p = state.profile;
+  const s = Profile.suggest(p);
+  const choice = (name, value, label, current) => `
+    <label class="choice"><input type="radio" name="${name}" value="${value}"
+      ${current === value ? "checked" : ""}><span>${label}</span></label>`;
+  const feet = p.heightIn ? Math.floor(p.heightIn / 12) : "", inches = p.heightIn ? p.heightIn % 12 : "";
+
+  $("profile-body").innerHTML = `
+    <div class="sheet-head">
+      <h2>Profile &amp; goals</h2>
+      <button class="sheet-close" data-profile-close aria-label="Close">✕</button>
+    </div>
+    <p class="sheet-note">Optional. Used only to suggest daily goals, and kept on this phone.</p>
+
+    <form id="profile-form" autocomplete="off">
+      <div class="field">
+        <span class="field-label">Sex (for the estimate)</span>
+        <div class="choices">
+          ${choice("sex", "male", "Male", p.sex)}${choice("sex", "female", "Female", p.sex)}${choice("sex", "", "Skip", p.sex)}
+        </div>
+      </div>
+
+      <div class="field-row">
+        <label class="field"><span class="field-label">Weight</span>
+          <span class="with-unit"><input name="weightLb" type="number" inputmode="numeric" min="70" max="500" value="${p.weightLb ?? ""}"> lb</span></label>
+        <label class="field"><span class="field-label">Age</span>
+          <span class="with-unit"><input name="age" type="number" inputmode="numeric" min="16" max="90" value="${p.age ?? ""}"> yrs</span></label>
+      </div>
+      <div class="field">
+        <span class="field-label">Height</span>
+        <span class="with-unit">
+          <input name="heightFt" type="number" inputmode="numeric" min="4" max="7" value="${feet}" aria-label="Height, feet"> ft
+          <input name="heightInch" type="number" inputmode="numeric" min="0" max="11" value="${inches}" aria-label="Height, inches"> in
+        </span>
+      </div>
+
+      <label class="field"><span class="field-label">A typical day</span>
+        <select name="activity">
+          ${Object.entries(Profile.ACTIVITY).map(([key, a]) =>
+            `<option value="${key}" ${p.activity === key ? "selected" : ""}>${a.label}</option>`).join("")}
+        </select></label>
+
+      <div class="field">
+        <span class="field-label">I want to</span>
+        <div class="choices">
+          ${Object.entries(Profile.AIMS).map(([key, a]) => choice("aim", key, a.label, p.aim)).join("")}
+        </div>
+      </div>
+
+      <p class="suggest" id="profile-suggest">${suggestionHTML(p)}</p>
+
+      <div class="field-label">Or set your own (leave blank to use the suggestion)</div>
+      <div class="field-row">
+        <label class="field"><span class="field-label">Calories a day</span>
+          <input id="custom-calories" name="customCalories" type="number" inputmode="numeric"
+                 min="${Profile.LIMITS.calories[0]}" max="${Profile.LIMITS.calories[1]}" step="50"
+                 placeholder="${s.calories || "e.g. 2400"}" value="${p.customCalories ?? ""}"></label>
+        <label class="field"><span class="field-label">Protein a day (g)</span>
+          <input id="custom-protein" name="customProtein" type="number" inputmode="numeric"
+                 min="${Profile.LIMITS.protein[0]}" max="${Profile.LIMITS.protein[1]}" step="5"
+                 placeholder="${s.protein || "e.g. 120"}" value="${p.customProtein ?? ""}"></label>
+      </div>
+
+      <button type="button" class="primary" data-profile-save>Save</button>
+      <button type="button" class="link danger" data-profile-clear>Clear my profile and goals</button>
+    </form>
+
+    <p class="sheet-note">
+      Suggestions are rough estimates from a standard equation, not medical or personal advice.
+      Goals are a guide, not a test: some days you'll be over and some under, and that's normal.
+      If tracking numbers starts to feel stressful, clear your goals. Everything else works without them.
+    </p>`;
+}
+
+function openProfile() {
+  renderProfile();
+  if (!$("profile").open) $("profile").showModal();
 }
 
 // Remember which "Show more" sections are open so a redraw doesn't close them.
@@ -841,11 +989,12 @@ async function init() {
   state.taste = loadTaste();
   state.model = trainFromVotes(state.taste);
   state.plates = Plate.loadPlates();
-  state.proteinGoal = Plate.loadProteinGoal();
+  state.profile = Profile.loadProfile();
+  state.boost = Profile.loadBoost(menu.date);
   freezeRanking();
 
   document.addEventListener("click", onClick);
-  document.addEventListener("change", onChange);
+  $("profile").addEventListener("input", onProfileInput);
   document.addEventListener("toggle", onToggle, true);
   $("sheet").addEventListener("close", () => { state.sheet.open = false; });
 

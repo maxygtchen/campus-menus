@@ -12,7 +12,6 @@
    ===================================================================== */
 
 const STORE_KEY = "campus-menus.plates";
-const GOAL_KEY = "campus-menus.protein-goal";
 const KEEP_DAYS = 14;
 
 /* What the calculator shows. `dv` = recommended daily value for an adult
@@ -47,13 +46,6 @@ export function savePlates(plates, today) {
   const oldest = cutoff.toISOString().slice(0, 10);
   for (const day of Object.keys(plates)) if (day < oldest) delete plates[day];
   try { localStorage.setItem(STORE_KEY, JSON.stringify(plates)); } catch { /* ignore */ }
-}
-
-export function loadProteinGoal() {
-  try { return Number(localStorage.getItem(GOAL_KEY)) || 0; } catch { return 0; }
-}
-export function saveProteinGoal(grams) {
-  try { localStorage.setItem(GOAL_KEY, String(grams || 0)); } catch { /* ignore */ }
 }
 
 /* --------------------------- changing it ------------------------------ */

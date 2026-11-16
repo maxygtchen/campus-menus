@@ -15,6 +15,7 @@
     js/scoring.js   everyone's ratings and goal maths
     js/taste.js     learns what one person likes
     js/plate.js     the meal calculator
+    js/profile.js   daily calorie and protein goals
     js/backend.js   where votes are stored
 -->
 
@@ -94,10 +95,10 @@
     border-bottom: 1px solid var(--line);
     padding-top: 8px;
   }
-  .top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 14px 0 4px; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0 4px; }
   h1 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
   h1 span { color: var(--gold); }
-  .clock { color: var(--muted); font-size: 13px; white-space: nowrap; }
+  .clock { color: var(--muted); font-size: 13px; white-space: nowrap; margin-top: 1px; }
 
   .pills { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
   .pills::-webkit-scrollbar { display: none; }
@@ -242,12 +243,12 @@
               padding: 7px 14px; border-radius: 999px; background: var(--gold); color: #3b2a00; }
 
   /* ---------- Plate sheet ---------- */
-  #sheet {
+  #sheet, #profile {
     border: 0; padding: 0; margin: auto auto 0; width: 100%; max-width: 640px; max-height: 88vh;
     border-radius: 18px 18px 0 0; background: var(--card); color: var(--ink);
   }
-  #sheet::backdrop { background: rgba(0,0,0,0.45); }
-  #sheet-body { padding: 16px 16px calc(20px + env(safe-area-inset-bottom)); }
+  #sheet::backdrop, #profile::backdrop { background: rgba(0,0,0,0.45); }
+  #sheet-body, #profile-body { padding: 16px 16px calc(20px + env(safe-area-inset-bottom)); }
   .sheet-head { display: flex; align-items: center; justify-content: space-between; }
   .sheet-head h2 { margin: 0; font-size: 20px; }
   .sheet-close { width: 36px; height: 36px; border-radius: 50%; border: 0; cursor: pointer;
@@ -264,15 +265,45 @@
   .big-num { background: var(--bg); border-radius: 12px; padding: 10px 4px; text-align: center; }
   .big-value { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
   .big-label { font-size: 11.5px; color: var(--muted); }
-  .goal-box { margin: 10px 0 4px; padding: 12px; border-radius: 12px; background: var(--gold-bg); color: var(--gold-ink); }
-  .goal-line { font-size: 14px; }
+  /* Daily goals inside the plate */
+  .goals { margin: 12px 0 4px; padding: 12px 14px 14px; border-radius: 14px; background: var(--bg); }
+  .goals-head { display: flex; justify-content: space-between; align-items: baseline;
+                font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+  .goals-head .link { padding: 0; text-transform: none; letter-spacing: 0; }
+  .goal { margin-top: 10px; }
+  .goal-top { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 5px; }
   .goal-bar, .nut-bar { display: block; height: 6px; border-radius: 3px; background: var(--chip); overflow: hidden; }
-  .goal-bar { margin: 6px 0 10px; background: color-mix(in srgb, var(--gold-ink) 18%, transparent); }
-  .goal-bar span { display: block; height: 100%; background: var(--gold-ink); }
+  .goal-bar { height: 8px; border-radius: 4px; }
+  .goal-bar span { display: block; height: 100%; border-radius: 4px; background: var(--gold); }
   .nut-bar span { display: block; height: 100%; background: var(--accent); }
-  .goal-input { font-size: 13px; font-weight: 600; }
-  .goal-input input { width: 76px; margin-left: 6px; padding: 6px 8px; font: inherit; font-size: 16px;
-                      border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink); }
+  .seg.small { grid-template-columns: repeat(3, 1fr); margin: 14px 0 0; background: var(--card); }
+  .seg.small button { font-size: 12.5px; padding: 7px 2px; }
+  .seg.small button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); box-shadow: none; }
+  .goals-empty { display: block; width: 100%; margin: 12px 0 4px; padding: 14px; text-align: left; cursor: pointer;
+                 border: 1px dashed var(--line); border-radius: 14px; background: transparent; color: var(--ink); }
+  .goals-empty b { display: block; color: var(--accent); }
+  .goals-empty span { font-size: 13px; color: var(--muted); }
+
+  /* ---------- Profile form ---------- */
+  .field { display: block; margin-top: 14px; min-width: 0; }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .field-label { display: block; margin: 14px 0 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+  .field > .field-label { margin-top: 0; }
+  #profile-form input[type="number"], #profile-form select {
+    width: 100%; padding: 10px 12px; font: inherit; font-size: 16px;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--ink);
+  }
+  .with-unit { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; }
+  .choices { display: flex; gap: 6px; flex-wrap: wrap; }
+  .choice input { position: absolute; opacity: 0; pointer-events: none; }
+  .choice span { display: inline-block; padding: 8px 14px; border-radius: 999px; cursor: pointer;
+                 border: 1px solid var(--line); background: var(--bg); font-size: 14px; font-weight: 600; }
+  .choice input:checked + span { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  .choice input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .suggest { margin: 16px 0 2px; padding: 12px 14px; border-radius: 12px; font-size: 14px;
+             background: var(--gold-bg); color: var(--gold-ink); }
+  .primary { display: block; width: 100%; margin: 18px 0 6px; padding: 13px; border: 0; border-radius: 12px;
+             background: var(--accent); color: var(--on-accent); font-size: 16px; font-weight: 700; cursor: pointer; }
   .nut-head { display: flex; justify-content: space-between; margin: 16px 0 4px;
               font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
   .nut-row { display: grid; grid-template-columns: 104px 1fr 64px 40px; gap: 8px; align-items: center;
@@ -296,8 +327,11 @@
 <body>
   <header class="wrap">
     <div class="top">
-      <h1>What should I eat<span>?</span></h1>
-      <div class="clock" id="clock"></div>
+      <div>
+        <h1>What should I eat<span>?</span></h1>
+        <div class="clock" id="clock"></div>
+      </div>
+      <button class="pill" data-profile-open>Profile</button>
     </div>
   </header>
 
@@ -323,6 +357,7 @@
 
   <div id="plate-bar" hidden></div>
   <dialog id="sheet" aria-label="My plate"><div id="sheet-body"></div></dialog>
+  <dialog id="profile" aria-label="Profile and goals"><div id="profile-body"></div></dialog>
 
   <script type="module" src="js/app.js"></script>
 </body>
