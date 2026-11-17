@@ -260,7 +260,8 @@ function buildView() {
   const hall = {
     loc, meal, status,
     rating: hallRating(state.scores, meal, loc.name, S),
-    canRate: isToday && now.minutes >= toMinutes(meal.start), // meal has started
+    // Thumbs for today's meal until it ends (not only after the posted start time).
+    canRate: isToday && now.minutes < toMinutes(meal.end),
   };
 
   // Score every dish twice: with the frozen snapshot (list order) and
@@ -327,7 +328,12 @@ function ratingLineHTML(hall) {
   if (r.kind === "predicted") {
     return `<span class="score">${pct(r.score)}%</span> liked · predicted from ${r.votes} past ratings`;
   }
-  return hall.canRate ? "Not enough ratings yet. Be one of the first." : "No ratings yet";
+  if (!hall.canRate) {
+    return state.menu && campusNow().date === state.menu.date
+      ? "This meal has ended for today."
+      : "No ratings yet";
+  }
+  return "Not enough ratings yet. Be one of the first.";
 }
 
 // "+ Add" button, or a  − 2 +  stepper once the dish is on the plate.
