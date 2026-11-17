@@ -1,10 +1,25 @@
 /* =====================================================================
    CONFIG: every setting in one place
    ===================================================================== */
+import { SCHOOLS, getSchool, allEmailDomains } from "./schools.js";
+
+const STORAGE_SCHOOL = "campus-menus.school";
+
+function savedSchoolId() {
+  try {
+    const id = localStorage.getItem(STORAGE_SCHOOL);
+    if (id && SCHOOLS[id]) return id;
+  } catch { /* ignore */ }
+  return "berkeley";
+}
+
+const school = getSchool(savedSchoolId());
+
 export const CONFIG = {
-  school: "berkeley",
-  dataBase: "data/berkeley/",        // menus live next to the page (same site)
-  timezone: "America/Los_Angeles",   // always use campus time
+  school: school.id,
+  dataBase: school.dataBase,
+  timezone: school.timezone,
+  sourceLabel: school.sourceLabel,
   previewCount: 6,                   // mains shown before "Show more"
 
   /* ---- Ratings database (Supabase) --------------------------------
@@ -20,11 +35,12 @@ export const CONFIG = {
 
   /* ---- Accounts (Supabase Auth) -------------------------------------
      require: must sign in before the menu loads (see SETUP-AUTH.md).
-     emailDomains: empty = any email; ["berkeley.edu"] = school email only.
+     emailDomains: empty = any email; list = school emails only.
      google: show "Continue with Google" (enable provider in Supabase). */
   auth: {
     required: true,
-    emailDomains: ["berkeley.edu"],
+    // Accept any supported UC campus email so students can switch schools.
+    emailDomains: allEmailDomains(),
     google: true,
   },
 
@@ -39,3 +55,12 @@ export const CONFIG = {
     liveVotes: 5,        // this many votes from the current meal = "Live"
   },
 };
+
+/** Persist a school choice and reload so menus / ratings key off it. */
+export function setSchool(id) {
+  if (!SCHOOLS[id]) return;
+  try { localStorage.setItem(STORAGE_SCHOOL, id); } catch { /* ignore */ }
+  // Clear hall default when switching campuses — halls don't carry over.
+  try { localStorage.removeItem("campus-menus.hall"); } catch { /* ignore */ }
+  location.reload();
+}

@@ -23,6 +23,7 @@
     --chip: #eef1f6;
     --chip-ink: #3c4350;
     --down: #b3402e;
+    --open: #17804a;
     --shadow: 0 12px 40px rgba(20, 50, 92, 0.08);
   }
   @media (prefers-color-scheme: dark) {
@@ -38,6 +39,7 @@
       --chip: #232833;
       --chip-ink: #c9cfda;
       --down: #ff9b8a;
+      --open: #4fd08a;
       --shadow: 0 16px 48px rgba(0, 0, 0, 0.35);
     }
   }
@@ -183,6 +185,13 @@
   [hidden] { display: none !important; }
 
   .err { color: var(--down); font-size: 14px; margin: 10px 0 0; min-height: 1.2em; }
+  .ok { color: var(--open, #17804a); font-size: 14px; margin: 10px 0 0; min-height: 1.2em; }
+  .forgot-row { margin: 8px 0 0; text-align: right; }
+  .text-link {
+    border: 0; background: none; padding: 0; color: var(--accent);
+    font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: underline;
+  }
+  .back-link { display: block; width: 100%; margin-top: 14px; text-align: center; }
   .hint { color: var(--muted); font-size: 12px; margin-top: 16px; line-height: 1.45; text-align: center; }
 </style>
 </head>
@@ -200,10 +209,17 @@
     <form id="form" autocomplete="on">
       <label for="email">Email</label>
       <input id="email" name="email" type="email" inputmode="email" autocomplete="username" required>
-      <label for="password">Password</label>
-      <input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required>
+      <div id="password-wrap">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required>
+      </div>
+      <p class="forgot-row" id="forgot-row">
+        <button type="button" class="text-link" id="forgot">Forgot password?</button>
+      </p>
       <p class="err" id="err" aria-live="polite"></p>
+      <p class="ok" id="ok" aria-live="polite"></p>
       <button type="submit" class="primary" id="submit">Sign in</button>
+      <button type="button" class="text-link back-link" id="back-to-signin" hidden>Back to sign in</button>
     </form>
     <div class="or" id="or-divider" hidden aria-hidden="true"><span>or</span></div>
     <button type="button" class="google" id="google" hidden>

@@ -17,7 +17,8 @@
      backend.js   where votes are kept  taste.js     learns what YOU like
      plate.js     the meal calculator   profile.js   daily calorie + protein goals
    ===================================================================== */
-import { CONFIG } from "./config.js";
+import { CONFIG, setSchool } from "./config.js";
+import { SCHOOL_ORDER, SCHOOLS } from "./schools.js";
 import { createBackend } from "./backend.js";
 import { ensureLoggedIn, signOut, supabaseConfigured } from "./auth.js";
 import { packUserBlob, pullUserData, schedulePushUserData } from "./userSync.js";
@@ -35,7 +36,11 @@ const state = {
   homeHall: null,        // the person's default hall (saved on the phone)
   period: null,          // selected meal tab, e.g. "Dinner"
   goal: "balanced",      // selected goal (a key of GOALS)
-  filters: {},           // for YOUR TURN
+  filters: {             // hide dishes that don't match (see filterItems)
+    highProtein: false,
+    vegetarian: false,
+    avoidAllergens: [],  // e.g. ["peanuts", "tree_nuts"]
+  },
   backend: null,         // where votes are stored
 
   // Everyone's ratings
@@ -202,27 +207,63 @@ function hasMealsLeft(menu, nowMinutes) {
 }
 
 /* =====================================================================
-   YOUR TURN
-   Goals and your taste REORDER dishes. Filters HIDE dishes. Right now
-   nothing is hidden. Build these yourself:
-
-   Challenge 1: "High protein only" toggle
-     - Add a button. Look at how renderGoals() draws buttons and how
-       onClick() near the bottom reacts to them. Copy that pattern.
-     - Remember whether it's on in state.filters, then call render().
-     - Keep only dishes whose tags include "high_protein".
-       Hint: items.filter((item) => item.tags.includes("high_protein"))
-
-   Challenge 2: "Vegetarian" toggle (vegan dishes count too).
-
-   Challenge 3: "Avoid an allergen" (e.g. no peanuts).
-     Each dish has item.allergens, like ["milk", "egg"].
-
-   Stuck? Open the browser console (Cmd+Option+J in Chrome).
+   FILTERS
+   Goals and your taste REORDER dishes. Filters HIDE dishes.
    ===================================================================== */
+const AVOID_ALLERGENS = [
+  { key: "peanuts", label: "No peanuts" },
+  { key: "tree_nuts", label: "No tree nuts" },
+  { key: "milk", label: "No dairy" },
+  { key: "egg", label: "No egg" },
+  { key: "wheat", label: "No wheat" },
+  { key: "soy", label: "No soy" },
+  { key: "sesame", label: "No sesame" },
+  { key: "fish", label: "No fish" },
+  { key: "shellfish", label: "No shellfish" },
+  { key: "gluten", label: "No gluten" },
+];
+
 function filterItems(items) {
-  // const f = state.filters;
-  return items;
+  const f = state.filters;
+  return items.filter((item) => {
+    if (f.highProtein && !(item.tags || []).includes("high_protein")) return false;
+    if (f.vegetarian) {
+      const diets = item.diets || [];
+      const tags = item.tags || [];
+      const veg = diets.includes("vegetarian") || diets.includes("vegan")
+        || tags.includes("vegetarian") || tags.includes("vegan");
+      if (!veg) return false;
+    }
+    if (f.avoidAllergens.length) {
+      const allergens = new Set(item.allergens || []);
+      if (f.avoidAllergens.some((a) => allergens.has(a))) return false;
+    }
+    return true;
+  });
+}
+
+function filtersActive() {
+  const f = state.filters;
+  return f.highProtein || f.vegetarian || f.avoidAllergens.length > 0;
+}
+
+function loadFilters() {
+  try {
+    const raw = saved("filters");
+    if (!raw) return;
+    const parsed = JSON.parse(raw);
+    state.filters = {
+      highProtein: !!parsed.highProtein,
+      vegetarian: !!parsed.vegetarian,
+      avoidAllergens: Array.isArray(parsed.avoidAllergens)
+        ? parsed.avoidAllergens.filter((a) => AVOID_ALLERGENS.some((x) => x.key === a))
+        : [],
+    };
+  } catch { /* ignore */ }
+}
+
+function persistFilters() {
+  save("filters", JSON.stringify(state.filters));
 }
 
 /* =====================================================================
@@ -505,6 +546,26 @@ function renderGoals() {
   ).join("");
 }
 
+function renderFilters() {
+  const wrap = $("filter-wrap");
+  if (!wrap) return;
+  const f = state.filters;
+  const diet = `
+    <button class="pill" data-filter="highProtein" aria-pressed="${f.highProtein}">High protein</button>
+    <button class="pill" data-filter="vegetarian" aria-pressed="${f.vegetarian}">Vegetarian</button>`;
+  const allergens = AVOID_ALLERGENS.map((a) =>
+    `<button class="pill filter-avoid" data-avoid="${a.key}" aria-pressed="${f.avoidAllergens.includes(a.key)}">${esc(a.label)}</button>`
+  ).join("");
+  const clear = filtersActive()
+    ? `<button class="link filter-clear" data-filter-clear>Clear filters</button>` : "";
+  wrap.innerHTML = `
+    <div class="goal-label" id="filter-label">Filters</div>
+    <div class="pills" id="filters-diet" role="group" aria-labelledby="filter-label">${diet}</div>
+    <div class="goal-label filter-sub">Avoid allergens</div>
+    <div class="pills" id="filters-avoid" role="group" aria-label="Avoid allergens">${allergens}</div>
+    ${clear}`;
+}
+
 function renderPeriods() {
   $("periods").innerHTML = periodsInMenu(state.menu).map((p) =>
     `<button class="pill" data-period-tab="${esc(p)}" aria-pressed="${p === state.period}">${esc(p)}</button>`
@@ -644,7 +705,7 @@ function renderSheet() {
     ${rows("micro")}
 
     <p class="sheet-note">
-      ${anyMissing ? "“+” or “—” means Berkeley Dining doesn't list that number for every dish, so the real total is higher. " : ""}
+      ${anyMissing ? `“+” or “—” means ${esc(CONFIG.sourceLabel)} doesn't list that number for every dish, so the real total is higher. ` : ""}
       Numbers are per listed serving; your actual portion may differ. Daily values are general
       adult guidelines, not personal advice.
     </p>
@@ -655,7 +716,8 @@ function renderSheet() {
 function render() {
   const view = buildView();
 
-  $("clock").textContent = `${prettyDate(view.now.date)} · ${prettyMinutes(view.now.minutes)}`;
+  const campus = SCHOOLS[CONFIG.school]?.shortName || CONFIG.school;
+  $("clock").textContent = `${campus} · ${prettyDate(view.now.date)} · ${prettyMinutes(view.now.minutes)}`;
 
   const notes = [];
   if (!view.isToday) notes.push(`Dining is closed for the night. Here's ${esc(prettyDate(state.menu.date))}'s menu.`);
@@ -667,10 +729,13 @@ function render() {
 
   if (!view.loc) {                       // first visit: choose a hall
     $("goal-wrap").hidden = true;
+    if ($("filter-wrap")) $("filter-wrap").hidden = true;
     $("halls").innerHTML = pickHallHTML(view);
   } else {
     $("goal-wrap").hidden = !view.meal;
+    if ($("filter-wrap")) $("filter-wrap").hidden = !view.meal;
     renderGoals();
+    renderFilters();
     $("halls").innerHTML = hallHTML(view);
   }
 
@@ -687,8 +752,9 @@ function render() {
       : "Your ratings are saved on this device only for now.",
     demo: "Ratings shown are sample data.",
   }[state.backend.mode];
+  const schoolName = SCHOOLS[CONFIG.school]?.shortName || CONFIG.school;
   $("footer").innerHTML = `
-    <p>Menus from Berkeley Dining · ${esc(updated)}. ${ratingsNote}</p>
+    <p>Menus from ${esc(CONFIG.sourceLabel)} · ${esc(schoolName)} · ${esc(updated)}. ${ratingsNote}</p>
     <p>Per-serving estimates only. Confirm allergens with dining staff. Not medical advice.</p>`;
 }
 
@@ -823,6 +889,17 @@ function onClick(event) {
   if (d.goal) {
     state.goal = d.goal; save("goal", state.goal);
     syncUser(); freezeRanking(); render();
+  } else if (d.filter === "highProtein" || d.filter === "vegetarian") {
+    state.filters[d.filter] = !state.filters[d.filter];
+    persistFilters(); render();
+  } else if (d.avoid) {
+    const set = new Set(state.filters.avoidAllergens);
+    if (set.has(d.avoid)) set.delete(d.avoid); else set.add(d.avoid);
+    state.filters.avoidAllergens = [...set];
+    persistFilters(); render();
+  } else if ("filterClear" in d) {
+    state.filters = { highProtein: false, vegetarian: false, avoidAllergens: [] };
+    persistFilters(); render();
   } else if (d.periodTab) {
     state.period = d.periodTab;
     freezeRanking(); render();
@@ -863,6 +940,8 @@ function onClick(event) {
     syncUser(); render();
   } else if ("signOut" in d) {
     signOut(CONFIG);
+  } else if (d.school && d.school !== CONFIG.school) {
+    setSchool(d.school);
   }
 }
 
@@ -968,6 +1047,18 @@ function renderProfile() {
                  placeholder="${s.protein || "e.g. 120"}" value="${p.customProtein ?? ""}"></label>
       </div>
 
+      <div class="field">
+        <span class="field-label">Campus</span>
+        <div class="pills school-choices" role="group" aria-label="Choose a campus">
+          ${SCHOOL_ORDER.map((id) => {
+            const s = SCHOOLS[id];
+            return `<button type="button" class="pill" data-school="${esc(id)}"
+              aria-pressed="${CONFIG.school === id}">${esc(s.shortName)}</button>`;
+          }).join("")}
+        </div>
+        <p class="field-hint">Switching campus reloads menus for that school.</p>
+      </div>
+
       <button type="button" class="primary" data-profile-save>Save</button>
       <button type="button" class="link danger" data-profile-clear>Clear my profile and goals</button>
       ${CONFIG.auth?.required ? '<button type="button" class="link" data-sign-out>Sign out</button>' : ""}
@@ -1019,6 +1110,7 @@ async function init() {
   state.menu = menu;
   state.period = defaultPeriod(menu, now.minutes, menu.date === now.date);
   if (GOALS[saved("goal")]) state.goal = saved("goal");
+  loadFilters();
   if (menu.locations.some((l) => l.name === saved("hall"))) {
     state.homeHall = state.hall = saved("hall");
   }

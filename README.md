@@ -1,7 +1,7 @@
 # campus-menus
 
 Pulls daily dining hall menus, with full nutrition, into one clean JSON format
-that the app reads. Berkeley first; built so other schools plug in.
+that the app reads. Supports Berkeley plus UCLA, UCSD, UCI, UCSB, UCD, and UCSC.
 
 ## Run it
 
@@ -9,12 +9,13 @@ that the app reads. Berkeley first; built so other schools plug in.
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m scraper.run              # Berkeley, today
-python -m scraper.run --days 3     # today + next 2 days
+python -m scraper.run --school ucla
+python -m scraper.run --school all --days 3
 ```
 
-Output lands in `data/berkeley/<date>.json` (and `data/berkeley/today.json`).
-Before deploying, put your real contact email in `HEADERS` in
-`scraper/schools/berkeley.py` so Berkeley Dining knows who's making the requests.
+Output lands in `docs/data/<school>/<date>.json` (and `today.json`).
+Before deploying, put your real contact email in the scraper User-Agent
+headers so dining services know who's making the requests.
 
 ## Where Berkeley's data comes from
 
@@ -80,14 +81,26 @@ read the files straight from GitHub; no server needed yet.
 The job fails (and GitHub emails you) when it finds zero items, which means
 either the site changed or dining is closed (breaks and holidays).
 
+## Schools
+
+| Id | Source |
+| --- | --- |
+| `berkeley` | Berkeley Dining XML exports |
+| `ucla` | dining.ucla.edu menus-at-a-glance + recipe nutrition |
+| `ucsd` | HDH Venue_V3 menus (calories + icons on the listing) |
+| `uci` | MyDiningHub / Adobe Elevate GraphQL |
+| `ucsb` | apps.dining.ucsb.edu day menu (`?dc=&m=&d=`) |
+| `ucd` | housing.ucdavis.edu dining-commons weekly menus |
+| `ucsc` | nutrition.sa.ucsc.edu FoodPro shortmenu + labels |
+
+In the app, pick a campus under **Profile → Campus**.
+
 ## Adding another school
 
 1. Create `scraper/schools/<school>.py` with `scrape(day) -> DayMenu`
    that returns the same models (`scraper/models.py`).
-2. Register it in `scraper/schools/__init__.py` and add its timezone in
-   `scraper/run.py`.
-3. Schools on Nutrislice share one API, so one Nutrislice scraper can cover
-   many campuses at once.
+2. Register it in `scraper/schools/__init__.py` (and `TIMEZONES`).
+3. Add an entry in `docs/js/schools.js` so the app can switch to it.
 
 ## The app (`docs/`)
 

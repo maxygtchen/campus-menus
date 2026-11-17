@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python -m scraper.run --days 3
+      - run: python -m scraper.run --school all --days 3
       - name: Commit updated menus
         run: |
           git config user.name "menu-bot"

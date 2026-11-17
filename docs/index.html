@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What should I eat? · Berkeley Dining</title>
-<meta name="description" content="The best Berkeley dining hall for your goal right now, with live ratings.">
+<title>What should I eat? · Campus Menus</title>
+<meta name="description" content="The best dining hall for your campus and goal right now, with live ratings.">
 <meta name="theme-color" content="#14325c">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -140,13 +140,22 @@
   }
   .icon-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  /* ---------- Goal picker ---------- */
+  /* ---------- Goal picker + filters ---------- */
   .goal-label { margin: 12px 0 6px; font-size: 13px; font-weight: 700; color: var(--muted);
                 letter-spacing: 0.04em; text-transform: uppercase; }
+  .goal-label.filter-sub { margin-top: 10px; font-size: 12px; letter-spacing: 0.03em; }
+  #filter-wrap { margin: 4px 0 8px; }
+  #filter-wrap .pills { padding-bottom: 2px; gap: 6px; }
+  #filter-wrap .pill { padding: 6px 12px; font-size: 13px; }
+  #filter-wrap .pill.filter-avoid { font-weight: 600; }
+  #filter-wrap .pill[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--on-accent);
+  }
+  .filter-clear { display: inline-block; margin: 10px 0 2px; padding: 0; }
 
   /* ---------- Hall cards ---------- */
   main { padding: 8px 0 32px; display: grid; gap: 14px; }
-  .hall { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 16px 6px; }
+  .hall { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 16px 10px; }
   .hall.is-closed { opacity: 0.72; }
   .hall-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
   .hall-name { margin: 0; font-size: 20px; letter-spacing: -0.01em; }
@@ -309,6 +318,9 @@
   .choice input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
   .suggest { margin: 16px 0 2px; padding: 12px 14px; border-radius: 12px; font-size: 14px;
              background: var(--gold-bg); color: var(--gold-ink); }
+  .field-hint { margin: 8px 0 0; font-size: 12px; color: var(--muted); line-height: 1.4; }
+  .school-choices { flex-wrap: wrap; padding-bottom: 0; }
+  .school-choices .pill { padding: 7px 12px; font-size: 13px; }
   .primary { display: block; width: 100%; margin: 18px 0 6px; padding: 13px; border: 0; border-radius: 12px;
              background: var(--accent); color: var(--on-accent); font-size: 16px; font-weight: 700; cursor: pointer; }
   .nut-head { display: flex; justify-content: space-between; margin: 16px 0 4px;
@@ -362,6 +374,8 @@
       <div class="goal-label" id="goal-label">I want to</div>
       <div class="pills" id="goals" role="group" aria-labelledby="goal-label"></div>
     </div>
+
+    <div id="filter-wrap" hidden></div>
 
     <main id="halls"><p class="empty">Loading today's menus…</p></main>
     <footer id="footer"></footer>

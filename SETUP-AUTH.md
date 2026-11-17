@@ -113,13 +113,16 @@ again if you already did in A3.
 2. **Site URL** — for testing you can set:
    `http://localhost:8000/index.html`
    (For production, switch to your GitHub Pages `index.html`.)
-3. **Redirect URLs** — click **Add URL** for **each** line below (four total):
+3. **Redirect URLs** — click **Add URL** for **each** line below (include
+   `reset.html` so forgot-password links work):
 
    ```
    http://localhost:8000/index.html
    http://localhost:8000/login.html
+   http://localhost:8000/reset.html
    https://maxygtchen.github.io/campus-menus/index.html
    https://maxygtchen.github.io/campus-menus/login.html
+   https://maxygtchen.github.io/campus-menus/reset.html
    ```
 
 4. **Save**.
@@ -158,10 +161,14 @@ In `docs/js/config.js`:
 ```js
 auth: {
   required: true,              // false = old behavior (no login gate)
-  emailDomains: ["berkeley.edu"],
+  emailDomains: [/* all UC campuses — see schools.js */],
   google: true,
 },
 ```
+
+Forgot password: on **login.html**, use **Forgot password?** to email a
+Supabase reset link that opens **reset.html**. Add those redirect URLs in
+step B2 above.
 
 ## 5. Test locally
 
