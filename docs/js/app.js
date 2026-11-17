@@ -57,6 +57,7 @@ const state = {
   sheet: { open: false, scope: "meal" },
 
   open: new Set(),       // which "Show more" sections are expanded
+  seededOpen: new Set(), // bar section auto-expanded once per hall
 };
 
 /* =====================================================================
@@ -308,10 +309,16 @@ function publicRatingHTML(item, hall) {
   const raw = todayVoteCounts(item, hall);
   const today = raw.up + raw.down;
   if (d.votes >= S.minVotesDish) {
-    return `<span class="public-rating">${pct(d.score)}% liked · ${d.votes} rating${d.votes === 1 ? "" : "s"}</span>`;
+    return `<span class="public-rating">
+      <span class="public-rating-strong">${pct(d.score)}%</span> liked
+      <span class="public-rating-sep" aria-hidden="true">·</span>
+      <span class="public-rating-meta">${d.votes} vote${d.votes === 1 ? "" : "s"}</span></span>`;
   }
   if (today > 0) {
-    return `<span class="public-rating early">👍 ${raw.up} · 👎 ${raw.down}</span>`;
+    return `<span class="public-rating early">
+      <span class="vote-emoji" aria-hidden="true">👍</span><span class="vote-num">${raw.up}</span>
+      <span class="public-rating-sep" aria-hidden="true">·</span>
+      <span class="vote-emoji" aria-hidden="true">👎</span><span class="vote-num">${raw.down}</span></span>`;
   }
   return `<span class="public-rating none">No votes yet</span>`;
 }
@@ -408,8 +415,10 @@ function dishHTML(row, hall) {
       <div class="meta">${meta.join(" · ")}</div>
       ${chips.length ? `<div class="chips">${chips.join("")}</div>` : ""}
       ${allergens}
-      <div class="rating-row">${publicRatingHTML(item, hall)}</div>
-      <div class="actions">${addHTML(item, hall)}${voteHTML(item, hall)}</div>
+      <div class="dish-foot">
+        <div class="dish-rating">${publicRatingHTML(item, hall)}</div>
+        <div class="dish-controls">${addHTML(item, hall)}${voteHTML(item, hall)}</div>
+      </div>
     </li>`;
 }
 
@@ -440,6 +449,11 @@ function hallHTML(view) {
   const preview = view.mains.slice(0, CONFIG.previewCount);
   const rest = view.mains.slice(CONFIG.previewCount);
   const row = (r) => dishHTML(r, hall);
+  const othersId = loc.name + "|others";
+  if (view.others.length && !state.seededOpen.has(othersId)) {
+    state.seededOpen.add(othersId);
+    state.open.add(othersId);
+  }
 
   return `
     <section class="hall ${status.cls === "closed" ? "is-closed" : ""}">
@@ -454,8 +468,8 @@ function hallHTML(view) {
       ${view.mains.length ? `<ul class="dishes">${preview.map(row).join("")}</ul>`
                           : `<p class="empty">No matching dishes.</p>`}
       ${rest.length ? detailsHTML(loc.name + "|more", `Show ${rest.length} more mains`, rest.map(row).join("")) : ""}
-      ${view.others.length ? detailsHTML(loc.name + "|others",
-          `Salad bar, bars, drinks &amp; more (${view.others.length})`, view.others.map(row).join("")) : ""}
+      ${view.others.length ? detailsHTML(othersId,
+          `Salads, drinks &amp; more (${view.others.length})`, view.others.map(row).join("")) : ""}
     </section>`;
 }
 
@@ -653,12 +667,10 @@ function render() {
 
   if (!view.loc) {                       // first visit: choose a hall
     $("goal-wrap").hidden = true;
-    $("hero").innerHTML = "";
     $("halls").innerHTML = pickHallHTML(view);
   } else {
     $("goal-wrap").hidden = !view.meal;
     renderGoals();
-    $("hero").innerHTML = "";
     $("halls").innerHTML = hallHTML(view);
   }
 
@@ -676,10 +688,8 @@ function render() {
     demo: "Ratings shown are sample data.",
   }[state.backend.mode];
   $("footer").innerHTML = `
-    <p>Menus and nutrition from Berkeley Dining · updated ${esc(updated)}.</p>
-    <p>Nutrition is per serving and can vary. If you have a serious allergy, confirm with dining staff.</p>
-    <p>${ratingsNote} Rate the food, not the people who make it.</p>
-    <p>Your taste and plate sync to your account when signed in. Suggestions are general, not medical advice.</p>`;
+    <p>Menus from Berkeley Dining · ${esc(updated)}. ${ratingsNote}</p>
+    <p>Per-serving estimates only. Confirm allergens with dining staff. Not medical advice.</p>`;
 }
 
 /* =====================================================================
@@ -899,12 +909,15 @@ function renderProfile() {
       ${current === value ? "checked" : ""}><span>${label}</span></label>`;
   const feet = p.heightIn ? Math.floor(p.heightIn / 12) : "", inches = p.heightIn ? p.heightIn % 12 : "";
 
+  const profileIcon = `<svg class="profile-icon" viewBox="0 0 24 24" width="20" height="20" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="8" r="4"/><path d="M5 21c0-3.5 3.1-5.5 7-5.5s7 2 7 5.5"/></svg>`;
   $("profile-body").innerHTML = `
     <div class="sheet-head">
-      <h2>Profile &amp; goals</h2>
-      <button class="sheet-close" data-profile-close aria-label="Close">✕</button>
+      <h2 class="sheet-title">${profileIcon} Profile &amp; goals</h2>
+      <button type="button" class="sheet-close" data-profile-close aria-label="Close">✕</button>
     </div>
-    <p class="sheet-note">Optional. Used only to suggest daily goals, and kept on this phone.</p>
+    <p class="sheet-note">Optional daily targets. Synced to your account when signed in.</p>
 
     <form id="profile-form" autocomplete="off">
       <div class="field">

@@ -116,6 +116,7 @@
   .hall-tab.open .dot { background: var(--open); }
   .hall-tab.soon .dot { background: var(--gold); }
   .tab-score { font-weight: 500; opacity: 0.75; margin-left: 2px; }
+  #goals .pill { padding: 6px 12px; font-size: 13px; }
   #periods .pill { padding: 5px 12px; font-size: 13px; }
   .pill {
     flex: 0 0 auto;
@@ -143,34 +144,8 @@
   .goal-label { margin: 12px 0 6px; font-size: 13px; font-weight: 700; color: var(--muted);
                 letter-spacing: 0.04em; text-transform: uppercase; }
 
-  /* ---------- Recommendation card ---------- */
-  .hero {
-    margin-top: 14px; padding: 16px; border-radius: 16px;
-    background: var(--accent); color: var(--on-accent);
-  }
-  .hero-kicker { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-                 color: var(--hero-kicker); }
-  .hero-hint { font-size: 13px; opacity: 0.85; margin: 10px 0 0; }
-  .picks { list-style: none; margin: 0; padding: 0; counter-reset: pick; }
-  .picks li {
-    counter-increment: pick; position: relative;
-    display: flex; align-items: center; gap: 10px;
-    padding: 9px 0 9px 30px; border-top: 1px solid var(--on-accent-muted);
-  }
-  .picks li:first-child { border-top: 0; }
-  .pick-text { flex: 1; min-width: 0; }
-  .pick-meta b { font-weight: 700; }
-  .picks li::before {
-    content: counter(pick); position: absolute; left: 0; top: 10px;
-    width: 20px; height: 20px; border-radius: 50%;
-    background: var(--gold); color: #3b2a00; font-size: 12px; font-weight: 700;
-    display: grid; place-items: center;
-  }
-  .pick-name { display: block; font-weight: 600; }
-  .pick-meta { display: block; font-size: 13px; opacity: 0.85; }
-
   /* ---------- Hall cards ---------- */
-  main { padding: 14px 0 32px; display: grid; gap: 14px; }
+  main { padding: 8px 0 32px; display: grid; gap: 14px; }
   .hall { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 16px 6px; }
   .hall.is-closed { opacity: 0.72; }
   .hall-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
@@ -188,8 +163,15 @@
                          background: currentColor; margin-right: 6px; vertical-align: 1px; }
 
   .dishes { list-style: none; margin: 0; padding: 0; }
-  .dish { padding: 10px 0; border-top: 1px solid var(--line); }
-  .actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; }
+  .dish { padding: 12px 0; border-top: 1px solid var(--line); }
+  .dish-foot {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    margin-top: 8px; flex-wrap: nowrap;
+  }
+  .dish-rating { flex: 1 1 auto; min-width: 0; }
+  .dish-controls {
+    display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0;
+  }
   .station { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
   .dish-name { font-weight: 600; margin: 1px 0 2px; }
   .meta { font-size: 13px; color: var(--muted); }
@@ -211,25 +193,31 @@
   .stepper button { width: 34px; height: 34px; border: 0; background: transparent; color: inherit;
                     font-size: 18px; font-weight: 700; cursor: pointer; }
   .stepper span { min-width: 18px; text-align: center; font-weight: 700; font-size: 14px; }
-  .hero .add { border-color: var(--on-accent); color: var(--on-accent); }
-  .hero .stepper { background: var(--on-accent); color: var(--accent); }
   .allergens { font-size: 12px; color: var(--muted); margin-top: 4px; }
 
-  /* ---------- Thumbs up / down ---------- */
-  .vote { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+  /* ---------- Ratings + vote ---------- */
+  .public-rating {
+    display: inline-flex; align-items: center; flex-wrap: wrap; gap: 4px 6px;
+    padding: 5px 10px; border-radius: 999px;
+    background: var(--chip); color: var(--chip-ink);
+    font-size: 12px; font-weight: 600; line-height: 1.2;
+    max-width: 100%;
+  }
+  .public-rating.none { opacity: 0.85; font-weight: 500; }
+  .public-rating-strong { color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .public-rating-meta, .vote-num { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .public-rating-sep { opacity: 0.45; margin: 0 1px; }
+  .vote-emoji { font-size: 13px; line-height: 1; }
+  .vote { display: inline-flex; align-items: center; gap: 4px; }
   .vote-btn {
-    width: 38px; height: 38px; border-radius: 50%;
+    width: 40px; height: 40px; border-radius: 50%;
     border: 1px solid var(--line); background: var(--card);
-    font-size: 17px; line-height: 1; cursor: pointer;
-    filter: grayscale(1); opacity: 0.7;
+    font-size: 17px; line-height: 1; cursor: pointer; padding: 0;
+    filter: grayscale(1); opacity: 0.72;
   }
   .vote-btn[aria-pressed="true"] { filter: none; opacity: 1; }
   .vote-btn.up[aria-pressed="true"] { background: var(--open-bg); border-color: var(--open); }
   .vote-btn.down[aria-pressed="true"] { background: var(--down-bg); border-color: var(--down); }
-  .rating-row { margin-top: 5px; font-size: 12px; line-height: 1.3; }
-  .public-rating { color: var(--muted); font-weight: 600; }
-  .public-rating.early { font-weight: 500; }
-  .public-rating.none { font-weight: 500; opacity: 0.8; }
 
   .link { border: 0; background: none; padding: 0 0 10px; color: var(--accent);
           font-size: 13px; font-weight: 600; text-decoration: underline; cursor: pointer; }
@@ -266,8 +254,10 @@
   }
   #sheet::backdrop, #profile::backdrop { background: rgba(0,0,0,0.45); }
   #sheet-body, #profile-body { padding: 16px 16px calc(20px + env(safe-area-inset-bottom)); }
-  .sheet-head { display: flex; align-items: center; justify-content: space-between; }
-  .sheet-head h2 { margin: 0; font-size: 20px; }
+  .sheet-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .sheet-head h2, .sheet-title { margin: 0; font-size: 20px; }
+  .sheet-title { display: inline-flex; align-items: center; gap: 8px; }
+  .profile-icon { flex-shrink: 0; color: var(--accent); }
   .sheet-close { width: 36px; height: 36px; border-radius: 50%; border: 0; cursor: pointer;
                  background: var(--chip); color: var(--chip-ink); font-size: 15px; }
   .seg { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 12px 0 4px; padding: 4px;
@@ -373,7 +363,6 @@
       <div class="pills" id="goals" role="group" aria-labelledby="goal-label"></div>
     </div>
 
-    <div id="hero"></div>
     <main id="halls"><p class="empty">Loading today's menus…</p></main>
     <footer id="footer"></footer>
   </div>
