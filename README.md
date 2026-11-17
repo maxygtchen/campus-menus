@@ -101,7 +101,8 @@ GitHub Pages serves the `docs/` folder as the website.
 
 Run it locally with `cd docs && python3 -m http.server 8000`. Add `?demo=1`
 to the URL to see it with sample ratings. To make ratings shared between
-everyone, follow `SETUP-RATINGS.md`.
+everyone, follow `SETUP-RATINGS.md`. For accounts (login + sync profile and
+plate across devices), follow `SETUP-AUTH.md`.
 
 ## Tests
 

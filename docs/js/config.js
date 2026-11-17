@@ -18,6 +18,16 @@ export const CONFIG = {
   supabaseUrl: "https://maarpzlnxrwtliwqgjlp.supabase.co",
   supabaseKey: "sb_publishable_s2wBIj1YTDpoYQpS4J4FtQ_lbIIsw-q",
 
+  /* ---- Accounts (Supabase Auth) -------------------------------------
+     require: must sign in before the menu loads (see SETUP-AUTH.md).
+     emailDomains: empty = any email; ["berkeley.edu"] = school email only.
+     google: show "Continue with Google" (enable provider in Supabase). */
+  auth: {
+    required: true,
+    emailDomains: ["berkeley.edu"],
+    google: true,
+  },
+
   /* ---- How scores are calculated (see scoring.js) ------------------ */
   scoring: {
     prior: 0.7,          // with no votes, assume 70% of people like a dish

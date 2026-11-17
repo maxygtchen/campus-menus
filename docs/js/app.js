@@ -19,6 +19,8 @@
    ===================================================================== */
 import { CONFIG } from "./config.js";
 import { createBackend } from "./backend.js";
+import { ensureLoggedIn, signOut, supabaseConfigured } from "./auth.js";
+import { packUserBlob, pullUserData, schedulePushUserData } from "./userSync.js";
 import { GOALS, indexScores, dishRating, hallRating, goalScore } from "./scoring.js";
 import { loadTaste, recordTaste, trainFromVotes, predict, blend } from "./taste.js";
 import * as Plate from "./plate.js";
@@ -712,6 +714,36 @@ function saved(key) {
   try { return localStorage.getItem("campus-menus." + key); } catch { return null; }
 }
 
+function syncUser() {
+  if (!supabaseConfigured(CONFIG)) return;
+  schedulePushUserData(CONFIG, packUserBlob(state, {
+    goal: state.goal,
+    hall: state.homeHall,
+    boostDate: state.menu?.date,
+  }));
+}
+
+function mirrorUserDataToLocal(blob) {
+  if (!blob) return;
+  if (blob.profile) Profile.saveProfile(blob.profile);
+  if (blob.taste) {
+    try { localStorage.setItem("campus-menus.taste", JSON.stringify(blob.taste)); } catch { /* ignore */ }
+  }
+  if (blob.plates && state.menu) Plate.savePlates(blob.plates, state.menu.date);
+  if (blob.boostDate === state.menu?.date && typeof blob.boost === "number") {
+    Profile.saveBoost(state.menu.date, blob.boost);
+    state.boost = blob.boost;
+  }
+  if (blob.goal && GOALS[blob.goal]) {
+    state.goal = blob.goal;
+    save("goal", blob.goal);
+  }
+  if (blob.hall && state.menu?.locations.some((l) => l.name === blob.hall)) {
+    state.homeHall = state.hall = blob.hall;
+    save("hall", blob.hall);
+  }
+}
+
 // Find a dish on the menu that's on screen right now.
 function findItem(dishKey) {
   const loc = state.menu.locations.find((l) => l.name === state.hall);
@@ -742,6 +774,7 @@ function setVote(item, hall, period, oldVote, newVote) {
   applyVoteLocally(item.dish_key, hall, period, oldVote, newVote);
   state.taste = recordTaste(state.taste, item, newVote, state.menu.date);
   state.model = trainFromVotes(state.taste);          // re-learn, takes a millisecond
+  syncUser();
 }
 
 async function castVote(btn) {
@@ -779,6 +812,7 @@ function changePlate(btn) {
                  Plate.entryKey(item.dish_key, state.hall), change, item, state.hall);
   }
   Plate.savePlates(state.plates, campusNow().date);
+  syncUser();
   render();
 }
 
@@ -798,7 +832,7 @@ function onClick(event) {
 
   if (d.goal) {
     state.goal = d.goal; save("goal", state.goal);
-    freezeRanking(); render();
+    syncUser(); freezeRanking(); render();
   } else if (d.periodTab) {
     state.period = d.periodTab;
     freezeRanking(); render();
@@ -807,7 +841,7 @@ function onClick(event) {
     freezeRanking(); render(); window.scrollTo(0, 0);
   } else if (d.setHome) {
     state.homeHall = state.hall = d.setHome; save("hall", state.homeHall);
-    freezeRanking(); render(); window.scrollTo(0, 0);
+    syncUser(); freezeRanking(); render(); window.scrollTo(0, 0);
   } else if (d.vote) {
     castVote(btn);
   } else if (d.add) {
@@ -825,18 +859,20 @@ function onClick(event) {
   } else if ("profileSave" in d) {
     state.profile = readProfileForm();
     Profile.saveProfile(state.profile);
-    $("profile").close(); render();
+    syncUser(); $("profile").close(); render();
   } else if ("profileClear" in d) {
     state.profile = Profile.clearProfile(); state.boost = 0;
-    $("profile").close(); render();
+    syncUser(); $("profile").close(); render();
   } else if (d.boost !== undefined) {
     state.boost = Number(d.boost);
     Profile.saveBoost(state.menu.date, state.boost);
-    render();
+    syncUser(); render();
   } else if ("plateClear" in d) {
     Plate.clearMeal(state.plates, state.menu.date, state.period);
     Plate.savePlates(state.plates, campusNow().date);
-    render();
+    syncUser(); render();
+  } else if ("signOut" in d) {
+    signOut(CONFIG);
   }
 }
 
@@ -941,6 +977,7 @@ function renderProfile() {
 
       <button type="button" class="primary" data-profile-save>Save</button>
       <button type="button" class="link danger" data-profile-clear>Clear my profile and goals</button>
+      ${CONFIG.auth?.required ? '<button type="button" class="link" data-sign-out>Sign out</button>' : ""}
     </form>
 
     <p class="sheet-note">
@@ -966,6 +1003,12 @@ function onToggle(event) {
    INIT: runs once when the page loads
    ===================================================================== */
 async function init() {
+  const demo = new URLSearchParams(location.search).has("demo");
+  if (!demo) {
+    const session = await ensureLoggedIn(CONFIG);
+    if (CONFIG.auth?.required && !session) return;
+  }
+
   const now = campusNow();
   let menu = await loadMenu(now.date);
 
@@ -991,6 +1034,15 @@ async function init() {
   state.plates = Plate.loadPlates();
   state.profile = Profile.loadProfile();
   state.boost = Profile.loadBoost(menu.date);
+
+  if (!demo && supabaseConfigured(CONFIG)) {
+    await pullUserData(CONFIG, state, mirrorUserDataToLocal);
+    state.model = trainFromVotes(state.taste);
+    if (GOALS[saved("goal")]) state.goal = saved("goal");
+    if (menu.locations.some((l) => l.name === saved("hall"))) {
+      state.homeHall = state.hall = saved("hall");
+    }
+  }
   freezeRanking();
 
   document.addEventListener("click", onClick);

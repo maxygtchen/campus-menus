@@ -1,3 +1,5 @@
+import { getClient, supabaseConfigured as authSupabaseOk } from "./auth.js";
+
 /* =====================================================================
    BACKEND: where ratings are stored
    The rest of the app doesn't care WHERE votes live. It only calls:
@@ -58,18 +60,16 @@ function localBackend() {
 
 /* ---------------------------- shared --------------------------------- */
 async function sharedBackend(config) {
-  // Load the Supabase library only when it's needed.
-  const { createClient } = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm");
-  const sb = createClient(config.supabaseUrl, config.supabaseKey);
+  const sb = await getClient(config);
+  if (!sb) throw new Error("Supabase not configured");
 
-  // Anonymous sign-in: no email or password, but each device gets its
-  // own user id, which is how "one vote per person" is enforced.
   let { data: { session } } = await sb.auth.getSession();
-  if (!session) {
+  if (!session && !config.auth?.required) {
     const { data, error } = await sb.auth.signInAnonymously();
     if (error) throw error;
     session = data.session;
   }
+  if (!session) throw new Error("Not signed in");
   const userId = session.user.id;
   const school = config.school;
 
@@ -134,18 +134,9 @@ function demoBackend() {
 }
 
 /* --------------------------- choose one ------------------------------ */
-function supabaseConfigured(config) {
-  const url = (config.supabaseUrl || "").trim();
-  const key = (config.supabaseKey || "").trim();
-  if (!url || !key) return false;
-  // Setup doc placeholders — must be replaced with real dashboard values.
-  if (url.includes("YOUR-PROJECT") || key.includes("...")) return false;
-  return true;
-}
-
 export async function createBackend(config) {
   if (new URLSearchParams(location.search).has("demo")) return demoBackend();
-  if (supabaseConfigured(config)) {
+  if (authSupabaseOk(config)) {
     try {
       return await sharedBackend(config);
     } catch (err) {

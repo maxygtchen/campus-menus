@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in · Campus Menus</title>
+<meta name="theme-color" content="#14325c">
+<style>
+  :root {
+    --bg: #f5f3ee; --card: #fff; --ink: #1a1c21; --muted: #6a6f79; --line: #e4e0d6;
+    --accent: #14325c; --on-accent: #fff; --down: #b3402e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101216; --card: #191c22; --ink: #eceef2; --muted: #9aa1ad; --line: #2a2e36;
+      --accent: #9cc2ff; --on-accent: #0d1524; --down: #ff9b8a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100dvh; display: grid; place-items: center;
+    background: var(--bg); color: var(--ink);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px 16px;
+  }
+  .card {
+    width: 100%; max-width: 400px; background: var(--card);
+    border: 1px solid var(--line); border-radius: 16px; padding: 24px 22px 20px;
+  }
+  h1 { margin: 0 0 6px; font-size: 22px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 12px 0 6px; }
+  input {
+    width: 100%; padding: 12px 13px; border-radius: 10px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit;
+  }
+  .tabs { display: flex; gap: 6px; margin-bottom: 8px; }
+  .tab {
+    flex: 1; padding: 10px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--bg); font-weight: 600; cursor: pointer;
+  }
+  .tab[aria-selected="true"] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+  .primary, .ghost {
+    width: 100%; margin-top: 14px; padding: 13px; border-radius: 12px;
+    font-size: 16px; font-weight: 700; cursor: pointer;
+  }
+  .primary { border: 0; background: var(--accent); color: var(--on-accent); }
+  .ghost {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+  }
+  .err { color: var(--down); font-size: 14px; margin: 10px 0 0; min-height: 1.2em; }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 14px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Campus Menus</h1>
+    <p class="sub" id="sub">Sign in to save your goals, plate, and taste across devices.</p>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab" id="tab-in" role="tab" aria-selected="true">Sign in</button>
+      <button type="button" class="tab" id="tab-up" role="tab" aria-selected="false">Create account</button>
+    </div>
+    <form id="form" autocomplete="on">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" inputmode="email" autocomplete="username" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" minlength="8" required>
+      <p class="err" id="err" aria-live="polite"></p>
+      <button type="submit" class="primary" id="submit">Sign in</button>
+    </form>
+    <button type="button" class="ghost" id="google" hidden>
+      Continue with Google
+    </button>
+    <p class="hint" id="domain-hint"></p>
+  </div>
+  <script type="module" src="js/login.js"></script>
+</body>
+</html>
