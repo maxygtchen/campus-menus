@@ -84,7 +84,10 @@ async function init() {
     const redirectTo = new URL(next, location.href).href;
     const { error } = await sb.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo },
+      options: {
+        redirectTo,
+        queryParams: { prompt: "select_account" },
+      },
     });
     if (error) showError(error.message);
   });
