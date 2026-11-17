@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-17",
-  "scraped_at": "2026-11-17T10:27:07+00:00",
+  "scraped_at": "2026-11-17T21:53:21+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -535,6 +535,39 @@
               "source_id": ""
             },
             {
+              "name": "Coleslaw w/ Vinaigrette Dressing",
+              "station": "Salads",
+              "station_type": "bar",
+              "dish_key": "ucsb:coleslaw-w-vinaigrette-dressing",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
               "name": "Fiesta Vegetable Salad",
               "station": "Salads",
               "station_type": "bar",
@@ -658,6 +691,39 @@
               ],
               "tags": [
                 "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Rice",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:mexican-rice",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -1109,6 +1175,39 @@
               "station": "Bakery",
               "station_type": "dessert",
               "dish_key": "ucsb:cheese-roll",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Pumpkin Crisp",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:pumpkin-crisp",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
