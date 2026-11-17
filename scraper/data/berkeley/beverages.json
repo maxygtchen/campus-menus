@@ -1,0 +1,157 @@
+{
+  "comment": "Berkeley dining XML has no drink station. Rough per-serving values for tracking.",
+  "items": [
+    {
+      "name": "Coffee (black)",
+      "station": "Beverages",
+      "dish_key": "berkeley:coffee-black",
+      "source_id": "pantry-bev-coffee",
+      "allergens": [],
+      "diets": ["vegan"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 5,
+        "protein_g": 0.3,
+        "carbs_g": 0,
+        "fat_g": 0,
+        "fiber_g": 0,
+        "sugar_g": 0,
+        "sodium_mg": 5,
+        "serving": "8 fl oz"
+      }
+    },
+    {
+      "name": "Latte (2% milk)",
+      "station": "Beverages",
+      "dish_key": "berkeley:latte-2pct",
+      "source_id": "pantry-bev-latte",
+      "allergens": ["milk"],
+      "diets": ["vegetarian"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 120,
+        "protein_g": 8,
+        "carbs_g": 12,
+        "fat_g": 5,
+        "fiber_g": 0,
+        "sugar_g": 10,
+        "sodium_mg": 95,
+        "serving": "8 fl oz"
+      }
+    },
+    {
+      "name": "Whole Milk",
+      "station": "Beverages",
+      "dish_key": "berkeley:whole-milk",
+      "source_id": "pantry-bev-milk-whole",
+      "allergens": ["milk"],
+      "diets": ["vegetarian"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 150,
+        "protein_g": 8,
+        "carbs_g": 12,
+        "fat_g": 8,
+        "fiber_g": 0,
+        "sugar_g": 12,
+        "sodium_mg": 105,
+        "serving": "8 fl oz"
+      }
+    },
+    {
+      "name": "Skim Milk",
+      "station": "Beverages",
+      "dish_key": "berkeley:skim-milk",
+      "source_id": "pantry-bev-milk-skim",
+      "allergens": ["milk"],
+      "diets": ["vegetarian"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 83,
+        "protein_g": 8,
+        "carbs_g": 12,
+        "fat_g": 0.2,
+        "fiber_g": 0,
+        "sugar_g": 12,
+        "sodium_mg": 103,
+        "serving": "8 fl oz"
+      }
+    },
+    {
+      "name": "Orange Juice",
+      "station": "Beverages",
+      "dish_key": "berkeley:orange-juice",
+      "source_id": "pantry-bev-oj",
+      "allergens": [],
+      "diets": ["vegan"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 110,
+        "protein_g": 2,
+        "carbs_g": 26,
+        "fat_g": 0,
+        "fiber_g": 0,
+        "sugar_g": 22,
+        "sodium_mg": 10,
+        "serving": "8 fl oz"
+      }
+    },
+    {
+      "name": "Iced Tea (unsweetened)",
+      "station": "Beverages",
+      "dish_key": "berkeley:iced-tea-unsweetened",
+      "source_id": "pantry-bev-tea",
+      "allergens": [],
+      "diets": ["vegan"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 2,
+        "protein_g": 0,
+        "carbs_g": 0.5,
+        "fat_g": 0,
+        "fiber_g": 0,
+        "sugar_g": 0,
+        "sodium_mg": 10,
+        "serving": "8 fl oz"
+      }
+    },
+    {
+      "name": "Fountain Soda",
+      "station": "Beverages",
+      "dish_key": "berkeley:fountain-soda",
+      "source_id": "pantry-bev-soda",
+      "allergens": [],
+      "diets": ["vegan"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 140,
+        "protein_g": 0,
+        "carbs_g": 39,
+        "fat_g": 0,
+        "fiber_g": 0,
+        "sugar_g": 39,
+        "sodium_mg": 45,
+        "serving": "12 fl oz"
+      }
+    },
+    {
+      "name": "Sparkling Water",
+      "station": "Beverages",
+      "dish_key": "berkeley:sparkling-water",
+      "source_id": "pantry-bev-sparkling",
+      "allergens": [],
+      "diets": ["vegan"],
+      "tags": [],
+      "nutrition": {
+        "kcal": 0,
+        "protein_g": 0,
+        "carbs_g": 0,
+        "fat_g": 0,
+        "fiber_g": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0,
+        "serving": "12 fl oz"
+      }
+    }
+  ]
+}

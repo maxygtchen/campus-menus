@@ -475,7 +475,7 @@ function hallHTML(view) {
                           : `<p class="empty">No matching dishes.</p>`}
       ${rest.length ? detailsHTML(loc.name + "|more", `Show ${rest.length} more mains`, rest.map(row).join("")) : ""}
       ${view.others.length ? detailsHTML(loc.name + "|others",
-          `Sides, salad bar &amp; desserts (${view.others.length})`, view.others.map(row).join("")) : ""}
+          `Salad bar, bars, drinks &amp; more (${view.others.length})`, view.others.map(row).join("")) : ""}
     </section>`;
 }
 

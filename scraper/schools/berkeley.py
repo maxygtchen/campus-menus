@@ -33,6 +33,7 @@ from xml.etree import ElementTree as ET
 
 import requests
 
+from ..always_available import enrich_location
 from ..models import DayMenu, Location, Meal, MenuItem, Nutrition, make_dish_key
 from ..tags import apply_tags, classify_station
 
@@ -290,6 +291,7 @@ def scrape(day: str) -> DayMenu:
             continue
         loc = parse_location_xml(r.text)
         if loc:
+            enrich_location(loc)
             n = sum(len(m.items) for m in loc.meals)
             log.info("%s: %d meals, %d items", loc.name, len(loc.meals), n)
             result.locations.append(loc)

@@ -30,6 +30,12 @@ calories, protein, carbs, fat, fiber, sugar, sodium, carbon footprint,
 12 allergen flags and vegan/vegetarian/halal/kosher flags. One request per
 location per day; the scraper waits a second between requests.
 
+Berkeley's export is **incomplete for tracking**: breakfast at a hall often
+omits the Salad Bar / fruit that lunch lists, and **beverages never appear**.
+After each location is parsed, `scraper/always_available.py` copies the
+fullest salad/deli/cold-bar/fruit/yogurt list onto every meal at that hall, and
+appends drinks from `scraper/data/berkeley/beverages.json` (edit to add more).
+
 Locations seen: Cafe 3, Clark Kerr, Crossroads, Foothill (dining halls) and
 Bear Market, Cub Market, The Den (markets).
 
