@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Campus Menus">
+  <rect width="512" height="512" rx="108" fill="#14325c"/>
+  <circle cx="256" cy="256" r="168" fill="#f5f3ee"/>
+  <text x="256" y="298" text-anchor="middle" font-family="system-ui,sans-serif" font-size="200" font-weight="700" fill="#14325c">?</text>
+  <circle cx="368" cy="144" r="36" fill="#f0b429"/>
+</svg>

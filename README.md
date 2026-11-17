@@ -110,6 +110,20 @@ to the URL to see it with sample ratings. To make ratings shared between
 everyone, follow `SETUP-RATINGS.md`. For accounts (login + sync profile and
 plate across devices), follow `SETUP-AUTH.md`.
 
+### Install as an app (PWA)
+
+The site can be added to your home screen (`docs/manifest.webmanifest`,
+`docs/sw.js`). The service worker **does not cache JS** — only menu JSON
+may be kept for a quick offline peek — so a normal refresh after deploy
+still picks up new code.
+
+- **iPhone (Safari):** Share → **Add to Home Screen**
+- **Android (Chrome):** Menu → **Install app** or **Add to Home Screen**
+- **Desktop Chrome:** Install icon in the address bar (when offered)
+
+Re-run `docs/icons/` PNG generation after changing `icon.svg` (see
+`scripts/generate_pwa_icons.py` if added).
+
 ## Tests
 
 ```bash

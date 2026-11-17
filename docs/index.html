@@ -6,6 +6,11 @@
 <title>What should I eat? · Berkeley Dining</title>
 <meta name="description" content="The best Berkeley dining hall for your goal right now, with live ratings.">
 <meta name="theme-color" content="#14325c">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Campus Menus">
 
 <!--
   This file is only the page's skeleton and its looks (CSS).
@@ -359,6 +364,7 @@
   <dialog id="sheet" aria-label="My plate"><div id="sheet-body"></div></dialog>
   <dialog id="profile" aria-label="Profile and goals"><div id="profile-body"></div></dialog>
 
+  <script type="module" src="js/pwa.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>
