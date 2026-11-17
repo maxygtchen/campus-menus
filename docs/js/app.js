@@ -21,7 +21,7 @@ import { CONFIG } from "./config.js";
 import { createBackend } from "./backend.js";
 import { ensureLoggedIn, signOut, supabaseConfigured } from "./auth.js";
 import { packUserBlob, pullUserData, schedulePushUserData } from "./userSync.js";
-import { GOALS, indexScores, dishRating, hallRating, goalScore } from "./scoring.js";
+import { GOALS, indexScores, dishRating, hallRating } from "./scoring.js";
 import { loadTaste, recordTaste, trainFromVotes, predict, blend } from "./taste.js";
 import * as Plate from "./plate.js";
 import * as Profile from "./profile.js";
@@ -47,9 +47,7 @@ const state = {
   taste: {},             // dish -> their verdict
   model: trainFromVotes({}),
 
-  // A frozen copy used for ORDERING the list, so dishes don't jump around
-  // under your thumb the moment you vote. Refreshed when you switch
-  // hall, meal or goal. (The "For you" card at the top updates instantly.)
+  // Frozen sort snapshot so the list doesn't jump under your thumb when you vote.
   rank: { scores: new Map(), taste: {}, model: trainFromVotes({}) },
 
   // Meal calculator (see plate.js)
@@ -264,41 +262,58 @@ function buildView() {
     canRate: isToday && now.minutes < toMinutes(meal.end),
   };
 
-  // Score every dish twice: with the frozen snapshot (list order) and
-  // with the live data (the "For you" card).
   const count = ratedCount();
   const frozenCount = Object.keys(state.rank.taste).length;
   const rows = meal.items.map((item) => {
-    const liveBase = goalScore(state.scores, item, loc.name, meal.period, state.goal, S);
+    const liveBase = sortBase(state.scores, item, loc.name, meal.period, state.goal, S);
     const liveTaste = predict(state.model, state.taste, item);
-    const frozenBase = goalScore(state.rank.scores, item, loc.name, meal.period, state.goal, S);
+    const frozenBase = sortBase(state.rank.scores, item, loc.name, meal.period, state.goal, S);
     const frozenTaste = predict(state.rank.model, state.rank.taste, item);
     return {
       item,
-      base: liveBase,                                  // goal + everyone's ratings
-      taste: liveTaste,                                // this person's taste
+      base: liveBase,
+      taste: liveTaste,
       live: blend(liveBase, liveTaste, count),
       order: blend(frozenBase, frozenTaste, frozenCount),
     };
   });
 
-  const mains = rows.filter((r) => r.item.station_type === "main").sort((a, b) => b.order - a.order);
-  const others = rows.filter((r) => r.item.station_type !== "main");
+  const byOrder = (a, b) => b.order - a.order;
+  const mains = rows.filter((r) => r.item.station_type === "main").sort(byOrder);
+  const others = rows.filter((r) => r.item.station_type !== "main").sort(byOrder);
 
-  // "For you": up to two favourites you've already liked, plus at least
-  // one dish you haven't rated that the model thinks you'll like. Never
-  // something you thumbed down.
-  const seen = new Set();
-  const candidates = rows
-    .filter((r) => r.item.station_type === "main" && r.taste.direct >= 0 && r.taste.p >= 0.35 &&
-                   (r.base > 0 || r.taste.direct > 0 || r.taste.p > 0.6))
-    .sort((a, b) => b.live - a.live)
-    .filter((r) => !seen.has(r.item.dish_key) && seen.add(r.item.dish_key));
-  const favourites = candidates.filter((r) => r.taste.direct > 0).slice(0, 2);
-  const discoveries = candidates.filter((r) => r.taste.direct === 0).slice(0, 3 - favourites.length);
-  const picks = [...favourites, ...discoveries];
+  return { now, isToday, tabs, loc, meal, status, hall, mains, others };
+}
 
-  return { now, isToday, tabs, loc, meal, status, hall, mains, others, picks };
+/** Eat well = ratings + your taste. Other goals nudge sort ~25% toward goal fit. */
+function sortBase(index, item, location, period, goalKey, cfg) {
+  const rated = dishRating(index, item, location, period, cfg).score;
+  if (goalKey === "balanced") return rated;
+  if (item.station_type !== "main") return rated;
+  const fit = GOALS[goalKey].fit(item.nutrition, item);
+  return 0.75 * rated + 0.25 * fit;
+}
+
+function todayVoteCounts(item, hall) {
+  for (const r of state.scores.get(item.dish_key) || []) {
+    if (r.is_today && r.location === hall.loc.name && r.period === hall.meal.period) {
+      return { up: r.ups, down: r.downs };
+    }
+  }
+  return { up: 0, down: 0 };
+}
+
+function publicRatingHTML(item, hall) {
+  const d = dishRating(state.scores, item, hall.loc.name, hall.meal.period, S);
+  const raw = todayVoteCounts(item, hall);
+  const today = raw.up + raw.down;
+  if (d.votes >= S.minVotesDish) {
+    return `<span class="public-rating">${pct(d.score)}% liked · ${d.votes} rating${d.votes === 1 ? "" : "s"}</span>`;
+  }
+  if (today > 0) {
+    return `<span class="public-rating early">👍 ${raw.up} · 👎 ${raw.down}</span>`;
+  }
+  return `<span class="public-rating none">No votes yet</span>`;
 }
 
 /* =====================================================================
@@ -356,11 +371,9 @@ function voteHTML(item, hall) {
   if (!hall.canRate) return "";
   const key = [item.dish_key, hall.loc.name, hall.meal.period].join("|");
   const mine = state.myVotes.get(key) || 0;
-  const d = dishRating(state.scores, item, hall.loc.name, hall.meal.period, S);
   const data = `data-dish="${esc(item.dish_key)}"`;
   return `
     <div class="vote">
-      ${d.votes >= S.minVotesDish ? `<span class="vote-pct">${pct(d.score)}% liked</span>` : ""}
       <button class="vote-btn up" ${data} data-vote="1" aria-pressed="${mine === 1}"
               aria-label="Thumbs up: ${esc(item.name)}">👍</button>
       <button class="vote-btn down" ${data} data-vote="-1" aria-pressed="${mine === -1}"
@@ -395,6 +408,7 @@ function dishHTML(row, hall) {
       <div class="meta">${meta.join(" · ")}</div>
       ${chips.length ? `<div class="chips">${chips.join("")}</div>` : ""}
       ${allergens}
+      <div class="rating-row">${publicRatingHTML(item, hall)}</div>
       <div class="actions">${addHTML(item, hall)}${voteHTML(item, hall)}</div>
     </li>`;
 }
@@ -406,46 +420,6 @@ function detailsHTML(id, label, inner) {
       <summary>${label}</summary>
       <ul class="dishes">${inner}</ul>
     </details>`;
-}
-
-// Why is this dish being recommended? Pick the most personal true reason.
-function reasonFor(row, hall) {
-  const { item, taste, base } = row;
-  if (taste.direct > 0) return "You liked this";
-  if (taste.why.length) return `You like ${taste.why.join(" and ")}`;
-  if (state.goal !== "balanced" && base > 0.45) return GOALS[state.goal].label;
-  const d = dishRating(state.scores, item, hall.loc.name, hall.meal.period, S);
-  if (d.votes >= S.minVotesDish) return `${pct(d.score)}% liked`;
-  return "Solid main";
-}
-
-function forYouHTML(view) {
-  if (!view.picks.length) return "";
-  const count = ratedCount();
-  const picks = view.picks.map((row) => {
-    const n = row.item.nutrition;
-    const numbers = n.kcal != null ? `${Math.round(n.protein_g)}g protein · ${Math.round(n.kcal)} cal` : "";
-    return `
-      <li>
-        <div class="pick-text">
-          <span class="pick-name">${esc(row.item.name)}</span>
-          <span class="pick-meta"><b>${esc(reasonFor(row, view.hall))}</b>${numbers ? " · " + numbers : ""}</span>
-        </div>
-        ${addHTML(row.item, view.hall)}
-      </li>`;
-  }).join("");
-
-  const hint = count >= 5 ? "" : `
-    <p class="hero-hint">${count === 0
-      ? "Rate dishes with 👍 👎 and these picks start learning your taste."
-      : `${count} rated so far. Keep rating and these get more personal.`}</p>`;
-
-  return `
-    <section class="hero" aria-label="Recommended for you">
-      <div class="hero-kicker">${count >= 3 ? "For you" : "Top picks"} · ${esc(state.period)}</div>
-      <ol class="picks">${picks}</ol>
-      ${hint}
-    </section>`;
 }
 
 function hallHTML(view) {
@@ -684,7 +658,7 @@ function render() {
   } else {
     $("goal-wrap").hidden = !view.meal;
     renderGoals();
-    $("hero").innerHTML = view.meal ? forYouHTML(view) : "";
+    $("hero").innerHTML = "";
     $("halls").innerHTML = hallHTML(view);
   }
 
@@ -705,7 +679,7 @@ function render() {
     <p>Menus and nutrition from Berkeley Dining · updated ${esc(updated)}.</p>
     <p>Nutrition is per serving and can vary. If you have a serious allergy, confirm with dining staff.</p>
     <p>${ratingsNote} Rate the food, not the people who make it.</p>
-    <p>Your picks, taste and plate stay on this phone. Picks are general suggestions, not personal nutrition advice.</p>`;
+    <p>Your taste and plate sync to your account when signed in. Suggestions are general, not medical advice.</p>`;
 }
 
 /* =====================================================================
