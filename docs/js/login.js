@@ -37,7 +37,11 @@ async function init() {
     return;
   }
   $("domain-hint").textContent = domainHint();
-  if (CONFIG.auth?.google !== false) $("google").hidden = false;
+  if (CONFIG.auth?.google !== false) {
+    $("google").hidden = false;
+    $("or-divider").hidden = false;
+    $("or-divider").removeAttribute("aria-hidden");
+  }
 
   const session = await getSession(CONFIG);
   if (session) {
