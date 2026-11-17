@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-18",
-  "scraped_at": "2026-11-16T22:56:47+00:00",
+  "scraped_at": "2026-11-17T05:05:10+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -9904,111 +9904,44 @@
               "source_id": "1159"
             },
             {
-              "name": "Brown Rice",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:brown-rice",
-              "nutrition": {
-                "kcal": 149.7,
-                "protein_g": 3.1,
-                "carbs_g": 31.1,
-                "fat_g": 1.3,
-                "fiber_g": 1.5,
-                "sugar_g": 0.3,
-                "sodium_mg": 2.0,
-                "serving": "4 oz",
-                "sat_fat_g": 0.2,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 3.7,
-                "iron_mg": 0.5,
-                "potassium_mg": 102.1,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "1034"
-            },
-            {
-              "name": "Jasmine Rice",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:jasmine-rice",
-              "nutrition": {
-                "kcal": 125.7,
-                "protein_g": 2.8,
-                "carbs_g": 27.9,
-                "fat_g": 0.0,
-                "fiber_g": 0.7,
-                "sugar_g": 0.0,
-                "sodium_mg": 0.0,
-                "serving": "3.2 oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 0.0,
-                "iron_mg": 0.0,
-                "potassium_mg": 17.4,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "672"
-            },
-            {
-              "name": "Lemon Poppyseed Pancakes",
+              "name": "Blueberry Filled Pancake",
               "station": "Griddle/Grill",
               "station_type": "main",
-              "dish_key": "berkeley:lemon-poppyseed-pancakes",
+              "dish_key": "berkeley:blueberry-filled-pancake",
               "nutrition": {
-                "kcal": 239.3,
-                "protein_g": 0.2,
-                "carbs_g": 45.3,
-                "fat_g": 3.8,
-                "fiber_g": 1.6,
-                "sugar_g": 1.3,
-                "sodium_mg": 625.7,
-                "serving": "4.01 oz",
-                "sat_fat_g": 0.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 14.8,
-                "iron_mg": 2.3,
-                "potassium_mg": 60.7,
-                "vitamin_c_mg": 0.9,
+                "kcal": 94.8,
+                "protein_g": 1.5,
+                "carbs_g": 19.5,
+                "fat_g": 1.2,
+                "fiber_g": 0.5,
+                "sugar_g": 0.0,
+                "sodium_mg": 204.6,
+                "serving": "2.2 oz",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 2.5,
+                "calcium_mg": 5.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 34.9,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
               "allergens": [
                 "milk",
+                "egg",
                 "wheat",
+                "soy",
                 "gluten"
               ],
               "diets": [
-                "vegetarian",
-                "halal"
+                "vegetarian"
               ],
               "tags": [
                 "lighter",
                 "vegetarian"
               ],
               "carbon_kg": 0.0,
-              "source_id": "756"
+              "source_id": "3353"
             },
             {
               "name": "Syrup",
@@ -10110,6 +10043,72 @@
               ],
               "carbon_kg": 0.4,
               "source_id": "962"
+            },
+            {
+              "name": "Brown Rice",
+              "station": "Hot Cereal/Grains",
+              "station_type": "bar",
+              "dish_key": "berkeley:brown-rice",
+              "nutrition": {
+                "kcal": 149.7,
+                "protein_g": 3.1,
+                "carbs_g": 31.1,
+                "fat_g": 1.3,
+                "fiber_g": 1.5,
+                "sugar_g": 0.3,
+                "sodium_mg": 2.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 3.7,
+                "iron_mg": 0.5,
+                "potassium_mg": 102.1,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1034"
+            },
+            {
+              "name": "Jasmine Rice",
+              "station": "Hot Cereal/Grains",
+              "station_type": "bar",
+              "dish_key": "berkeley:jasmine-rice",
+              "nutrition": {
+                "kcal": 125.7,
+                "protein_g": 2.8,
+                "carbs_g": 27.9,
+                "fat_g": 0.0,
+                "fiber_g": 0.7,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "3.2 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 17.4,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "672"
             },
             {
               "name": "Chive Cream Cheese",
@@ -12401,22 +12400,22 @@
               "station_type": "bar",
               "dish_key": "berkeley:chicken-salad",
               "nutrition": {
-                "kcal": 325.3,
-                "protein_g": 18.3,
-                "carbs_g": 0.5,
-                "fat_g": 26.9,
+                "kcal": 271.1,
+                "protein_g": 15.3,
+                "carbs_g": 0.4,
+                "fat_g": 22.5,
                 "fiber_g": 0.1,
                 "sugar_g": 0.2,
-                "sodium_mg": 1010.0,
+                "sodium_mg": 841.6,
                 "serving": "4 oz",
-                "sat_fat_g": 3.8,
-                "cholesterol_mg": 80.4,
-                "calcium_mg": 6.5,
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 67.0,
+                "calcium_mg": 5.4,
                 "iron_mg": 0.3,
-                "potassium_mg": 286.9,
-                "vitamin_c_mg": 0.4,
+                "potassium_mg": 239.1,
+                "vitamin_c_mg": 0.3,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 8.2
+                "vitamin_a_iu": 6.8
               },
               "allergens": [
                 "egg"
@@ -14890,22 +14889,22 @@
               "station_type": "bar",
               "dish_key": "berkeley:chicken-salad",
               "nutrition": {
-                "kcal": 325.3,
-                "protein_g": 18.3,
-                "carbs_g": 0.5,
-                "fat_g": 26.9,
+                "kcal": 271.1,
+                "protein_g": 15.3,
+                "carbs_g": 0.4,
+                "fat_g": 22.5,
                 "fiber_g": 0.1,
                 "sugar_g": 0.2,
-                "sodium_mg": 1010.0,
+                "sodium_mg": 841.6,
                 "serving": "4 oz",
-                "sat_fat_g": 3.8,
-                "cholesterol_mg": 80.4,
-                "calcium_mg": 6.5,
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 67.0,
+                "calcium_mg": 5.4,
                 "iron_mg": 0.3,
-                "potassium_mg": 286.9,
-                "vitamin_c_mg": 0.4,
+                "potassium_mg": 239.1,
+                "vitamin_c_mg": 0.3,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 8.2
+                "vitamin_a_iu": 6.8
               },
               "allergens": [
                 "egg"
@@ -24695,19 +24694,19 @@
               "station_type": "main",
               "dish_key": "berkeley:vegan-beyond-burger",
               "nutrition": {
-                "kcal": 784.0,
+                "kcal": 786.2,
                 "protein_g": 28.6,
-                "carbs_g": 56.1,
-                "fat_g": 48.3,
+                "carbs_g": 56.2,
+                "fat_g": 48.5,
                 "fiber_g": 4.3,
                 "sugar_g": 5.6,
-                "sodium_mg": 1217.4,
+                "sodium_mg": 1221.7,
                 "serving": "11.78 oz",
                 "sat_fat_g": 10.3,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 120.1,
+                "calcium_mg": 120.2,
                 "iron_mg": 7.5,
-                "potassium_mg": 152.8,
+                "potassium_mg": 153.1,
                 "vitamin_c_mg": 6.5,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 117.0
