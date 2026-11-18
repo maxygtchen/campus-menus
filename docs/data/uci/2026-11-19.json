@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-17T21:51:19+00:00",
+  "scraped_at": "2026-11-18T04:21:11+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -3073,37 +3073,6 @@
               "source_id": "1821_122168_A4611_1_12274"
             },
             {
-              "name": "Crispy Tater Tots",
-              "station": "Grubb",
-              "station_type": "main",
-              "dish_key": "uci:crispy-tater-tots",
-              "nutrition": {
-                "kcal": 93.4,
-                "protein_g": 0.9,
-                "carbs_g": 11.8,
-                "fat_g": 5.2,
-                "fiber_g": 1.0,
-                "sugar_g": 0.5,
-                "sodium_mg": 264.9,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 6.8,
-                "iron_mg": 0.2,
-                "potassium_mg": null,
-                "vitamin_c_mg": 4.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.3
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M5768_1_34775"
-            },
-            {
               "name": "Incogmeato™ Sausage Patty",
               "station": "The Twisted Root",
               "station_type": "main",
@@ -3877,27 +3846,27 @@
           "end": "14:30",
           "items": [
             {
-              "name": "Honey BBQ Turkey",
+              "name": "Spice-Rubbed Pork Loin",
               "station": "Compass",
               "station_type": "main",
-              "dish_key": "uci:honey-bbq-turkey",
+              "dish_key": "uci:spice-rubbed-pork-loin",
               "nutrition": {
-                "kcal": 170.9,
-                "protein_g": 25.3,
-                "carbs_g": 2.3,
-                "fat_g": 6.8,
-                "fiber_g": 0.1,
-                "sugar_g": 2.2,
-                "sodium_mg": 148.5,
+                "kcal": 196.7,
+                "protein_g": 27.5,
+                "carbs_g": 3.5,
+                "fat_g": 6.9,
+                "fiber_g": 0.3,
+                "sugar_g": 3.0,
+                "sodium_mg": 164.5,
                 "serving": "3 ozw",
-                "sat_fat_g": 1.4,
-                "cholesterol_mg": 75.6,
-                "calcium_mg": 15.9,
-                "iron_mg": 1.5,
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 74.0,
+                "calcium_mg": 24.2,
+                "iron_mg": 1.3,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 6.3
+                "vitamin_a_iu": 14.9
               },
               "allergens": [],
               "diets": [],
@@ -3906,7 +3875,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M40785_1_3868"
+              "source_id": "1821_122168_M4649_1_40474"
             },
             {
               "name": "Steamed Fresh Broccoli",
@@ -5913,62 +5882,70 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Salted Caramel Cookie",
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:salted-caramel-cookie",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
               "nutrition": {
-                "kcal": 80.8,
-                "protein_g": 0.8,
-                "carbs_g": 11.5,
-                "fat_g": 3.4,
-                "fiber_g": 0.4,
-                "sugar_g": 6.4,
-                "sodium_mg": 44.7,
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
                 "serving": "1 cookie",
-                "sat_fat_g": 1.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 4.3,
-                "iron_mg": 0.3,
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 16.4
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_A15498_1_501438"
+              "source_id": "287868_133409_M33064_1_29486"
             },
             {
-              "name": "Snickerdoodle Cookie",
+              "name": "Craveworthy® Snickerdoodle Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:snickerdoodle-cookie",
+              "dish_key": "uci:craveworthy-snickerdoodle-cookie",
               "nutrition": {
-                "kcal": 125.9,
-                "protein_g": 1.2,
-                "carbs_g": 18.8,
-                "fat_g": 5.1,
-                "fiber_g": 0.3,
-                "sugar_g": 11.1,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 4.4,
-                "iron_mg": 0.8,
+                "kcal": 240.3,
+                "protein_g": 1.8,
+                "carbs_g": 35.3,
+                "fat_g": 10.2,
+                "fiber_g": 0.4,
+                "sugar_g": 19.4,
+                "sodium_mg": 250.2,
+                "serving": "1 each",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 10.2,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
+                "vitamin_a_iu": 19.6
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M13979_1_47442"
+              "source_id": "287868_133409_M33189_1_38142"
             }
           ]
         },
@@ -6506,62 +6483,70 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Salted Caramel Cookie",
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:salted-caramel-cookie",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
               "nutrition": {
-                "kcal": 80.8,
-                "protein_g": 0.8,
-                "carbs_g": 11.5,
-                "fat_g": 3.4,
-                "fiber_g": 0.4,
-                "sugar_g": 6.4,
-                "sodium_mg": 44.7,
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
                 "serving": "1 cookie",
-                "sat_fat_g": 1.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 4.3,
-                "iron_mg": 0.3,
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 16.4
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_A15498_1_501438"
+              "source_id": "287868_133409_M33064_1_29486"
             },
             {
-              "name": "Snickerdoodle Cookie",
+              "name": "Craveworthy® Snickerdoodle Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:snickerdoodle-cookie",
+              "dish_key": "uci:craveworthy-snickerdoodle-cookie",
               "nutrition": {
-                "kcal": 125.9,
-                "protein_g": 1.2,
-                "carbs_g": 18.8,
-                "fat_g": 5.1,
-                "fiber_g": 0.3,
-                "sugar_g": 11.1,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 4.4,
-                "iron_mg": 0.8,
+                "kcal": 240.3,
+                "protein_g": 1.8,
+                "carbs_g": 35.3,
+                "fat_g": 10.2,
+                "fiber_g": 0.4,
+                "sugar_g": 19.4,
+                "sodium_mg": 250.2,
+                "serving": "1 each",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 10.2,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
+                "vitamin_a_iu": 19.6
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M13979_1_47442"
+              "source_id": "287868_133409_M33189_1_38142"
             }
           ]
         },
@@ -6571,6 +6556,104 @@
           "start": "11:00",
           "end": "14:30",
           "items": [
+            {
+              "name": "Homestyle Spaghetti & Meatballs",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:homestyle-spaghetti-meatballs",
+              "nutrition": {
+                "kcal": 405.7,
+                "protein_g": 20.0,
+                "carbs_g": 58.3,
+                "fat_g": 12.5,
+                "fiber_g": 6.1,
+                "sugar_g": 8.6,
+                "sodium_mg": 542.1,
+                "serving": "1 serving",
+                "sat_fat_g": 4.5,
+                "cholesterol_mg": 42.1,
+                "calcium_mg": 98.4,
+                "iron_mg": 4.1,
+                "potassium_mg": null,
+                "vitamin_c_mg": 11.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.9
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M2594_1_37454"
+            },
+            {
+              "name": "Roasted Cauliflower",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:roasted-cauliflower",
+              "nutrition": {
+                "kcal": 50.7,
+                "protein_g": 1.6,
+                "carbs_g": 4.1,
+                "fat_g": 3.6,
+                "fiber_g": 1.6,
+                "sugar_g": 1.5,
+                "sodium_mg": 115.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 18.2,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 38.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M21804_1_16612"
+            },
+            {
+              "name": "Garlic Herb Breadstick",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:garlic-herb-breadstick",
+              "nutrition": {
+                "kcal": 173.7,
+                "protein_g": 4.8,
+                "carbs_g": 27.0,
+                "fat_g": 5.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.4,
+                "sodium_mg": 289.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 0.1,
+                "calcium_mg": 19.3,
+                "iron_mg": 1.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.2
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M713_1_9505"
+            },
             {
               "name": "Classic Cheese Pizza",
               "station": "Pizza",
@@ -7099,160 +7182,70 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Roasted Cauliflower",
-              "station": "Main",
-              "station_type": "main",
-              "dish_key": "uci:roasted-cauliflower",
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "station": "Desserts",
+              "station_type": "dessert",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
               "nutrition": {
-                "kcal": 50.7,
-                "protein_g": 1.6,
-                "carbs_g": 4.1,
-                "fat_g": 3.6,
-                "fiber_g": 1.6,
-                "sugar_g": 1.5,
-                "sodium_mg": 115.9,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 18.2,
-                "iron_mg": 0.3,
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
+                "serving": "1 cookie",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": 38.9,
+                "vitamin_c_mg": 0.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M21804_1_16612"
-            },
-            {
-              "name": "Garlic Herb Breadstick",
-              "station": "Main",
-              "station_type": "main",
-              "dish_key": "uci:garlic-herb-breadstick",
-              "nutrition": {
-                "kcal": 173.7,
-                "protein_g": 4.8,
-                "carbs_g": 27.0,
-                "fat_g": 5.2,
-                "fiber_g": 1.0,
-                "sugar_g": 0.4,
-                "sodium_mg": 289.6,
-                "serving": "1 each",
-                "sat_fat_g": 0.7,
-                "cholesterol_mg": 0.1,
-                "calcium_mg": 19.3,
-                "iron_mg": 1.9,
-                "potassium_mg": null,
-                "vitamin_c_mg": 1.7,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.2
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M713_1_9505"
-            },
-            {
-              "name": "Homestyle Spaghetti & Meatballs",
-              "station": "Main",
-              "station_type": "main",
-              "dish_key": "uci:homestyle-spaghetti-meatballs",
-              "nutrition": {
-                "kcal": 405.7,
-                "protein_g": 20.0,
-                "carbs_g": 58.3,
-                "fat_g": 12.5,
-                "fiber_g": 6.1,
-                "sugar_g": 8.6,
-                "sodium_mg": 542.1,
-                "serving": "1 serving",
-                "sat_fat_g": 4.5,
-                "cholesterol_mg": 42.1,
-                "calcium_mg": 98.4,
-                "iron_mg": 4.1,
-                "potassium_mg": null,
-                "vitamin_c_mg": 11.4,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 39.9
+                "vitamin_a_iu": 16.4
               },
               "allergens": [
                 "milk",
                 "egg",
-                "soy",
                 "wheat"
               ],
               "diets": [],
-              "tags": [
-                "high_protein"
-              ],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M2594_1_37454"
-            },
-            {
-              "name": "Salted Caramel Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:salted-caramel-cookie",
-              "nutrition": {
-                "kcal": 80.8,
-                "protein_g": 0.8,
-                "carbs_g": 11.5,
-                "fat_g": 3.4,
-                "fiber_g": 0.4,
-                "sugar_g": 6.4,
-                "sodium_mg": 44.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 1.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 4.3,
-                "iron_mg": 0.3,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_A15498_1_501438"
+              "source_id": "287868_133409_M33064_1_29486"
             },
             {
-              "name": "Snickerdoodle Cookie",
+              "name": "Craveworthy® Snickerdoodle Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:snickerdoodle-cookie",
+              "dish_key": "uci:craveworthy-snickerdoodle-cookie",
               "nutrition": {
-                "kcal": 125.9,
-                "protein_g": 1.2,
-                "carbs_g": 18.8,
-                "fat_g": 5.1,
-                "fiber_g": 0.3,
-                "sugar_g": 11.1,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 4.4,
-                "iron_mg": 0.8,
+                "kcal": 240.3,
+                "protein_g": 1.8,
+                "carbs_g": 35.3,
+                "fat_g": 10.2,
+                "fiber_g": 0.4,
+                "sugar_g": 19.4,
+                "sodium_mg": 250.2,
+                "serving": "1 each",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 10.2,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
+                "vitamin_a_iu": 19.6
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M13979_1_47442"
+              "source_id": "287868_133409_M33189_1_38142"
             }
           ]
         },
@@ -7885,62 +7878,70 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Salted Caramel Cookie",
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:salted-caramel-cookie",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
               "nutrition": {
-                "kcal": 80.8,
-                "protein_g": 0.8,
-                "carbs_g": 11.5,
-                "fat_g": 3.4,
-                "fiber_g": 0.4,
-                "sugar_g": 6.4,
-                "sodium_mg": 44.7,
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
                 "serving": "1 cookie",
-                "sat_fat_g": 1.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 4.3,
-                "iron_mg": 0.3,
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 16.4
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_A15498_1_501438"
+              "source_id": "287868_133409_M33064_1_29486"
             },
             {
-              "name": "Snickerdoodle Cookie",
+              "name": "Craveworthy® Snickerdoodle Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:snickerdoodle-cookie",
+              "dish_key": "uci:craveworthy-snickerdoodle-cookie",
               "nutrition": {
-                "kcal": 125.9,
-                "protein_g": 1.2,
-                "carbs_g": 18.8,
-                "fat_g": 5.1,
-                "fiber_g": 0.3,
-                "sugar_g": 11.1,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 4.4,
-                "iron_mg": 0.8,
+                "kcal": 240.3,
+                "protein_g": 1.8,
+                "carbs_g": 35.3,
+                "fat_g": 10.2,
+                "fiber_g": 0.4,
+                "sugar_g": 19.4,
+                "sodium_mg": 250.2,
+                "serving": "1 each",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 10.2,
+                "iron_mg": 1.5,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
+                "vitamin_a_iu": 19.6
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M13979_1_47442"
+              "source_id": "287868_133409_M33189_1_38142"
             }
           ]
         }

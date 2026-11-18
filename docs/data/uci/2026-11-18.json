@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-18",
-  "scraped_at": "2026-11-17T21:51:02+00:00",
+  "scraped_at": "2026-11-18T04:20:54+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -3007,33 +3007,33 @@
               "source_id": "1821_122168_M34458_1_18773"
             },
             {
-              "name": "Hot & Sour Soup",
+              "name": "Butternut Squash Bisque",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:hot-sour-soup",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 196.1,
-                "protein_g": 13.4,
-                "carbs_g": 16.7,
-                "fat_g": 8.1,
-                "fiber_g": 1.2,
-                "sugar_g": 8.6,
-                "sodium_mg": 1171.7,
-                "serving": "8 fl oz",
-                "sat_fat_g": 1.9,
-                "cholesterol_mg": 87.0,
-                "calcium_mg": 51.8,
-                "iron_mg": 1.5,
+                "kcal": 69.2,
+                "protein_g": 1.2,
+                "carbs_g": 11.8,
+                "fat_g": 2.2,
+                "fiber_g": 1.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 306.7,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 32.5,
+                "iron_mg": 0.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": 1.2,
+                "vitamin_c_mg": 6.9,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 3.5
+                "vitamin_a_iu": 388.1
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M20438_1_18019"
+              "source_id": "1821_122168_M34420_1_21625"
             },
             {
               "name": "Dinner Roll",
@@ -3344,6 +3344,37 @@
               "source_id": "1821_122168_M14647_1_35801"
             },
             {
+              "name": "Crispy Tater Tots",
+              "station": "Grubb",
+              "station_type": "main",
+              "dish_key": "uci:crispy-tater-tots",
+              "nutrition": {
+                "kcal": 93.4,
+                "protein_g": 0.9,
+                "carbs_g": 11.8,
+                "fat_g": 5.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.5,
+                "sodium_mg": 264.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 6.8,
+                "iron_mg": 0.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 4.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M5768_1_34775"
+            },
+            {
               "name": "French Toast Sticks",
               "station": "Grubb",
               "station_type": "main",
@@ -3508,37 +3539,6 @@
               "source_id": "1821_122168_M37484_1_10268"
             },
             {
-              "name": "Croissant",
-              "station": "Honeycakes",
-              "station_type": "main",
-              "dish_key": "uci:croissant",
-              "nutrition": {
-                "kcal": 370.8,
-                "protein_g": 8.5,
-                "carbs_g": 47.6,
-                "fat_g": 17.0,
-                "fiber_g": 1.2,
-                "sugar_g": 7.1,
-                "sodium_mg": 425.2,
-                "serving": "1 each",
-                "sat_fat_g": 9.4,
-                "cholesterol_mg": 41.7,
-                "calcium_mg": 23.8,
-                "iron_mg": 3.0,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M35964_1_7802"
-            },
-            {
               "name": "Overnight Strawberry Oats",
               "station": "The Farm Stand- Salad",
               "station_type": "bar",
@@ -3568,37 +3568,6 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1821_122168_M39593_1_9157"
-            },
-            {
-              "name": "Cream of Wheat",
-              "station": "Soups ",
-              "station_type": "side",
-              "dish_key": "uci:cream-of-wheat",
-              "nutrition": {
-                "kcal": 94.5,
-                "protein_g": 3.0,
-                "carbs_g": 20.1,
-                "fat_g": 0.3,
-                "fiber_g": 0.6,
-                "sugar_g": 0.0,
-                "sodium_mg": 5.3,
-                "serving": "6 fl oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 11.2,
-                "iron_mg": 7.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M34518_1_17457"
             },
             {
               "name": "Old Fashioned Oatmeal",
@@ -3973,33 +3942,33 @@
               "source_id": "1821_122168_M34458_1_18773"
             },
             {
-              "name": "Hot & Sour Soup",
+              "name": "Butternut Squash Bisque",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:hot-sour-soup",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 196.1,
-                "protein_g": 13.4,
-                "carbs_g": 16.7,
-                "fat_g": 8.1,
-                "fiber_g": 1.2,
-                "sugar_g": 8.6,
-                "sodium_mg": 1171.7,
-                "serving": "8 fl oz",
-                "sat_fat_g": 1.9,
-                "cholesterol_mg": 87.0,
-                "calcium_mg": 51.8,
-                "iron_mg": 1.5,
+                "kcal": 69.2,
+                "protein_g": 1.2,
+                "carbs_g": 11.8,
+                "fat_g": 2.2,
+                "fiber_g": 1.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 306.7,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 32.5,
+                "iron_mg": 0.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": 1.2,
+                "vitamin_c_mg": 6.9,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 3.5
+                "vitamin_a_iu": 388.1
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M20438_1_18019"
+              "source_id": "1821_122168_M34420_1_21625"
             },
             {
               "name": "Dinner Roll",
@@ -4994,35 +4963,6 @@
               "source_id": "1821_122168_M34458_1_18773"
             },
             {
-              "name": "Hot & Sour Soup",
-              "station": "Soups ",
-              "station_type": "side",
-              "dish_key": "uci:hot-sour-soup",
-              "nutrition": {
-                "kcal": 196.1,
-                "protein_g": 13.4,
-                "carbs_g": 16.7,
-                "fat_g": 8.1,
-                "fiber_g": 1.2,
-                "sugar_g": 8.6,
-                "sodium_mg": 1171.7,
-                "serving": "8 fl oz",
-                "sat_fat_g": 1.9,
-                "cholesterol_mg": 87.0,
-                "calcium_mg": 51.8,
-                "iron_mg": 1.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 1.2,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 3.5
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M20438_1_18019"
-            },
-            {
               "name": "Butternut Squash Bisque",
               "station": "Soups ",
               "station_type": "side",
@@ -5297,6 +5237,37 @@
           "start": "16:30",
           "end": "20:30",
           "items": [
+            {
+              "name": "California Blend Vegetables",
+              "station": "Compass",
+              "station_type": "main",
+              "dish_key": "uci:california-blend-vegetables",
+              "nutrition": {
+                "kcal": 21.1,
+                "protein_g": 1.2,
+                "carbs_g": 4.5,
+                "fat_g": 0.2,
+                "fiber_g": 1.6,
+                "sugar_g": 1.8,
+                "sodium_mg": 27.8,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 21.5,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 30.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 180.9
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M15288_1_28434"
+            },
             {
               "name": "Jasmine Rice",
               "station": "Compass",
@@ -5763,33 +5734,33 @@
               "source_id": "1821_122168_M34458_1_18773"
             },
             {
-              "name": "Hot & Sour Soup",
+              "name": "Butternut Squash Bisque",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:hot-sour-soup",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 196.1,
-                "protein_g": 13.4,
-                "carbs_g": 16.7,
-                "fat_g": 8.1,
-                "fiber_g": 1.2,
-                "sugar_g": 8.6,
-                "sodium_mg": 1171.7,
-                "serving": "8 fl oz",
-                "sat_fat_g": 1.9,
-                "cholesterol_mg": 87.0,
-                "calcium_mg": 51.8,
-                "iron_mg": 1.5,
+                "kcal": 69.2,
+                "protein_g": 1.2,
+                "carbs_g": 11.8,
+                "fat_g": 2.2,
+                "fiber_g": 1.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 306.7,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 32.5,
+                "iron_mg": 0.5,
                 "potassium_mg": null,
-                "vitamin_c_mg": 1.2,
+                "vitamin_c_mg": 6.9,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 3.5
+                "vitamin_a_iu": 388.1
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M20438_1_18019"
+              "source_id": "1821_122168_M34420_1_21625"
             },
             {
               "name": "Dinner Roll",
