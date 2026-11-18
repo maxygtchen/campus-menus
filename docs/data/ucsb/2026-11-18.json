@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-18",
-  "scraped_at": "2026-11-18T04:23:30+00:00",
+  "scraped_at": "2026-11-18T21:32:19+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -535,6 +535,39 @@
               "source_id": ""
             },
             {
+              "name": "Greek Pasta Salad",
+              "station": "Salads",
+              "station_type": "bar",
+              "dish_key": "ucsb:greek-pasta-salad",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
               "name": "Salsa Salad",
               "station": "Salads",
               "station_type": "bar",
@@ -882,6 +915,35 @@
               "tags": [
                 "vegan"
               ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Grilled Turkey & Swiss on Sourdough",
+              "station": "Grill (Cafe)",
+              "station_type": "main",
+              "dish_key": "ucsb:grilled-turkey-swiss-on-sourdough",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -1893,10 +1955,10 @@
               "source_id": ""
             },
             {
-              "name": "Very Chocolate Cake w/Chocolate Icing",
+              "name": "Devil's Food Cake with Icing",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:very-chocolate-cake-w-chocolate-icing",
+              "dish_key": "ucsb:devil-s-food-cake-with-icing",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,

@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T04:21:11+00:00",
+  "scraped_at": "2026-11-18T21:29:53+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -3104,37 +3104,38 @@
               "source_id": "1821_122168_M35609_1_26587"
             },
             {
-              "name": "Tofu-Potato Hash",
+              "name": "Tofu Breakfast Taco",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:tofu-potato-hash",
+              "dish_key": "uci:tofu-breakfast-taco",
               "nutrition": {
-                "kcal": 135.4,
-                "protein_g": 8.5,
-                "carbs_g": 11.8,
-                "fat_g": 6.2,
-                "fiber_g": 2.7,
-                "sugar_g": 2.7,
-                "sodium_mg": 289.0,
-                "serving": "1 serving",
-                "sat_fat_g": 1.2,
+                "kcal": 194.6,
+                "protein_g": 9.7,
+                "carbs_g": 19.2,
+                "fat_g": 8.6,
+                "fiber_g": 2.2,
+                "sugar_g": 1.3,
+                "sodium_mg": 290.6,
+                "serving": "1 each",
+                "sat_fat_g": 1.9,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 64.5,
-                "iron_mg": 1.1,
+                "calcium_mg": 119.0,
+                "iron_mg": 1.9,
                 "potassium_mg": null,
-                "vitamin_c_mg": 17.1,
+                "vitamin_c_mg": 1.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 5.2
+                "vitamin_a_iu": 0.1
               },
               "allergens": [
-                "soy"
+                "soy",
+                "wheat"
               ],
               "diets": [],
               "tags": [
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M21908_1_16066"
+              "source_id": "1821_122168_M22115_1_10610"
             },
             {
               "name": "Danish Pastry",
@@ -3236,37 +3237,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_L397529_1_467499"
-            },
-            {
-              "name": "Croissant",
-              "station": "Honeycakes",
-              "station_type": "main",
-              "dish_key": "uci:croissant",
-              "nutrition": {
-                "kcal": 370.8,
-                "protein_g": 8.5,
-                "carbs_g": 47.6,
-                "fat_g": 17.0,
-                "fiber_g": 1.2,
-                "sugar_g": 7.1,
-                "sodium_mg": 425.2,
-                "serving": "1 each",
-                "sat_fat_g": 9.4,
-                "cholesterol_mg": 41.7,
-                "calcium_mg": 23.8,
-                "iron_mg": 3.0,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M35964_1_7802"
             },
             {
               "name": "Overnight Strawberry Oats",
@@ -5882,37 +5852,38 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy® Snickerdoodle Cookie",
@@ -6483,37 +6454,38 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy® Snickerdoodle Cookie",
@@ -6557,63 +6529,62 @@
           "end": "14:30",
           "items": [
             {
-              "name": "Homestyle Spaghetti & Meatballs",
+              "name": "Garlic Parmesan Turkey",
               "station": "Main",
               "station_type": "main",
-              "dish_key": "uci:homestyle-spaghetti-meatballs",
+              "dish_key": "uci:garlic-parmesan-turkey",
               "nutrition": {
-                "kcal": 405.7,
-                "protein_g": 20.0,
-                "carbs_g": 58.3,
-                "fat_g": 12.5,
-                "fiber_g": 6.1,
-                "sugar_g": 8.6,
-                "sodium_mg": 542.1,
-                "serving": "1 serving",
-                "sat_fat_g": 4.5,
-                "cholesterol_mg": 42.1,
-                "calcium_mg": 98.4,
-                "iron_mg": 4.1,
+                "kcal": 218.4,
+                "protein_g": 22.8,
+                "carbs_g": 1.9,
+                "fat_g": 13.4,
+                "fiber_g": 0.2,
+                "sugar_g": 0.6,
+                "sodium_mg": 548.1,
+                "serving": "3 ozw",
+                "sat_fat_g": 2.7,
+                "cholesterol_mg": 66.9,
+                "calcium_mg": 31.3,
+                "iron_mg": 1.3,
                 "potassium_mg": null,
-                "vitamin_c_mg": 11.4,
+                "vitamin_c_mg": 0.5,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 39.9
+                "vitamin_a_iu": 36.1
               },
               "allergens": [
                 "milk",
-                "egg",
-                "soy",
-                "wheat"
+                "soy"
               ],
               "diets": [],
               "tags": [
-                "high_protein"
+                "high_protein",
+                "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "287868_133409_M2594_1_37454"
+              "source_id": "287868_133409_A9919_1_372643"
             },
             {
-              "name": "Roasted Cauliflower",
+              "name": "Seasoned Carrots",
               "station": "Main",
               "station_type": "main",
-              "dish_key": "uci:roasted-cauliflower",
+              "dish_key": "uci:seasoned-carrots",
               "nutrition": {
-                "kcal": 50.7,
-                "protein_g": 1.6,
-                "carbs_g": 4.1,
-                "fat_g": 3.6,
-                "fiber_g": 1.6,
-                "sugar_g": 1.5,
-                "sodium_mg": 115.9,
+                "kcal": 56.2,
+                "protein_g": 0.7,
+                "carbs_g": 6.6,
+                "fat_g": 3.3,
+                "fiber_g": 2.7,
+                "sugar_g": 3.9,
+                "sodium_mg": 55.8,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.5,
+                "sat_fat_g": 1.2,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 18.2,
-                "iron_mg": 0.3,
+                "calcium_mg": 31.2,
+                "iron_mg": 0.4,
                 "potassium_mg": null,
-                "vitamin_c_mg": 38.9,
+                "vitamin_c_mg": 2.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 617.7
               },
               "allergens": [],
               "diets": [],
@@ -6621,38 +6592,36 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "287868_133409_M21804_1_16612"
+              "source_id": "287868_133409_M10182_1_28767"
             },
             {
-              "name": "Garlic Herb Breadstick",
+              "name": "Roasted Garlic Potatoes",
               "station": "Main",
               "station_type": "main",
-              "dish_key": "uci:garlic-herb-breadstick",
+              "dish_key": "uci:roasted-garlic-potatoes",
               "nutrition": {
-                "kcal": 173.7,
-                "protein_g": 4.8,
-                "carbs_g": 27.0,
-                "fat_g": 5.2,
-                "fiber_g": 1.0,
-                "sugar_g": 0.4,
-                "sodium_mg": 289.6,
-                "serving": "1 each",
-                "sat_fat_g": 0.7,
-                "cholesterol_mg": 0.1,
-                "calcium_mg": 19.3,
-                "iron_mg": 1.9,
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "N/A cup",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
                 "potassium_mg": null,
-                "vitamin_c_mg": 1.7,
+                "vitamin_c_mg": null,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.2
+                "vitamin_a_iu": null
               },
               "allergens": [],
               "diets": [],
-              "tags": [
-                "lighter"
-              ],
+              "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M713_1_9505"
+              "source_id": "287868_133409_M9876_1_29904"
             },
             {
               "name": "Classic Cheese Pizza",
@@ -7182,37 +7151,38 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy® Snickerdoodle Cookie",
@@ -7878,37 +7848,38 @@
               "source_id": "287868_133409_M39275_1_35534"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy® Snickerdoodle Cookie",

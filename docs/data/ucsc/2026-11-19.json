@@ -1,7 +1,7 @@
 {
   "school": "ucsc",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T04:25:33+00:00",
+  "scraped_at": "2026-11-18T21:34:15+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -6820,10 +6820,10 @@
           "end": "11:00",
           "items": [
             {
-              "name": "Biscuit and Gravy",
+              "name": "Buttermilk Pancakes",
               "station": "Breakfast",
               "station_type": "main",
-              "dish_key": "ucsc:biscuit-and-gravy",
+              "dish_key": "ucsc:buttermilk-pancakes",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -10578,35 +10578,6 @@
               "source_id": ""
             },
             {
-              "name": "Cheese Ravioli",
-              "station": "Herb & Olive",
-              "station_type": "main",
-              "dish_key": "ucsc:cheese-ravioli",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Gemelli",
               "station": "Herb & Olive",
               "station_type": "main",
@@ -10698,6 +10669,35 @@
               "station": "Herb & Olive",
               "station_type": "main",
               "dish_key": "ucsc:italian-sausage-and-peppers",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Meatballs",
+              "station": "Herb & Olive",
+              "station_type": "main",
+              "dish_key": "ucsc:meatballs",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,

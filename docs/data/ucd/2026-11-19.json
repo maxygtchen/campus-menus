@@ -1,7 +1,7 @@
 {
   "school": "ucd",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T04:20:34+00:00",
+  "scraped_at": "2026-11-18T21:29:30+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -15,10 +15,10 @@
           "end": "10:00",
           "items": [
             {
-              "name": "Biscuits and Gravy",
+              "name": "Biscuits and Pork Sausage Gravy",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:biscuits-and-gravy",
+              "dish_key": "ucd:biscuits-and-pork-sausage-gravy",
               "nutrition": {
                 "kcal": 283.9,
                 "protein_g": 6.2,
@@ -607,10 +607,10 @@
               "source_id": ""
             },
             {
-              "name": "Assorted Loaf Cakes",
+              "name": "Breakfast Bread",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:assorted-loaf-cakes",
+              "dish_key": "ucd:breakfast-bread",
               "nutrition": {
                 "kcal": 329.3,
                 "protein_g": 4.8,
@@ -1465,43 +1465,6 @@
               "source_id": ""
             },
             {
-              "name": "Traditional Hummus",
-              "station": "Green Zone",
-              "station_type": "main",
-              "dish_key": "ucd:traditional-hummus",
-              "nutrition": {
-                "kcal": 250.0,
-                "protein_g": 7.1,
-                "carbs_g": 17.9,
-                "fat_g": 16.1,
-                "fiber_g": null,
-                "sugar_g": 3.6,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "sesame"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Picnic Potato Salad",
               "station": "Green Zone",
               "station_type": "main",
@@ -1757,164 +1720,6 @@
               ],
               "carbon_kg": null,
               "source_id": ""
-            },
-            {
-              "name": "Dark Chocolate Cranberry Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:dark-chocolate-cranberry-cookie",
-              "nutrition": {
-                "kcal": 233.0,
-                "protein_g": 3.0,
-                "carbs_g": 38.8,
-                "fat_g": 8.9,
-                "fiber_g": null,
-                "sugar_g": 14.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Macadamias and White Chocolate Chips Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:macadamias-and-white-chocolate-chips-cookie",
-              "nutrition": {
-                "kcal": 241.5,
-                "protein_g": 3.0,
-                "carbs_g": 30.8,
-                "fat_g": 11.9,
-                "fiber_g": null,
-                "sugar_g": 18.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "tree_nuts",
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Chocolate Chip Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:chocolate-chip-cookie",
-              "nutrition": {
-                "kcal": 188.8,
-                "protein_g": 2.3,
-                "carbs_g": 37.8,
-                "fat_g": 10.9,
-                "fiber_g": null,
-                "sugar_g": 24.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Lemon Drop Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:lemon-drop-cookie",
-              "nutrition": {
-                "kcal": 155.9,
-                "protein_g": 2.0,
-                "carbs_g": 36.8,
-                "fat_g": 9.9,
-                "fiber_g": null,
-                "sugar_g": 20.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
             }
           ]
         },
@@ -1925,188 +1730,10 @@
           "end": "20:00",
           "items": [
             {
-              "name": "Florida \"Cubano\" Pork Sandwich",
+              "name": "El Capitan Chicken & Waffles",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:florida-cubano-pork-sandwich",
-              "nutrition": {
-                "kcal": 243.3,
-                "protein_g": 13.4,
-                "carbs_g": 12.3,
-                "fat_g": 16.2,
-                "fiber_g": null,
-                "sugar_g": 0.9,
-                "sodium_mg": null,
-                "serving": "3.86 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Louisiana Shrimp and Andouille Sausage Jambalaya",
-              "station": "Yellow Zone",
-              "station_type": "main",
-              "dish_key": "ucd:louisiana-shrimp-and-andouille-sausage-jambalaya",
-              "nutrition": {
-                "kcal": 445.7,
-                "protein_g": 23.1,
-                "carbs_g": 55.5,
-                "fat_g": 13.4,
-                "fiber_g": null,
-                "sugar_g": 4.1,
-                "sodium_mg": null,
-                "serving": "11.05 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "fish",
-                "shellfish"
-              ],
-              "diets": [],
-              "tags": [
-                "high_protein"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "The Capo Pizza",
-              "station": "Yellow Zone",
-              "station_type": "main",
-              "dish_key": "ucd:the-capo-pizza",
-              "nutrition": {
-                "kcal": 227.8,
-                "protein_g": 10.6,
-                "carbs_g": 30.0,
-                "fat_g": 7.8,
-                "fiber_g": null,
-                "sugar_g": 1.7,
-                "sodium_mg": null,
-                "serving": "4.56 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "New Jersey Spinach Alfredo Pizza",
-              "station": "Yellow Zone",
-              "station_type": "main",
-              "dish_key": "ucd:new-jersey-spinach-alfredo-pizza",
-              "nutrition": {
-                "kcal": 216.5,
-                "protein_g": 9.3,
-                "carbs_g": 29.7,
-                "fat_g": 6.9,
-                "fiber_g": null,
-                "sugar_g": 2.1,
-                "sodium_mg": null,
-                "serving": "3.53 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Green Chile Pozole with Squash",
-              "station": "Yellow Zone",
-              "station_type": "main",
-              "dish_key": "ucd:green-chile-pozole-with-squash",
-              "nutrition": {
-                "kcal": 103.8,
-                "protein_g": 3.0,
-                "carbs_g": 18.1,
-                "fat_g": 3.1,
-                "fiber_g": null,
-                "sugar_g": 4.3,
-                "sodium_mg": null,
-                "serving": "8.06 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "California Chicken & Waffles",
-              "station": "Blue Zone",
-              "station_type": "main",
-              "dish_key": "ucd:california-chicken-waffles",
+              "dish_key": "ucd:el-capitan-chicken-waffles",
               "nutrition": {
                 "kcal": 1039.2,
                 "protein_g": 71.0,
@@ -2140,10 +1767,10 @@
               "source_id": ""
             },
             {
-              "name": "California Kicken & Waffle Stacker",
-              "station": "Blue Zone",
+              "name": "Tutokanula Kicken & Waffle Stacker",
+              "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:california-kicken-waffle-stacker",
+              "dish_key": "ucd:tutokanula-kicken-waffle-stacker",
               "nutrition": {
                 "kcal": 759.2,
                 "protein_g": 20.7,
@@ -2174,6 +1801,184 @@
               "tags": [
                 "high_protein",
                 "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Zion \"Cubano\" Pork Sandwich",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:zion-cubano-pork-sandwich",
+              "nutrition": {
+                "kcal": 243.3,
+                "protein_g": 13.4,
+                "carbs_g": 12.3,
+                "fat_g": 16.2,
+                "fiber_g": null,
+                "sugar_g": 0.9,
+                "sodium_mg": null,
+                "serving": "3.86 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Crocker Mountain Day 151  Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:crocker-mountain-day-151-pizza",
+              "nutrition": {
+                "kcal": 227.8,
+                "protein_g": 10.6,
+                "carbs_g": 30.0,
+                "fat_g": 7.8,
+                "fiber_g": null,
+                "sugar_g": 1.7,
+                "sodium_mg": null,
+                "serving": "4.56 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Appalachian Whispers Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:appalachian-whispers-pizza",
+              "nutrition": {
+                "kcal": 216.5,
+                "protein_g": 9.3,
+                "carbs_g": 29.7,
+                "fat_g": 6.9,
+                "fiber_g": null,
+                "sugar_g": 2.1,
+                "sodium_mg": null,
+                "serving": "3.53 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Green Chile Pozole with Squash",
+              "station": "Blue Zone",
+              "station_type": "main",
+              "dish_key": "ucd:green-chile-pozole-with-squash",
+              "nutrition": {
+                "kcal": 103.8,
+                "protein_g": 3.0,
+                "carbs_g": 18.1,
+                "fat_g": 3.1,
+                "fiber_g": null,
+                "sugar_g": 4.3,
+                "sodium_mg": null,
+                "serving": "8.06 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Spicy One Pot Shrimp Sausage Jambalaya",
+              "station": "Blue Zone",
+              "station_type": "main",
+              "dish_key": "ucd:spicy-one-pot-shrimp-sausage-jambalaya",
+              "nutrition": {
+                "kcal": 445.7,
+                "protein_g": 23.1,
+                "carbs_g": 55.5,
+                "fat_g": 13.4,
+                "fiber_g": null,
+                "sugar_g": 4.1,
+                "sodium_mg": null,
+                "serving": "11.05 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "fish",
+                "shellfish"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -2326,10 +2131,10 @@
               "source_id": ""
             },
             {
-              "name": "Salad Bar",
+              "name": "Salad Selections",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:salad-bar",
+              "dish_key": "ucd:salad-selections",
               "nutrition": {
                 "kcal": 208.9,
                 "protein_g": 4.0,
@@ -2365,10 +2170,10 @@
               "source_id": ""
             },
             {
-              "name": "Deli Bar",
+              "name": "Panini Deli Bar",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:deli-bar",
+              "dish_key": "ucd:panini-deli-bar",
               "nutrition": {
                 "kcal": 326.3,
                 "protein_g": 21.8,
@@ -2440,47 +2245,10 @@
               "source_id": ""
             },
             {
-              "name": "Traditional Hummus",
-              "station": "Green Zone",
-              "station_type": "main",
-              "dish_key": "ucd:traditional-hummus",
-              "nutrition": {
-                "kcal": 250.0,
-                "protein_g": 7.1,
-                "carbs_g": 17.9,
-                "fat_g": 16.1,
-                "fiber_g": null,
-                "sugar_g": 3.6,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "sesame"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Arizona Ancho Crusted Flank Steak",
+              "name": "Logan Pass Ancho Crusted Flank Steak",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:arizona-ancho-crusted-flank-steak",
+              "dish_key": "ucd:logan-pass-ancho-crusted-flank-steak",
               "nutrition": {
                 "kcal": 180.9,
                 "protein_g": 20.9,
@@ -2546,10 +2314,10 @@
               "source_id": ""
             },
             {
-              "name": "Classic Road Trip Apple Cobbler",
+              "name": "Mt Rainer Apple Cobbler",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:classic-road-trip-apple-cobbler",
+              "dish_key": "ucd:mt-rainer-apple-cobbler",
               "nutrition": {
                 "kcal": 113.1,
                 "protein_g": 3.3,
@@ -2617,164 +2385,6 @@
               "tags": [
                 "lighter",
                 "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Dark Chocolate Cranberry Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:dark-chocolate-cranberry-cookie",
-              "nutrition": {
-                "kcal": 233.0,
-                "protein_g": 3.0,
-                "carbs_g": 38.8,
-                "fat_g": 8.9,
-                "fiber_g": null,
-                "sugar_g": 14.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Macadamias and White Chocolate Chips Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:macadamias-and-white-chocolate-chips-cookie",
-              "nutrition": {
-                "kcal": 241.5,
-                "protein_g": 3.0,
-                "carbs_g": 30.8,
-                "fat_g": 11.9,
-                "fiber_g": null,
-                "sugar_g": 18.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "tree_nuts",
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Chocolate Chip Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:chocolate-chip-cookie",
-              "nutrition": {
-                "kcal": 188.8,
-                "protein_g": 2.3,
-                "carbs_g": 37.8,
-                "fat_g": 10.9,
-                "fiber_g": null,
-                "sugar_g": 24.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Lemon Drop Cookie",
-              "station": "Pink Zone",
-              "station_type": "main",
-              "dish_key": "ucd:lemon-drop-cookie",
-              "nutrition": {
-                "kcal": 155.9,
-                "protein_g": 2.0,
-                "carbs_g": 36.8,
-                "fat_g": 9.9,
-                "fiber_g": null,
-                "sugar_g": 20.9,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "wheat",
-                "gluten",
-                "alcohol"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -4753,12 +4363,13 @@
                 "gluten"
               ],
               "diets": [
+                "vegan",
                 "vegetarian",
                 "halal"
               ],
               "tags": [
                 "high_protein",
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -7126,12 +6737,13 @@
                 "gluten"
               ],
               "diets": [
+                "vegan",
                 "vegetarian",
                 "halal"
               ],
               "tags": [
                 "high_protein",
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""

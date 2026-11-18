@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
   "date": "2026-11-18",
-  "scraped_at": "2026-11-18T04:26:02+00:00",
+  "scraped_at": "2026-11-18T21:34:52+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -294,7 +294,7 @@
               "station_type": "main",
               "dish_key": "ucsd:soyrizo-potato-breakfast-burrito",
               "nutrition": {
-                "kcal": 755.0,
+                "kcal": 749.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -11700,7 +11700,7 @@
               "station_type": "main",
               "dish_key": "ucsd:soyrizo-potato-breakfast-burrito",
               "nutrition": {
-                "kcal": 755.0,
+                "kcal": 749.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -15317,7 +15317,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-breakfast-burrito",
               "nutrition": {
-                "kcal": 875.0,
+                "kcal": 865.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -15604,83 +15604,6 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1630:812108"
-            },
-            {
-              "name": "Egg & Cheese Muffin Sandwich",
-              "station": "Fusion Grill",
-              "station_type": "main",
-              "dish_key": "ucsd:egg-cheese-muffin-sandwich",
-              "nutrition": {
-                "kcal": 284.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "123:170174"
-            },
-            {
-              "name": "Sausage, Cheese, & Egg Muffin Sandwich",
-              "station": "Fusion Grill",
-              "station_type": "main",
-              "dish_key": "ucsd:sausage-cheese-egg-muffin-sandwich",
-              "nutrition": {
-                "kcal": 373.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "124:170175"
             },
             {
               "name": "Veggie Sausage Breakfast Sandwich",
@@ -18682,7 +18605,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plate-loaded-vegan-fries",
               "nutrition": {
-                "kcal": 810.0,
+                "kcal": 808.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -22302,7 +22225,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plate-loaded-vegan-fries",
               "nutrition": {
-                "kcal": 810.0,
+                "kcal": 808.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30903,7 +30826,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-mozzarella",
               "nutrition": {
-                "kcal": 81.0,
+                "kcal": 85.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35130,7 +35053,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-mozzarella",
               "nutrition": {
-                "kcal": 81.0,
+                "kcal": 85.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,

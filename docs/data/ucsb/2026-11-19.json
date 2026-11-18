@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T04:23:46+00:00",
+  "scraped_at": "2026-11-18T21:32:35+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -378,39 +378,6 @@
               "station": "Deli",
               "station_type": "bar",
               "dish_key": "ucsb:sliced-provolone-cheese",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Sliced Smoked Mozzarella",
-              "station": "Deli",
-              "station_type": "bar",
-              "dish_key": "ucsb:sliced-smoked-mozzarella",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,

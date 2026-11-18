@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T04:26:13+00:00",
+  "scraped_at": "2026-11-18T21:35:00+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -294,7 +294,7 @@
               "station_type": "main",
               "dish_key": "ucsd:soyrizo-potato-breakfast-burrito",
               "nutrition": {
-                "kcal": 755.0,
+                "kcal": 749.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -7576,8 +7576,12 @@
                 "wheat",
                 "gluten"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": "2397:216001"
             },
@@ -7611,9 +7615,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7090:216000"
@@ -7624,7 +7631,7 @@
               "station_type": "main",
               "dish_key": "ucsd:fall-turkey-plate",
               "nutrition": {
-                "kcal": 761.0,
+                "kcal": 853.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -7712,9 +7719,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7088:252003"
@@ -7725,7 +7735,7 @@
               "station_type": "main",
               "dish_key": "ucsd:green-beans-with-shallots",
               "nutrition": {
-                "kcal": 17.0,
+                "kcal": 51.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -7743,9 +7753,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7087:100702"
@@ -7780,9 +7793,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7089:242004"
@@ -7793,7 +7809,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mashed-potatoes",
               "nutrition": {
-                "kcal": 180.0,
+                "kcal": 240.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -7813,9 +7829,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7086:271003"
@@ -10551,7 +10570,7 @@
               "station_type": "main",
               "dish_key": "ucsd:soyrizo-potato-breakfast-burrito",
               "nutrition": {
-                "kcal": 755.0,
+                "kcal": 749.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -14168,7 +14187,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-breakfast-burrito",
               "nutrition": {
-                "kcal": 875.0,
+                "kcal": 865.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -17538,7 +17557,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plate-loaded-vegan-fries",
               "nutrition": {
-                "kcal": 810.0,
+                "kcal": 808.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20419,7 +20438,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plate-loaded-vegan-fries",
               "nutrition": {
-                "kcal": 810.0,
+                "kcal": 808.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20965,8 +20984,12 @@
                 "wheat",
                 "gluten"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": "2397:216001"
             },
@@ -21000,9 +21023,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7090:216000"
@@ -21031,9 +21057,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7088:252003"
@@ -21044,7 +21073,7 @@
               "station_type": "main",
               "dish_key": "ucsd:green-beans-with-shallots",
               "nutrition": {
-                "kcal": 17.0,
+                "kcal": 51.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -21062,9 +21091,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7087:100702"
@@ -21099,9 +21131,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7089:242004"
@@ -21112,7 +21147,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mashed-potatoes",
               "nutrition": {
-                "kcal": 180.0,
+                "kcal": 240.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -21132,9 +21167,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7086:271003"
@@ -21199,9 +21237,12 @@
                 "gluten",
                 "sesame"
               ],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7224:241116"
@@ -28849,7 +28890,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-mozzarella",
               "nutrition": {
-                "kcal": 81.0,
+                "kcal": 85.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31693,8 +31734,12 @@
                 "wheat",
                 "gluten"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": "2397:216001"
             },
@@ -31728,9 +31773,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7090:216000"
@@ -31741,7 +31789,7 @@
               "station_type": "main",
               "dish_key": "ucsd:fall-turkey-plate",
               "nutrition": {
-                "kcal": 761.0,
+                "kcal": 853.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31829,9 +31877,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7088:252003"
@@ -31842,7 +31893,7 @@
               "station_type": "main",
               "dish_key": "ucsd:green-beans-with-shallots",
               "nutrition": {
-                "kcal": 17.0,
+                "kcal": 51.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31860,9 +31911,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7087:100702"
@@ -31897,9 +31951,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7089:242004"
@@ -31910,7 +31967,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mashed-potatoes",
               "nutrition": {
-                "kcal": 180.0,
+                "kcal": 240.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31930,9 +31987,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7086:271003"
@@ -32239,7 +32299,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-mozzarella",
               "nutrition": {
-                "kcal": 81.0,
+                "kcal": 85.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -38948,8 +39008,12 @@
                 "wheat",
                 "gluten"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": "2397:216001"
             },
@@ -38983,9 +39047,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7090:216000"
@@ -38996,7 +39063,7 @@
               "station_type": "main",
               "dish_key": "ucsd:fall-turkey-plate",
               "nutrition": {
-                "kcal": 761.0,
+                "kcal": 853.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -39084,9 +39151,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7088:252003"
@@ -39097,7 +39167,7 @@
               "station_type": "main",
               "dish_key": "ucsd:green-beans-with-shallots",
               "nutrition": {
-                "kcal": 17.0,
+                "kcal": 51.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -39115,9 +39185,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7087:100702"
@@ -39152,9 +39225,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7089:242004"
@@ -39165,7 +39241,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mashed-potatoes",
               "nutrition": {
-                "kcal": 180.0,
+                "kcal": 240.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -39185,9 +39261,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7086:271003"
@@ -49073,8 +49152,12 @@
                 "wheat",
                 "gluten"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": "2397:216001"
             },
@@ -49108,9 +49191,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7090:216000"
@@ -49121,7 +49207,7 @@
               "station_type": "main",
               "dish_key": "ucsd:fall-turkey-plate",
               "nutrition": {
-                "kcal": 761.0,
+                "kcal": 853.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -49209,9 +49295,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7088:252003"
@@ -49222,7 +49311,7 @@
               "station_type": "main",
               "dish_key": "ucsd:green-beans-with-shallots",
               "nutrition": {
-                "kcal": 17.0,
+                "kcal": 51.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -49240,9 +49329,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7087:100702"
@@ -49277,9 +49369,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7089:242004"
@@ -49290,7 +49385,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mashed-potatoes",
               "nutrition": {
-                "kcal": 180.0,
+                "kcal": 240.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -49310,9 +49405,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7086:271003"
@@ -53698,8 +53796,12 @@
                 "wheat",
                 "gluten"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": "2397:216001"
             },
@@ -53733,9 +53835,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7090:216000"
@@ -53746,7 +53851,7 @@
               "station_type": "main",
               "dish_key": "ucsd:fall-turkey-plate",
               "nutrition": {
-                "kcal": 761.0,
+                "kcal": 853.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -53834,9 +53939,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7088:252003"
@@ -53847,7 +53955,7 @@
               "station_type": "main",
               "dish_key": "ucsd:green-beans-with-shallots",
               "nutrition": {
-                "kcal": 17.0,
+                "kcal": 51.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -53865,9 +53973,12 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
+              "diets": [
+                "vegan"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": "7087:100702"
@@ -53902,9 +54013,12 @@
                 "egg",
                 "gluten"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7089:242004"
@@ -53915,7 +54029,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mashed-potatoes",
               "nutrition": {
-                "kcal": 180.0,
+                "kcal": 240.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -53935,9 +54049,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "7086:271003"
