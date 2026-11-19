@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-19T04:15:39+00:00",
+  "scraped_at": "2026-11-19T21:42:50+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -6282,10 +6282,10 @@
               "source_id": ""
             },
             {
-              "name": "Baked Oatmeal with Peach & Blueberry",
+              "name": "Peanut Butter & Banana Oats",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:baked-oatmeal-with-peach-blueberry",
+              "dish_key": "ucsb:peanut-butter-banana-oats",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8300,10 +8300,10 @@
               "source_id": ""
             },
             {
-              "name": "Braised Lamb Ragu",
+              "name": "Carne Asada Tacos",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:braised-lamb-ragu",
+              "dish_key": "ucsb:carne-asada-tacos",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8329,10 +8329,10 @@
               "source_id": ""
             },
             {
-              "name": "Creamy Polenta w/Parmesan Cheese",
+              "name": "Mexican Rice",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:creamy-polenta-w-parmesan-cheese",
+              "dish_key": "ucsb:mexican-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8353,10 +8353,10 @@
               },
               "allergens": [],
               "diets": [
-                "vegetarian"
+                "vegan"
               ],
               "tags": [
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -8390,39 +8390,6 @@
               ],
               "tags": [
                 "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Honey Sriracha Glaze Brussel Sprouts",
-              "station": "Chef's Choice",
-              "station_type": "main",
-              "dish_key": "ucsb:honey-sriracha-glaze-brussel-sprouts",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""

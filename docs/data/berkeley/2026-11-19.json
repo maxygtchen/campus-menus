@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-19T04:12:20+00:00",
+  "scraped_at": "2026-11-19T21:39:28+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2774,27 +2774,27 @@
               "source_id": "999"
             },
             {
-              "name": "Kosher Chipotle Turkey Breast",
+              "name": "Kosher Chicken Fajita",
               "station": "Kosher Station",
               "station_type": "main",
-              "dish_key": "berkeley:kosher-chipotle-turkey-breast",
+              "dish_key": "berkeley:kosher-chicken-fajita",
               "nutrition": {
-                "kcal": 163.6,
-                "protein_g": 24.1,
-                "carbs_g": 0.6,
-                "fat_g": 6.4,
-                "fiber_g": 0.2,
-                "sugar_g": 0.1,
-                "sodium_mg": 687.0,
+                "kcal": 171.6,
+                "protein_g": 22.3,
+                "carbs_g": 2.6,
+                "fat_g": 8.1,
+                "fiber_g": 0.7,
+                "sugar_g": 1.3,
+                "sodium_mg": 244.0,
                 "serving": "4 oz",
-                "sat_fat_g": 1.4,
-                "cholesterol_mg": 45.7,
-                "calcium_mg": 9.8,
-                "iron_mg": 0.7,
-                "potassium_mg": 270.0,
-                "vitamin_c_mg": 0.0,
+                "sat_fat_g": 2.4,
+                "cholesterol_mg": 110.7,
+                "calcium_mg": 14.5,
+                "iron_mg": 1.0,
+                "potassium_mg": 308.8,
+                "vitamin_c_mg": 23.2,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 19.1
               },
               "allergens": [],
               "diets": [
@@ -2804,28 +2804,28 @@
                 "high_protein",
                 "lighter"
               ],
-              "carbon_kg": 0.5,
-              "source_id": "1622"
+              "carbon_kg": 0.4,
+              "source_id": "1616"
             },
             {
-              "name": "Roasted Potatoes",
+              "name": "Steamed Potato",
               "station": "Kosher Station",
               "station_type": "main",
-              "dish_key": "berkeley:roasted-potatoes",
+              "dish_key": "berkeley:steamed-potato",
               "nutrition": {
-                "kcal": 125.3,
+                "kcal": 80.0,
                 "protein_g": 2.1,
-                "carbs_g": 18.1,
-                "fat_g": 5.1,
+                "carbs_g": 18.0,
+                "fat_g": 0.2,
                 "fiber_g": 1.9,
                 "sugar_g": 1.5,
-                "sodium_mg": 143.4,
-                "serving": "4.19 oz",
-                "sat_fat_g": 0.6,
+                "sodium_mg": 20.4,
+                "serving": "4 oz",
+                "sat_fat_g": 0.1,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 11.5,
+                "calcium_mg": 11.3,
                 "iron_mg": 0.8,
-                "potassium_mg": 516.8,
+                "potassium_mg": 516.0,
                 "vitamin_c_mg": 9.8,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
@@ -2839,7 +2839,7 @@
                 "vegan"
               ],
               "carbon_kg": 0.0,
-              "source_id": "1125"
+              "source_id": "310"
             },
             {
               "name": "Sauteed Carrots Squash and Red Pepper",
@@ -9744,42 +9744,6 @@
               "source_id": "1111"
             },
             {
-              "name": "Baked Tandoori Tofu",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:baked-tandoori-tofu",
-              "nutrition": {
-                "kcal": 182.9,
-                "protein_g": 18.2,
-                "carbs_g": 9.1,
-                "fat_g": 8.3,
-                "fiber_g": 3.0,
-                "sugar_g": 0.1,
-                "sodium_mg": 197.6,
-                "serving": "4 oz",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 262.8,
-                "iron_mg": 0.2,
-                "potassium_mg": 206.1,
-                "vitamin_c_mg": 1.4,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "soy"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.2,
-              "source_id": "1186"
-            },
-            {
               "name": "Turmeric Basmati Rice with Caramelized Onion",
               "station": "Center Plate",
               "station_type": "main",
@@ -9883,6 +9847,76 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "524"
+            },
+            {
+              "name": "Palak Paneer",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:palak-paneer",
+              "nutrition": {
+                "kcal": 85.8,
+                "protein_g": 4.9,
+                "carbs_g": 5.6,
+                "fat_g": 5.5,
+                "fiber_g": 1.9,
+                "sugar_g": 0.0,
+                "sodium_mg": 323.2,
+                "serving": "3 oz",
+                "sat_fat_g": 2.1,
+                "cholesterol_mg": 9.1,
+                "calcium_mg": 123.7,
+                "iron_mg": 1.2,
+                "potassium_mg": 230.2,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "749"
+            },
+            {
+              "name": "Aloo Chole",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:aloo-chole",
+              "nutrition": {
+                "kcal": 85.1,
+                "protein_g": 3.6,
+                "carbs_g": 12.2,
+                "fat_g": 3.0,
+                "fiber_g": 3.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 267.2,
+                "serving": "3.05 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 30.5,
+                "iron_mg": 1.4,
+                "potassium_mg": 207.8,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "535"
             },
             {
               "name": "Fried Samosa",
@@ -16449,6 +16483,45 @@
               "source_id": "1444"
             },
             {
+              "name": "Vegetable Potstickers",
+              "station": "Lemongrass",
+              "station_type": "main",
+              "dish_key": "berkeley:vegetable-potstickers",
+              "nutrition": {
+                "kcal": 94.7,
+                "protein_g": 2.8,
+                "carbs_g": 13.7,
+                "fat_g": 3.3,
+                "fiber_g": 0.9,
+                "sugar_g": 0.0,
+                "sodium_mg": 297.7,
+                "serving": "2 oz",
+                "sat_fat_g": 1.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 33.1,
+                "iron_mg": 0.6,
+                "potassium_mg": 118.1,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "659"
+            },
+            {
               "name": "Farfalle Pasta",
               "station": "Pasta",
               "station_type": "main",
@@ -16587,43 +16660,41 @@
               "source_id": "550"
             },
             {
-              "name": "Breadsticks",
+              "name": "Assorted Dinner Rolls",
               "station": "Pasta",
               "station_type": "main",
-              "dish_key": "berkeley:breadsticks",
+              "dish_key": "berkeley:assorted-dinner-rolls",
               "nutrition": {
-                "kcal": 104.2,
-                "protein_g": 3.0,
-                "carbs_g": 20.8,
-                "fat_g": 2.0,
-                "fiber_g": 1.0,
-                "sugar_g": 2.6,
-                "sodium_mg": 207.7,
-                "serving": "1.5 oz",
-                "sat_fat_g": 0.5,
+                "kcal": 107.8,
+                "protein_g": 3.4,
+                "carbs_g": 20.4,
+                "fat_g": 1.1,
+                "fiber_g": 1.1,
+                "sugar_g": 0.0,
+                "sodium_mg": 249.5,
+                "serving": "1.2 oz",
+                "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 0.0,
-                "iron_mg": 1.7,
-                "potassium_mg": 44.5,
+                "calcium_mg": 11.3,
+                "iron_mg": 1.4,
+                "potassium_mg": 39.7,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
               "allergens": [
-                "milk",
                 "wheat",
-                "soy",
                 "gluten"
               ],
               "diets": [
-                "vegetarian"
+                "vegan"
               ],
               "tags": [
                 "lighter",
-                "vegetarian"
+                "vegan"
               ],
-              "carbon_kg": 0.1,
-              "source_id": "417"
+              "carbon_kg": 0.0,
+              "source_id": "1861"
             },
             {
               "name": "Halal Broccoli Beef",
@@ -16793,45 +16864,6 @@
               ],
               "carbon_kg": 0.1,
               "source_id": "707"
-            },
-            {
-              "name": "Garlic Breadsticks",
-              "station": "Allergen Friendly",
-              "station_type": "main",
-              "dish_key": "berkeley:garlic-breadsticks",
-              "nutrition": {
-                "kcal": 119.3,
-                "protein_g": 3.0,
-                "carbs_g": 20.8,
-                "fat_g": 3.6,
-                "fiber_g": 1.0,
-                "sugar_g": 2.6,
-                "sodium_mg": 355.7,
-                "serving": "1.58 oz",
-                "sat_fat_g": 0.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 0.0,
-                "iron_mg": 1.7,
-                "potassium_mg": 44.6,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk",
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "418"
             },
             {
               "name": "Chicken Tikka Masala Soup",
@@ -22591,24 +22623,24 @@
               "source_id": "513"
             },
             {
-              "name": "Bean Chili",
+              "name": "Cauliflower Masala Soup",
               "station": "Soup",
               "station_type": "side",
-              "dish_key": "berkeley:bean-chili",
+              "dish_key": "berkeley:cauliflower-masala-soup",
               "nutrition": {
-                "kcal": 296.4,
-                "protein_g": 12.0,
-                "carbs_g": 42.6,
+                "kcal": 161.7,
+                "protein_g": 3.2,
+                "carbs_g": 23.7,
                 "fat_g": 6.5,
-                "fiber_g": 11.1,
-                "sugar_g": 6.5,
-                "sodium_mg": 592.4,
-                "serving": "8 oz",
-                "sat_fat_g": 0.0,
+                "fiber_g": 4.3,
+                "sugar_g": 0.0,
+                "sodium_mg": 669.0,
+                "serving": "8.64 oz",
+                "sat_fat_g": 5.4,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 111.1,
-                "iron_mg": 2.8,
-                "potassium_mg": 712.8,
+                "calcium_mg": 47.5,
+                "iron_mg": 1.1,
+                "potassium_mg": 561.1,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
@@ -22620,8 +22652,8 @@
               "tags": [
                 "vegan"
               ],
-              "carbon_kg": 0.2,
-              "source_id": "516"
+              "carbon_kg": 0.0,
+              "source_id": "1826"
             },
             {
               "name": "Halal Jerk Baked Chicken Thigh",
@@ -22941,115 +22973,6 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "643"
-            },
-            {
-              "name": "Fettucini Alfredo Pasta",
-              "station": "Fire & Flour",
-              "station_type": "main",
-              "dish_key": "berkeley:fettucini-alfredo-pasta",
-              "nutrition": {
-                "kcal": 259.6,
-                "protein_g": 7.9,
-                "carbs_g": 33.5,
-                "fat_g": 10.6,
-                "fiber_g": 1.5,
-                "sugar_g": 1.5,
-                "sodium_mg": 676.7,
-                "serving": "4.7 oz",
-                "sat_fat_g": 3.7,
-                "cholesterol_mg": 15.2,
-                "calcium_mg": 92.1,
-                "iron_mg": 1.4,
-                "potassium_mg": 37.8,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": 0.3,
-              "source_id": "768"
-            },
-            {
-              "name": "Kale Pesto Fettuccine",
-              "station": "Fire & Flour",
-              "station_type": "main",
-              "dish_key": "berkeley:kale-pesto-fettuccine",
-              "nutrition": {
-                "kcal": 414.3,
-                "protein_g": 9.9,
-                "carbs_g": 37.7,
-                "fat_g": 25.3,
-                "fiber_g": 3.5,
-                "sugar_g": 2.1,
-                "sodium_mg": 1169.9,
-                "serving": "5.92 oz",
-                "sat_fat_g": 3.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 43.1,
-                "iron_mg": 2.7,
-                "potassium_mg": 142.9,
-                "vitamin_c_mg": 14.2,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 57.3
-              },
-              "allergens": [
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "767"
-            },
-            {
-              "name": "Steamed Broccoli",
-              "station": "Fire & Flour",
-              "station_type": "main",
-              "dish_key": "berkeley:steamed-broccoli",
-              "nutrition": {
-                "kcal": 30.7,
-                "protein_g": 3.2,
-                "carbs_g": 5.5,
-                "fat_g": 0.4,
-                "fiber_g": 2.5,
-                "sugar_g": 1.6,
-                "sodium_mg": 29.4,
-                "serving": "3.84 oz",
-                "sat_fat_g": 0.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 52.2,
-                "iron_mg": 1.0,
-                "potassium_mg": 353.8,
-                "vitamin_c_mg": 101.5,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "467"
             },
             {
               "name": "Herb Grilled Chicken Breast",

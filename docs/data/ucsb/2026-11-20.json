@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-19T04:15:56+00:00",
+  "scraped_at": "2026-11-19T21:43:07+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -8618,10 +8618,10 @@
               "source_id": ""
             },
             {
-              "name": "Fresh Vegetable Medley",
+              "name": "Honey Sriracha Glaze Brussel Sprouts",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:fresh-vegetable-medley",
+              "dish_key": "ucsb:honey-sriracha-glaze-brussel-sprouts",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8642,10 +8642,10 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""

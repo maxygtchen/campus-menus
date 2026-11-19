@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-19T04:18:22+00:00",
+  "scraped_at": "2026-11-19T21:45:29+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -331,7 +331,7 @@
               "station_type": "main",
               "dish_key": "ucsd:apple-cinnamon-pecan-pancakes",
               "nutrition": {
-                "kcal": 620.0,
+                "kcal": 621.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -749,7 +749,7 @@
               "station_type": "main",
               "dish_key": "ucsd:banana-pancakes",
               "nutrition": {
-                "kcal": 502.0,
+                "kcal": 505.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -1288,7 +1288,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chocolate-peach-waffle",
               "nutrition": {
-                "kcal": 755.0,
+                "kcal": 758.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -1326,7 +1326,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spam-fried-rice-with-egg",
               "nutrition": {
-                "kcal": 556.0,
+                "kcal": 558.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -1358,7 +1358,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vegan-bulgogi-fried-rice",
               "nutrition": {
-                "kcal": 613.0,
+                "kcal": 615.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -5754,7 +5754,7 @@
               "station_type": "main",
               "dish_key": "ucsd:moon-god-roll",
               "nutrition": {
-                "kcal": 602.0,
+                "kcal": 603.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -5829,7 +5829,7 @@
               "station_type": "main",
               "dish_key": "ucsd:umi-roll",
               "nutrition": {
-                "kcal": 706.0,
+                "kcal": 707.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -6322,7 +6322,7 @@
               "station_type": "main",
               "dish_key": "ucsd:dragon-sauce",
               "nutrition": {
-                "kcal": 36.0,
+                "kcal": 38.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -10349,7 +10349,7 @@
               "station_type": "main",
               "dish_key": "ucsd:moon-god-roll",
               "nutrition": {
-                "kcal": 602.0,
+                "kcal": 603.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -10424,7 +10424,7 @@
               "station_type": "main",
               "dish_key": "ucsd:umi-roll",
               "nutrition": {
-                "kcal": 706.0,
+                "kcal": 707.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -10916,7 +10916,7 @@
               "station_type": "main",
               "dish_key": "ucsd:dragon-sauce",
               "nutrition": {
-                "kcal": 36.0,
+                "kcal": 38.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -11592,7 +11592,7 @@
               "station_type": "main",
               "dish_key": "ucsd:tofu-udon-stir-fry-bowl",
               "nutrition": {
-                "kcal": 779.0,
+                "kcal": 780.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -11736,7 +11736,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-fried-rice",
               "nutrition": {
-                "kcal": 795.0,
+                "kcal": 799.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -11805,7 +11805,7 @@
               "station_type": "main",
               "dish_key": "ucsd:shrimp-fried-rice",
               "nutrition": {
-                "kcal": 686.0,
+                "kcal": 690.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -11875,7 +11875,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mt-fuji-salad-with-salmon",
               "nutrition": {
-                "kcal": 607.0,
+                "kcal": 609.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -12753,7 +12753,7 @@
               "station_type": "main",
               "dish_key": "ucsd:tofu-udon-stir-fry-bowl",
               "nutrition": {
-                "kcal": 779.0,
+                "kcal": 780.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -12897,7 +12897,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-fried-rice",
               "nutrition": {
-                "kcal": 795.0,
+                "kcal": 799.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -12966,7 +12966,7 @@
               "station_type": "main",
               "dish_key": "ucsd:shrimp-fried-rice",
               "nutrition": {
-                "kcal": 686.0,
+                "kcal": 690.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -13036,7 +13036,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mt-fuji-salad-with-salmon",
               "nutrition": {
-                "kcal": 607.0,
+                "kcal": 609.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -13870,37 +13870,6 @@
               "source_id": "2026:660294"
             },
             {
-              "name": "Apple, Wedge",
-              "station": "Fresh",
-              "station_type": "main",
-              "dish_key": "ucsd:apple-wedge",
-              "nutrition": {
-                "kcal": 10.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "2151:811368"
-            },
-            {
               "name": "Mango Chunks",
               "station": "Fresh",
               "station_type": "main",
@@ -13961,6 +13930,37 @@
               ],
               "carbon_kg": null,
               "source_id": "2162:231002"
+            },
+            {
+              "name": "Sliced Apples",
+              "station": "Fresh",
+              "station_type": "main",
+              "dish_key": "ucsd:sliced-apples",
+              "nutrition": {
+                "kcal": 10.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "2151:811368"
             },
             {
               "name": "Sliced Bananas",
@@ -14831,83 +14831,6 @@
               "source_id": "1630:812108"
             },
             {
-              "name": "Egg & Cheese Muffin Sandwich",
-              "station": "Fusion Grill",
-              "station_type": "main",
-              "dish_key": "ucsd:egg-cheese-muffin-sandwich",
-              "nutrition": {
-                "kcal": 284.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "123:170174"
-            },
-            {
-              "name": "Sausage, Cheese, & Egg Muffin Sandwich",
-              "station": "Fusion Grill",
-              "station_type": "main",
-              "dish_key": "ucsd:sausage-cheese-egg-muffin-sandwich",
-              "nutrition": {
-                "kcal": 373.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "124:170175"
-            },
-            {
               "name": "Veggie Sausage Breakfast Sandwich",
               "station": "Fusion Grill",
               "station_type": "main",
@@ -14949,7 +14872,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chile-garlic-beef-fried-rice",
               "nutrition": {
-                "kcal": 730.0,
+                "kcal": 732.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -15958,7 +15881,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-chili-dragon-sauce",
               "nutrition": {
-                "kcal": 38.0,
+                "kcal": 40.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -16706,7 +16629,7 @@
               "station_type": "main",
               "dish_key": "ucsd:byo-poke-bowl",
               "nutrition": {
-                "kcal": 872.0,
+                "kcal": 876.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -17088,7 +17011,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-sauce",
               "nutrition": {
-                "kcal": 45.0,
+                "kcal": 47.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -17441,7 +17364,7 @@
               "station_type": "main",
               "dish_key": "ucsd:korean-bbq-smash-burger",
               "nutrition": {
-                "kcal": 828.0,
+                "kcal": 833.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -18538,7 +18461,7 @@
               "station_type": "main",
               "dish_key": "ucsd:bowl-bulgogi-vegan-halal",
               "nutrition": {
-                "kcal": 600.0,
+                "kcal": 602.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -18642,7 +18565,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-chili-dragon-sauce",
               "nutrition": {
-                "kcal": 38.0,
+                "kcal": 40.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -19582,7 +19505,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-chili-dragon-sauce",
               "nutrition": {
-                "kcal": 38.0,
+                "kcal": 40.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20330,7 +20253,7 @@
               "station_type": "main",
               "dish_key": "ucsd:byo-poke-bowl",
               "nutrition": {
-                "kcal": 872.0,
+                "kcal": 876.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20712,7 +20635,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-sauce",
               "nutrition": {
-                "kcal": 45.0,
+                "kcal": 47.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -21065,7 +20988,7 @@
               "station_type": "main",
               "dish_key": "ucsd:korean-bbq-smash-burger",
               "nutrition": {
-                "kcal": 828.0,
+                "kcal": 833.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -22162,7 +22085,7 @@
               "station_type": "main",
               "dish_key": "ucsd:bowl-bulgogi-vegan-halal",
               "nutrition": {
-                "kcal": 600.0,
+                "kcal": 602.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -22266,7 +22189,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-chili-dragon-sauce",
               "nutrition": {
-                "kcal": 38.0,
+                "kcal": 40.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -23296,7 +23219,7 @@
               "station_type": "main",
               "dish_key": "ucsd:maple-chipotle-cream-cheese",
               "nutrition": {
-                "kcal": 141.0,
+                "kcal": 143.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -23738,7 +23661,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-tuna-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 247.0,
+                "kcal": 251.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -23773,7 +23696,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-tuna-poke-rice-bowl",
               "nutrition": {
-                "kcal": 483.0,
+                "kcal": 487.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -25194,7 +25117,7 @@
               "station_type": "main",
               "dish_key": "ucsd:carrot-cake-overnight-oats",
               "nutrition": {
-                "kcal": 292.0,
+                "kcal": 293.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -25230,7 +25153,7 @@
               "station_type": "main",
               "dish_key": "ucsd:maple-chipotle-cream-cheese",
               "nutrition": {
-                "kcal": 141.0,
+                "kcal": 143.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -25353,7 +25276,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:lava-tofu-poke-rice-bowl",
               "nutrition": {
-                "kcal": 554.0,
+                "kcal": 558.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -25423,7 +25346,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:spicy-tuna-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 247.0,
+                "kcal": 251.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -25456,7 +25379,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:spicy-tuna-poke-rice-bowl",
               "nutrition": {
-                "kcal": 483.0,
+                "kcal": 487.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -25558,7 +25481,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:lava-tofu-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 343.0,
+                "kcal": 347.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -26180,7 +26103,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:lava-tofu-poke-rice-bowl",
               "nutrition": {
-                "kcal": 554.0,
+                "kcal": 558.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -26250,7 +26173,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:spicy-tuna-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 247.0,
+                "kcal": 251.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -26283,7 +26206,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:spicy-tuna-poke-rice-bowl",
               "nutrition": {
-                "kcal": 483.0,
+                "kcal": 487.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -26385,7 +26308,7 @@
               "station_type": "bar",
               "dish_key": "ucsd:lava-tofu-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 343.0,
+                "kcal": 347.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37780,7 +37703,7 @@
               "station_type": "main",
               "dish_key": "ucsd:cali-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 537.0,
+                "kcal": 539.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37816,7 +37739,7 @@
               "station_type": "main",
               "dish_key": "ucsd:cali-poke-bowl-with-rice",
               "nutrition": {
-                "kcal": 826.0,
+                "kcal": 828.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37852,7 +37775,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 318.0,
+                "kcal": 322.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37890,7 +37813,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-poke-bowl-with-rice",
               "nutrition": {
-                "kcal": 611.0,
+                "kcal": 615.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37999,7 +37922,7 @@
               "station_type": "main",
               "dish_key": "ucsd:makai-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 347.0,
+                "kcal": 351.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -38583,7 +38506,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-sauce",
               "nutrition": {
-                "kcal": 45.0,
+                "kcal": 47.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -38876,7 +38799,7 @@
               "station_type": "main",
               "dish_key": "ucsd:makai-byo-poke-bowl",
               "nutrition": {
-                "kcal": 892.0,
+                "kcal": 896.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -40102,7 +40025,7 @@
               "station_type": "main",
               "dish_key": "ucsd:ancho-lime-smoked-chicken-plate",
               "nutrition": {
-                "kcal": 1395.0,
+                "kcal": 1397.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -40275,7 +40198,7 @@
               "station_type": "main",
               "dish_key": "ucsd:carolina-bbq-sauce",
               "nutrition": {
-                "kcal": 127.0,
+                "kcal": 133.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -42388,7 +42311,7 @@
               "station_type": "main",
               "dish_key": "ucsd:cali-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 537.0,
+                "kcal": 539.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -42424,7 +42347,7 @@
               "station_type": "main",
               "dish_key": "ucsd:cali-poke-bowl-with-rice",
               "nutrition": {
-                "kcal": 826.0,
+                "kcal": 828.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -42460,7 +42383,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 318.0,
+                "kcal": 322.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -42498,7 +42421,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-poke-bowl-with-rice",
               "nutrition": {
-                "kcal": 611.0,
+                "kcal": 615.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -42607,7 +42530,7 @@
               "station_type": "main",
               "dish_key": "ucsd:makai-poke-bowl-with-greens",
               "nutrition": {
-                "kcal": 347.0,
+                "kcal": 351.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -43191,7 +43114,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lava-sauce",
               "nutrition": {
-                "kcal": 45.0,
+                "kcal": 47.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -43484,7 +43407,7 @@
               "station_type": "main",
               "dish_key": "ucsd:makai-byo-poke-bowl",
               "nutrition": {
-                "kcal": 892.0,
+                "kcal": 896.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -44710,7 +44633,7 @@
               "station_type": "main",
               "dish_key": "ucsd:ancho-lime-smoked-chicken-plate",
               "nutrition": {
-                "kcal": 1395.0,
+                "kcal": 1397.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -44883,7 +44806,7 @@
               "station_type": "main",
               "dish_key": "ucsd:carolina-bbq-sauce",
               "nutrition": {
-                "kcal": 127.0,
+                "kcal": 133.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -46394,7 +46317,7 @@
               "station_type": "main",
               "dish_key": "ucsd:apple-turnover-hand-pie",
               "nutrition": {
-                "kcal": 542.0,
+                "kcal": 546.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -46538,7 +46461,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jerk-bbq-sauce",
               "nutrition": {
-                "kcal": 29.0,
+                "kcal": 30.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -47601,7 +47524,7 @@
               "station_type": "main",
               "dish_key": "ucsd:fried-chicken-breakfast-burrito",
               "nutrition": {
-                "kcal": 986.0,
+                "kcal": 987.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -47644,7 +47567,7 @@
               "station_type": "main",
               "dish_key": "ucsd:apple-turnover-hand-pie",
               "nutrition": {
-                "kcal": 542.0,
+                "kcal": 546.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -47931,7 +47854,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jerk-bbq-sauce",
               "nutrition": {
-                "kcal": 29.0,
+                "kcal": 30.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -48728,7 +48651,7 @@
               "station_type": "main",
               "dish_key": "ucsd:bama-crispy-chicken-sandwich",
               "nutrition": {
-                "kcal": 937.0,
+                "kcal": 938.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -48798,7 +48721,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pulled-pork-sandwich",
               "nutrition": {
-                "kcal": 917.0,
+                "kcal": 918.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -49901,7 +49824,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jerk-chicken-pasta",
               "nutrition": {
-                "kcal": 689.0,
+                "kcal": 690.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -50206,7 +50129,7 @@
               "station_type": "main",
               "dish_key": "ucsd:apple-turnover-hand-pie",
               "nutrition": {
-                "kcal": 542.0,
+                "kcal": 546.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -50493,7 +50416,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jerk-bbq-sauce",
               "nutrition": {
-                "kcal": 29.0,
+                "kcal": 30.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -51226,7 +51149,7 @@
               "station_type": "main",
               "dish_key": "ucsd:buffalo-fried-chicken-plate",
               "nutrition": {
-                "kcal": 2117.0,
+                "kcal": 2118.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -51324,7 +51247,7 @@
               "station_type": "main",
               "dish_key": "ucsd:bama-crispy-chicken-sandwich",
               "nutrition": {
-                "kcal": 937.0,
+                "kcal": 938.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -51394,7 +51317,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pulled-pork-sandwich",
               "nutrition": {
-                "kcal": 917.0,
+                "kcal": 918.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -52531,7 +52454,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jerk-chicken-pasta",
               "nutrition": {
-                "kcal": 689.0,
+                "kcal": 690.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,

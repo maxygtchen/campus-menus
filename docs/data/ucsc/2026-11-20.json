@@ -1,7 +1,7 @@
 {
   "school": "ucsc",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-19T04:17:43+00:00",
+  "scraped_at": "2026-11-19T21:44:49+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -545,35 +545,6 @@
               "source_id": ""
             },
             {
-              "name": "Breaded Pork Chops",
-              "station": "Entrees",
-              "station_type": "main",
-              "dish_key": "ucsc:breaded-pork-chops",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Quinoa with Butternut Squash and Kale",
               "station": "Entrees",
               "station_type": "main",
@@ -607,6 +578,35 @@
               "station": "Entrees",
               "station_type": "main",
               "dish_key": "ucsc:sauteed-seasonal-vegetables",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Spice Crusted Pork Loin",
+              "station": "Entrees",
+              "station_type": "main",
+              "dish_key": "ucsc:spice-crusted-pork-loin",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3077,6 +3077,35 @@
               "source_id": ""
             },
             {
+              "name": "Beef Steak Picado",
+              "station": "Entrees",
+              "station_type": "main",
+              "dish_key": "ucsc:beef-steak-picado",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
               "name": "Charro Beans",
               "station": "Entrees",
               "station_type": "main",
@@ -3164,10 +3193,10 @@
               "source_id": ""
             },
             {
-              "name": "Tamari Chili Sirloin Flap Steak",
+              "name": "Tofu Diablo",
               "station": "Entrees",
               "station_type": "main",
-              "dish_key": "ucsc:tamari-chili-sirloin-flap-steak",
+              "dish_key": "ucsc:tofu-diablo",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3193,10 +3222,10 @@
               "source_id": ""
             },
             {
-              "name": "Tofu Diablo",
-              "station": "Entrees",
+              "name": "Halal Blended Beef Patty",
+              "station": "Grill",
               "station_type": "main",
-              "dish_key": "ucsc:tofu-diablo",
+              "dish_key": "ucsc:halal-blended-beef-patty",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3284,35 +3313,6 @@
               "station": "Grill",
               "station_type": "main",
               "dish_key": "ucsc:sweet-potato-fries",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Turkey Burger",
-              "station": "Grill",
-              "station_type": "main",
-              "dish_key": "ucsc:turkey-burger",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6464,35 +6464,6 @@
               "source_id": ""
             },
             {
-              "name": "Natural Bridges Tofu Scramble",
-              "station": "Breakfast",
-              "station_type": "main",
-              "dish_key": "ucsc:natural-bridges-tofu-scramble",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Organic Gluten-Free Oatmeal",
               "station": "Breakfast",
               "station_type": "main",
@@ -6555,6 +6526,35 @@
               "station": "Breakfast",
               "station_type": "main",
               "dish_key": "ucsc:texas-french-toast",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Thai Tofu Scramble",
+              "station": "Breakfast",
+              "station_type": "main",
+              "dish_key": "ucsc:thai-tofu-scramble",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
