@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-18",
-  "scraped_at": "2026-11-18T21:29:34+00:00",
+  "scraped_at": "2026-11-19T04:12:51+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -8240,6 +8240,131 @@
           "end": "20:30",
           "items": [
             {
+              "name": "Baked Cheese Ravioli",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:baked-cheese-ravioli",
+              "nutrition": {
+                "kcal": 243.3,
+                "protein_g": 11.6,
+                "carbs_g": 21.8,
+                "fat_g": 12.4,
+                "fiber_g": 1.6,
+                "sugar_g": 3.1,
+                "sodium_mg": 376.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 5.7,
+                "cholesterol_mg": 37.0,
+                "calcium_mg": 152.7,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 7.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 33.6
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M39194_1_11799"
+            },
+            {
+              "name": "Southwest Roasted Corn",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:southwest-roasted-corn",
+              "nutrition": {
+                "kcal": 109.1,
+                "protein_g": 3.0,
+                "carbs_g": 20.9,
+                "fat_g": 3.0,
+                "fiber_g": 2.1,
+                "sugar_g": 2.6,
+                "sodium_mg": 52.8,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.4,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 4.6,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 9.9
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M10569_1_28915"
+            },
+            {
+              "name": "Arroz Rojo",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:arroz-rojo",
+              "nutrition": {
+                "kcal": 103.4,
+                "protein_g": 2.5,
+                "carbs_g": 21.8,
+                "fat_g": 1.0,
+                "fiber_g": 1.4,
+                "sugar_g": 0.1,
+                "sodium_mg": 34.4,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 12.3,
+                "iron_mg": 0.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M18432_1_41440"
+            },
+            {
+              "name": "Mojo  Pulled Pork",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:mojo-pulled-pork",
+              "nutrition": {
+                "kcal": 235.1,
+                "protein_g": 26.9,
+                "carbs_g": 3.0,
+                "fat_g": 13.0,
+                "fiber_g": 0.5,
+                "sugar_g": 1.2,
+                "sodium_mg": 609.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 4.4,
+                "cholesterol_mg": 88.5,
+                "calcium_mg": 27.6,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 5.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A3086_1_29546"
+            },
+            {
               "name": "Classic Cheese Pizza",
               "station": "Pizza",
               "station_type": "main",
@@ -8769,100 +8894,6 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "287868_133409_A3034_1_18274"
-            },
-            {
-              "name": "Southwest Roasted Corn",
-              "station": "Main",
-              "station_type": "main",
-              "dish_key": "uci:southwest-roasted-corn",
-              "nutrition": {
-                "kcal": 109.1,
-                "protein_g": 3.0,
-                "carbs_g": 20.9,
-                "fat_g": 3.0,
-                "fiber_g": 2.1,
-                "sugar_g": 2.6,
-                "sodium_mg": 52.8,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.4,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 4.6,
-                "iron_mg": 0.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 6.4,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 9.9
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M10569_1_28915"
-            },
-            {
-              "name": "Arroz Rojo",
-              "station": "Main",
-              "station_type": "main",
-              "dish_key": "uci:arroz-rojo",
-              "nutrition": {
-                "kcal": 103.4,
-                "protein_g": 2.5,
-                "carbs_g": 21.8,
-                "fat_g": 1.0,
-                "fiber_g": 1.4,
-                "sugar_g": 0.1,
-                "sodium_mg": 34.4,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 12.3,
-                "iron_mg": 0.9,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.1,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.3
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M18432_1_41440"
-            },
-            {
-              "name": "Mojo  Pulled Pork",
-              "station": "Main",
-              "station_type": "main",
-              "dish_key": "uci:mojo-pulled-pork",
-              "nutrition": {
-                "kcal": 235.1,
-                "protein_g": 26.9,
-                "carbs_g": 3.0,
-                "fat_g": 13.0,
-                "fiber_g": 0.5,
-                "sugar_g": 1.2,
-                "sodium_mg": 609.9,
-                "serving": "N/A cup",
-                "sat_fat_g": 4.4,
-                "cholesterol_mg": 88.5,
-                "calcium_mg": 27.6,
-                "iron_mg": 2.2,
-                "potassium_mg": null,
-                "vitamin_c_mg": 1.9,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 5.0
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "high_protein",
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "287868_133409_A3086_1_29546"
             },
             {
               "name": "Craveworthy® Chocolate Chip Cookie",

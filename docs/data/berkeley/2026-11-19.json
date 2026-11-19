@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T21:29:03+00:00",
+  "scraped_at": "2026-11-19T04:12:20+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -5877,19 +5877,19 @@
               "station_type": "main",
               "dish_key": "berkeley:pompegranate-glazed-beef-brisket",
               "nutrition": {
-                "kcal": 357.2,
+                "kcal": 361.4,
                 "protein_g": 37.1,
-                "carbs_g": 11.6,
+                "carbs_g": 13.5,
                 "fat_g": 18.0,
                 "fiber_g": 0.3,
-                "sugar_g": 5.0,
-                "sodium_mg": 385.5,
+                "sugar_g": 7.6,
+                "sodium_mg": 385.7,
                 "serving": "5 oz",
                 "sat_fat_g": 6.7,
                 "cholesterol_mg": 121.6,
-                "calcium_mg": 32.1,
+                "calcium_mg": 32.0,
                 "iron_mg": 3.7,
-                "potassium_mg": 718.9,
+                "potassium_mg": 717.6,
                 "vitamin_c_mg": 0.8,
                 "vitamin_d_iu": 0.2,
                 "vitamin_a_iu": 7.3
@@ -6564,7 +6564,7 @@
               ],
               "diets": [
                 "vegetarian",
-                "kosher"
+                "halal"
               ],
               "tags": [
                 "vegetarian"
@@ -13030,7 +13030,7 @@
               ],
               "diets": [
                 "vegetarian",
-                "kosher"
+                "halal"
               ],
               "tags": [
                 "vegetarian"
@@ -19767,7 +19767,7 @@
               ],
               "diets": [
                 "vegetarian",
-                "kosher"
+                "halal"
               ],
               "tags": [
                 "vegetarian"
@@ -21786,7 +21786,7 @@
               ],
               "diets": [
                 "vegetarian",
-                "kosher"
+                "halal"
               ],
               "tags": [
                 "vegetarian"
@@ -23432,7 +23432,7 @@
               ],
               "diets": [
                 "vegetarian",
-                "kosher"
+                "halal"
               ],
               "tags": [
                 "vegetarian"
@@ -23997,7 +23997,7 @@
               ],
               "diets": [
                 "vegetarian",
-                "kosher"
+                "halal"
               ],
               "tags": [
                 "vegetarian"

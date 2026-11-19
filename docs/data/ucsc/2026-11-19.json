@@ -1,7 +1,7 @@
 {
   "school": "ucsc",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T21:34:15+00:00",
+  "scraped_at": "2026-11-19T04:17:21+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -719,10 +719,10 @@
               "source_id": ""
             },
             {
-              "name": "Pepperoni Pizza",
+              "name": "Ham And Pineapple Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsc:pepperoni-pizza",
+              "dish_key": "ucsc:ham-and-pineapple-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -748,10 +748,10 @@
               "source_id": ""
             },
             {
-              "name": "Street Corn Pizza with Bacon",
+              "name": "Pepperoni Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsc:street-corn-pizza-with-bacon",
+              "dish_key": "ucsc:pepperoni-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1539,10 +1539,10 @@
               "source_id": ""
             },
             {
-              "name": "Pepperoni Pizza",
+              "name": "Ham And Pineapple Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsc:pepperoni-pizza",
+              "dish_key": "ucsc:ham-and-pineapple-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1568,10 +1568,10 @@
               "source_id": ""
             },
             {
-              "name": "Street Corn Pizza with Bacon",
+              "name": "Pepperoni Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsc:street-corn-pizza-with-bacon",
+              "dish_key": "ucsc:pepperoni-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2185,10 +2185,10 @@
               "source_id": ""
             },
             {
-              "name": "Pepperoni Pizza",
+              "name": "Ham And Pineapple Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsc:pepperoni-pizza",
+              "dish_key": "ucsc:ham-and-pineapple-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2214,10 +2214,10 @@
               "source_id": ""
             },
             {
-              "name": "Street Corn Pizza with Bacon",
+              "name": "Pepperoni Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsc:street-corn-pizza-with-bacon",
+              "dish_key": "ucsc:pepperoni-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -10905,64 +10905,6 @@
           "end": "23:00",
           "items": [
             {
-              "name": "Beef and Lamb Gyro",
-              "station": "Grill",
-              "station_type": "main",
-              "dish_key": "ucsc:beef-and-lamb-gyro",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Couscous & Tomato Salad",
-              "station": "Grill",
-              "station_type": "main",
-              "dish_key": "ucsc:couscous-tomato-salad",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Cheese Pizza",
               "station": "Pizza",
               "station_type": "main",
@@ -11199,35 +11141,6 @@
               "station": "Hot Bars",
               "station_type": "main",
               "dish_key": "ucsc:kogi-bbq-bowl-bar",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Pickled Red Onions and Peppers",
-              "station": "Hot Bars",
-              "station_type": "main",
-              "dish_key": "ucsc:pickled-red-onions-and-peppers",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,

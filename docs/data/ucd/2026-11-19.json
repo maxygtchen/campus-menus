@@ -1,7 +1,7 @@
 {
   "school": "ucd",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-18T21:29:30+00:00",
+  "scraped_at": "2026-11-19T04:12:46+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1767,19 +1767,19 @@
               "source_id": ""
             },
             {
-              "name": "Tutokanula Kicken & Waffle Stacker",
+              "name": "Green Chile Pozole with Squash",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:tutokanula-kicken-waffle-stacker",
+              "dish_key": "ucd:green-chile-pozole-with-squash",
               "nutrition": {
-                "kcal": 759.2,
-                "protein_g": 20.7,
-                "carbs_g": 108.2,
-                "fat_g": 28.8,
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
                 "fiber_g": null,
-                "sugar_g": 41.1,
+                "sugar_g": null,
                 "sodium_mg": null,
-                "serving": "12.84 oz",
+                "serving": "8.06 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1789,18 +1789,13 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten"
-              ],
+              "allergens": [],
               "diets": [
-                "vegetarian",
+                "vegan",
                 "halal"
               ],
               "tags": [
-                "high_protein",
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -1914,19 +1909,19 @@
               "source_id": ""
             },
             {
-              "name": "Green Chile Pozole with Squash",
+              "name": "Tutokanula Kicken & Waffle Stacker",
               "station": "Blue Zone",
               "station_type": "main",
-              "dish_key": "ucd:green-chile-pozole-with-squash",
+              "dish_key": "ucd:tutokanula-kicken-waffle-stacker",
               "nutrition": {
-                "kcal": 103.8,
-                "protein_g": 3.0,
-                "carbs_g": 18.1,
-                "fat_g": 3.1,
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
                 "fiber_g": null,
-                "sugar_g": 4.3,
+                "sugar_g": null,
                 "sodium_mg": null,
-                "serving": "8.06 oz",
+                "serving": "12.84 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1936,14 +1931,17 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [],
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten"
+              ],
               "diets": [
-                "vegan",
+                "vegetarian",
                 "halal"
               ],
               "tags": [
-                "lighter",
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -2125,120 +2123,6 @@
                 "halal"
               ],
               "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Salad Selections",
-              "station": "Green Zone",
-              "station_type": "main",
-              "dish_key": "ucd:salad-selections",
-              "nutrition": {
-                "kcal": 208.9,
-                "protein_g": 4.0,
-                "carbs_g": 13.0,
-                "fat_g": 16.2,
-                "fiber_g": null,
-                "sugar_g": 5.8,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "soy",
-                "wheat",
-                "gluten",
-                "fish",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Panini Deli Bar",
-              "station": "Green Zone",
-              "station_type": "main",
-              "dish_key": "ucd:panini-deli-bar",
-              "nutrition": {
-                "kcal": 326.3,
-                "protein_g": 21.8,
-                "carbs_g": 11.6,
-                "fat_g": 22.5,
-                "fiber_g": null,
-                "sugar_g": 0.8,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "high_protein",
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Tuna Salad",
-              "station": "Green Zone",
-              "station_type": "main",
-              "dish_key": "ucd:tuna-salad",
-              "nutrition": {
-                "kcal": 264.5,
-                "protein_g": 20.8,
-                "carbs_g": 1.6,
-                "fat_g": 19.7,
-                "fiber_g": null,
-                "sugar_g": 0.9,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "egg",
-                "soy",
-                "fish"
-              ],
-              "diets": [
-                "halal"
-              ],
-              "tags": [
-                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,

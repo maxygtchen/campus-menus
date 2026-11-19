@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-18",
-  "scraped_at": "2026-11-18T21:28:50+00:00",
+  "scraped_at": "2026-11-19T04:12:08+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -6275,75 +6275,6 @@
               ],
               "carbon_kg": 0.1,
               "source_id": "1025"
-            },
-            {
-              "name": "Bean Chili",
-              "station": "Soup",
-              "station_type": "side",
-              "dish_key": "berkeley:bean-chili",
-              "nutrition": {
-                "kcal": 296.4,
-                "protein_g": 12.0,
-                "carbs_g": 42.6,
-                "fat_g": 6.5,
-                "fiber_g": 11.1,
-                "sugar_g": 6.5,
-                "sodium_mg": 592.4,
-                "serving": "8 oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 111.1,
-                "iron_mg": 2.8,
-                "potassium_mg": 712.8,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": 0.2,
-              "source_id": "516"
-            },
-            {
-              "name": "Tomato Bisque Soup",
-              "station": "Soup",
-              "station_type": "side",
-              "dish_key": "berkeley:tomato-bisque-soup",
-              "nutrition": {
-                "kcal": 176.0,
-                "protein_g": 2.8,
-                "carbs_g": 18.5,
-                "fat_g": 10.2,
-                "fiber_g": 2.8,
-                "sugar_g": 9.2,
-                "sodium_mg": 453.6,
-                "serving": "8 oz",
-                "sat_fat_g": 6.5,
-                "cholesterol_mg": 41.7,
-                "calcium_mg": 68.5,
-                "iron_mg": 1.0,
-                "potassium_mg": 249.9,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": 0.2,
-              "source_id": "522"
             },
             {
               "name": "Romaine Lettuce",
@@ -17949,6 +17880,40 @@
               "source_id": "735"
             },
             {
+              "name": "Marinara Sauce",
+              "station": "Pasta",
+              "station_type": "main",
+              "dish_key": "berkeley:marinara-sauce",
+              "nutrition": {
+                "kcal": 33.1,
+                "protein_g": 1.3,
+                "carbs_g": 5.5,
+                "fat_g": 0.8,
+                "fiber_g": 1.3,
+                "sugar_g": 0.2,
+                "sodium_mg": 217.2,
+                "serving": "2.84 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 11.5,
+                "iron_mg": 0.6,
+                "potassium_mg": 238.2,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1066"
+            },
+            {
               "name": "Gluten Free Penne Pasta",
               "station": "Allergen Friendly",
               "station_type": "main",
@@ -18152,57 +18117,60 @@
               "source_id": "408"
             },
             {
-              "name": "Grandma Mary's Chicken Soup",
+              "name": "Broccoli Cheddar Soup",
               "station": "Soup",
               "station_type": "side",
-              "dish_key": "berkeley:grandma-mary-s-chicken-soup",
+              "dish_key": "berkeley:broccoli-cheddar-soup",
               "nutrition": {
-                "kcal": 120.4,
-                "protein_g": 12.0,
-                "carbs_g": 15.7,
-                "fat_g": 1.4,
+                "kcal": 268.6,
+                "protein_g": 10.2,
+                "carbs_g": 11.1,
+                "fat_g": 21.3,
                 "fiber_g": 1.9,
-                "sugar_g": 2.8,
-                "sodium_mg": 786.9,
+                "sugar_g": 0.0,
+                "sodium_mg": 552.6,
                 "serving": "8 oz",
-                "sat_fat_g": 0.9,
-                "cholesterol_mg": 32.4,
-                "calcium_mg": 37.0,
-                "iron_mg": 0.5,
-                "potassium_mg": 536.9,
+                "sat_fat_g": 10.2,
+                "cholesterol_mg": 60.2,
+                "calcium_mg": 313.8,
+                "iron_mg": 1.0,
+                "potassium_mg": 231.4,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
               "allergens": [
-                "egg",
-                "wheat",
-                "gluten"
+                "milk"
               ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": 0.5,
-              "source_id": "511"
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.8,
+              "source_id": "510"
             },
             {
-              "name": "Southwestern Corn Chowder",
+              "name": "Bean Chili",
               "station": "Soup",
               "station_type": "side",
-              "dish_key": "berkeley:southwestern-corn-chowder",
+              "dish_key": "berkeley:bean-chili",
               "nutrition": {
-                "kcal": 166.7,
-                "protein_g": 2.8,
-                "carbs_g": 27.8,
-                "fat_g": 5.6,
-                "fiber_g": 2.8,
-                "sugar_g": 8.3,
-                "sodium_mg": 573.9,
+                "kcal": 296.4,
+                "protein_g": 12.0,
+                "carbs_g": 42.6,
+                "fat_g": 6.5,
+                "fiber_g": 11.1,
+                "sugar_g": 6.5,
+                "sodium_mg": 592.4,
                 "serving": "8 oz",
                 "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 27.8,
-                "iron_mg": 1.2,
-                "potassium_mg": 379.5,
+                "calcium_mg": 111.1,
+                "iron_mg": 2.8,
+                "potassium_mg": 712.8,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
@@ -18214,8 +18182,8 @@
               "tags": [
                 "vegan"
               ],
-              "carbon_kg": 0.1,
-              "source_id": "519"
+              "carbon_kg": 0.2,
+              "source_id": "516"
             },
             {
               "name": "Base - Mixed Greens",
@@ -19649,6 +19617,123 @@
               "source_id": "1548"
             },
             {
+              "name": "Cinnamon Cereal Milk Cake",
+              "station": "Dessert",
+              "station_type": "dessert",
+              "dish_key": "berkeley:cinnamon-cereal-milk-cake",
+              "nutrition": {
+                "kcal": 157.1,
+                "protein_g": 2.4,
+                "carbs_g": 19.9,
+                "fat_g": 7.8,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 114.6,
+                "serving": "2 oz",
+                "sat_fat_g": 4.8,
+                "cholesterol_mg": 54.3,
+                "calcium_mg": 36.2,
+                "iron_mg": 0.4,
+                "potassium_mg": 78.4,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.2,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1771"
+            },
+            {
+              "name": "Triple Berry Crumble Bar",
+              "station": "Dessert",
+              "station_type": "dessert",
+              "dish_key": "berkeley:triple-berry-crumble-bar",
+              "nutrition": {
+                "kcal": 178.6,
+                "protein_g": 2.2,
+                "carbs_g": 25.3,
+                "fat_g": 7.8,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "2 oz",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 13.1,
+                "iron_mg": 1.0,
+                "potassium_mg": 87.2,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "kosher"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "3284"
+            },
+            {
+              "name": "Vegan Chocolate Chip Cookie",
+              "station": "Dessert",
+              "station_type": "dessert",
+              "dish_key": "berkeley:vegan-chocolate-chip-cookie",
+              "nutrition": {
+                "kcal": 96.2,
+                "protein_g": 1.0,
+                "carbs_g": 19.2,
+                "fat_g": 5.6,
+                "fiber_g": 0.5,
+                "sugar_g": 12.7,
+                "sodium_mg": 68.3,
+                "serving": "1 oz",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 2.0,
+                "iron_mg": 0.5,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "428"
+            },
+            {
               "name": "Coffee (black)",
               "station": "Beverages",
               "station_type": "bar",
@@ -20305,24 +20390,24 @@
               "source_id": "1756"
             },
             {
-              "name": "Sweet Potato Fries",
-              "station": "Grill",
+              "name": "Jasmine Rice",
+              "station": "While It Last Centerplate",
               "station_type": "main",
-              "dish_key": "berkeley:sweet-potato-fries",
+              "dish_key": "berkeley:jasmine-rice",
               "nutrition": {
-                "kcal": 228.3,
-                "protein_g": 1.3,
-                "carbs_g": 30.7,
-                "fat_g": 11.0,
-                "fiber_g": 1.3,
-                "sugar_g": 1.3,
-                "sodium_mg": 253.7,
-                "serving": "4.11 oz",
-                "sat_fat_g": 1.6,
+                "kcal": 125.7,
+                "protein_g": 2.8,
+                "carbs_g": 27.9,
+                "fat_g": 0.0,
+                "fiber_g": 0.7,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "3.2 oz",
+                "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 40.1,
+                "calcium_mg": 0.0,
                 "iron_mg": 0.0,
-                "potassium_mg": 360.6,
+                "potassium_mg": 17.4,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
@@ -20336,7 +20421,75 @@
                 "vegan"
               ],
               "carbon_kg": 0.1,
-              "source_id": "1000"
+              "source_id": "672"
+            },
+            {
+              "name": "Mexican Rice",
+              "station": "While It Last Centerplate",
+              "station_type": "main",
+              "dish_key": "berkeley:mexican-rice",
+              "nutrition": {
+                "kcal": 120.3,
+                "protein_g": 2.1,
+                "carbs_g": 24.5,
+                "fat_g": 1.2,
+                "fiber_g": 0.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 227.2,
+                "serving": "3.17 oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 10.7,
+                "iron_mg": 1.2,
+                "potassium_mg": 101.2,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1041"
+            },
+            {
+              "name": "Lemon Ricotta Chicken",
+              "station": "While It Last Centerplate",
+              "station_type": "main",
+              "dish_key": "berkeley:lemon-ricotta-chicken",
+              "nutrition": {
+                "kcal": 185.2,
+                "protein_g": 21.0,
+                "carbs_g": 2.2,
+                "fat_g": 9.9,
+                "fiber_g": 0.6,
+                "sugar_g": 0.3,
+                "sodium_mg": 235.2,
+                "serving": "3.62 oz",
+                "sat_fat_g": 2.9,
+                "cholesterol_mg": 57.4,
+                "calcium_mg": 101.6,
+                "iron_mg": 1.2,
+                "potassium_mg": 277.8,
+                "vitamin_c_mg": 8.2,
+                "vitamin_d_iu": 0.1,
+                "vitamin_a_iu": 99.8
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": 0.4,
+              "source_id": "173"
             },
             {
               "name": "Spicy Fried Chicken Sandwich",
@@ -20449,6 +20602,40 @@
               "source_id": "269"
             },
             {
+              "name": "Sweet Potato Fries",
+              "station": "Grill",
+              "station_type": "main",
+              "dish_key": "berkeley:sweet-potato-fries",
+              "nutrition": {
+                "kcal": 228.3,
+                "protein_g": 1.3,
+                "carbs_g": 30.7,
+                "fat_g": 11.0,
+                "fiber_g": 1.3,
+                "sugar_g": 1.3,
+                "sodium_mg": 253.7,
+                "serving": "4.11 oz",
+                "sat_fat_g": 1.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 40.1,
+                "iron_mg": 0.0,
+                "potassium_mg": 360.6,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1000"
+            },
+            {
               "name": "Meat Lasagna",
               "station": "Pasta",
               "station_type": "main",
@@ -20485,31 +20672,30 @@
               "source_id": "775"
             },
             {
-              "name": "Kale Lasagna with Mushroom",
+              "name": "Marinara Penne Pasta",
               "station": "Pasta",
               "station_type": "main",
-              "dish_key": "berkeley:kale-lasagna-with-mushroom",
+              "dish_key": "berkeley:marinara-penne-pasta",
               "nutrition": {
-                "kcal": 188.2,
-                "protein_g": 5.8,
-                "carbs_g": 21.1,
-                "fat_g": 8.7,
-                "fiber_g": 2.4,
-                "sugar_g": 1.9,
-                "sodium_mg": 327.4,
-                "serving": "4.76 oz",
-                "sat_fat_g": 1.7,
+                "kcal": 128.7,
+                "protein_g": 4.4,
+                "carbs_g": 24.6,
+                "fat_g": 1.8,
+                "fiber_g": 1.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 417.1,
+                "serving": "4.51 oz",
+                "sat_fat_g": 0.1,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 42.8,
-                "iron_mg": 1.4,
-                "potassium_mg": 157.2,
-                "vitamin_c_mg": 12.5,
+                "calcium_mg": 9.0,
+                "iron_mg": 1.3,
+                "potassium_mg": 146.0,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 49.2
+                "vitamin_a_iu": 0.0
               },
               "allergens": [
                 "wheat",
-                "soy",
                 "gluten"
               ],
               "diets": [
@@ -20519,8 +20705,8 @@
                 "lighter",
                 "vegan"
               ],
-              "carbon_kg": 0.1,
-              "source_id": "921"
+              "carbon_kg": 0.0,
+              "source_id": "900"
             },
             {
               "name": "Garlic Roasted Broccolini",
@@ -20797,57 +20983,58 @@
               "source_id": "408"
             },
             {
-              "name": "Grandma Mary's Chicken Soup",
+              "name": "New England Clam Chowder",
               "station": "Soup",
               "station_type": "side",
-              "dish_key": "berkeley:grandma-mary-s-chicken-soup",
+              "dish_key": "berkeley:new-england-clam-chowder",
               "nutrition": {
-                "kcal": 120.4,
-                "protein_g": 12.0,
-                "carbs_g": 15.7,
-                "fat_g": 1.4,
+                "kcal": 315.2,
+                "protein_g": 5.6,
+                "carbs_g": 23.1,
+                "fat_g": 22.2,
                 "fiber_g": 1.9,
-                "sugar_g": 2.8,
-                "sodium_mg": 786.9,
+                "sugar_g": 3.7,
+                "sodium_mg": 1064.6,
                 "serving": "8 oz",
-                "sat_fat_g": 0.9,
-                "cholesterol_mg": 32.4,
-                "calcium_mg": 37.0,
-                "iron_mg": 0.5,
-                "potassium_mg": 536.9,
+                "sat_fat_g": 11.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 74.0,
+                "iron_mg": 1.1,
+                "potassium_mg": 388.8,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
               "allergens": [
-                "egg",
-                "wheat",
-                "gluten"
+                "milk",
+                "shellfish"
               ],
-              "diets": [],
+              "diets": [
+                "halal"
+              ],
               "tags": [],
-              "carbon_kg": 0.5,
-              "source_id": "511"
+              "carbon_kg": 0.1,
+              "source_id": "518"
             },
             {
-              "name": "Southwestern Corn Chowder",
+              "name": "Split Pea Soup",
               "station": "Soup",
               "station_type": "side",
-              "dish_key": "berkeley:southwestern-corn-chowder",
+              "dish_key": "berkeley:split-pea-soup",
               "nutrition": {
-                "kcal": 166.7,
-                "protein_g": 2.8,
-                "carbs_g": 27.8,
-                "fat_g": 5.6,
-                "fiber_g": 2.8,
-                "sugar_g": 8.3,
-                "sodium_mg": 573.9,
+                "kcal": 231.6,
+                "protein_g": 16.7,
+                "carbs_g": 36.1,
+                "fat_g": 1.9,
+                "fiber_g": 6.5,
+                "sugar_g": 2.8,
+                "sodium_mg": 777.6,
                 "serving": "8 oz",
                 "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 27.8,
-                "iron_mg": 1.2,
-                "potassium_mg": 379.5,
+                "calcium_mg": 55.5,
+                "iron_mg": 4.0,
+                "potassium_mg": 481.4,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
@@ -20860,7 +21047,7 @@
                 "vegan"
               ],
               "carbon_kg": 0.1,
-              "source_id": "519"
+              "source_id": "520"
             },
             {
               "name": "Base - Mixed Greens",
@@ -23159,6 +23346,192 @@
               ],
               "carbon_kg": 0.1,
               "source_id": "1178"
+            },
+            {
+              "name": "Sliced Whole Wheat Bread",
+              "station": "Bread Bar",
+              "station_type": "bar",
+              "dish_key": "berkeley:sliced-whole-wheat-bread",
+              "nutrition": {
+                "kcal": 67.2,
+                "protein_g": 3.0,
+                "carbs_g": 11.9,
+                "fat_g": 0.8,
+                "fiber_g": 1.5,
+                "sugar_g": 2.2,
+                "sodium_mg": 100.7,
+                "serving": "1 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 29.8,
+                "iron_mg": 0.5,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1534"
+            },
+            {
+              "name": "Sliced Sourdough Bread",
+              "station": "Bread Bar",
+              "station_type": "bar",
+              "dish_key": "berkeley:sliced-sourdough-bread",
+              "nutrition": {
+                "kcal": 60.4,
+                "protein_g": 1.8,
+                "carbs_g": 12.7,
+                "fat_g": 0.2,
+                "fiber_g": 0.6,
+                "sugar_g": 0.0,
+                "sodium_mg": 138.7,
+                "serving": "1 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 6.0,
+                "iron_mg": 0.9,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1533"
+            },
+            {
+              "name": "Sliced Buttermilk Bread",
+              "station": "Bread Bar",
+              "station_type": "bar",
+              "dish_key": "berkeley:sliced-buttermilk-bread",
+              "nutrition": {
+                "kcal": 114.3,
+                "protein_g": 3.9,
+                "carbs_g": 21.1,
+                "fat_g": 1.4,
+                "fiber_g": 1.2,
+                "sugar_g": 2.2,
+                "sodium_mg": 211.6,
+                "serving": "1.52 oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 112.0,
+                "iron_mg": 1.6,
+                "potassium_mg": 49.5,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1532"
+            },
+            {
+              "name": "Sliced Whole Wheat Vegan Bread",
+              "station": "Bread Bar",
+              "station_type": "bar",
+              "dish_key": "berkeley:sliced-whole-wheat-vegan-bread",
+              "nutrition": {
+                "kcal": 68.7,
+                "protein_g": 2.5,
+                "carbs_g": 13.1,
+                "fat_g": 0.9,
+                "fiber_g": 0.6,
+                "sugar_g": 1.9,
+                "sodium_mg": 199.6,
+                "serving": "0.99 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 37.4,
+                "iron_mg": 0.9,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1535"
+            },
+            {
+              "name": "Sliced White Bread",
+              "station": "Bread Bar",
+              "station_type": "bar",
+              "dish_key": "berkeley:sliced-white-bread",
+              "nutrition": {
+                "kcal": 98.3,
+                "protein_g": 2.5,
+                "carbs_g": 18.8,
+                "fat_g": 0.8,
+                "fiber_g": 0.6,
+                "sugar_g": 1.6,
+                "sodium_mg": 180.2,
+                "serving": "1.3 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 32.8,
+                "iron_mg": 1.2,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "3397"
             },
             {
               "name": "Romaine Lettuce",
