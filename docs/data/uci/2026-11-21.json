@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-21",
-  "scraped_at": "2026-11-20T03:59:57+00:00",
+  "scraped_at": "2026-11-20T21:16:51+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2695,6 +2695,38 @@
               "source_id": "1821_122168_M20956_1_49161"
             },
             {
+              "name": "Ham & Swiss Sandwich",
+              "station": "Saute ",
+              "station_type": "main",
+              "dish_key": "uci:ham-swiss-sandwich",
+              "nutrition": {
+                "kcal": 284.1,
+                "protein_g": 23.2,
+                "carbs_g": 30.3,
+                "fat_g": 8.5,
+                "fiber_g": 1.0,
+                "sugar_g": 5.9,
+                "sodium_mg": 1166.5,
+                "serving": "1 each",
+                "sat_fat_g": 4.0,
+                "cholesterol_mg": 53.2,
+                "calcium_mg": 187.5,
+                "iron_mg": 2.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 117.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M39851_1_22634"
+            },
+            {
               "name": "Cinnamon-Sugar Donut",
               "station": "Honeycakes",
               "station_type": "main",
@@ -3390,6 +3422,38 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M9879_1_19500"
+            },
+            {
+              "name": "Ham & Swiss Sandwich",
+              "station": "Saute ",
+              "station_type": "main",
+              "dish_key": "uci:ham-swiss-sandwich",
+              "nutrition": {
+                "kcal": 284.1,
+                "protein_g": 23.2,
+                "carbs_g": 30.3,
+                "fat_g": 8.5,
+                "fiber_g": 1.0,
+                "sugar_g": 5.9,
+                "sodium_mg": 1166.5,
+                "serving": "1 each",
+                "sat_fat_g": 4.0,
+                "cholesterol_mg": 53.2,
+                "calcium_mg": 187.5,
+                "iron_mg": 2.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 117.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M39851_1_22634"
             },
             {
               "name": "Chicken Noodle Soup",

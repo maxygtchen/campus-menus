@@ -1,0 +1,1476 @@
+{
+  "school": "ucd",
+  "date": "2026-11-22",
+  "scraped_at": "2026-11-20T21:16:31+00:00",
+  "timezone": "America/Los_Angeles",
+  "locations": [
+    {
+      "name": "Segundo",
+      "kind": "dining_hall",
+      "meals": [
+        {
+          "period": "Breakfast",
+          "raw_period": "Breakfast",
+          "start": "07:00",
+          "end": "10:00",
+          "items": [
+            {
+              "name": "Build Your Own Omelette",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:build-your-own-omelette",
+              "nutrition": {
+                "kcal": 97.7,
+                "protein_g": 6.6,
+                "carbs_g": 5.4,
+                "fat_g": 5.9,
+                "fiber_g": null,
+                "sugar_g": 2.8,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Build Your Own Veggie Omelette",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:build-your-own-veggie-omelette",
+              "nutrition": {
+                "kcal": 49.9,
+                "protein_g": 2.1,
+                "carbs_g": 5.7,
+                "fat_g": 2.5,
+                "fiber_g": null,
+                "sugar_g": 3.2,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Fried Eggs to Order",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:fried-eggs-to-order",
+              "nutrition": {
+                "kcal": 196.0,
+                "protein_g": 7.1,
+                "carbs_g": 0.4,
+                "fat_g": 18.8,
+                "fiber_g": null,
+                "sugar_g": 0.2,
+                "sodium_mg": null,
+                "serving": "2.47 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "egg"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Scrambled Egg Whites",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:scrambled-egg-whites",
+              "nutrition": {
+                "kcal": 121.3,
+                "protein_g": 12.3,
+                "carbs_g": null,
+                "fat_g": 7.0,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "4.25 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "egg"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Scrambled Tofu",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:scrambled-tofu",
+              "nutrition": {
+                "kcal": 130.8,
+                "protein_g": 12.9,
+                "carbs_g": 4.2,
+                "fat_g": 8.1,
+                "fiber_g": null,
+                "sugar_g": 0.8,
+                "sodium_mg": null,
+                "serving": "3 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Just Egg - Plant Based",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:just-egg-plant-based",
+              "nutrition": {
+                "kcal": 136.6,
+                "protein_g": 9.8,
+                "carbs_g": 1.9,
+                "fat_g": 9.8,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "3.17 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Spicy Sidewinder Potato",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:spicy-sidewinder-potato",
+              "nutrition": {
+                "kcal": 761.1,
+                "protein_g": 5.4,
+                "carbs_g": 47.6,
+                "fat_g": 62.9,
+                "fiber_g": null,
+                "sugar_g": 4.6,
+                "sodium_mg": null,
+                "serving": "12.02 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Overnight Oats",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:overnight-oats",
+              "nutrition": {
+                "kcal": 36.6,
+                "protein_g": 1.2,
+                "carbs_g": 5.5,
+                "fat_g": 1.1,
+                "fiber_g": null,
+                "sugar_g": 2.3,
+                "sodium_mg": null,
+                "serving": "1.07 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Oatmeal",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:oatmeal",
+              "nutrition": {
+                "kcal": 14.8,
+                "protein_g": 0.5,
+                "carbs_g": 2.6,
+                "fat_g": 0.3,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "0.98 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Boiled Eggs",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:boiled-eggs",
+              "nutrition": {
+                "kcal": 81.2,
+                "protein_g": 7.1,
+                "carbs_g": 0.4,
+                "fat_g": 5.4,
+                "fiber_g": null,
+                "sugar_g": 0.2,
+                "sodium_mg": null,
+                "serving": "2 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "egg"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Congee Rice Porridge",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:congee-rice-porridge",
+              "nutrition": {
+                "kcal": 19.2,
+                "protein_g": 0.8,
+                "carbs_g": 3.1,
+                "fat_g": 0.4,
+                "fiber_g": null,
+                "sugar_g": 0.1,
+                "sodium_mg": null,
+                "serving": "1.31 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "sesame"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "BYO Parfait",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:byo-parfait",
+              "nutrition": {
+                "kcal": 77.6,
+                "protein_g": 2.5,
+                "carbs_g": 13.9,
+                "fat_g": 1.7,
+                "fiber_g": null,
+                "sugar_g": 7.9,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            }
+          ]
+        },
+        {
+          "period": "Lunch",
+          "raw_period": "Lunch",
+          "start": "11:00",
+          "end": "14:00",
+          "items": [
+            {
+              "name": "Grass-Fed Bistro Burger",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:grass-fed-bistro-burger",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "11.35 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Chipotle Black Bean Burger",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:chipotle-black-bean-burger",
+              "nutrition": {
+                "kcal": 579.0,
+                "protein_g": 19.9,
+                "carbs_g": 51.7,
+                "fat_g": 37.3,
+                "fiber_g": null,
+                "sugar_g": 6.1,
+                "sodium_mg": null,
+                "serving": "7.67 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Shoestring Potatoes",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:shoestring-potatoes",
+              "nutrition": {
+                "kcal": 286.1,
+                "protein_g": 2.7,
+                "carbs_g": 31.1,
+                "fat_g": 17.4,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "4 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 218.9,
+                "protein_g": 9.5,
+                "carbs_g": 28.6,
+                "fat_g": 7.5,
+                "fiber_g": null,
+                "sugar_g": 1.5,
+                "sodium_mg": null,
+                "serving": "3.33 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "halal"
+              ],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Cheese Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:cheese-pizza",
+              "nutrition": {
+                "kcal": 199.7,
+                "protein_g": 8.8,
+                "carbs_g": 28.6,
+                "fat_g": 5.7,
+                "fiber_g": null,
+                "sugar_g": 1.5,
+                "sodium_mg": null,
+                "serving": "3.2 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Salad Bar",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:salad-bar",
+              "nutrition": {
+                "kcal": 208.9,
+                "protein_g": 4.0,
+                "carbs_g": 13.0,
+                "fat_g": 16.2,
+                "fiber_g": null,
+                "sugar_g": 5.8,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten",
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Deli Bar",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:deli-bar",
+              "nutrition": {
+                "kcal": 326.3,
+                "protein_g": 21.8,
+                "carbs_g": 11.6,
+                "fat_g": 22.5,
+                "fiber_g": null,
+                "sugar_g": 0.8,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Tuscan Mushroom Bean Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:tuscan-mushroom-bean-soup",
+              "nutrition": {
+                "kcal": 44.0,
+                "protein_g": 1.8,
+                "carbs_g": 8.4,
+                "fat_g": 0.4,
+                "fiber_g": null,
+                "sugar_g": 0.9,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Chicken Tortilla Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:mexican-chicken-tortilla-soup",
+              "nutrition": {
+                "kcal": 49.0,
+                "protein_g": 4.5,
+                "carbs_g": 5.7,
+                "fat_g": 1.0,
+                "fiber_g": null,
+                "sugar_g": 1.6,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Carne Asada Taco",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:carne-asada-taco",
+              "nutrition": {
+                "kcal": 315.2,
+                "protein_g": 20.4,
+                "carbs_g": 23.0,
+                "fat_g": 16.1,
+                "fiber_g": null,
+                "sugar_g": 1.9,
+                "sodium_mg": null,
+                "serving": "6.72 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "halal"
+              ],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Red Creole Beans",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:red-creole-beans",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Assorted Vegetables",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:assorted-vegetables",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "3 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Rice",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:mexican-rice",
+              "nutrition": {
+                "kcal": 106.5,
+                "protein_g": 1.8,
+                "carbs_g": 18.8,
+                "fat_g": 2.5,
+                "fiber_g": null,
+                "sugar_g": 0.7,
+                "sodium_mg": null,
+                "serving": "2.13 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            }
+          ]
+        },
+        {
+          "period": "Dinner",
+          "raw_period": "Dinner",
+          "start": "16:30",
+          "end": "20:00",
+          "items": [
+            {
+              "name": "Grass-Fed Bistro Burger",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:grass-fed-bistro-burger",
+              "nutrition": {
+                "kcal": 865.5,
+                "protein_g": 28.5,
+                "carbs_g": 54.7,
+                "fat_g": 56.5,
+                "fiber_g": null,
+                "sugar_g": 12.0,
+                "sodium_mg": null,
+                "serving": "11.35 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame",
+                "alcohol"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Malibu Burger",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:malibu-burger",
+              "nutrition": {
+                "kcal": 456.5,
+                "protein_g": 8.7,
+                "carbs_g": 49.2,
+                "fat_g": 27.0,
+                "fiber_g": null,
+                "sugar_g": 7.1,
+                "sodium_mg": null,
+                "serving": "6.25 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Shoestring Potatoes",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:shoestring-potatoes",
+              "nutrition": {
+                "kcal": 286.1,
+                "protein_g": 2.7,
+                "carbs_g": 31.1,
+                "fat_g": 17.4,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "4 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Ravioli with Roasted Aggie-Grown Tomato Sauce",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:ravioli-with-roasted-aggie-grown-tomato-sauce",
+              "nutrition": {
+                "kcal": 501.8,
+                "protein_g": 15.5,
+                "carbs_g": 62.4,
+                "fat_g": 23.6,
+                "fiber_g": null,
+                "sugar_g": 7.8,
+                "sodium_mg": null,
+                "serving": "9.36 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Garlic Breadsticks",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:garlic-breadsticks",
+              "nutrition": {
+                "kcal": 110.6,
+                "protein_g": 3.7,
+                "carbs_g": 23.0,
+                "fat_g": 0.9,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "1.56 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "halal"
+              ],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 218.9,
+                "protein_g": 9.5,
+                "carbs_g": 28.6,
+                "fat_g": 7.5,
+                "fiber_g": null,
+                "sugar_g": 1.5,
+                "sodium_mg": null,
+                "serving": "3.33 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "halal"
+              ],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Cheese Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:cheese-pizza",
+              "nutrition": {
+                "kcal": 199.7,
+                "protein_g": 8.8,
+                "carbs_g": 28.6,
+                "fat_g": 5.7,
+                "fiber_g": null,
+                "sugar_g": 1.5,
+                "sodium_mg": null,
+                "serving": "3.2 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Salad Bar",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:salad-bar",
+              "nutrition": {
+                "kcal": 208.9,
+                "protein_g": 4.0,
+                "carbs_g": 13.0,
+                "fat_g": 16.2,
+                "fiber_g": null,
+                "sugar_g": 5.8,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten",
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Deli Bar",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:deli-bar",
+              "nutrition": {
+                "kcal": 326.3,
+                "protein_g": 21.8,
+                "carbs_g": 11.6,
+                "fat_g": 22.5,
+                "fiber_g": null,
+                "sugar_g": 0.8,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Tuscan Mushroom Bean Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:tuscan-mushroom-bean-soup",
+              "nutrition": {
+                "kcal": 44.0,
+                "protein_g": 1.8,
+                "carbs_g": 8.4,
+                "fat_g": 0.4,
+                "fiber_g": null,
+                "sugar_g": 0.9,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Chicken Tortilla Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:mexican-chicken-tortilla-soup",
+              "nutrition": {
+                "kcal": 49.0,
+                "protein_g": 4.5,
+                "carbs_g": 5.7,
+                "fat_g": 1.0,
+                "fiber_g": null,
+                "sugar_g": 1.6,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Chicken Burrito Bowl",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:chicken-burrito-bowl",
+              "nutrition": {
+                "kcal": 353.9,
+                "protein_g": 20.4,
+                "carbs_g": 45.1,
+                "fat_g": 10.9,
+                "fiber_g": null,
+                "sugar_g": 3.9,
+                "sodium_mg": null,
+                "serving": "9.53 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Assorted Vegetables",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:assorted-vegetables",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Red Creole Beans",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:red-creole-beans",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

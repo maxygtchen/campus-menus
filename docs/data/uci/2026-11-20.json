@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-20T03:59:42+00:00",
+  "scraped_at": "2026-11-20T21:16:33+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -216,6 +216,163 @@
               "source_id": "1923_101628_L248459_1_482650"
             },
             {
+              "name": "Chicken Tikka Masala",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chicken-tikka-masala",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "N/A cup",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M15062_1_37742"
+            },
+            {
+              "name": "Broccoli Cheddar Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:broccoli-cheddar-soup",
+              "nutrition": {
+                "kcal": 183.1,
+                "protein_g": 7.5,
+                "carbs_g": 11.7,
+                "fat_g": 12.2,
+                "fiber_g": 1.4,
+                "sugar_g": 3.8,
+                "sodium_mg": 335.6,
+                "serving": "6 fl oz",
+                "sat_fat_g": 6.0,
+                "cholesterol_mg": 17.8,
+                "calcium_mg": 205.4,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 18.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 152.7
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34422_1_35949"
+            },
+            {
+              "name": "Chunky Potato Chowder",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chunky-potato-chowder",
+              "nutrition": {
+                "kcal": 171.2,
+                "protein_g": 6.0,
+                "carbs_g": 22.7,
+                "fat_g": 6.2,
+                "fiber_g": 1.4,
+                "sugar_g": 4.9,
+                "sodium_mg": 320.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 374.2,
+                "calcium_mg": 83.5,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 12.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 30.8
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34478_1_23516"
+            },
+            {
+              "name": "Hearty Lentil & Potato Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:hearty-lentil-potato-soup",
+              "nutrition": {
+                "kcal": 113.8,
+                "protein_g": 6.1,
+                "carbs_g": 19.9,
+                "fat_g": 1.5,
+                "fiber_g": 3.1,
+                "sugar_g": 1.8,
+                "sodium_mg": 293.2,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.0,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 65.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40806_1_25829"
+            },
+            {
+              "name": "Grilled Vegetable Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:grilled-vegetable-pizza",
+              "nutrition": {
+                "kcal": 363.3,
+                "protein_g": 15.1,
+                "carbs_g": 48.8,
+                "fat_g": 12.4,
+                "fiber_g": 2.8,
+                "sugar_g": 5.3,
+                "sodium_mg": 819.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.8,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 192.7,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 21.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 125.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40406_1_35861"
+            },
+            {
               "name": "Mushroom Pizza",
               "station": "Oven",
               "station_type": "main",
@@ -377,71 +534,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_M34864_1_2837"
-            },
-            {
-              "name": "Broccoli Cheddar Soup",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:broccoli-cheddar-soup",
-              "nutrition": {
-                "kcal": 183.1,
-                "protein_g": 7.5,
-                "carbs_g": 11.7,
-                "fat_g": 12.2,
-                "fiber_g": 1.4,
-                "sugar_g": 3.8,
-                "sodium_mg": 335.6,
-                "serving": "6 fl oz",
-                "sat_fat_g": 6.0,
-                "cholesterol_mg": 17.8,
-                "calcium_mg": 205.4,
-                "iron_mg": 0.7,
-                "potassium_mg": null,
-                "vitamin_c_mg": 18.7,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 152.7
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34422_1_35949"
-            },
-            {
-              "name": "Chunky Potato Chowder",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:chunky-potato-chowder",
-              "nutrition": {
-                "kcal": 171.2,
-                "protein_g": 6.0,
-                "carbs_g": 22.7,
-                "fat_g": 6.2,
-                "fiber_g": 1.4,
-                "sugar_g": 4.9,
-                "sodium_mg": 320.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 2.3,
-                "cholesterol_mg": 374.2,
-                "calcium_mg": 83.5,
-                "iron_mg": 0.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 12.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 30.8
-              },
-              "allergens": [
-                "milk",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34478_1_23516"
             }
           ]
         },
@@ -516,6 +608,37 @@
               "source_id": "1923_101628_M10588_1_10468"
             },
             {
+              "name": "Turkey Sausage Link",
+              "station": "Home",
+              "station_type": "main",
+              "dish_key": "uci:turkey-sausage-link",
+              "nutrition": {
+                "kcal": 96.9,
+                "protein_g": 8.8,
+                "carbs_g": 0.6,
+                "fat_g": 6.7,
+                "fiber_g": 0.0,
+                "sugar_g": 0.1,
+                "sodium_mg": 367.3,
+                "serving": "2 link",
+                "sat_fat_g": 2.1,
+                "cholesterol_mg": 41.8,
+                "calcium_mg": 5.7,
+                "iron_mg": 0.8,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 8.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M10587_1_21442"
+            },
+            {
               "name": "O'Brien Potatoes",
               "station": "Home",
               "station_type": "main",
@@ -547,37 +670,38 @@
               "source_id": "1923_101628_M9734_1_38425"
             },
             {
-              "name": "Tofu-Potato Hash",
+              "name": "Turmeric Tofu Scramble",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:tofu-potato-hash",
+              "dish_key": "uci:turmeric-tofu-scramble",
               "nutrition": {
-                "kcal": 135.4,
-                "protein_g": 8.5,
-                "carbs_g": 11.8,
-                "fat_g": 6.2,
-                "fiber_g": 2.7,
-                "sugar_g": 2.7,
-                "sodium_mg": 289.0,
-                "serving": "1 serving",
-                "sat_fat_g": 1.2,
+                "kcal": 213.9,
+                "protein_g": 21.7,
+                "carbs_g": 4.3,
+                "fat_g": 12.2,
+                "fiber_g": 3.3,
+                "sugar_g": 0.7,
+                "sodium_mg": 155.0,
+                "serving": "N/A cup",
+                "sat_fat_g": 2.7,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 64.5,
-                "iron_mg": 1.1,
+                "calcium_mg": 117.2,
+                "iron_mg": 3.0,
                 "potassium_mg": null,
-                "vitamin_c_mg": 17.1,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 5.2
+                "vitamin_a_iu": 0.0
               },
               "allergens": [
                 "soy"
               ],
               "diets": [],
               "tags": [
+                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1923_101628_M21908_1_16066"
+              "source_id": "1923_101628_M34970_1_48101"
             },
             {
               "name": "Danish Pastry",
@@ -607,6 +731,39 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1923_101628_M20278_1_13971"
+            },
+            {
+              "name": "Iced Cinnamon Roll",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:iced-cinnamon-roll",
+              "nutrition": {
+                "kcal": 202.1,
+                "protein_g": 3.0,
+                "carbs_g": 30.8,
+                "fat_g": 7.7,
+                "fiber_g": 0.8,
+                "sugar_g": 16.1,
+                "sodium_mg": 245.3,
+                "serving": "1 roll",
+                "sat_fat_g": 4.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 1.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M16738_1_37395"
             },
             {
               "name": "Assorted Muffin UCI",
@@ -640,6 +797,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1923_101628_L397529_1_467499"
+            },
+            {
+              "name": "Vanilla Chocolate Cake",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:vanilla-chocolate-cake",
+              "nutrition": {
+                "kcal": 149.2,
+                "protein_g": 0.7,
+                "carbs_g": 20.6,
+                "fat_g": 4.3,
+                "fiber_g": 0.5,
+                "sugar_g": 18.8,
+                "sodium_mg": 95.6,
+                "serving": "N/A portion",
+                "sat_fat_g": 2.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 15.0,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 26.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M41575_1_553989"
             },
             {
               "name": "Cream of Rice",
@@ -702,6 +888,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_M34520_1_40978"
+            },
+            {
+              "name": "Tropical  Banana Smoothie",
+              "station": "Farmer's Market",
+              "station_type": "main",
+              "dish_key": "uci:tropical-banana-smoothie",
+              "nutrition": {
+                "kcal": 76.4,
+                "protein_g": 0.8,
+                "carbs_g": 18.1,
+                "fat_g": 0.7,
+                "fiber_g": 1.4,
+                "sugar_g": 13.5,
+                "sodium_mg": 13.0,
+                "serving": "4 fl oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 35.9,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 32.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 18.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_A9708_1_389082"
             },
             {
               "name": "Hard-Cooked Egg",
@@ -946,6 +1163,163 @@
               "source_id": "1923_101628_L248459_1_482650"
             },
             {
+              "name": "Chicken Tikka Masala",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chicken-tikka-masala",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "N/A cup",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M15062_1_37742"
+            },
+            {
+              "name": "Broccoli Cheddar Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:broccoli-cheddar-soup",
+              "nutrition": {
+                "kcal": 183.1,
+                "protein_g": 7.5,
+                "carbs_g": 11.7,
+                "fat_g": 12.2,
+                "fiber_g": 1.4,
+                "sugar_g": 3.8,
+                "sodium_mg": 335.6,
+                "serving": "6 fl oz",
+                "sat_fat_g": 6.0,
+                "cholesterol_mg": 17.8,
+                "calcium_mg": 205.4,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 18.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 152.7
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34422_1_35949"
+            },
+            {
+              "name": "Chunky Potato Chowder",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chunky-potato-chowder",
+              "nutrition": {
+                "kcal": 171.2,
+                "protein_g": 6.0,
+                "carbs_g": 22.7,
+                "fat_g": 6.2,
+                "fiber_g": 1.4,
+                "sugar_g": 4.9,
+                "sodium_mg": 320.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 374.2,
+                "calcium_mg": 83.5,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 12.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 30.8
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34478_1_23516"
+            },
+            {
+              "name": "Hearty Lentil & Potato Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:hearty-lentil-potato-soup",
+              "nutrition": {
+                "kcal": 113.8,
+                "protein_g": 6.1,
+                "carbs_g": 19.9,
+                "fat_g": 1.5,
+                "fiber_g": 3.1,
+                "sugar_g": 1.8,
+                "sodium_mg": 293.2,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.0,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 65.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40806_1_25829"
+            },
+            {
+              "name": "Grilled Vegetable Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:grilled-vegetable-pizza",
+              "nutrition": {
+                "kcal": 363.3,
+                "protein_g": 15.1,
+                "carbs_g": 48.8,
+                "fat_g": 12.4,
+                "fiber_g": 2.8,
+                "sugar_g": 5.3,
+                "sodium_mg": 819.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.8,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 192.7,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 21.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 125.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40406_1_35861"
+            },
+            {
               "name": "Mushroom Pizza",
               "station": "Oven",
               "station_type": "main",
@@ -1107,71 +1481,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_M34864_1_2837"
-            },
-            {
-              "name": "Broccoli Cheddar Soup",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:broccoli-cheddar-soup",
-              "nutrition": {
-                "kcal": 183.1,
-                "protein_g": 7.5,
-                "carbs_g": 11.7,
-                "fat_g": 12.2,
-                "fiber_g": 1.4,
-                "sugar_g": 3.8,
-                "sodium_mg": 335.6,
-                "serving": "6 fl oz",
-                "sat_fat_g": 6.0,
-                "cholesterol_mg": 17.8,
-                "calcium_mg": 205.4,
-                "iron_mg": 0.7,
-                "potassium_mg": null,
-                "vitamin_c_mg": 18.7,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 152.7
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34422_1_35949"
-            },
-            {
-              "name": "Chunky Potato Chowder",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:chunky-potato-chowder",
-              "nutrition": {
-                "kcal": 171.2,
-                "protein_g": 6.0,
-                "carbs_g": 22.7,
-                "fat_g": 6.2,
-                "fiber_g": 1.4,
-                "sugar_g": 4.9,
-                "sodium_mg": 320.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 2.3,
-                "cholesterol_mg": 374.2,
-                "calcium_mg": 83.5,
-                "iron_mg": 0.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 12.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 30.8
-              },
-              "allergens": [
-                "milk",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34478_1_23516"
             }
           ]
         },
@@ -1584,6 +1893,163 @@
               "source_id": "1923_101628_L248459_1_482650"
             },
             {
+              "name": "Chicken Tikka Masala",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chicken-tikka-masala",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "N/A cup",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M15062_1_37742"
+            },
+            {
+              "name": "Broccoli Cheddar Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:broccoli-cheddar-soup",
+              "nutrition": {
+                "kcal": 183.1,
+                "protein_g": 7.5,
+                "carbs_g": 11.7,
+                "fat_g": 12.2,
+                "fiber_g": 1.4,
+                "sugar_g": 3.8,
+                "sodium_mg": 335.6,
+                "serving": "6 fl oz",
+                "sat_fat_g": 6.0,
+                "cholesterol_mg": 17.8,
+                "calcium_mg": 205.4,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 18.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 152.7
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34422_1_35949"
+            },
+            {
+              "name": "Chunky Potato Chowder",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chunky-potato-chowder",
+              "nutrition": {
+                "kcal": 171.2,
+                "protein_g": 6.0,
+                "carbs_g": 22.7,
+                "fat_g": 6.2,
+                "fiber_g": 1.4,
+                "sugar_g": 4.9,
+                "sodium_mg": 320.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 374.2,
+                "calcium_mg": 83.5,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 12.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 30.8
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34478_1_23516"
+            },
+            {
+              "name": "Hearty Lentil & Potato Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:hearty-lentil-potato-soup",
+              "nutrition": {
+                "kcal": 113.8,
+                "protein_g": 6.1,
+                "carbs_g": 19.9,
+                "fat_g": 1.5,
+                "fiber_g": 3.1,
+                "sugar_g": 1.8,
+                "sodium_mg": 293.2,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.0,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 65.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40806_1_25829"
+            },
+            {
+              "name": "Grilled Vegetable Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:grilled-vegetable-pizza",
+              "nutrition": {
+                "kcal": 363.3,
+                "protein_g": 15.1,
+                "carbs_g": 48.8,
+                "fat_g": 12.4,
+                "fiber_g": 2.8,
+                "sugar_g": 5.3,
+                "sodium_mg": 819.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.8,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 192.7,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 21.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 125.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40406_1_35861"
+            },
+            {
               "name": "Mushroom Pizza",
               "station": "Oven",
               "station_type": "main",
@@ -1685,6 +2151,39 @@
               "source_id": "1923_101628_L397755_1_526000"
             },
             {
+              "name": "Italian Wrap",
+              "station": "Deli",
+              "station_type": "bar",
+              "dish_key": "uci:italian-wrap",
+              "nutrition": {
+                "kcal": 250.8,
+                "protein_g": 9.1,
+                "carbs_g": 26.6,
+                "fat_g": 12.5,
+                "fiber_g": 1.9,
+                "sugar_g": 1.8,
+                "sodium_mg": 601.6,
+                "serving": "N/A sandwich",
+                "sat_fat_g": 4.8,
+                "cholesterol_mg": 15.1,
+                "calcium_mg": 131.0,
+                "iron_mg": 2.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 3.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 152.8
+              },
+              "allergens": [
+                "milk",
+                "fish",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40064_1_11320"
+            },
+            {
               "name": "Roasted Cauliflower",
               "station": "Farmer's Market",
               "station_type": "main",
@@ -1780,71 +2279,6 @@
               "source_id": "1923_101628_M34864_1_2837"
             },
             {
-              "name": "Broccoli Cheddar Soup",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:broccoli-cheddar-soup",
-              "nutrition": {
-                "kcal": 183.1,
-                "protein_g": 7.5,
-                "carbs_g": 11.7,
-                "fat_g": 12.2,
-                "fiber_g": 1.4,
-                "sugar_g": 3.8,
-                "sodium_mg": 335.6,
-                "serving": "6 fl oz",
-                "sat_fat_g": 6.0,
-                "cholesterol_mg": 17.8,
-                "calcium_mg": 205.4,
-                "iron_mg": 0.7,
-                "potassium_mg": null,
-                "vitamin_c_mg": 18.7,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 152.7
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34422_1_35949"
-            },
-            {
-              "name": "Chunky Potato Chowder",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:chunky-potato-chowder",
-              "nutrition": {
-                "kcal": 171.2,
-                "protein_g": 6.0,
-                "carbs_g": 22.7,
-                "fat_g": 6.2,
-                "fiber_g": 1.4,
-                "sugar_g": 4.9,
-                "sodium_mg": 320.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 2.3,
-                "cholesterol_mg": 374.2,
-                "calcium_mg": 83.5,
-                "iron_mg": 0.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 12.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 30.8
-              },
-              "allergens": [
-                "milk",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34478_1_23516"
-            },
-            {
               "name": "Frosted Yellow Cupcake- UCI",
               "station": "Bakery",
               "station_type": "dessert",
@@ -1877,6 +2311,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1923_101628_L397248_1_463085"
+            },
+            {
+              "name": "Chocolate Chip Cookie Brownie",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:chocolate-chip-cookie-brownie",
+              "nutrition": {
+                "kcal": 281.5,
+                "protein_g": 3.0,
+                "carbs_g": 45.6,
+                "fat_g": 9.9,
+                "fiber_g": 1.5,
+                "sugar_g": 30.7,
+                "sodium_mg": 224.6,
+                "serving": "N/A cut",
+                "sat_fat_g": 4.7,
+                "cholesterol_mg": 2.7,
+                "calcium_mg": 3.1,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 13.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M33793_1_43387"
             },
             {
               "name": "Craveworthy® Chocolate Chip Cookie",
@@ -2252,6 +2715,163 @@
               "source_id": "1923_101628_M10340_1_10788"
             },
             {
+              "name": "Chicken Tikka Masala",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chicken-tikka-masala",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "N/A cup",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M15062_1_37742"
+            },
+            {
+              "name": "Broccoli Cheddar Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:broccoli-cheddar-soup",
+              "nutrition": {
+                "kcal": 183.1,
+                "protein_g": 7.5,
+                "carbs_g": 11.7,
+                "fat_g": 12.2,
+                "fiber_g": 1.4,
+                "sugar_g": 3.8,
+                "sodium_mg": 335.6,
+                "serving": "6 fl oz",
+                "sat_fat_g": 6.0,
+                "cholesterol_mg": 17.8,
+                "calcium_mg": 205.4,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 18.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 152.7
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34422_1_35949"
+            },
+            {
+              "name": "Chunky Potato Chowder",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:chunky-potato-chowder",
+              "nutrition": {
+                "kcal": 171.2,
+                "protein_g": 6.0,
+                "carbs_g": 22.7,
+                "fat_g": 6.2,
+                "fiber_g": 1.4,
+                "sugar_g": 4.9,
+                "sodium_mg": 320.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 374.2,
+                "calcium_mg": 83.5,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 12.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 30.8
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34478_1_23516"
+            },
+            {
+              "name": "Hearty Lentil & Potato Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:hearty-lentil-potato-soup",
+              "nutrition": {
+                "kcal": 113.8,
+                "protein_g": 6.1,
+                "carbs_g": 19.9,
+                "fat_g": 1.5,
+                "fiber_g": 3.1,
+                "sugar_g": 1.8,
+                "sodium_mg": 293.2,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.0,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 65.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40806_1_25829"
+            },
+            {
+              "name": "Grilled Vegetable Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:grilled-vegetable-pizza",
+              "nutrition": {
+                "kcal": 363.3,
+                "protein_g": 15.1,
+                "carbs_g": 48.8,
+                "fat_g": 12.4,
+                "fiber_g": 2.8,
+                "sugar_g": 5.3,
+                "sodium_mg": 819.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.8,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 192.7,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 21.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 125.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40406_1_35861"
+            },
+            {
               "name": "Mushroom Pizza",
               "station": "Oven",
               "station_type": "main",
@@ -2413,71 +3033,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_M34864_1_2837"
-            },
-            {
-              "name": "Broccoli Cheddar Soup",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:broccoli-cheddar-soup",
-              "nutrition": {
-                "kcal": 183.1,
-                "protein_g": 7.5,
-                "carbs_g": 11.7,
-                "fat_g": 12.2,
-                "fiber_g": 1.4,
-                "sugar_g": 3.8,
-                "sodium_mg": 335.6,
-                "serving": "6 fl oz",
-                "sat_fat_g": 6.0,
-                "cholesterol_mg": 17.8,
-                "calcium_mg": 205.4,
-                "iron_mg": 0.7,
-                "potassium_mg": null,
-                "vitamin_c_mg": 18.7,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 152.7
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34422_1_35949"
-            },
-            {
-              "name": "Chunky Potato Chowder",
-              "station": "Soups",
-              "station_type": "side",
-              "dish_key": "uci:chunky-potato-chowder",
-              "nutrition": {
-                "kcal": 171.2,
-                "protein_g": 6.0,
-                "carbs_g": 22.7,
-                "fat_g": 6.2,
-                "fiber_g": 1.4,
-                "sugar_g": 4.9,
-                "sodium_mg": 320.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 2.3,
-                "cholesterol_mg": 374.2,
-                "calcium_mg": 83.5,
-                "iron_mg": 0.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 12.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 30.8
-              },
-              "allergens": [
-                "milk",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M34478_1_23516"
             },
             {
               "name": "Frosted Yellow Cupcake- UCI",
@@ -2660,6 +3215,37 @@
           "start": "07:00",
           "end": "22:00",
           "items": [
+            {
+              "name": "Buffalo Chicken Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:buffalo-chicken-pizza",
+              "nutrition": {
+                "kcal": 291.9,
+                "protein_g": 14.1,
+                "carbs_g": 33.6,
+                "fat_g": 11.8,
+                "fiber_g": 1.6,
+                "sugar_g": 0.9,
+                "sodium_mg": 767.8,
+                "serving": "N/A cut",
+                "sat_fat_g": 4.9,
+                "cholesterol_mg": 35.7,
+                "calcium_mg": 154.3,
+                "iron_mg": 2.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M20849_1_19786"
+            },
             {
               "name": "Classic Cheese Pizza",
               "station": "Hearth",
@@ -3265,38 +3851,37 @@
               "source_id": "1821_122168_M35609_1_26587"
             },
             {
-              "name": "Home-Style Pancakes",
+              "name": "Tofu-Potato Hash",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:home-style-pancakes",
+              "dish_key": "uci:tofu-potato-hash",
               "nutrition": {
-                "kcal": 237.8,
-                "protein_g": 6.1,
-                "carbs_g": 40.9,
-                "fat_g": 5.8,
-                "fiber_g": 1.8,
-                "sugar_g": 11.0,
-                "sodium_mg": 247.0,
-                "serving": "2 each",
-                "sat_fat_g": 0.7,
+                "kcal": 135.4,
+                "protein_g": 8.5,
+                "carbs_g": 11.8,
+                "fat_g": 6.2,
+                "fiber_g": 2.7,
+                "sugar_g": 2.7,
+                "sodium_mg": 289.0,
+                "serving": "1 serving",
+                "sat_fat_g": 1.2,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 204.4,
-                "iron_mg": 2.2,
+                "calcium_mg": 64.5,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
+                "vitamin_c_mg": 17.1,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 43.0
+                "vitamin_a_iu": 5.2
               },
               "allergens": [
-                "soy",
-                "wheat"
+                "soy"
               ],
               "diets": [],
               "tags": [
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34515_1_25105"
+              "source_id": "1821_122168_M21908_1_16066"
             },
             {
               "name": "Pork Sausage Patty",
@@ -3425,31 +4010,31 @@
               "source_id": "1821_122168_M20278_1_13971"
             },
             {
-              "name": "Assorted Muffin UCI",
+              "name": "Iced Cinnamon Roll",
               "station": "Honeycakes",
               "station_type": "main",
-              "dish_key": "uci:assorted-muffin-uci",
+              "dish_key": "uci:iced-cinnamon-roll",
               "nutrition": {
-                "kcal": 211.4,
-                "protein_g": 2.7,
-                "carbs_g": 31.6,
-                "fat_g": 8.1,
-                "fiber_g": 0.5,
-                "sugar_g": 12.8,
-                "sodium_mg": 113.5,
-                "serving": "1 muffin",
-                "sat_fat_g": 2.0,
-                "cholesterol_mg": 19.4,
-                "calcium_mg": 18.1,
-                "iron_mg": 1.0,
+                "kcal": 202.1,
+                "protein_g": 3.0,
+                "carbs_g": 30.8,
+                "fat_g": 7.7,
+                "fiber_g": 0.8,
+                "sugar_g": 16.1,
+                "sodium_mg": 245.3,
+                "serving": "1 roll",
+                "sat_fat_g": 4.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 1.3,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 0.0
               },
               "allergens": [
                 "milk",
-                "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
@@ -3457,38 +4042,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_L397529_1_467499"
-            },
-            {
-              "name": "Croissant",
-              "station": "Honeycakes",
-              "station_type": "main",
-              "dish_key": "uci:croissant",
-              "nutrition": {
-                "kcal": 370.8,
-                "protein_g": 8.5,
-                "carbs_g": 47.6,
-                "fat_g": 17.0,
-                "fiber_g": 1.2,
-                "sugar_g": 7.1,
-                "sodium_mg": 425.2,
-                "serving": "1 each",
-                "sat_fat_g": 9.4,
-                "cholesterol_mg": 41.7,
-                "calcium_mg": 23.8,
-                "iron_mg": 3.0,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M35964_1_7802"
+              "source_id": "1821_122168_M16738_1_37395"
             },
             {
               "name": "Overnight Strawberry Oats",
@@ -3558,6 +4112,37 @@
           "start": "10:00",
           "end": "14:00",
           "items": [
+            {
+              "name": "Buffalo Chicken Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:buffalo-chicken-pizza",
+              "nutrition": {
+                "kcal": 291.9,
+                "protein_g": 14.1,
+                "carbs_g": 33.6,
+                "fat_g": 11.8,
+                "fiber_g": 1.6,
+                "sugar_g": 0.9,
+                "sodium_mg": 767.8,
+                "serving": "N/A cut",
+                "sat_fat_g": 4.9,
+                "cholesterol_mg": 35.7,
+                "calcium_mg": 154.3,
+                "iron_mg": 2.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M20849_1_19786"
+            },
             {
               "name": "Classic Cheese Pizza",
               "station": "Hearth",
@@ -4163,27 +4748,27 @@
               "source_id": "1821_122168_M5089_1_20394"
             },
             {
-              "name": "Roasted Corn",
+              "name": "Jasmine Rice",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:roasted-corn",
+              "dish_key": "uci:jasmine-rice",
               "nutrition": {
-                "kcal": 108.1,
-                "protein_g": 3.0,
-                "carbs_g": 20.7,
-                "fat_g": 3.0,
-                "fiber_g": 2.1,
-                "sugar_g": 2.5,
-                "sodium_mg": 71.8,
+                "kcal": 130.8,
+                "protein_g": 2.9,
+                "carbs_g": 29.1,
+                "fat_g": 0.0,
+                "fiber_g": 0.7,
+                "sugar_g": 0.0,
+                "sodium_mg": 2.4,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.4,
+                "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 4.6,
-                "iron_mg": 0.4,
+                "calcium_mg": 2.4,
+                "iron_mg": 0.0,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.4,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 10.0
+                "vitamin_a_iu": 0.0
               },
               "allergens": [],
               "diets": [],
@@ -4191,7 +4776,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M10072_1_44337"
+              "source_id": "1821_122168_M9650_1_11343"
             },
             {
               "name": "Crispy Battered Cod",
@@ -4277,7 +4862,7 @@
                 "serving": "1 fl oz",
                 "sat_fat_g": 2.7,
                 "cholesterol_mg": 9.7,
-                "calcium_mg": 2.9,
+                "calcium_mg": 2.8,
                 "iron_mg": 0.1,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.9,
@@ -4296,36 +4881,37 @@
               "source_id": "1821_122168_M34527_1_387808"
             },
             {
-              "name": "Southwestern Grilled Turkey",
-              "station": "Compass",
+              "name": "Chicken Burrito Bowl",
+              "station": "Saute ",
               "station_type": "main",
-              "dish_key": "uci:southwestern-grilled-turkey",
+              "dish_key": "uci:chicken-burrito-bowl",
               "nutrition": {
-                "kcal": 171.1,
-                "protein_g": 25.7,
-                "carbs_g": 3.5,
-                "fat_g": 6.2,
-                "fiber_g": 0.4,
-                "sugar_g": 1.9,
-                "sodium_mg": 539.9,
-                "serving": "3 ozw",
-                "sat_fat_g": 1.4,
-                "cholesterol_mg": 75.6,
-                "calcium_mg": 22.8,
-                "iron_mg": 1.8,
+                "kcal": 484.3,
+                "protein_g": 30.6,
+                "carbs_g": 48.0,
+                "fat_g": 18.8,
+                "fiber_g": 4.9,
+                "sugar_g": 4.8,
+                "sodium_mg": 721.6,
+                "serving": "1 serving",
+                "sat_fat_g": 9.0,
+                "cholesterol_mg": 117.4,
+                "calcium_mg": 299.2,
+                "iron_mg": 3.3,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 26.4,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 11.1
+                "vitamin_a_iu": 130.4
               },
-              "allergens": [],
+              "allergens": [
+                "milk"
+              ],
               "diets": [],
               "tags": [
-                "high_protein",
-                "lighter"
+                "high_protein"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M12416_1_37370"
+              "source_id": "1821_122168_M14354_1_21609"
             },
             {
               "name": "Barahat Spiced Beef and Chickpeas",
@@ -4359,58 +4945,27 @@
               "source_id": "1821_122168_M40999_1_347"
             },
             {
-              "name": "Zucchini & Tomatoes",
+              "name": "Steamed Peas",
               "station": "Compass",
               "station_type": "main",
-              "dish_key": "uci:zucchini-tomatoes",
+              "dish_key": "uci:steamed-peas",
               "nutrition": {
-                "kcal": 47.7,
-                "protein_g": 1.1,
-                "carbs_g": 6.8,
-                "fat_g": 2.1,
-                "fiber_g": 1.0,
-                "sugar_g": 4.2,
-                "sodium_mg": 7.9,
+                "kcal": 67.7,
+                "protein_g": 4.6,
+                "carbs_g": 12.0,
+                "fat_g": 0.4,
+                "fiber_g": 4.0,
+                "sugar_g": 4.4,
+                "sodium_mg": 95.0,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.2,
+                "sat_fat_g": 0.1,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 20.3,
-                "iron_mg": 0.4,
-                "potassium_mg": null,
-                "vitamin_c_mg": 20.2,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 11.7
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1821_122168_M40748_1_47484"
-            },
-            {
-              "name": "Sofrito Black Beans & Rice",
-              "station": "Compass",
-              "station_type": "main",
-              "dish_key": "uci:sofrito-black-beans-rice",
-              "nutrition": {
-                "kcal": 188.1,
-                "protein_g": 4.2,
-                "carbs_g": 30.2,
-                "fat_g": 5.6,
-                "fiber_g": 2.1,
-                "sugar_g": 1.1,
-                "sodium_mg": 113.3,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.4,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 35.7,
+                "calcium_mg": 19.4,
                 "iron_mg": 1.3,
                 "potassium_mg": null,
-                "vitamin_c_mg": 16.9,
+                "vitamin_c_mg": 15.8,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 22.1
+                "vitamin_a_iu": 90.6
               },
               "allergens": [],
               "diets": [],
@@ -4418,7 +4973,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M40845_1_22411"
+              "source_id": "1821_122168_M39032_1_16250"
             },
             {
               "name": "Yellow Basmati Rice",
@@ -4436,7 +4991,7 @@
                 "serving": "N/A cup",
                 "sat_fat_g": 0.2,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 4.9,
+                "calcium_mg": 4.8,
                 "iron_mg": 0.2,
                 "potassium_mg": null,
                 "vitamin_c_mg": 0.0,
@@ -4450,6 +5005,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M33147_1_48137"
+            },
+            {
+              "name": "Buffalo Chicken Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:buffalo-chicken-pizza",
+              "nutrition": {
+                "kcal": 291.9,
+                "protein_g": 14.1,
+                "carbs_g": 33.6,
+                "fat_g": 11.8,
+                "fiber_g": 1.6,
+                "sugar_g": 0.9,
+                "sodium_mg": 767.8,
+                "serving": "N/A cut",
+                "sat_fat_g": 4.9,
+                "cholesterol_mg": 35.7,
+                "calcium_mg": 154.3,
+                "iron_mg": 2.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M20849_1_19786"
             },
             {
               "name": "Classic Cheese Pizza",
@@ -5089,6 +5675,68 @@
               "source_id": "1821_122168_M2983_1_524"
             },
             {
+              "name": "Jasmine Rice",
+              "station": "The Twisted Root",
+              "station_type": "main",
+              "dish_key": "uci:jasmine-rice",
+              "nutrition": {
+                "kcal": 130.8,
+                "protein_g": 2.9,
+                "carbs_g": 29.1,
+                "fat_g": 0.0,
+                "fiber_g": 0.7,
+                "sugar_g": 0.0,
+                "sodium_mg": 2.4,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 2.4,
+                "iron_mg": 0.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M9650_1_11343"
+            },
+            {
+              "name": "Buffalo Chicken Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:buffalo-chicken-pizza",
+              "nutrition": {
+                "kcal": 291.9,
+                "protein_g": 14.1,
+                "carbs_g": 33.6,
+                "fat_g": 11.8,
+                "fiber_g": 1.6,
+                "sugar_g": 0.9,
+                "sodium_mg": 767.8,
+                "serving": "N/A cut",
+                "sat_fat_g": 4.9,
+                "cholesterol_mg": 35.7,
+                "calcium_mg": 154.3,
+                "iron_mg": 2.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M20849_1_19786"
+            },
+            {
               "name": "Classic Cheese Pizza",
               "station": "Hearth",
               "station_type": "main",
@@ -5652,6 +6300,41 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_L397264_1_466749"
+            },
+            {
+              "name": "Cheese Tortellini Marinara",
+              "station": "Saute ",
+              "station_type": "main",
+              "dish_key": "uci:cheese-tortellini-marinara",
+              "nutrition": {
+                "kcal": 215.3,
+                "protein_g": 7.8,
+                "carbs_g": 32.3,
+                "fat_g": 6.7,
+                "fiber_g": 2.3,
+                "sugar_g": 4.8,
+                "sodium_mg": 368.7,
+                "serving": "N/A cup",
+                "sat_fat_g": 1.8,
+                "cholesterol_mg": 13.1,
+                "calcium_mg": 79.7,
+                "iron_mg": 1.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 53.3
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M20665_1_24798"
             }
           ]
         }
@@ -6021,6 +6704,37 @@
               "source_id": "287868_133409_M21174_1_22814"
             },
             {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
               "name": "Dill Pickle Slices",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -6079,62 +6793,62 @@
               "source_id": "287868_133409_M40939_1_21197"
             },
             {
-              "name": "Cucumber Tomato Salad",
+              "name": "Mediterranean Lentil Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:cucumber-tomato-salad",
+              "dish_key": "uci:mediterranean-lentil-salad",
               "nutrition": {
-                "kcal": 34.1,
-                "protein_g": 0.6,
-                "carbs_g": 4.1,
-                "fat_g": 1.9,
-                "fiber_g": 0.8,
-                "sugar_g": 2.5,
-                "sodium_mg": 132.7,
+                "kcal": 221.3,
+                "protein_g": 7.7,
+                "carbs_g": 18.0,
+                "fat_g": 13.4,
+                "fiber_g": 3.3,
+                "sugar_g": 1.8,
+                "sodium_mg": 385.3,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 12.3,
-                "iron_mg": 0.2,
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 5.3,
+                "calcium_mg": 59.1,
+                "iron_mg": 1.9,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.2,
+                "vitamin_c_mg": 12.7,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 19.3
+                "vitamin_a_iu": 24.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M12073_1_27908"
+              "source_id": "287868_133409_M14496_1_20815"
             },
             {
-              "name": "Homestyle Macaroni Salad",
+              "name": "Mediterranean White Bean Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:homestyle-macaroni-salad",
+              "dish_key": "uci:mediterranean-white-bean-salad",
               "nutrition": {
-                "kcal": 291.4,
-                "protein_g": 4.0,
-                "carbs_g": 15.8,
-                "fat_g": 24.1,
-                "fiber_g": 1.4,
-                "sugar_g": 1.5,
-                "sodium_mg": 273.6,
+                "kcal": 84.3,
+                "protein_g": 2.1,
+                "carbs_g": 8.6,
+                "fat_g": 5.0,
+                "fiber_g": 2.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 275.8,
                 "serving": "N/A cup",
-                "sat_fat_g": 3.8,
-                "cholesterol_mg": 44.3,
-                "calcium_mg": 19.0,
-                "iron_mg": 0.8,
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 24.3,
+                "iron_mg": 0.7,
                 "potassium_mg": null,
-                "vitamin_c_mg": 4.9,
+                "vitamin_c_mg": 35.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 24.8
+                "vitamin_a_iu": 35.7
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M10266_1_41398"
+              "source_id": "287868_133409_M5799_1_33002"
             },
             {
               "name": "Cheesy  Chicken Tortilla Soup",
@@ -6166,66 +6880,67 @@
               "source_id": "287868_133409_A3042_1_38782"
             },
             {
-              "name": "Chicken & Wild Rice Soup",
+              "name": "Tomato Basil Soup",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:chicken-wild-rice-soup",
+              "dish_key": "uci:tomato-basil-soup",
               "nutrition": {
-                "kcal": 150.9,
-                "protein_g": 3.8,
-                "carbs_g": 15.4,
+                "kcal": 127.4,
+                "protein_g": 2.0,
+                "carbs_g": 12.4,
                 "fat_g": 8.2,
-                "fiber_g": 0.8,
-                "sugar_g": 1.3,
-                "sodium_mg": 718.0,
+                "fiber_g": 1.6,
+                "sugar_g": 8.0,
+                "sodium_mg": 532.4,
                 "serving": "6 fl oz",
-                "sat_fat_g": 3.7,
-                "cholesterol_mg": 23.3,
-                "calcium_mg": 26.5,
-                "iron_mg": 0.5,
+                "sat_fat_g": 4.3,
+                "cholesterol_mg": 22.9,
+                "calcium_mg": 40.2,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 0.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M39263_1_26798"
+              "source_id": "287868_133409_A3046_1_31420"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy®Sugar Cookie",
@@ -6259,6 +6974,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "287868_133409_M33187_1_16363"
+            },
+            {
+              "name": "Cookies & Cream Pudding",
+              "station": "Desserts",
+              "station_type": "dessert",
+              "dish_key": "uci:cookies-cream-pudding",
+              "nutrition": {
+                "kcal": 158.0,
+                "protein_g": 0.9,
+                "carbs_g": 29.3,
+                "fat_g": 4.2,
+                "fiber_g": 0.1,
+                "sugar_g": 19.7,
+                "sodium_mg": 229.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 0.4,
+                "calcium_mg": 25.3,
+                "iron_mg": 14.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M1716_1_18767"
             }
           ]
         },
@@ -6622,6 +7366,37 @@
               "source_id": "287868_133409_M21174_1_22814"
             },
             {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
               "name": "Dill Pickle Slices",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -6680,62 +7455,62 @@
               "source_id": "287868_133409_M40939_1_21197"
             },
             {
-              "name": "Cucumber Tomato Salad",
+              "name": "Mediterranean Lentil Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:cucumber-tomato-salad",
+              "dish_key": "uci:mediterranean-lentil-salad",
               "nutrition": {
-                "kcal": 34.1,
-                "protein_g": 0.6,
-                "carbs_g": 4.1,
-                "fat_g": 1.9,
-                "fiber_g": 0.8,
-                "sugar_g": 2.5,
-                "sodium_mg": 132.7,
+                "kcal": 221.3,
+                "protein_g": 7.7,
+                "carbs_g": 18.0,
+                "fat_g": 13.4,
+                "fiber_g": 3.3,
+                "sugar_g": 1.8,
+                "sodium_mg": 385.3,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 12.3,
-                "iron_mg": 0.2,
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 5.3,
+                "calcium_mg": 59.1,
+                "iron_mg": 1.9,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.2,
+                "vitamin_c_mg": 12.7,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 19.3
+                "vitamin_a_iu": 24.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M12073_1_27908"
+              "source_id": "287868_133409_M14496_1_20815"
             },
             {
-              "name": "Homestyle Macaroni Salad",
+              "name": "Mediterranean White Bean Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:homestyle-macaroni-salad",
+              "dish_key": "uci:mediterranean-white-bean-salad",
               "nutrition": {
-                "kcal": 291.4,
-                "protein_g": 4.0,
-                "carbs_g": 15.8,
-                "fat_g": 24.1,
-                "fiber_g": 1.4,
-                "sugar_g": 1.5,
-                "sodium_mg": 273.6,
+                "kcal": 84.3,
+                "protein_g": 2.1,
+                "carbs_g": 8.6,
+                "fat_g": 5.0,
+                "fiber_g": 2.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 275.8,
                 "serving": "N/A cup",
-                "sat_fat_g": 3.8,
-                "cholesterol_mg": 44.3,
-                "calcium_mg": 19.0,
-                "iron_mg": 0.8,
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 24.3,
+                "iron_mg": 0.7,
                 "potassium_mg": null,
-                "vitamin_c_mg": 4.9,
+                "vitamin_c_mg": 35.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 24.8
+                "vitamin_a_iu": 35.7
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M10266_1_41398"
+              "source_id": "287868_133409_M5799_1_33002"
             },
             {
               "name": "Cheesy  Chicken Tortilla Soup",
@@ -6767,66 +7542,67 @@
               "source_id": "287868_133409_A3042_1_38782"
             },
             {
-              "name": "Chicken & Wild Rice Soup",
+              "name": "Tomato Basil Soup",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:chicken-wild-rice-soup",
+              "dish_key": "uci:tomato-basil-soup",
               "nutrition": {
-                "kcal": 150.9,
-                "protein_g": 3.8,
-                "carbs_g": 15.4,
+                "kcal": 127.4,
+                "protein_g": 2.0,
+                "carbs_g": 12.4,
                 "fat_g": 8.2,
-                "fiber_g": 0.8,
-                "sugar_g": 1.3,
-                "sodium_mg": 718.0,
+                "fiber_g": 1.6,
+                "sugar_g": 8.0,
+                "sodium_mg": 532.4,
                 "serving": "6 fl oz",
-                "sat_fat_g": 3.7,
-                "cholesterol_mg": 23.3,
-                "calcium_mg": 26.5,
-                "iron_mg": 0.5,
+                "sat_fat_g": 4.3,
+                "cholesterol_mg": 22.9,
+                "calcium_mg": 40.2,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 0.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M39263_1_26798"
+              "source_id": "287868_133409_A3046_1_31420"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy®Sugar Cookie",
@@ -6860,6 +7636,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "287868_133409_M33187_1_16363"
+            },
+            {
+              "name": "Cookies & Cream Pudding",
+              "station": "Desserts",
+              "station_type": "dessert",
+              "dish_key": "uci:cookies-cream-pudding",
+              "nutrition": {
+                "kcal": 158.0,
+                "protein_g": 0.9,
+                "carbs_g": 29.3,
+                "fat_g": 4.2,
+                "fiber_g": 0.1,
+                "sugar_g": 19.7,
+                "sodium_mg": 229.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 0.4,
+                "calcium_mg": 25.3,
+                "iron_mg": 14.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M1716_1_18767"
             }
           ]
         },
@@ -7317,6 +8122,37 @@
               "source_id": "287868_133409_M21174_1_22814"
             },
             {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
               "name": "Dill Pickle Slices",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -7375,62 +8211,62 @@
               "source_id": "287868_133409_M40939_1_21197"
             },
             {
-              "name": "Cucumber Tomato Salad",
+              "name": "Mediterranean Lentil Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:cucumber-tomato-salad",
+              "dish_key": "uci:mediterranean-lentil-salad",
               "nutrition": {
-                "kcal": 34.1,
-                "protein_g": 0.6,
-                "carbs_g": 4.1,
-                "fat_g": 1.9,
-                "fiber_g": 0.8,
-                "sugar_g": 2.5,
-                "sodium_mg": 132.7,
+                "kcal": 221.3,
+                "protein_g": 7.7,
+                "carbs_g": 18.0,
+                "fat_g": 13.4,
+                "fiber_g": 3.3,
+                "sugar_g": 1.8,
+                "sodium_mg": 385.3,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 12.3,
-                "iron_mg": 0.2,
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 5.3,
+                "calcium_mg": 59.1,
+                "iron_mg": 1.9,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.2,
+                "vitamin_c_mg": 12.7,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 19.3
+                "vitamin_a_iu": 24.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M12073_1_27908"
+              "source_id": "287868_133409_M14496_1_20815"
             },
             {
-              "name": "Homestyle Macaroni Salad",
+              "name": "Mediterranean White Bean Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:homestyle-macaroni-salad",
+              "dish_key": "uci:mediterranean-white-bean-salad",
               "nutrition": {
-                "kcal": 291.4,
-                "protein_g": 4.0,
-                "carbs_g": 15.8,
-                "fat_g": 24.1,
-                "fiber_g": 1.4,
-                "sugar_g": 1.5,
-                "sodium_mg": 273.6,
+                "kcal": 84.3,
+                "protein_g": 2.1,
+                "carbs_g": 8.6,
+                "fat_g": 5.0,
+                "fiber_g": 2.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 275.8,
                 "serving": "N/A cup",
-                "sat_fat_g": 3.8,
-                "cholesterol_mg": 44.3,
-                "calcium_mg": 19.0,
-                "iron_mg": 0.8,
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 24.3,
+                "iron_mg": 0.7,
                 "potassium_mg": null,
-                "vitamin_c_mg": 4.9,
+                "vitamin_c_mg": 35.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 24.8
+                "vitamin_a_iu": 35.7
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M10266_1_41398"
+              "source_id": "287868_133409_M5799_1_33002"
             },
             {
               "name": "Cheesy  Chicken Tortilla Soup",
@@ -7462,66 +8298,67 @@
               "source_id": "287868_133409_A3042_1_38782"
             },
             {
-              "name": "Chicken & Wild Rice Soup",
+              "name": "Tomato Basil Soup",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:chicken-wild-rice-soup",
+              "dish_key": "uci:tomato-basil-soup",
               "nutrition": {
-                "kcal": 150.9,
-                "protein_g": 3.8,
-                "carbs_g": 15.4,
+                "kcal": 127.4,
+                "protein_g": 2.0,
+                "carbs_g": 12.4,
                 "fat_g": 8.2,
-                "fiber_g": 0.8,
-                "sugar_g": 1.3,
-                "sodium_mg": 718.0,
+                "fiber_g": 1.6,
+                "sugar_g": 8.0,
+                "sodium_mg": 532.4,
                 "serving": "6 fl oz",
-                "sat_fat_g": 3.7,
-                "cholesterol_mg": 23.3,
-                "calcium_mg": 26.5,
-                "iron_mg": 0.5,
+                "sat_fat_g": 4.3,
+                "cholesterol_mg": 22.9,
+                "calcium_mg": 40.2,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 0.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M39263_1_26798"
+              "source_id": "287868_133409_A3046_1_31420"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy®Sugar Cookie",
@@ -7555,6 +8392,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "287868_133409_M33187_1_16363"
+            },
+            {
+              "name": "Cookies & Cream Pudding",
+              "station": "Desserts",
+              "station_type": "dessert",
+              "dish_key": "uci:cookies-cream-pudding",
+              "nutrition": {
+                "kcal": 158.0,
+                "protein_g": 0.9,
+                "carbs_g": 29.3,
+                "fat_g": 4.2,
+                "fiber_g": 0.1,
+                "sugar_g": 19.7,
+                "sodium_mg": 229.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 0.4,
+                "calcium_mg": 25.3,
+                "iron_mg": 14.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M1716_1_18767"
             }
           ]
         },
@@ -7918,6 +8784,37 @@
               "source_id": "287868_133409_M21174_1_22814"
             },
             {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
               "name": "Dill Pickle Slices",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -7976,62 +8873,62 @@
               "source_id": "287868_133409_M40939_1_21197"
             },
             {
-              "name": "Cucumber Tomato Salad",
+              "name": "Mediterranean Lentil Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:cucumber-tomato-salad",
+              "dish_key": "uci:mediterranean-lentil-salad",
               "nutrition": {
-                "kcal": 34.1,
-                "protein_g": 0.6,
-                "carbs_g": 4.1,
-                "fat_g": 1.9,
-                "fiber_g": 0.8,
-                "sugar_g": 2.5,
-                "sodium_mg": 132.7,
+                "kcal": 221.3,
+                "protein_g": 7.7,
+                "carbs_g": 18.0,
+                "fat_g": 13.4,
+                "fiber_g": 3.3,
+                "sugar_g": 1.8,
+                "sodium_mg": 385.3,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 12.3,
-                "iron_mg": 0.2,
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 5.3,
+                "calcium_mg": 59.1,
+                "iron_mg": 1.9,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.2,
+                "vitamin_c_mg": 12.7,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 19.3
+                "vitamin_a_iu": 24.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M12073_1_27908"
+              "source_id": "287868_133409_M14496_1_20815"
             },
             {
-              "name": "Homestyle Macaroni Salad",
+              "name": "Mediterranean White Bean Salad",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:homestyle-macaroni-salad",
+              "dish_key": "uci:mediterranean-white-bean-salad",
               "nutrition": {
-                "kcal": 291.4,
-                "protein_g": 4.0,
-                "carbs_g": 15.8,
-                "fat_g": 24.1,
-                "fiber_g": 1.4,
-                "sugar_g": 1.5,
-                "sodium_mg": 273.6,
+                "kcal": 84.3,
+                "protein_g": 2.1,
+                "carbs_g": 8.6,
+                "fat_g": 5.0,
+                "fiber_g": 2.9,
+                "sugar_g": 2.6,
+                "sodium_mg": 275.8,
                 "serving": "N/A cup",
-                "sat_fat_g": 3.8,
-                "cholesterol_mg": 44.3,
-                "calcium_mg": 19.0,
-                "iron_mg": 0.8,
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 24.3,
+                "iron_mg": 0.7,
                 "potassium_mg": null,
-                "vitamin_c_mg": 4.9,
+                "vitamin_c_mg": 35.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 24.8
+                "vitamin_a_iu": 35.7
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M10266_1_41398"
+              "source_id": "287868_133409_M5799_1_33002"
             },
             {
               "name": "Cheesy  Chicken Tortilla Soup",
@@ -8063,66 +8960,67 @@
               "source_id": "287868_133409_A3042_1_38782"
             },
             {
-              "name": "Chicken & Wild Rice Soup",
+              "name": "Tomato Basil Soup",
               "station": "Salad & Soup",
               "station_type": "bar",
-              "dish_key": "uci:chicken-wild-rice-soup",
+              "dish_key": "uci:tomato-basil-soup",
               "nutrition": {
-                "kcal": 150.9,
-                "protein_g": 3.8,
-                "carbs_g": 15.4,
+                "kcal": 127.4,
+                "protein_g": 2.0,
+                "carbs_g": 12.4,
                 "fat_g": 8.2,
-                "fiber_g": 0.8,
-                "sugar_g": 1.3,
-                "sodium_mg": 718.0,
+                "fiber_g": 1.6,
+                "sugar_g": 8.0,
+                "sodium_mg": 532.4,
                 "serving": "6 fl oz",
-                "sat_fat_g": 3.7,
-                "cholesterol_mg": 23.3,
-                "calcium_mg": 26.5,
-                "iron_mg": 0.5,
+                "sat_fat_g": 4.3,
+                "cholesterol_mg": 22.9,
+                "calcium_mg": 40.2,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": null,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": null
+                "vitamin_a_iu": 0.0
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M39263_1_26798"
+              "source_id": "287868_133409_A3046_1_31420"
             },
             {
-              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "name": "Craveworthy® Chocolate Chip Cookie",
               "station": "Desserts",
               "station_type": "dessert",
-              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
               "nutrition": {
-                "kcal": 220.0,
-                "protein_g": 2.3,
-                "carbs_g": 32.1,
-                "fat_g": 9.2,
-                "fiber_g": 1.2,
-                "sugar_g": 16.1,
-                "sodium_mg": 226.9,
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
                 "serving": "1 cookie",
-                "sat_fat_g": 5.6,
-                "cholesterol_mg": 30.2,
-                "calcium_mg": 20.0,
-                "iron_mg": 1.5,
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.2,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 16.4
+                "vitamin_a_iu": 15.0
               },
               "allergens": [
                 "milk",
                 "egg",
+                "soy",
                 "wheat"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "287868_133409_M33064_1_29486"
+              "source_id": "287868_133409_M33063_1_31218"
             },
             {
               "name": "Craveworthy®Sugar Cookie",
@@ -8156,6 +9054,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "287868_133409_M33187_1_16363"
+            },
+            {
+              "name": "Cookies & Cream Pudding",
+              "station": "Desserts",
+              "station_type": "dessert",
+              "dish_key": "uci:cookies-cream-pudding",
+              "nutrition": {
+                "kcal": 158.0,
+                "protein_g": 0.9,
+                "carbs_g": 29.3,
+                "fat_g": 4.2,
+                "fiber_g": 0.1,
+                "sugar_g": 19.7,
+                "sodium_mg": 229.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 0.4,
+                "calcium_mg": 25.3,
+                "iron_mg": 14.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M1716_1_18767"
             }
           ]
         }

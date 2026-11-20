@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
   "date": "2026-11-21",
-  "scraped_at": "2026-11-20T04:04:45+00:00",
+  "scraped_at": "2026-11-20T21:21:40+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -10002,37 +10002,6 @@
               "source_id": "2634:264181"
             },
             {
-              "name": "Fresh Blueberries",
-              "station": "Fresh",
-              "station_type": "main",
-              "dish_key": "ucsd:fresh-blueberries",
-              "nutrition": {
-                "kcal": 16.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "4062:231025"
-            },
-            {
               "name": "Steel Cut Oatmeal",
               "station": "Fresh",
               "station_type": "main",
@@ -10165,6 +10134,37 @@
               ],
               "carbon_kg": null,
               "source_id": "2026:660294"
+            },
+            {
+              "name": "Fresh Blueberries",
+              "station": "Fresh",
+              "station_type": "main",
+              "dish_key": "ucsd:fresh-blueberries",
+              "nutrition": {
+                "kcal": 16.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "4062:231025"
             },
             {
               "name": "Mango Chunks",

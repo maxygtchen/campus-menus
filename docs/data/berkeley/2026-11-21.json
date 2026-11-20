@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-21",
-  "scraped_at": "2026-11-20T03:59:07+00:00",
+  "scraped_at": "2026-11-20T21:16:04+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -15,27 +15,27 @@
           "end": "15:00",
           "items": [
             {
-              "name": "Halal Chimichuri Grilled Tri Tip",
+              "name": "Halal Curried Chicken Breast",
               "station": "Center Plate",
               "station_type": "main",
-              "dish_key": "berkeley:halal-chimichuri-grilled-tri-tip",
+              "dish_key": "berkeley:halal-curried-chicken-breast",
               "nutrition": {
-                "kcal": 280.8,
-                "protein_g": 22.6,
+                "kcal": 217.3,
+                "protein_g": 31.9,
                 "carbs_g": 0.8,
-                "fat_g": 19.9,
-                "fiber_g": 0.1,
-                "sugar_g": 0.2,
-                "sodium_mg": 401.4,
+                "fat_g": 9.5,
+                "fiber_g": 1.8,
+                "sugar_g": 0.1,
+                "sodium_mg": 372.3,
                 "serving": "4 oz",
-                "sat_fat_g": 4.6,
-                "cholesterol_mg": 71.8,
-                "calcium_mg": 32.0,
-                "iron_mg": 1.8,
-                "potassium_mg": 360.5,
-                "vitamin_c_mg": 1.8,
+                "sat_fat_g": 1.6,
+                "cholesterol_mg": 97.5,
+                "calcium_mg": 18.0,
+                "iron_mg": 0.6,
+                "potassium_mg": 332.6,
+                "vitamin_c_mg": 1.9,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 5.7
               },
               "allergens": [],
               "diets": [
@@ -45,70 +45,34 @@
                 "high_protein",
                 "lighter"
               ],
-              "carbon_kg": 4.5,
-              "source_id": "1873"
+              "carbon_kg": 0.0,
+              "source_id": "1874"
             },
             {
-              "name": "Seasoned Black Beans",
+              "name": "Halal Vegan Baked Tandoori Tofu",
               "station": "Center Plate",
               "station_type": "main",
-              "dish_key": "berkeley:seasoned-black-beans",
+              "dish_key": "berkeley:halal-vegan-baked-tandoori-tofu",
               "nutrition": {
-                "kcal": 70.0,
-                "protein_g": 4.7,
-                "carbs_g": 12.8,
-                "fat_g": 0.0,
-                "fiber_g": 5.4,
-                "sugar_g": 0.6,
-                "sodium_mg": 488.8,
-                "serving": "2.74 oz",
-                "sat_fat_g": 0.0,
+                "kcal": 181.2,
+                "protein_g": 18.2,
+                "carbs_g": 9.1,
+                "fat_g": 8.2,
+                "fiber_g": 3.0,
+                "sugar_g": 0.1,
+                "sodium_mg": 447.1,
+                "serving": "4 oz",
+                "sat_fat_g": 0.3,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 29.1,
-                "iron_mg": 6.3,
-                "potassium_mg": 302.9,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "108"
-            },
-            {
-              "name": "Latin-style Sauteed Chicken Vegan",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:latin-style-sauteed-chicken-vegan",
-              "nutrition": {
-                "kcal": 204.4,
-                "protein_g": 19.2,
-                "carbs_g": 5.7,
-                "fat_g": 11.5,
-                "fiber_g": 2.6,
-                "sugar_g": 1.3,
-                "sodium_mg": 449.4,
-                "serving": "5.02 oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 28.1,
-                "iron_mg": 2.3,
-                "potassium_mg": 340.0,
-                "vitamin_c_mg": 0.3,
+                "calcium_mg": 262.8,
+                "iron_mg": 0.2,
+                "potassium_mg": 206.1,
+                "vitamin_c_mg": 1.4,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
               "allergens": [
-                "wheat",
-                "soy",
-                "gluten"
+                "soy"
               ],
               "diets": [
                 "vegan"
@@ -118,103 +82,32 @@
                 "vegan"
               ],
               "carbon_kg": 0.2,
-              "source_id": "175"
+              "source_id": "1900"
             },
             {
-              "name": "Cilantro and Lime Rice",
+              "name": "Basmati Rice",
               "station": "Center Plate",
               "station_type": "main",
-              "dish_key": "berkeley:cilantro-and-lime-rice",
+              "dish_key": "berkeley:basmati-rice",
               "nutrition": {
-                "kcal": 118.4,
-                "protein_g": 2.1,
-                "carbs_g": 23.4,
-                "fat_g": 1.7,
-                "fiber_g": 0.9,
-                "sugar_g": 0.3,
-                "sodium_mg": 102.8,
-                "serving": "5.78 oz",
-                "sat_fat_g": 0.2,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 17.2,
-                "iron_mg": 1.4,
-                "potassium_mg": 94.2,
-                "vitamin_c_mg": 3.2,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.2
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "1064"
-            },
-            {
-              "name": "Sauteed Corn Pepper Mexicali",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:sauteed-corn-pepper-mexicali",
-              "nutrition": {
-                "kcal": 118.1,
-                "protein_g": 2.9,
-                "carbs_g": 20.4,
-                "fat_g": 2.7,
-                "fiber_g": 2.2,
-                "sugar_g": 2.9,
-                "sodium_mg": 126.3,
-                "serving": "3.11 oz",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 4.6,
-                "iron_mg": 0.3,
-                "potassium_mg": 230.4,
-                "vitamin_c_mg": 9.4,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 17.2
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "627"
-            },
-            {
-              "name": "Flour Tortilla",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:flour-tortilla",
-              "nutrition": {
-                "kcal": 88.3,
-                "protein_g": 2.2,
-                "carbs_g": 13.2,
-                "fat_g": 2.2,
+                "kcal": 90.8,
+                "protein_g": 1.8,
+                "carbs_g": 21.2,
+                "fat_g": 0.0,
                 "fiber_g": 0.0,
                 "sugar_g": 0.0,
-                "sodium_mg": 198.7,
-                "serving": "1.09 oz",
-                "sat_fat_g": 0.6,
+                "sodium_mg": 0.0,
+                "serving": "2.96 oz",
+                "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 22.1,
-                "iron_mg": 0.6,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.7,
                 "potassium_mg": 0.0,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
-              "allergens": [
-                "wheat",
-                "gluten"
-              ],
+              "allergens": [],
               "diets": [
                 "vegan"
               ],
@@ -223,7 +116,75 @@
                 "vegan"
               ],
               "carbon_kg": 0.1,
-              "source_id": "1178"
+              "source_id": "1063"
+            },
+            {
+              "name": "Curry Roasted Cauliflower",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:curry-roasted-cauliflower",
+              "nutrition": {
+                "kcal": 69.3,
+                "protein_g": 1.7,
+                "carbs_g": 5.0,
+                "fat_g": 5.1,
+                "fiber_g": 2.1,
+                "sugar_g": 1.9,
+                "sodium_mg": 25.0,
+                "serving": "3.47 oz",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 20.7,
+                "iron_mg": 0.4,
+                "potassium_mg": 258.9,
+                "vitamin_c_mg": 40.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "819"
+            },
+            {
+              "name": "Steamed Peas and Carrots",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:steamed-peas-and-carrots",
+              "nutrition": {
+                "kcal": 66.8,
+                "protein_g": 3.4,
+                "carbs_g": 11.3,
+                "fat_g": 0.0,
+                "fiber_g": 3.4,
+                "sugar_g": 5.2,
+                "sodium_mg": 22.7,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 18.1,
+                "iron_mg": 1.1,
+                "potassium_mg": 79.4,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "576"
             },
             {
               "name": "Scrambled Eggs",
@@ -578,40 +539,6 @@
               ],
               "carbon_kg": 0.2,
               "source_id": "403"
-            },
-            {
-              "name": "Rice Congee",
-              "station": "Allergen Friendly",
-              "station_type": "main",
-              "dish_key": "berkeley:rice-congee",
-              "nutrition": {
-                "kcal": 72.7,
-                "protein_g": 1.6,
-                "carbs_g": 16.1,
-                "fat_g": 0.0,
-                "fiber_g": 0.4,
-                "sugar_g": 0.0,
-                "sodium_mg": 98.4,
-                "serving": "4.59 oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 0.0,
-                "iron_mg": 0.0,
-                "potassium_mg": 10.1,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "1330"
             },
             {
               "name": "Steamed Broccoli",

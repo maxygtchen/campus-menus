@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-20T04:04:37+00:00",
+  "scraped_at": "2026-11-20T21:21:32+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -3046,6 +3046,44 @@
               "source_id": "323:640189"
             },
             {
+              "name": "Apple Pie",
+              "station": "Taqueria",
+              "station_type": "main",
+              "dish_key": "ucsd:apple-pie",
+              "nutrition": {
+                "kcal": 521.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2397:216001"
+            },
+            {
               "name": "Flan",
               "station": "Taqueria",
               "station_type": "main",
@@ -3080,6 +3118,46 @@
               ],
               "carbon_kg": null,
               "source_id": "1753:219053"
+            },
+            {
+              "name": "Pumpkin Pie",
+              "station": "Taqueria",
+              "station_type": "main",
+              "dish_key": "ucsd:pumpkin-pie",
+              "nutrition": {
+                "kcal": 392.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "7090:216000"
             },
             {
               "name": "Tres Leches Cake",
@@ -3561,6 +3639,41 @@
               ],
               "carbon_kg": null,
               "source_id": "4080:450352"
+            },
+            {
+              "name": "Fall Turkey Plate",
+              "station": "Taqueria",
+              "station_type": "main",
+              "dish_key": "ucsd:fall-turkey-plate",
+              "nutrition": {
+                "kcal": 853.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7091:132002"
             },
             {
               "name": "Carne Asada Quesadilla",
@@ -13705,37 +13818,6 @@
               "source_id": "2137:263082"
             },
             {
-              "name": "Fresh Blueberries",
-              "station": "Fresh",
-              "station_type": "main",
-              "dish_key": "ucsd:fresh-blueberries",
-              "nutrition": {
-                "kcal": 16.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "4062:231025"
-            },
-            {
               "name": "Steel Cut Oatmeal",
               "station": "Fresh",
               "station_type": "main",
@@ -13868,6 +13950,37 @@
               ],
               "carbon_kg": null,
               "source_id": "2026:660294"
+            },
+            {
+              "name": "Fresh Blueberries",
+              "station": "Fresh",
+              "station_type": "main",
+              "dish_key": "ucsd:fresh-blueberries",
+              "nutrition": {
+                "kcal": 16.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "4062:231025"
             },
             {
               "name": "Mango Chunks",
@@ -18418,6 +18531,84 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "5546:131038"
+            },
+            {
+              "name": "Apple Pie",
+              "station": "Quick Service",
+              "station_type": "main",
+              "dish_key": "ucsd:apple-pie",
+              "nutrition": {
+                "kcal": 521.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2397:216001"
+            },
+            {
+              "name": "Pumpkin Pie",
+              "station": "Quick Service",
+              "station_type": "main",
+              "dish_key": "ucsd:pumpkin-pie",
+              "nutrition": {
+                "kcal": 392.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "7090:216000"
             },
             {
               "name": "Thai Mango Sticky Rice",
@@ -28617,6 +28808,84 @@
               "source_id": "2426:648003"
             },
             {
+              "name": "Apple Pie",
+              "station": "Scholar's Italian",
+              "station_type": "main",
+              "dish_key": "ucsd:apple-pie",
+              "nutrition": {
+                "kcal": 521.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2397:216001"
+            },
+            {
+              "name": "Pumpkin Pie",
+              "station": "Scholar's Italian",
+              "station_type": "main",
+              "dish_key": "ucsd:pumpkin-pie",
+              "nutrition": {
+                "kcal": 392.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "7090:216000"
+            },
+            {
               "name": "Classic Red Top Detroit Style Pizza",
               "station": "Scholar's Italian",
               "station_type": "main",
@@ -28997,6 +29266,41 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "2448:290605"
+            },
+            {
+              "name": "Fall Turkey Plate",
+              "station": "Scholar's Italian",
+              "station_type": "main",
+              "dish_key": "ucsd:fall-turkey-plate",
+              "nutrition": {
+                "kcal": 853.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7091:132002"
             },
             {
               "name": "Blackened Salmon",
@@ -34113,6 +34417,84 @@
               "source_id": "216:272031"
             },
             {
+              "name": "Apple Pie",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:apple-pie",
+              "nutrition": {
+                "kcal": 521.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2397:216001"
+            },
+            {
+              "name": "Pumpkin Pie",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:pumpkin-pie",
+              "nutrition": {
+                "kcal": 392.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "7090:216000"
+            },
+            {
               "name": "Bun Cha Pork Belly Noodle Bowl",
               "station": "Heat",
               "station_type": "main",
@@ -34145,6 +34527,41 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "6231:770690"
+            },
+            {
+              "name": "Fall Turkey Plate",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:fall-turkey-plate",
+              "nutrition": {
+                "kcal": 853.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7091:132002"
             },
             {
               "name": "Chicken Potstickers",
@@ -41397,6 +41814,44 @@
               "source_id": "745:200021"
             },
             {
+              "name": "Apple Pie",
+              "station": "Wolftown Street",
+              "station_type": "main",
+              "dish_key": "ucsd:apple-pie",
+              "nutrition": {
+                "kcal": 521.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2397:216001"
+            },
+            {
               "name": "Chocolate Chunk Cookie",
               "station": "Wolftown Street",
               "station_type": "main",
@@ -41475,6 +41930,46 @@
               ],
               "carbon_kg": null,
               "source_id": "730:212005"
+            },
+            {
+              "name": "Pumpkin Pie",
+              "station": "Wolftown Street",
+              "station_type": "main",
+              "dish_key": "ucsd:pumpkin-pie",
+              "nutrition": {
+                "kcal": 392.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "7090:216000"
             },
             {
               "name": "White Chocolate Macadamia Cookie",
@@ -48054,6 +48549,84 @@
               "source_id": "1440:131253"
             },
             {
+              "name": "Apple Pie",
+              "station": "Journey",
+              "station_type": "main",
+              "dish_key": "ucsd:apple-pie",
+              "nutrition": {
+                "kcal": 521.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2397:216001"
+            },
+            {
+              "name": "Pumpkin Pie",
+              "station": "Journey",
+              "station_type": "main",
+              "dish_key": "ucsd:pumpkin-pie",
+              "nutrition": {
+                "kcal": 392.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "7090:216000"
+            },
+            {
               "name": "Ethiopian Chicken Wings Plate",
               "station": "Journey",
               "station_type": "main",
@@ -48083,6 +48656,41 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1562:131333"
+            },
+            {
+              "name": "Fall Turkey Plate",
+              "station": "Journey",
+              "station_type": "main",
+              "dish_key": "ucsd:fall-turkey-plate",
+              "nutrition": {
+                "kcal": 853.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7091:132002"
             },
             {
               "name": "Harissa Chicken Loaded Fries",

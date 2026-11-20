@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-20T03:58:55+00:00",
+  "scraped_at": "2026-11-20T21:15:51+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -121,43 +121,6 @@
               "source_id": "1003"
             },
             {
-              "name": "Vegan Quiche",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:vegan-quiche",
-              "nutrition": {
-                "kcal": 237.1,
-                "protein_g": 9.2,
-                "carbs_g": 15.9,
-                "fat_g": 15.2,
-                "fiber_g": 0.4,
-                "sugar_g": 0.5,
-                "sodium_mg": 697.0,
-                "serving": "4 oz",
-                "sat_fat_g": 3.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 6.9,
-                "iron_mg": 1.1,
-                "potassium_mg": 173.0,
-                "vitamin_c_mg": 7.1,
-                "vitamin_d_iu": 1.5,
-                "vitamin_a_iu": 16.3
-              },
-              "allergens": [
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "2010"
-            },
-            {
               "name": "Vegan Italian \"Sausage\"",
               "station": "Center Plate",
               "station_type": "main",
@@ -224,6 +187,42 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "1159"
+            },
+            {
+              "name": "Creamy Polenta",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:creamy-polenta",
+              "nutrition": {
+                "kcal": 106.6,
+                "protein_g": 1.2,
+                "carbs_g": 16.5,
+                "fat_g": 3.8,
+                "fiber_g": 0.6,
+                "sugar_g": 1.7,
+                "sodium_mg": 190.5,
+                "serving": "4.26 oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 2.0,
+                "iron_mg": 0.2,
+                "potassium_mg": 44.4,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "870"
             },
             {
               "name": "French Toast",
@@ -2736,188 +2735,6 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "578"
-            },
-            {
-              "name": "Farfalle Pasta",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:farfalle-pasta",
-              "nutrition": {
-                "kcal": 169.0,
-                "protein_g": 5.6,
-                "carbs_g": 33.4,
-                "fat_g": 1.9,
-                "fiber_g": 1.6,
-                "sugar_g": 1.6,
-                "sodium_mg": 196.7,
-                "serving": "4.02 oz",
-                "sat_fat_g": 0.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 0.0,
-                "iron_mg": 1.4,
-                "potassium_mg": 0.0,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "437"
-            },
-            {
-              "name": "Aurora Sauce",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:aurora-sauce",
-              "nutrition": {
-                "kcal": 83.1,
-                "protein_g": 0.8,
-                "carbs_g": 4.2,
-                "fat_g": 6.9,
-                "fiber_g": 0.8,
-                "sugar_g": 0.0,
-                "sodium_mg": 168.3,
-                "serving": "2.31 oz",
-                "sat_fat_g": 3.9,
-                "cholesterol_mg": 23.9,
-                "calcium_mg": 9.2,
-                "iron_mg": 0.4,
-                "potassium_mg": 135.0,
-                "vitamin_c_mg": 0.2,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.2
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "1165"
-            },
-            {
-              "name": "Marinara Sauce",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:marinara-sauce",
-              "nutrition": {
-                "kcal": 33.1,
-                "protein_g": 1.3,
-                "carbs_g": 5.5,
-                "fat_g": 0.8,
-                "fiber_g": 1.3,
-                "sugar_g": 0.2,
-                "sodium_mg": 217.2,
-                "serving": "2.84 oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 11.5,
-                "iron_mg": 0.6,
-                "potassium_mg": 238.2,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.1,
-              "source_id": "1066"
-            },
-            {
-              "name": "Steamed Broccoli and Cauliflower",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:steamed-broccoli-and-cauliflower",
-              "nutrition": {
-                "kcal": 30.1,
-                "protein_g": 2.8,
-                "carbs_g": 5.7,
-                "fat_g": 0.3,
-                "fiber_g": 2.4,
-                "sugar_g": 1.9,
-                "sodium_mg": 73.2,
-                "serving": "4 oz",
-                "sat_fat_g": 0.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 39.7,
-                "iron_mg": 0.7,
-                "potassium_mg": 353.6,
-                "vitamin_c_mg": 80.1,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "420"
-            },
-            {
-              "name": "Garlic Toast",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:garlic-toast",
-              "nutrition": {
-                "kcal": 148.8,
-                "protein_g": 3.0,
-                "carbs_g": 14.9,
-                "fat_g": 7.9,
-                "fiber_g": 0.0,
-                "sugar_g": 0.0,
-                "sodium_mg": 208.4,
-                "serving": "1.4 oz",
-                "sat_fat_g": 3.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 0.0,
-                "iron_mg": 0.0,
-                "potassium_mg": 0.0,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk",
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "3016"
             },
             {
               "name": "Halal Chicken Breast",
@@ -10715,6 +10532,40 @@
               "source_id": "769"
             },
             {
+              "name": "Marinara Sauce",
+              "station": "Pasta",
+              "station_type": "main",
+              "dish_key": "berkeley:marinara-sauce",
+              "nutrition": {
+                "kcal": 33.1,
+                "protein_g": 1.3,
+                "carbs_g": 5.5,
+                "fat_g": 0.8,
+                "fiber_g": 1.3,
+                "sugar_g": 0.2,
+                "sodium_mg": 217.2,
+                "serving": "2.84 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 11.5,
+                "iron_mg": 0.6,
+                "potassium_mg": 238.2,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1066"
+            },
+            {
               "name": "Beef Meatball Marinara",
               "station": "Pasta",
               "station_type": "main",
@@ -10783,76 +10634,6 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "419"
-            },
-            {
-              "name": "Chicken Alfredo Sauce",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:chicken-alfredo-sauce",
-              "nutrition": {
-                "kcal": 205.9,
-                "protein_g": 15.6,
-                "carbs_g": 5.0,
-                "fat_g": 14.2,
-                "fiber_g": 0.0,
-                "sugar_g": 0.0,
-                "sodium_mg": 626.0,
-                "serving": "4 oz",
-                "sat_fat_g": 4.8,
-                "cholesterol_mg": 58.6,
-                "calcium_mg": 81.7,
-                "iron_mg": 0.3,
-                "potassium_mg": 362.7,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": 0.6,
-              "source_id": "1136"
-            },
-            {
-              "name": "Garlic Naan",
-              "station": "Pasta",
-              "station_type": "main",
-              "dish_key": "berkeley:garlic-naan",
-              "nutrition": {
-                "kcal": 98.4,
-                "protein_g": 1.9,
-                "carbs_g": 9.9,
-                "fat_g": 5.5,
-                "fiber_g": 0.0,
-                "sugar_g": 1.1,
-                "sodium_mg": 97.9,
-                "serving": "0.88 oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 6.5,
-                "iron_mg": 0.4,
-                "potassium_mg": 13.8,
-                "vitamin_c_mg": 0.5,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "524"
             },
             {
               "name": "New England Clam Chowder",
@@ -14852,46 +14633,6 @@
               "source_id": "467"
             },
             {
-              "name": "Apple Filled Pancake",
-              "station": "Griddle/Grill",
-              "station_type": "main",
-              "dish_key": "berkeley:apple-filled-pancake",
-              "nutrition": {
-                "kcal": 89.8,
-                "protein_g": 0.0,
-                "carbs_g": 18.0,
-                "fat_g": 1.2,
-                "fiber_g": 0.5,
-                "sugar_g": 0.0,
-                "sodium_mg": 209.6,
-                "serving": "2.2 oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 2.5,
-                "calcium_mg": 5.0,
-                "iron_mg": 0.0,
-                "potassium_mg": 44.9,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "3352"
-            },
-            {
               "name": "Syrup",
               "station": "Griddle/Grill",
               "station_type": "main",
@@ -14925,6 +14666,46 @@
               ],
               "carbon_kg": 0.1,
               "source_id": "3177"
+            },
+            {
+              "name": "Blueberry Filled Pancake",
+              "station": "Griddle/Grill",
+              "station_type": "main",
+              "dish_key": "berkeley:blueberry-filled-pancake",
+              "nutrition": {
+                "kcal": 94.8,
+                "protein_g": 1.5,
+                "carbs_g": 19.5,
+                "fat_g": 1.2,
+                "fiber_g": 0.5,
+                "sugar_g": 0.0,
+                "sodium_mg": 204.6,
+                "serving": "2.2 oz",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 2.5,
+                "calcium_mg": 5.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 34.9,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "3353"
             },
             {
               "name": "Oatmeal",
@@ -24960,61 +24741,25 @@
               "source_id": "994"
             },
             {
-              "name": "Greek Chicken Pizza",
+              "name": "Cheese Pizza",
               "station": "Fire & Flour",
               "station_type": "main",
-              "dish_key": "berkeley:greek-chicken-pizza",
+              "dish_key": "berkeley:cheese-pizza",
               "nutrition": {
-                "kcal": 326.1,
-                "protein_g": 15.4,
-                "carbs_g": 31.3,
-                "fat_g": 15.2,
-                "fiber_g": 1.5,
-                "sugar_g": 0.7,
-                "sodium_mg": 749.2,
-                "serving": "4.93 oz",
-                "sat_fat_g": 5.9,
-                "cholesterol_mg": 40.4,
-                "calcium_mg": 208.8,
-                "iron_mg": 1.9,
-                "potassium_mg": 373.5,
+                "kcal": 232.6,
+                "protein_g": 10.0,
+                "carbs_g": 29.9,
+                "fat_g": 8.3,
+                "fiber_g": 1.1,
+                "sugar_g": 0.6,
+                "sodium_mg": 365.3,
+                "serving": "3.28 oz",
+                "sat_fat_g": 4.4,
+                "cholesterol_mg": 19.4,
+                "calcium_mg": 166.1,
+                "iron_mg": 1.8,
+                "potassium_mg": 265.7,
                 "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk",
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": 0.6,
-              "source_id": "840"
-            },
-            {
-              "name": "Mushroom Pizza",
-              "station": "Fire & Flour",
-              "station_type": "main",
-              "dish_key": "berkeley:mushroom-pizza",
-              "nutrition": {
-                "kcal": 264.3,
-                "protein_g": 12.6,
-                "carbs_g": 31.1,
-                "fat_g": 10.3,
-                "fiber_g": 1.4,
-                "sugar_g": 0.8,
-                "sodium_mg": 453.6,
-                "serving": "3.9 oz",
-                "sat_fat_g": 5.7,
-                "cholesterol_mg": 25.4,
-                "calcium_mg": 234.6,
-                "iron_mg": 1.9,
-                "potassium_mg": 307.7,
-                "vitamin_c_mg": 0.6,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
               },
@@ -25032,7 +24777,44 @@
                 "vegetarian"
               ],
               "carbon_kg": 0.5,
-              "source_id": "847"
+              "source_id": "813"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Fire & Flour",
+              "station_type": "main",
+              "dish_key": "berkeley:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 303.5,
+                "protein_g": 12.3,
+                "carbs_g": 29.9,
+                "fat_g": 14.9,
+                "fiber_g": 1.1,
+                "sugar_g": 0.6,
+                "sodium_mg": 629.9,
+                "serving": "3.78 oz",
+                "sat_fat_g": 6.8,
+                "cholesterol_mg": 33.5,
+                "calcium_mg": 166.1,
+                "iron_mg": 2.0,
+                "potassium_mg": 265.7,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "soy",
+                "gluten",
+                "pork"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": 0.6,
+              "source_id": "853"
             },
             {
               "name": "Beef Carne Asada",
