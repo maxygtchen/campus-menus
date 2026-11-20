@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-19T21:40:28+00:00",
+  "scraped_at": "2026-11-20T03:59:42+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -4328,6 +4328,37 @@
               "source_id": "1821_122168_M12416_1_37370"
             },
             {
+              "name": "Barahat Spiced Beef and Chickpeas",
+              "station": "Compass",
+              "station_type": "main",
+              "dish_key": "uci:barahat-spiced-beef-and-chickpeas",
+              "nutrition": {
+                "kcal": 179.0,
+                "protein_g": 9.6,
+                "carbs_g": 7.1,
+                "fat_g": 12.5,
+                "fiber_g": 2.2,
+                "sugar_g": 1.2,
+                "sodium_mg": 301.1,
+                "serving": "N/A cup",
+                "sat_fat_g": 4.6,
+                "cholesterol_mg": 35.3,
+                "calcium_mg": 31.7,
+                "iron_mg": 1.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 14.8
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40999_1_347"
+            },
+            {
               "name": "Zucchini & Tomatoes",
               "station": "Compass",
               "station_type": "main",
@@ -4388,6 +4419,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M40845_1_22411"
+            },
+            {
+              "name": "Yellow Basmati Rice",
+              "station": "Compass",
+              "station_type": "main",
+              "dish_key": "uci:yellow-basmati-rice",
+              "nutrition": {
+                "kcal": 155.0,
+                "protein_g": 3.5,
+                "carbs_g": 31.1,
+                "fat_g": 1.9,
+                "fiber_g": 0.9,
+                "sugar_g": 0.1,
+                "sodium_mg": 179.2,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 4.9,
+                "iron_mg": 0.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33147_1_48137"
             },
             {
               "name": "Classic Cheese Pizza",

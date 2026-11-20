@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-19",
-  "scraped_at": "2026-11-19T21:40:11+00:00",
+  "scraped_at": "2026-11-20T03:59:25+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2314,37 +2314,6 @@
               "source_id": "1923_101628_M14364_1_27774"
             },
             {
-              "name": "Brown Lentil Dal",
-              "station": "The Twisted Root",
-              "station_type": "main",
-              "dish_key": "uci:brown-lentil-dal",
-              "nutrition": {
-                "kcal": 108.6,
-                "protein_g": 6.0,
-                "carbs_g": 17.3,
-                "fat_g": 2.1,
-                "fiber_g": 3.0,
-                "sugar_g": 1.5,
-                "sodium_mg": 123.2,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.2,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 20.9,
-                "iron_mg": 1.9,
-                "potassium_mg": null,
-                "vitamin_c_mg": 4.3,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 11.2
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M40917_1_47424"
-            },
-            {
               "name": "Vegetable Soup",
               "station": "Soups",
               "station_type": "side",
@@ -2583,6 +2552,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M40391_1_28974"
+            },
+            {
+              "name": "Margherita Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:margherita-pizza",
+              "nutrition": {
+                "kcal": 201.1,
+                "protein_g": 5.8,
+                "carbs_g": 31.9,
+                "fat_g": 5.8,
+                "fiber_g": 1.8,
+                "sugar_g": 2.5,
+                "sodium_mg": 419.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 20.5,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 7.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 27.9
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M15843_1_64192"
             },
             {
               "name": "Pepperoni Pizza",
@@ -2886,6 +2886,35 @@
               "source_id": "1821_122168_M34450_1_45636"
             },
             {
+              "name": "Vegetable Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:vegetable-soup",
+              "nutrition": {
+                "kcal": 76.1,
+                "protein_g": 1.8,
+                "carbs_g": 13.0,
+                "fat_g": 2.3,
+                "fiber_g": 1.5,
+                "sugar_g": 2.3,
+                "sodium_mg": 293.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.3,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 61.8
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34448_1_17595"
+            },
+            {
               "name": "Chili Con Carne",
               "station": "Soups ",
               "station_type": "side",
@@ -2915,6 +2944,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1821_122168_M34485_1_32897"
+            },
+            {
+              "name": "Italian Wedding Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:italian-wedding-soup",
+              "nutrition": {
+                "kcal": 88.2,
+                "protein_g": 4.4,
+                "carbs_g": 10.6,
+                "fat_g": 2.9,
+                "fiber_g": 0.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 612.1,
+                "serving": "6 fl oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 8.4,
+                "calcium_mg": 31.2,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 2.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 137.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M39264_1_20699"
             },
             {
               "name": "Dinner Roll",
@@ -3422,6 +3480,37 @@
               "source_id": "1821_122168_M40391_1_28974"
             },
             {
+              "name": "Margherita Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:margherita-pizza",
+              "nutrition": {
+                "kcal": 201.1,
+                "protein_g": 5.8,
+                "carbs_g": 31.9,
+                "fat_g": 5.8,
+                "fiber_g": 1.8,
+                "sugar_g": 2.5,
+                "sodium_mg": 419.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 20.5,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 7.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 27.9
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M15843_1_64192"
+            },
+            {
               "name": "Pepperoni Pizza",
               "station": "Hearth",
               "station_type": "main",
@@ -3723,6 +3812,35 @@
               "source_id": "1821_122168_M34450_1_45636"
             },
             {
+              "name": "Vegetable Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:vegetable-soup",
+              "nutrition": {
+                "kcal": 76.1,
+                "protein_g": 1.8,
+                "carbs_g": 13.0,
+                "fat_g": 2.3,
+                "fiber_g": 1.5,
+                "sugar_g": 2.3,
+                "sodium_mg": 293.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.3,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 61.8
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34448_1_17595"
+            },
+            {
               "name": "Chili Con Carne",
               "station": "Soups ",
               "station_type": "side",
@@ -3752,6 +3870,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1821_122168_M34485_1_32897"
+            },
+            {
+              "name": "Italian Wedding Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:italian-wedding-soup",
+              "nutrition": {
+                "kcal": 88.2,
+                "protein_g": 4.4,
+                "carbs_g": 10.6,
+                "fat_g": 2.9,
+                "fiber_g": 0.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 612.1,
+                "serving": "6 fl oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 8.4,
+                "calcium_mg": 31.2,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 2.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 137.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M39264_1_20699"
             },
             {
               "name": "Dinner Roll",
@@ -4220,6 +4367,37 @@
               "source_id": "1821_122168_M40391_1_28974"
             },
             {
+              "name": "Margherita Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:margherita-pizza",
+              "nutrition": {
+                "kcal": 201.1,
+                "protein_g": 5.8,
+                "carbs_g": 31.9,
+                "fat_g": 5.8,
+                "fiber_g": 1.8,
+                "sugar_g": 2.5,
+                "sodium_mg": 419.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 20.5,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 7.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 27.9
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M15843_1_64192"
+            },
+            {
               "name": "Pepperoni Pizza",
               "station": "Hearth",
               "station_type": "main",
@@ -4556,6 +4734,35 @@
               "source_id": "1821_122168_M34450_1_45636"
             },
             {
+              "name": "Vegetable Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:vegetable-soup",
+              "nutrition": {
+                "kcal": 76.1,
+                "protein_g": 1.8,
+                "carbs_g": 13.0,
+                "fat_g": 2.3,
+                "fiber_g": 1.5,
+                "sugar_g": 2.3,
+                "sodium_mg": 293.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.3,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 61.8
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34448_1_17595"
+            },
+            {
               "name": "Chili Con Carne",
               "station": "Soups ",
               "station_type": "side",
@@ -4585,6 +4792,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1821_122168_M34485_1_32897"
+            },
+            {
+              "name": "Italian Wedding Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:italian-wedding-soup",
+              "nutrition": {
+                "kcal": 88.2,
+                "protein_g": 4.4,
+                "carbs_g": 10.6,
+                "fat_g": 2.9,
+                "fiber_g": 0.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 612.1,
+                "serving": "6 fl oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 8.4,
+                "calcium_mg": 31.2,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 2.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 137.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M39264_1_20699"
             },
             {
               "name": "Dinner Roll",
@@ -4921,6 +5157,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M40391_1_28974"
+            },
+            {
+              "name": "Margherita Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:margherita-pizza",
+              "nutrition": {
+                "kcal": 201.1,
+                "protein_g": 5.8,
+                "carbs_g": 31.9,
+                "fat_g": 5.8,
+                "fiber_g": 1.8,
+                "sugar_g": 2.5,
+                "sodium_mg": 419.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 20.5,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 7.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 27.9
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M15843_1_64192"
             },
             {
               "name": "Pepperoni Pizza",
@@ -5288,6 +5555,35 @@
               "source_id": "1821_122168_M34450_1_45636"
             },
             {
+              "name": "Vegetable Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:vegetable-soup",
+              "nutrition": {
+                "kcal": 76.1,
+                "protein_g": 1.8,
+                "carbs_g": 13.0,
+                "fat_g": 2.3,
+                "fiber_g": 1.5,
+                "sugar_g": 2.3,
+                "sodium_mg": 293.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.3,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 61.8
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34448_1_17595"
+            },
+            {
               "name": "Chili Con Carne",
               "station": "Soups ",
               "station_type": "side",
@@ -5317,6 +5613,35 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1821_122168_M34485_1_32897"
+            },
+            {
+              "name": "Italian Wedding Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:italian-wedding-soup",
+              "nutrition": {
+                "kcal": 88.2,
+                "protein_g": 4.4,
+                "carbs_g": 10.6,
+                "fat_g": 2.9,
+                "fiber_g": 0.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 612.1,
+                "serving": "6 fl oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 8.4,
+                "calcium_mg": 31.2,
+                "iron_mg": 0.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 2.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 137.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M39264_1_20699"
             },
             {
               "name": "Dinner Roll",
