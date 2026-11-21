@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-21",
-  "scraped_at": "2026-11-21T03:59:01+00:00",
+  "scraped_at": "2026-11-21T20:10:12+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -250,36 +250,33 @@
               "source_id": "1923_101628_M40418_1_30821"
             },
             {
-              "name": "Chili Con Carne",
+              "name": "Butternut Squash Bisque",
               "station": "Soups",
               "station_type": "side",
-              "dish_key": "uci:chili-con-carne",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 180.7,
-                "protein_g": 9.6,
-                "carbs_g": 17.1,
-                "fat_g": 8.7,
-                "fiber_g": 4.6,
-                "sugar_g": 3.3,
-                "sodium_mg": 469.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 3.2,
-                "cholesterol_mg": 24.5,
-                "calcium_mg": 42.4,
-                "iron_mg": 2.8,
+                "kcal": 94.1,
+                "protein_g": 1.7,
+                "carbs_g": 16.3,
+                "fat_g": 2.9,
+                "fiber_g": 2.6,
+                "sugar_g": 3.6,
+                "sodium_mg": 393.9,
+                "serving": "8 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 45.3,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 11.4,
+                "vitamin_c_mg": 10.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 20.0
+                "vitamin_a_iu": 539.0
               },
-              "allergens": [
-                "soy",
-                "wheat"
-              ],
+              "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1923_101628_M34485_1_32897"
+              "source_id": "1923_101628_M10957_1_27953"
             }
           ]
         },
@@ -338,7 +335,7 @@
                 "serving": "N/A cup",
                 "sat_fat_g": 0.7,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 41.5,
+                "calcium_mg": 41.4,
                 "iron_mg": 0.6,
                 "potassium_mg": null,
                 "vitamin_c_mg": 17.6,
@@ -832,7 +829,7 @@
                 "serving": "N/A cup",
                 "sat_fat_g": 0.7,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 41.5,
+                "calcium_mg": 41.4,
                 "iron_mg": 0.6,
                 "potassium_mg": null,
                 "vitamin_c_mg": 17.6,
@@ -1010,36 +1007,33 @@
               "source_id": "1923_101628_M39852_1_21960"
             },
             {
-              "name": "Chili Con Carne",
+              "name": "Butternut Squash Bisque",
               "station": "Soups",
               "station_type": "side",
-              "dish_key": "uci:chili-con-carne",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 180.7,
-                "protein_g": 9.6,
-                "carbs_g": 17.1,
-                "fat_g": 8.7,
-                "fiber_g": 4.6,
-                "sugar_g": 3.3,
-                "sodium_mg": 469.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 3.2,
-                "cholesterol_mg": 24.5,
-                "calcium_mg": 42.4,
-                "iron_mg": 2.8,
+                "kcal": 94.1,
+                "protein_g": 1.7,
+                "carbs_g": 16.3,
+                "fat_g": 2.9,
+                "fiber_g": 2.6,
+                "sugar_g": 3.6,
+                "sodium_mg": 393.9,
+                "serving": "8 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 45.3,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 11.4,
+                "vitamin_c_mg": 10.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 20.0
+                "vitamin_a_iu": 539.0
               },
-              "allergens": [
-                "soy",
-                "wheat"
-              ],
+              "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1923_101628_M34485_1_32897"
+              "source_id": "1923_101628_M10957_1_27953"
             },
             {
               "name": "Danish Pastry",
@@ -1378,36 +1372,33 @@
               "source_id": "1923_101628_M40418_1_30821"
             },
             {
-              "name": "Chili Con Carne",
+              "name": "Butternut Squash Bisque",
               "station": "Soups",
               "station_type": "side",
-              "dish_key": "uci:chili-con-carne",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 180.7,
-                "protein_g": 9.6,
-                "carbs_g": 17.1,
-                "fat_g": 8.7,
-                "fiber_g": 4.6,
-                "sugar_g": 3.3,
-                "sodium_mg": 469.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 3.2,
-                "cholesterol_mg": 24.5,
-                "calcium_mg": 42.4,
-                "iron_mg": 2.8,
+                "kcal": 94.1,
+                "protein_g": 1.7,
+                "carbs_g": 16.3,
+                "fat_g": 2.9,
+                "fiber_g": 2.6,
+                "sugar_g": 3.6,
+                "sodium_mg": 393.9,
+                "serving": "8 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 45.3,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 11.4,
+                "vitamin_c_mg": 10.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 20.0
+                "vitamin_a_iu": 539.0
               },
-              "allergens": [
-                "soy",
-                "wheat"
-              ],
+              "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1923_101628_M34485_1_32897"
+              "source_id": "1923_101628_M10957_1_27953"
             }
           ]
         },
@@ -1718,36 +1709,33 @@
               "source_id": "1923_101628_M40418_1_30821"
             },
             {
-              "name": "Chili Con Carne",
+              "name": "Butternut Squash Bisque",
               "station": "Soups",
               "station_type": "side",
-              "dish_key": "uci:chili-con-carne",
+              "dish_key": "uci:butternut-squash-bisque",
               "nutrition": {
-                "kcal": 180.7,
-                "protein_g": 9.6,
-                "carbs_g": 17.1,
-                "fat_g": 8.7,
-                "fiber_g": 4.6,
-                "sugar_g": 3.3,
-                "sodium_mg": 469.0,
-                "serving": "6 fl oz",
-                "sat_fat_g": 3.2,
-                "cholesterol_mg": 24.5,
-                "calcium_mg": 42.4,
-                "iron_mg": 2.8,
+                "kcal": 94.1,
+                "protein_g": 1.7,
+                "carbs_g": 16.3,
+                "fat_g": 2.9,
+                "fiber_g": 2.6,
+                "sugar_g": 3.6,
+                "sodium_mg": 393.9,
+                "serving": "8 fl oz",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 45.3,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 11.4,
+                "vitamin_c_mg": 10.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 20.0
+                "vitamin_a_iu": 539.0
               },
-              "allergens": [
-                "soy",
-                "wheat"
-              ],
+              "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1923_101628_M34485_1_32897"
+              "source_id": "1923_101628_M10957_1_27953"
             },
             {
               "name": "Craveworthy® Chocolate Chip Cookie",
@@ -2170,27 +2158,27 @@
               "source_id": "1821_122168_M9879_1_19500"
             },
             {
-              "name": "Chicken Noodle Soup",
+              "name": "Beef Vegetable Noodle Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:chicken-noodle-soup",
+              "dish_key": "uci:beef-vegetable-noodle-soup",
               "nutrition": {
-                "kcal": 85.5,
-                "protein_g": 5.7,
-                "carbs_g": 10.1,
-                "fat_g": 2.6,
-                "fiber_g": 0.9,
-                "sugar_g": 1.2,
-                "sodium_mg": 274.8,
+                "kcal": 106.0,
+                "protein_g": 6.6,
+                "carbs_g": 13.6,
+                "fat_g": 2.8,
+                "fiber_g": 1.2,
+                "sugar_g": 1.8,
+                "sodium_mg": 296.7,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 25.8,
-                "calcium_mg": 22.5,
-                "iron_mg": 0.6,
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 21.2,
+                "calcium_mg": 27.5,
+                "iron_mg": 0.8,
                 "potassium_mg": null,
-                "vitamin_c_mg": 2.2,
+                "vitamin_c_mg": 6.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 59.8
+                "vitamin_a_iu": 60.4
               },
               "allergens": [
                 "egg",
@@ -2199,36 +2187,36 @@
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34469_1_1479"
+              "source_id": "1821_122168_M34447_1_13909"
             },
             {
-              "name": "Moroccan Chickpea Soup",
+              "name": "Mushroom Barley Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:moroccan-chickpea-soup",
+              "dish_key": "uci:mushroom-barley-soup",
               "nutrition": {
-                "kcal": 72.4,
-                "protein_g": 2.2,
-                "carbs_g": 11.1,
-                "fat_g": 2.5,
+                "kcal": 105.1,
+                "protein_g": 2.3,
+                "carbs_g": 16.8,
+                "fat_g": 3.3,
                 "fiber_g": 2.2,
-                "sugar_g": 3.1,
-                "sodium_mg": 303.5,
+                "sugar_g": 1.2,
+                "sodium_mg": 149.8,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.3,
+                "sat_fat_g": 0.4,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 26.8,
-                "iron_mg": 1.1,
+                "calcium_mg": 15.1,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.7,
+                "vitamin_c_mg": 3.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 91.5
+                "vitamin_a_iu": 30.8
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34442_1_40422"
+              "source_id": "1821_122168_M34450_1_45636"
             },
             {
               "name": "Dinner Roll",
@@ -2532,27 +2520,27 @@
               "source_id": "1821_122168_M18372_1_7642"
             },
             {
-              "name": "Turkey Sausage Patty",
+              "name": "Turkey Sausage Link",
               "station": "Grubb",
               "station_type": "main",
-              "dish_key": "uci:turkey-sausage-patty",
+              "dish_key": "uci:turkey-sausage-link",
               "nutrition": {
-                "kcal": 89.9,
-                "protein_g": 7.0,
-                "carbs_g": 0.5,
-                "fat_g": 6.5,
-                "fiber_g": 0.1,
+                "kcal": 96.9,
+                "protein_g": 8.8,
+                "carbs_g": 0.6,
+                "fat_g": 6.7,
+                "fiber_g": 0.0,
                 "sugar_g": 0.1,
-                "sodium_mg": 281.0,
-                "serving": "1 patty",
-                "sat_fat_g": 1.9,
-                "cholesterol_mg": 29.5,
-                "calcium_mg": 9.2,
-                "iron_mg": 0.6,
+                "sodium_mg": 367.3,
+                "serving": "2 link",
+                "sat_fat_g": 2.1,
+                "cholesterol_mg": 41.8,
+                "calcium_mg": 5.7,
+                "iron_mg": 0.8,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.1,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 8.5
               },
               "allergens": [],
               "diets": [],
@@ -2560,23 +2548,23 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M14647_1_35801"
+              "source_id": "1821_122168_M10587_1_21442"
             },
             {
-              "name": "Hash Brown Potato Patty",
+              "name": "Crispy Tater Tots",
               "station": "Grubb",
               "station_type": "main",
-              "dish_key": "uci:hash-brown-potato-patty",
+              "dish_key": "uci:crispy-tater-tots",
               "nutrition": {
-                "kcal": 100.6,
+                "kcal": 93.4,
                 "protein_g": 0.9,
-                "carbs_g": 11.6,
-                "fat_g": 6.1,
+                "carbs_g": 11.8,
+                "fat_g": 5.2,
                 "fiber_g": 1.0,
                 "sugar_g": 0.5,
-                "sodium_mg": 264.3,
-                "serving": "1 each",
-                "sat_fat_g": 0.8,
+                "sodium_mg": 264.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.7,
                 "cholesterol_mg": 0.0,
                 "calcium_mg": 6.8,
                 "iron_mg": 0.2,
@@ -2591,7 +2579,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M10583_1_48526"
+              "source_id": "1821_122168_M5768_1_34775"
             },
             {
               "name": "Scalloped Potatoes",
@@ -2628,37 +2616,38 @@
               "source_id": "1821_122168_M35090_1_20884"
             },
             {
-              "name": "Tofu-Potato Hash",
+              "name": "Turmeric Tofu Scramble",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:tofu-potato-hash",
+              "dish_key": "uci:turmeric-tofu-scramble",
               "nutrition": {
-                "kcal": 135.4,
-                "protein_g": 8.5,
-                "carbs_g": 11.8,
-                "fat_g": 6.2,
-                "fiber_g": 2.7,
-                "sugar_g": 2.7,
-                "sodium_mg": 289.0,
-                "serving": "1 serving",
-                "sat_fat_g": 1.2,
+                "kcal": 213.9,
+                "protein_g": 21.7,
+                "carbs_g": 4.3,
+                "fat_g": 12.2,
+                "fiber_g": 3.3,
+                "sugar_g": 0.7,
+                "sodium_mg": 155.0,
+                "serving": "N/A cup",
+                "sat_fat_g": 2.7,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 64.5,
-                "iron_mg": 1.1,
+                "calcium_mg": 117.2,
+                "iron_mg": 3.0,
                 "potassium_mg": null,
-                "vitamin_c_mg": 17.1,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 5.2
+                "vitamin_a_iu": 0.0
               },
               "allergens": [
                 "soy"
               ],
               "diets": [],
               "tags": [
+                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M21908_1_16066"
+              "source_id": "1821_122168_M34970_1_48101"
             },
             {
               "name": "Plant-Based Beef Taco",
@@ -2693,6 +2682,40 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M20956_1_49161"
+            },
+            {
+              "name": "Home-Style Pancakes",
+              "station": "The Twisted Root",
+              "station_type": "main",
+              "dish_key": "uci:home-style-pancakes",
+              "nutrition": {
+                "kcal": 237.8,
+                "protein_g": 6.1,
+                "carbs_g": 40.9,
+                "fat_g": 5.8,
+                "fiber_g": 1.8,
+                "sugar_g": 11.0,
+                "sodium_mg": 247.0,
+                "serving": "2 each",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 204.4,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 43.0
+              },
+              "allergens": [
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34515_1_25105"
             },
             {
               "name": "Ham & Swiss Sandwich",
@@ -2824,36 +2847,35 @@
               "source_id": "1821_122168_L397529_1_467499"
             },
             {
-              "name": "Pineapple Overnight Oats",
+              "name": "Blueberries 'N' Oats",
               "station": "The Farm Stand- Salad",
               "station_type": "bar",
-              "dish_key": "uci:pineapple-overnight-oats",
+              "dish_key": "uci:blueberries-n-oats",
               "nutrition": {
-                "kcal": 181.6,
-                "protein_g": 5.9,
-                "carbs_g": 28.5,
-                "fat_g": 5.3,
-                "fiber_g": 4.5,
-                "sugar_g": 15.4,
-                "sodium_mg": 71.5,
-                "serving": "N/A cup",
-                "sat_fat_g": 3.2,
-                "cholesterol_mg": 3.6,
-                "calcium_mg": 103.8,
-                "iron_mg": 0.9,
+                "kcal": 176.4,
+                "protein_g": 12.5,
+                "carbs_g": 24.2,
+                "fat_g": 3.9,
+                "fiber_g": 4.4,
+                "sugar_g": 9.5,
+                "sodium_mg": 45.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 5.5,
+                "calcium_mg": 166.1,
+                "iron_mg": 1.2,
                 "potassium_mg": null,
-                "vitamin_c_mg": 22.2,
+                "vitamin_c_mg": 0.9,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 20.0
+                "vitamin_a_iu": 10.4
               },
               "allergens": [
-                "milk",
-                "tree_nuts"
+                "milk"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_A5595_1_9728"
+              "source_id": "1821_122168_M37045_1_4269"
             }
           ]
         },
@@ -2955,27 +2977,27 @@
               "source_id": "1821_122168_M18372_1_7642"
             },
             {
-              "name": "Turkey Sausage Patty",
+              "name": "Turkey Sausage Link",
               "station": "Grubb",
               "station_type": "main",
-              "dish_key": "uci:turkey-sausage-patty",
+              "dish_key": "uci:turkey-sausage-link",
               "nutrition": {
-                "kcal": 89.9,
-                "protein_g": 7.0,
-                "carbs_g": 0.5,
-                "fat_g": 6.5,
-                "fiber_g": 0.1,
+                "kcal": 96.9,
+                "protein_g": 8.8,
+                "carbs_g": 0.6,
+                "fat_g": 6.7,
+                "fiber_g": 0.0,
                 "sugar_g": 0.1,
-                "sodium_mg": 281.0,
-                "serving": "1 patty",
-                "sat_fat_g": 1.9,
-                "cholesterol_mg": 29.5,
-                "calcium_mg": 9.2,
-                "iron_mg": 0.6,
+                "sodium_mg": 367.3,
+                "serving": "2 link",
+                "sat_fat_g": 2.1,
+                "cholesterol_mg": 41.8,
+                "calcium_mg": 5.7,
+                "iron_mg": 0.8,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.1,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 8.5
               },
               "allergens": [],
               "diets": [],
@@ -2983,23 +3005,23 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M14647_1_35801"
+              "source_id": "1821_122168_M10587_1_21442"
             },
             {
-              "name": "Hash Brown Potato Patty",
+              "name": "Crispy Tater Tots",
               "station": "Grubb",
               "station_type": "main",
-              "dish_key": "uci:hash-brown-potato-patty",
+              "dish_key": "uci:crispy-tater-tots",
               "nutrition": {
-                "kcal": 100.6,
+                "kcal": 93.4,
                 "protein_g": 0.9,
-                "carbs_g": 11.6,
-                "fat_g": 6.1,
+                "carbs_g": 11.8,
+                "fat_g": 5.2,
                 "fiber_g": 1.0,
                 "sugar_g": 0.5,
-                "sodium_mg": 264.3,
-                "serving": "1 each",
-                "sat_fat_g": 0.8,
+                "sodium_mg": 264.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.7,
                 "cholesterol_mg": 0.0,
                 "calcium_mg": 6.8,
                 "iron_mg": 0.2,
@@ -3014,7 +3036,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M10583_1_48526"
+              "source_id": "1821_122168_M5768_1_34775"
             },
             {
               "name": "Scalloped Potatoes",
@@ -3051,37 +3073,38 @@
               "source_id": "1821_122168_M35090_1_20884"
             },
             {
-              "name": "Tofu-Potato Hash",
+              "name": "Turmeric Tofu Scramble",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:tofu-potato-hash",
+              "dish_key": "uci:turmeric-tofu-scramble",
               "nutrition": {
-                "kcal": 135.4,
-                "protein_g": 8.5,
-                "carbs_g": 11.8,
-                "fat_g": 6.2,
-                "fiber_g": 2.7,
-                "sugar_g": 2.7,
-                "sodium_mg": 289.0,
-                "serving": "1 serving",
-                "sat_fat_g": 1.2,
+                "kcal": 213.9,
+                "protein_g": 21.7,
+                "carbs_g": 4.3,
+                "fat_g": 12.2,
+                "fiber_g": 3.3,
+                "sugar_g": 0.7,
+                "sodium_mg": 155.0,
+                "serving": "N/A cup",
+                "sat_fat_g": 2.7,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 64.5,
-                "iron_mg": 1.1,
+                "calcium_mg": 117.2,
+                "iron_mg": 3.0,
                 "potassium_mg": null,
-                "vitamin_c_mg": 17.1,
+                "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 5.2
+                "vitamin_a_iu": 0.0
               },
               "allergens": [
                 "soy"
               ],
               "diets": [],
               "tags": [
+                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M21908_1_16066"
+              "source_id": "1821_122168_M34970_1_48101"
             },
             {
               "name": "Plant-Based Beef Taco",
@@ -3116,6 +3139,40 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M20956_1_49161"
+            },
+            {
+              "name": "Home-Style Pancakes",
+              "station": "The Twisted Root",
+              "station_type": "main",
+              "dish_key": "uci:home-style-pancakes",
+              "nutrition": {
+                "kcal": 237.8,
+                "protein_g": 6.1,
+                "carbs_g": 40.9,
+                "fat_g": 5.8,
+                "fiber_g": 1.8,
+                "sugar_g": 11.0,
+                "sodium_mg": 247.0,
+                "serving": "2 each",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 204.4,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 43.0
+              },
+              "allergens": [
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34515_1_25105"
             },
             {
               "name": "Classic Cheese Pizza",
@@ -3456,27 +3513,27 @@
               "source_id": "1821_122168_M39851_1_22634"
             },
             {
-              "name": "Chicken Noodle Soup",
+              "name": "Beef Vegetable Noodle Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:chicken-noodle-soup",
+              "dish_key": "uci:beef-vegetable-noodle-soup",
               "nutrition": {
-                "kcal": 85.5,
-                "protein_g": 5.7,
-                "carbs_g": 10.1,
-                "fat_g": 2.6,
-                "fiber_g": 0.9,
-                "sugar_g": 1.2,
-                "sodium_mg": 274.8,
+                "kcal": 106.0,
+                "protein_g": 6.6,
+                "carbs_g": 13.6,
+                "fat_g": 2.8,
+                "fiber_g": 1.2,
+                "sugar_g": 1.8,
+                "sodium_mg": 296.7,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 25.8,
-                "calcium_mg": 22.5,
-                "iron_mg": 0.6,
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 21.2,
+                "calcium_mg": 27.5,
+                "iron_mg": 0.8,
                 "potassium_mg": null,
-                "vitamin_c_mg": 2.2,
+                "vitamin_c_mg": 6.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 59.8
+                "vitamin_a_iu": 60.4
               },
               "allergens": [
                 "egg",
@@ -3485,36 +3542,36 @@
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34469_1_1479"
+              "source_id": "1821_122168_M34447_1_13909"
             },
             {
-              "name": "Moroccan Chickpea Soup",
+              "name": "Mushroom Barley Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:moroccan-chickpea-soup",
+              "dish_key": "uci:mushroom-barley-soup",
               "nutrition": {
-                "kcal": 72.4,
-                "protein_g": 2.2,
-                "carbs_g": 11.1,
-                "fat_g": 2.5,
+                "kcal": 105.1,
+                "protein_g": 2.3,
+                "carbs_g": 16.8,
+                "fat_g": 3.3,
                 "fiber_g": 2.2,
-                "sugar_g": 3.1,
-                "sodium_mg": 303.5,
+                "sugar_g": 1.2,
+                "sodium_mg": 149.8,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.3,
+                "sat_fat_g": 0.4,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 26.8,
-                "iron_mg": 1.1,
+                "calcium_mg": 15.1,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.7,
+                "vitamin_c_mg": 3.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 91.5
+                "vitamin_a_iu": 30.8
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34442_1_40422"
+              "source_id": "1821_122168_M34450_1_45636"
             },
             {
               "name": "Dinner Roll",
@@ -3816,36 +3873,35 @@
               "source_id": "1821_122168_L397264_1_466749"
             },
             {
-              "name": "Pineapple Overnight Oats",
+              "name": "Blueberries 'N' Oats",
               "station": "The Farm Stand- Salad",
               "station_type": "bar",
-              "dish_key": "uci:pineapple-overnight-oats",
+              "dish_key": "uci:blueberries-n-oats",
               "nutrition": {
-                "kcal": 181.6,
-                "protein_g": 5.9,
-                "carbs_g": 28.5,
-                "fat_g": 5.3,
-                "fiber_g": 4.5,
-                "sugar_g": 15.4,
-                "sodium_mg": 71.5,
-                "serving": "N/A cup",
-                "sat_fat_g": 3.2,
-                "cholesterol_mg": 3.6,
-                "calcium_mg": 103.8,
-                "iron_mg": 0.9,
+                "kcal": 176.4,
+                "protein_g": 12.5,
+                "carbs_g": 24.2,
+                "fat_g": 3.9,
+                "fiber_g": 4.4,
+                "sugar_g": 9.5,
+                "sodium_mg": 45.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 5.5,
+                "calcium_mg": 166.1,
+                "iron_mg": 1.2,
                 "potassium_mg": null,
-                "vitamin_c_mg": 22.2,
+                "vitamin_c_mg": 0.9,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 20.0
+                "vitamin_a_iu": 10.4
               },
               "allergens": [
-                "milk",
-                "tree_nuts"
+                "milk"
               ],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_A5595_1_9728"
+              "source_id": "1821_122168_M37045_1_4269"
             }
           ]
         },
@@ -4162,27 +4218,27 @@
               "source_id": "1821_122168_M9879_1_19500"
             },
             {
-              "name": "Chicken Noodle Soup",
+              "name": "Beef Vegetable Noodle Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:chicken-noodle-soup",
+              "dish_key": "uci:beef-vegetable-noodle-soup",
               "nutrition": {
-                "kcal": 85.5,
-                "protein_g": 5.7,
-                "carbs_g": 10.1,
-                "fat_g": 2.6,
-                "fiber_g": 0.9,
-                "sugar_g": 1.2,
-                "sodium_mg": 274.8,
+                "kcal": 106.0,
+                "protein_g": 6.6,
+                "carbs_g": 13.6,
+                "fat_g": 2.8,
+                "fiber_g": 1.2,
+                "sugar_g": 1.8,
+                "sodium_mg": 296.7,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 25.8,
-                "calcium_mg": 22.5,
-                "iron_mg": 0.6,
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 21.2,
+                "calcium_mg": 27.5,
+                "iron_mg": 0.8,
                 "potassium_mg": null,
-                "vitamin_c_mg": 2.2,
+                "vitamin_c_mg": 6.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 59.8
+                "vitamin_a_iu": 60.4
               },
               "allergens": [
                 "egg",
@@ -4191,36 +4247,36 @@
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34469_1_1479"
+              "source_id": "1821_122168_M34447_1_13909"
             },
             {
-              "name": "Moroccan Chickpea Soup",
+              "name": "Mushroom Barley Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:moroccan-chickpea-soup",
+              "dish_key": "uci:mushroom-barley-soup",
               "nutrition": {
-                "kcal": 72.4,
-                "protein_g": 2.2,
-                "carbs_g": 11.1,
-                "fat_g": 2.5,
+                "kcal": 105.1,
+                "protein_g": 2.3,
+                "carbs_g": 16.8,
+                "fat_g": 3.3,
                 "fiber_g": 2.2,
-                "sugar_g": 3.1,
-                "sodium_mg": 303.5,
+                "sugar_g": 1.2,
+                "sodium_mg": 149.8,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.3,
+                "sat_fat_g": 0.4,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 26.8,
-                "iron_mg": 1.1,
+                "calcium_mg": 15.1,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.7,
+                "vitamin_c_mg": 3.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 91.5
+                "vitamin_a_iu": 30.8
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34442_1_40422"
+              "source_id": "1821_122168_M34450_1_45636"
             },
             {
               "name": "Dinner Roll",
@@ -4901,27 +4957,27 @@
               "source_id": "1821_122168_M9879_1_19500"
             },
             {
-              "name": "Chicken Noodle Soup",
+              "name": "Beef Vegetable Noodle Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:chicken-noodle-soup",
+              "dish_key": "uci:beef-vegetable-noodle-soup",
               "nutrition": {
-                "kcal": 85.5,
-                "protein_g": 5.7,
-                "carbs_g": 10.1,
-                "fat_g": 2.6,
-                "fiber_g": 0.9,
-                "sugar_g": 1.2,
-                "sodium_mg": 274.8,
+                "kcal": 106.0,
+                "protein_g": 6.6,
+                "carbs_g": 13.6,
+                "fat_g": 2.8,
+                "fiber_g": 1.2,
+                "sugar_g": 1.8,
+                "sodium_mg": 296.7,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.5,
-                "cholesterol_mg": 25.8,
-                "calcium_mg": 22.5,
-                "iron_mg": 0.6,
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 21.2,
+                "calcium_mg": 27.5,
+                "iron_mg": 0.8,
                 "potassium_mg": null,
-                "vitamin_c_mg": 2.2,
+                "vitamin_c_mg": 6.2,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 59.8
+                "vitamin_a_iu": 60.4
               },
               "allergens": [
                 "egg",
@@ -4930,36 +4986,36 @@
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34469_1_1479"
+              "source_id": "1821_122168_M34447_1_13909"
             },
             {
-              "name": "Moroccan Chickpea Soup",
+              "name": "Mushroom Barley Soup",
               "station": "Soups ",
               "station_type": "side",
-              "dish_key": "uci:moroccan-chickpea-soup",
+              "dish_key": "uci:mushroom-barley-soup",
               "nutrition": {
-                "kcal": 72.4,
-                "protein_g": 2.2,
-                "carbs_g": 11.1,
-                "fat_g": 2.5,
+                "kcal": 105.1,
+                "protein_g": 2.3,
+                "carbs_g": 16.8,
+                "fat_g": 3.3,
                 "fiber_g": 2.2,
-                "sugar_g": 3.1,
-                "sodium_mg": 303.5,
+                "sugar_g": 1.2,
+                "sodium_mg": 149.8,
                 "serving": "6 fl oz",
-                "sat_fat_g": 0.3,
+                "sat_fat_g": 0.4,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 26.8,
-                "iron_mg": 1.1,
+                "calcium_mg": 15.1,
+                "iron_mg": 0.6,
                 "potassium_mg": null,
-                "vitamin_c_mg": 6.7,
+                "vitamin_c_mg": 3.0,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 91.5
+                "vitamin_a_iu": 30.8
               },
               "allergens": [],
               "diets": [],
               "tags": [],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34442_1_40422"
+              "source_id": "1821_122168_M34450_1_45636"
             },
             {
               "name": "Dinner Roll",

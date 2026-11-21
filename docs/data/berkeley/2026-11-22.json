@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-22",
-  "scraped_at": "2026-11-21T03:58:33+00:00",
+  "scraped_at": "2026-11-21T20:09:50+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -12202,27 +12202,27 @@
               "source_id": "1861"
             },
             {
-              "name": "Halal Chicken Breast",
+              "name": "Rotisserie Chicken",
               "station": "Allergen Friendly",
               "station_type": "main",
-              "dish_key": "berkeley:halal-chicken-breast",
+              "dish_key": "berkeley:rotisserie-chicken",
               "nutrition": {
-                "kcal": 161.9,
-                "protein_g": 29.2,
+                "kcal": 227.2,
+                "protein_g": 24.9,
                 "carbs_g": 0.0,
-                "fat_g": 4.9,
+                "fat_g": 13.4,
                 "fiber_g": 0.0,
                 "sugar_g": 0.0,
-                "sodium_mg": 538.4,
-                "serving": "3.75 oz",
-                "sat_fat_g": 1.0,
-                "cholesterol_mg": 89.6,
-                "calcium_mg": 14.3,
-                "iron_mg": 0.5,
-                "potassium_mg": 299.0,
+                "sodium_mg": 503.1,
+                "serving": "4 oz",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 118.3,
+                "calcium_mg": 13.0,
+                "iron_mg": 1.0,
+                "potassium_mg": 309.4,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 5.2
+                "vitamin_a_iu": 13.0
               },
               "allergens": [],
               "diets": [
@@ -12232,8 +12232,8 @@
                 "high_protein",
                 "lighter"
               ],
-              "carbon_kg": 0.0,
-              "source_id": "848"
+              "carbon_kg": 0.1,
+              "source_id": "2187"
             },
             {
               "name": "Vegan \"sausage\" Mixed Pepper Stir Fry",

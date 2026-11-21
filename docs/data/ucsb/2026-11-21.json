@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-21",
-  "scraped_at": "2026-11-21T04:01:23+00:00",
+  "scraped_at": "2026-11-21T20:12:03+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -44,10 +44,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Turkey Pastrami",
+              "name": "Sliced Pastrami",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-turkey-pastrami",
+              "dish_key": "ucsb:sliced-pastrami",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -106,10 +106,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Cheddar Cheese",
+              "name": "Sliced Provolone Cheese",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-cheddar-cheese",
+              "dish_key": "ucsb:sliced-provolone-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -134,6 +134,39 @@
               ],
               "tags": [
                 "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Santa Fe Salad",
+              "station": "Salads",
+              "station_type": "bar",
+              "dish_key": "ucsb:santa-fe-salad",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""

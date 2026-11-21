@@ -1,7 +1,7 @@
 {
   "school": "ucd",
   "date": "2026-11-21",
-  "scraped_at": "2026-11-21T03:58:46+00:00",
+  "scraped_at": "2026-11-21T20:10:05+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1200,6 +1200,123 @@
               "source_id": ""
             },
             {
+              "name": "Scrambled Tofu",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:scrambled-tofu",
+              "nutrition": {
+                "kcal": 130.8,
+                "protein_g": 12.9,
+                "carbs_g": 4.2,
+                "fat_g": 8.1,
+                "fiber_g": null,
+                "sugar_g": 0.8,
+                "sodium_mg": null,
+                "serving": "3 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 218.9,
+                "protein_g": 9.5,
+                "carbs_g": 28.6,
+                "fat_g": 7.5,
+                "fiber_g": null,
+                "sugar_g": 1.5,
+                "sodium_mg": null,
+                "serving": "3.33 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "halal"
+              ],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Cheese Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:cheese-pizza",
+              "nutrition": {
+                "kcal": 199.7,
+                "protein_g": 8.8,
+                "carbs_g": 28.6,
+                "fat_g": 5.7,
+                "fiber_g": null,
+                "sugar_g": 1.5,
+                "sodium_mg": null,
+                "serving": "3.2 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
               "name": "Panini Deli Bar",
               "station": "Green Zone",
               "station_type": "main",
@@ -1484,10 +1601,10 @@
               "source_id": ""
             },
             {
-              "name": "Coleslaw Salad",
+              "name": "Assorted Vegetables",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:coleslaw-salad",
+              "dish_key": "ucd:assorted-vegetables",
               "nutrition": {
                 "kcal": 102.1,
                 "protein_g": 1.1,

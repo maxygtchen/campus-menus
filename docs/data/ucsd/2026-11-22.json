@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
   "date": "2026-11-22",
-  "scraped_at": "2026-11-21T04:03:59+00:00",
+  "scraped_at": "2026-11-21T20:14:30+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -5213,9 +5213,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "1776:263300"
@@ -10229,9 +10232,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "1776:263300"
@@ -11343,10 +11349,10 @@
               "source_id": "1292:811164"
             },
             {
-              "name": "Granola, Pecan and Pepita",
+              "name": "Pecan and Pepita Granola",
               "station": "Fresh",
               "station_type": "main",
-              "dish_key": "ucsd:granola-pecan-and-pepita",
+              "dish_key": "ucsd:pecan-and-pepita-granola",
               "nutrition": {
                 "kcal": 143.0,
                 "protein_g": null,
@@ -19931,9 +19937,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "1776:263300"
@@ -21536,9 +21545,12 @@
               "allergens": [
                 "milk"
               ],
-              "diets": [],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": "1776:263300"

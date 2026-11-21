@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-22",
-  "scraped_at": "2026-11-21T03:59:13+00:00",
+  "scraped_at": "2026-11-21T20:10:27+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2643,38 +2643,37 @@
               "source_id": "1821_122168_M40854_1_43067"
             },
             {
-              "name": "Turmeric Tofu Scramble",
+              "name": "Tofu-Potato Hash",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:turmeric-tofu-scramble",
+              "dish_key": "uci:tofu-potato-hash",
               "nutrition": {
-                "kcal": 213.9,
-                "protein_g": 21.7,
-                "carbs_g": 4.3,
-                "fat_g": 12.2,
-                "fiber_g": 3.3,
-                "sugar_g": 0.7,
-                "sodium_mg": 155.0,
-                "serving": "N/A cup",
-                "sat_fat_g": 2.7,
+                "kcal": 135.4,
+                "protein_g": 8.5,
+                "carbs_g": 11.8,
+                "fat_g": 6.2,
+                "fiber_g": 2.7,
+                "sugar_g": 2.7,
+                "sodium_mg": 289.0,
+                "serving": "1 serving",
+                "sat_fat_g": 1.2,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 117.2,
-                "iron_mg": 3.0,
+                "calcium_mg": 64.5,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
+                "vitamin_c_mg": 17.1,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 5.2
               },
               "allergens": [
                 "soy"
               ],
               "diets": [],
               "tags": [
-                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34970_1_48101"
+              "source_id": "1821_122168_M21908_1_16066"
             },
             {
               "name": "Lemon Broccoli",
@@ -3102,38 +3101,37 @@
               "source_id": "1821_122168_M40854_1_43067"
             },
             {
-              "name": "Turmeric Tofu Scramble",
+              "name": "Tofu-Potato Hash",
               "station": "The Twisted Root",
               "station_type": "main",
-              "dish_key": "uci:turmeric-tofu-scramble",
+              "dish_key": "uci:tofu-potato-hash",
               "nutrition": {
-                "kcal": 213.9,
-                "protein_g": 21.7,
-                "carbs_g": 4.3,
-                "fat_g": 12.2,
-                "fiber_g": 3.3,
-                "sugar_g": 0.7,
-                "sodium_mg": 155.0,
-                "serving": "N/A cup",
-                "sat_fat_g": 2.7,
+                "kcal": 135.4,
+                "protein_g": 8.5,
+                "carbs_g": 11.8,
+                "fat_g": 6.2,
+                "fiber_g": 2.7,
+                "sugar_g": 2.7,
+                "sodium_mg": 289.0,
+                "serving": "1 serving",
+                "sat_fat_g": 1.2,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 117.2,
-                "iron_mg": 3.0,
+                "calcium_mg": 64.5,
+                "iron_mg": 1.1,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
+                "vitamin_c_mg": 17.1,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 5.2
               },
               "allergens": [
                 "soy"
               ],
               "diets": [],
               "tags": [
-                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M34970_1_48101"
+              "source_id": "1821_122168_M21908_1_16066"
             },
             {
               "name": "Lemon Broccoli",
