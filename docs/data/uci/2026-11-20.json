@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-20T21:16:33+00:00",
+  "scraped_at": "2026-11-21T03:58:50+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -5704,6 +5704,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M9650_1_11343"
+            },
+            {
+              "name": "Barley Vegetable Soup",
+              "station": "The Twisted Root",
+              "station_type": "main",
+              "dish_key": "uci:barley-vegetable-soup",
+              "nutrition": {
+                "kcal": 63.4,
+                "protein_g": 1.5,
+                "carbs_g": 9.7,
+                "fat_g": 2.3,
+                "fiber_g": 1.5,
+                "sugar_g": 1.8,
+                "sodium_mg": 290.9,
+                "serving": "6 fl oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.4,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 8.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 48.8
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34456_1_19878"
             },
             {
               "name": "Buffalo Chicken Pizza",

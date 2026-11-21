@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-20",
-  "scraped_at": "2026-11-20T21:19:08+00:00",
+  "scraped_at": "2026-11-21T04:01:06+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -4148,10 +4148,10 @@
               "source_id": ""
             },
             {
-              "name": "Coleslaw with Vinaigrette",
+              "name": "Wild Rice Garden Salad",
               "station": "Salads/Deli (West Side)",
               "station_type": "bar",
-              "dish_key": "ucsb:coleslaw-with-vinaigrette",
+              "dish_key": "ucsb:wild-rice-garden-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -4176,6 +4176,39 @@
               ],
               "tags": [
                 "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Red Potato Salad with Dill",
+              "station": "Salads/Deli (West Side)",
+              "station_type": "bar",
+              "dish_key": "ucsb:red-potato-salad-with-dill",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""

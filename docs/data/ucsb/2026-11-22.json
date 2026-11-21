@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-22",
-  "scraped_at": "2026-11-20T21:19:40+00:00",
+  "scraped_at": "2026-11-21T04:01:39+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1936,10 +1936,10 @@
               "source_id": ""
             },
             {
-              "name": "Brazilian Black Bean Salad",
+              "name": "Coleslaw With Vinagrette",
               "station": "Salads/Deli (West Side)",
               "station_type": "bar",
-              "dish_key": "ucsb:brazilian-black-bean-salad",
+              "dish_key": "ucsb:coleslaw-with-vinagrette",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
