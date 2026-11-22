@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-22T03:11:03+00:00",
+  "scraped_at": "2026-11-22T20:24:35+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -3920,35 +3920,38 @@
               "source_id": "1821_122168_M32333_1_17669"
             },
             {
-              "name": "White Rice",
+              "name": "Garlic Ginger Fried Rice",
               "station": "Grubb",
               "station_type": "main",
-              "dish_key": "uci:white-rice",
+              "dish_key": "uci:garlic-ginger-fried-rice",
               "nutrition": {
-                "kcal": 119.6,
-                "protein_g": 2.8,
-                "carbs_g": 26.7,
-                "fat_g": 0.0,
-                "fiber_g": 0.7,
-                "sugar_g": 0.0,
-                "sodium_mg": 2.4,
+                "kcal": 191.1,
+                "protein_g": 5.9,
+                "carbs_g": 24.9,
+                "fat_g": 7.2,
+                "fiber_g": 1.2,
+                "sugar_g": 0.9,
+                "sodium_mg": 267.7,
                 "serving": "N/A cup",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 23.5,
-                "iron_mg": 1.0,
+                "sat_fat_g": 1.3,
+                "cholesterol_mg": 78.6,
+                "calcium_mg": 44.2,
+                "iron_mg": 1.7,
                 "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
+                "vitamin_c_mg": 8.4,
                 "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 7.8
               },
-              "allergens": [],
+              "allergens": [
+                "egg",
+                "soy"
+              ],
               "diets": [],
               "tags": [
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1821_122168_M9636_1_34577"
+              "source_id": "1821_122168_M9615_1_24341"
             },
             {
               "name": "Steamed Peas",

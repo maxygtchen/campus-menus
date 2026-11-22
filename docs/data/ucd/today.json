@@ -1,7 +1,7 @@
 {
   "school": "ucd",
-  "date": "2026-11-21",
-  "scraped_at": "2026-11-22T03:10:25+00:00",
+  "date": "2026-11-22",
+  "scraped_at": "2026-11-22T20:24:11+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -15,17 +15,17 @@
           "end": "10:00",
           "items": [
             {
-              "name": "French Toast Bar",
+              "name": "Waffle Bar",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:french-toast-bar",
+              "dish_key": "ucd:waffle-bar",
               "nutrition": {
-                "kcal": 222.6,
-                "protein_g": 0.7,
-                "carbs_g": 52.4,
-                "fat_g": 1.8,
+                "kcal": 254.0,
+                "protein_g": 0.1,
+                "carbs_g": 60.8,
+                "fat_g": 1.9,
                 "fiber_g": null,
-                "sugar_g": 34.4,
+                "sugar_g": 40.4,
                 "sodium_mg": null,
                 "serving": "100 g",
                 "sat_fat_g": null,
@@ -42,11 +42,11 @@
                 "egg",
                 "soy",
                 "wheat",
-                "gluten",
-                "alcohol"
+                "gluten"
               ],
               "diets": [
-                "vegetarian"
+                "vegetarian",
+                "halal"
               ],
               "tags": [
                 "lighter",
@@ -93,19 +93,19 @@
               "source_id": ""
             },
             {
-              "name": "Chorizo Sausage Patties",
+              "name": "Bacon",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:chorizo-sausage-patties",
+              "dish_key": "ucd:bacon",
               "nutrition": {
-                "kcal": 159.0,
-                "protein_g": 6.1,
-                "carbs_g": 1.0,
-                "fat_g": 14.4,
+                "kcal": 283.9,
+                "protein_g": 24.3,
+                "carbs_g": null,
+                "fat_g": 20.3,
                 "fiber_g": null,
                 "sugar_g": null,
                 "sodium_mg": null,
-                "serving": "1.5 oz",
+                "serving": "2 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -118,21 +118,22 @@
               "allergens": [],
               "diets": [],
               "tags": [
+                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Diced Hash Browns",
+              "name": "Fried Tater Tots",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:diced-hash-browns",
+              "dish_key": "ucd:fried-tater-tots",
               "nutrition": {
-                "kcal": 259.6,
+                "kcal": 312.6,
                 "protein_g": 2.7,
-                "carbs_g": 25.7,
-                "fat_g": 16.1,
+                "carbs_g": 25.6,
+                "fat_g": 23.5,
                 "fiber_g": null,
                 "sugar_g": null,
                 "sodium_mg": null,
@@ -161,19 +162,19 @@
               "source_id": ""
             },
             {
-              "name": "2PM Grass-Fed Cheeseburger",
-              "station": "Red Zone",
+              "name": "Build Your Own Omelette",
+              "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:2pm-grass-fed-cheeseburger",
+              "dish_key": "ucd:build-your-own-omelette",
               "nutrition": {
-                "kcal": 487.8,
-                "protein_g": 27.1,
-                "carbs_g": 25.3,
-                "fat_g": 30.5,
+                "kcal": 97.7,
+                "protein_g": 6.6,
+                "carbs_g": 5.4,
+                "fat_g": 5.9,
                 "fiber_g": null,
-                "sugar_g": 3.8,
+                "sugar_g": 2.8,
                 "sodium_mg": null,
-                "serving": "6.41 oz",
+                "serving": "100 g",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -185,104 +186,21 @@
               },
               "allergens": [
                 "milk",
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
+                "egg",
+                "soy"
               ],
-              "diets": [
-                "halal"
-              ],
+              "diets": [],
               "tags": [
-                "high_protein"
+                "lighter"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "2PM Impossible Buffalo Burger",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:2pm-impossible-buffalo-burger",
-              "nutrition": {
-                "kcal": 519.5,
-                "protein_g": 24.0,
-                "carbs_g": 33.7,
-                "fat_g": 32.4,
-                "fiber_g": null,
-                "sugar_g": 4.1,
-                "sodium_mg": null,
-                "serving": "6.86 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "high_protein",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Curly Fries",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:curly-fries",
-              "nutrition": {
-                "kcal": 313.2,
-                "protein_g": 2.7,
-                "carbs_g": 28.4,
-                "fat_g": 20.8,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "4.4 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Veggie Omelette",
+              "name": "Build Your Own Veggie Omelette",
               "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:veggie-omelette",
+              "dish_key": "ucd:build-your-own-veggie-omelette",
               "nutrition": {
                 "kcal": 49.9,
                 "protein_g": 2.1,
@@ -384,6 +302,119 @@
               "diets": [
                 "vegetarian",
                 "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Scrambled Tofu",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:scrambled-tofu",
+              "nutrition": {
+                "kcal": 130.8,
+                "protein_g": 12.9,
+                "carbs_g": 4.2,
+                "fat_g": 8.1,
+                "fiber_g": null,
+                "sugar_g": 0.8,
+                "sodium_mg": null,
+                "serving": "3 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Just Egg - Plant Based",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:just-egg-plant-based",
+              "nutrition": {
+                "kcal": 136.6,
+                "protein_g": 9.8,
+                "carbs_g": 1.9,
+                "fat_g": 9.8,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "3.17 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Overnight Oats",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:overnight-oats",
+              "nutrition": {
+                "kcal": 36.6,
+                "protein_g": 1.2,
+                "carbs_g": 5.5,
+                "fat_g": 1.1,
+                "fiber_g": null,
+                "sugar_g": 2.3,
+                "sodium_mg": null,
+                "serving": "1.07 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy"
+              ],
+              "diets": [
+                "vegetarian"
               ],
               "tags": [
                 "lighter",
@@ -500,17 +531,17 @@
               "source_id": ""
             },
             {
-              "name": "The Parfait  Palette",
+              "name": "BYO Parfait",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:the-parfait-palette",
+              "dish_key": "ucd:byo-parfait",
               "nutrition": {
-                "kcal": 68.6,
-                "protein_g": 2.6,
-                "carbs_g": 12.4,
-                "fat_g": 1.3,
+                "kcal": 77.6,
+                "protein_g": 2.5,
+                "carbs_g": 13.9,
+                "fat_g": 1.7,
                 "fiber_g": null,
-                "sugar_g": 8.2,
+                "sugar_g": 7.9,
                 "sodium_mg": null,
                 "serving": "100 g",
                 "sat_fat_g": null,
@@ -524,8 +555,6 @@
               },
               "allergens": [
                 "milk",
-                "peanuts",
-                "tree_nuts",
                 "wheat",
                 "gluten",
                 "alcohol"
@@ -541,10 +570,10 @@
               "source_id": ""
             },
             {
-              "name": "Breakfast Bread",
+              "name": "Assorted Loaf Cakes",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:breakfast-bread",
+              "dish_key": "ucd:assorted-loaf-cakes",
               "nutrition": {
                 "kcal": 329.3,
                 "protein_g": 4.8,
@@ -583,17 +612,17 @@
               "source_id": ""
             },
             {
-              "name": "Cream Cheese Danish",
+              "name": "Raspberry Cream Danish",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:cream-cheese-danish",
+              "dish_key": "ucd:raspberry-cream-danish",
               "nutrition": {
-                "kcal": 250.0,
+                "kcal": 276.7,
                 "protein_g": 4.0,
-                "carbs_g": 23.8,
-                "fat_g": 14.7,
+                "carbs_g": 27.7,
+                "fat_g": 15.8,
                 "fiber_g": null,
-                "sugar_g": 7.9,
+                "sugar_g": 9.2,
                 "sodium_mg": null,
                 "serving": "2 oz",
                 "sat_fat_g": null,
@@ -623,17 +652,17 @@
               "source_id": ""
             },
             {
-              "name": "Apple Cinnamon Muffin",
+              "name": "Double Chocolate Muffin",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:apple-cinnamon-muffin",
+              "dish_key": "ucd:double-chocolate-muffin",
               "nutrition": {
-                "kcal": 238.7,
-                "protein_g": 3.0,
-                "carbs_g": 30.8,
-                "fat_g": 11.9,
+                "kcal": 249.5,
+                "protein_g": 2.8,
+                "carbs_g": 30.1,
+                "fat_g": 14.2,
                 "fiber_g": null,
-                "sugar_g": 17.9,
+                "sugar_g": 19.3,
                 "sodium_mg": null,
                 "serving": "2 oz",
                 "sat_fat_g": null,
@@ -664,15 +693,15 @@
               "source_id": ""
             },
             {
-              "name": "Onion Bagel",
+              "name": "Sesame Bagel",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:onion-bagel",
+              "dish_key": "ucd:sesame-bagel",
               "nutrition": {
-                "kcal": 180.9,
-                "protein_g": 6.5,
-                "carbs_g": 35.6,
-                "fat_g": 1.2,
+                "kcal": 200.7,
+                "protein_g": 7.0,
+                "carbs_g": 36.6,
+                "fat_g": 2.5,
                 "fiber_g": null,
                 "sugar_g": 2.5,
                 "sodium_mg": null,
@@ -689,7 +718,8 @@
               "allergens": [
                 "soy",
                 "wheat",
-                "gluten"
+                "gluten",
+                "sesame"
               ],
               "diets": [
                 "vegan",
@@ -703,19 +733,19 @@
               "source_id": ""
             },
             {
-              "name": "Whole Wheat Bagel",
+              "name": "Plain Bagel",
               "station": "Pink Zone",
               "station_type": "main",
-              "dish_key": "ucd:whole-wheat-bagel",
+              "dish_key": "ucd:plain-bagel",
               "nutrition": {
-                "kcal": 151.0,
-                "protein_g": 5.5,
-                "carbs_g": 31.5,
-                "fat_g": 0.7,
+                "kcal": 180.9,
+                "protein_g": 6.5,
+                "carbs_g": 35.6,
+                "fat_g": 0.8,
                 "fiber_g": null,
-                "sugar_g": 2.7,
+                "sugar_g": 2.5,
                 "sodium_mg": null,
-                "serving": "0.13 lb",
+                "serving": "2 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -750,19 +780,169 @@
           "end": "14:00",
           "items": [
             {
-              "name": "Grass-Fed Cheeseburger",
+              "name": "Opening @ 2pm - Spicy Fried Fish Po Boy",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:grass-fed-cheeseburger",
+              "dish_key": "ucd:opening-2pm-spicy-fried-fish-po-boy",
               "nutrition": {
-                "kcal": 487.8,
-                "protein_g": 27.1,
-                "carbs_g": 25.3,
-                "fat_g": 30.5,
+                "kcal": 587.7,
+                "protein_g": 21.1,
+                "carbs_g": 58.5,
+                "fat_g": 29.3,
                 "fiber_g": null,
-                "sugar_g": 3.8,
+                "sugar_g": 5.8,
                 "sodium_mg": null,
-                "serving": "6.41 oz",
+                "serving": "12.48 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten",
+                "fish",
+                "alcohol"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Opening @ 2pm -  Falafel Burger",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:opening-2pm-falafel-burger",
+              "nutrition": {
+                "kcal": 559.9,
+                "protein_g": 14.3,
+                "carbs_g": 67.0,
+                "fat_g": 26.8,
+                "fiber_g": null,
+                "sugar_g": 11.0,
+                "sodium_mg": null,
+                "serving": "10.44 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Shoestring Potatoes",
+              "station": "Red Zone",
+              "station_type": "main",
+              "dish_key": "ucd:shoestring-potatoes",
+              "nutrition": {
+                "kcal": 286.1,
+                "protein_g": 2.7,
+                "carbs_g": 31.1,
+                "fat_g": 17.4,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "4 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Build Your Own Omelette",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:build-your-own-omelette",
+              "nutrition": {
+                "kcal": 97.7,
+                "protein_g": 6.6,
+                "carbs_g": 5.4,
+                "fat_g": 5.9,
+                "fiber_g": null,
+                "sugar_g": 2.8,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Build Your Own Veggie Omelette",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:build-your-own-veggie-omelette",
+              "nutrition": {
+                "kcal": 49.9,
+                "protein_g": 2.1,
+                "carbs_g": 5.7,
+                "fat_g": 2.5,
+                "fiber_g": null,
+                "sugar_g": 3.2,
+                "sodium_mg": null,
+                "serving": "100 g",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -776,93 +956,15 @@
                 "milk",
                 "soy",
                 "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [
-                "halal"
-              ],
-              "tags": [
-                "high_protein"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Impossible Buffalo Burger",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:impossible-buffalo-burger",
-              "nutrition": {
-                "kcal": 519.5,
-                "protein_g": 24.0,
-                "carbs_g": 33.7,
-                "fat_g": 32.4,
-                "fiber_g": null,
-                "sugar_g": 4.1,
-                "sodium_mg": null,
-                "serving": "6.86 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "high_protein",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Curly Fries",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:curly-fries",
-              "nutrition": {
-                "kcal": 313.2,
-                "protein_g": 2.7,
-                "carbs_g": 28.4,
-                "fat_g": 20.8,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "4.4 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
                 "gluten"
               ],
               "diets": [
-                "vegan",
+                "vegetarian",
                 "halal"
               ],
               "tags": [
                 "lighter",
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -946,10 +1048,10 @@
               "source_id": ""
             },
             {
-              "name": "Panini Deli Bar",
+              "name": "Salad Bar",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:panini-deli-bar",
+              "dish_key": "ucd:salad-bar",
               "nutrition": {
                 "kcal": 208.9,
                 "protein_g": 4.0,
@@ -985,10 +1087,10 @@
               "source_id": ""
             },
             {
-              "name": "Tuna Salad",
+              "name": "Deli Bar",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:tuna-salad",
+              "dish_key": "ucd:deli-bar",
               "nutrition": {
                 "kcal": 326.3,
                 "protein_g": 21.8,
@@ -1022,15 +1124,15 @@
               "source_id": ""
             },
             {
-              "name": "Picnic Potato Salad",
+              "name": "Smoked Cheddar & Bacon Potato Salad",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:picnic-potato-salad",
+              "dish_key": "ucd:smoked-cheddar-bacon-potato-salad",
               "nutrition": {
-                "kcal": 143.0,
-                "protein_g": 1.4,
-                "carbs_g": 14.3,
-                "fat_g": 9.3,
+                "kcal": 207.0,
+                "protein_g": null,
+                "carbs_g": 12.9,
+                "fat_g": 15.7,
                 "fiber_g": null,
                 "sugar_g": 1.4,
                 "sodium_mg": null,
@@ -1045,8 +1147,46 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
+                "milk",
                 "egg",
                 "soy"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Cowboy Macaroni Salad",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:cowboy-macaroni-salad",
+              "nutrition": {
+                "kcal": 171.0,
+                "protein_g": 3.6,
+                "carbs_g": 21.4,
+                "fat_g": 7.9,
+                "fiber_g": null,
+                "sugar_g": 2.1,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten"
               ],
               "diets": [
                 "vegetarian",
@@ -1060,17 +1200,17 @@
               "source_id": ""
             },
             {
-              "name": "Chicken Tikka Masala Soup",
+              "name": "Tuscan Mushroom Bean Soup",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:chicken-tikka-masala-soup",
+              "dish_key": "ucd:tuscan-mushroom-bean-soup",
               "nutrition": {
-                "kcal": 82.0,
-                "protein_g": 4.5,
-                "carbs_g": 4.9,
-                "fat_g": 4.9,
+                "kcal": 44.0,
+                "protein_g": 1.8,
+                "carbs_g": 8.4,
+                "fat_g": 0.4,
                 "fiber_g": null,
-                "sugar_g": 2.0,
+                "sugar_g": 0.9,
                 "sodium_mg": null,
                 "serving": "100 g",
                 "sat_fat_g": null,
@@ -1083,8 +1223,45 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk"
+                "soy",
+                "wheat",
+                "gluten",
+                "alcohol"
               ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Chicken Tortilla Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:mexican-chicken-tortilla-soup",
+              "nutrition": {
+                "kcal": 49.0,
+                "protein_g": 4.5,
+                "carbs_g": 5.7,
+                "fat_g": 1.0,
+                "fiber_g": null,
+                "sugar_g": 1.6,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
               "diets": [],
               "tags": [
                 "lighter"
@@ -1093,19 +1270,51 @@
               "source_id": ""
             },
             {
-              "name": "Organic Smoky Split Pea Soup",
-              "station": "Green Zone",
+              "name": "Roasted Turkey",
+              "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:organic-smoky-split-pea-soup",
+              "dish_key": "ucd:roasted-turkey",
               "nutrition": {
-                "kcal": 102.0,
-                "protein_g": 7.3,
-                "carbs_g": 15.9,
-                "fat_g": 0.8,
+                "kcal": 146.2,
+                "protein_g": 30.1,
+                "carbs_g": 0.4,
+                "fat_g": 1.9,
                 "fiber_g": null,
-                "sugar_g": 1.2,
+                "sugar_g": 0.1,
                 "sodium_mg": null,
-                "serving": "100 g",
+                "serving": "4.49 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Rice and Southwest Black Beans",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:mexican-rice-and-southwest-black-beans",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1121,93 +1330,25 @@
                 "halal"
               ],
               "tags": [
-                "lighter",
                 "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "BBQ St. Louis Pork Rib",
+              "name": "Herb Roasted Red Potatoes",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:bbq-st-louis-pork-rib",
+              "dish_key": "ucd:herb-roasted-red-potatoes",
               "nutrition": {
-                "kcal": 454.2,
-                "protein_g": 23.6,
-                "carbs_g": 9.3,
-                "fat_g": 35.4,
+                "kcal": 73.7,
+                "protein_g": 1.7,
+                "carbs_g": 14.4,
+                "fat_g": 1.2,
                 "fiber_g": null,
-                "sugar_g": 8.5,
+                "sugar_g": 1.2,
                 "sodium_mg": null,
-                "serving": "6.24 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "high_protein"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Baked Beans",
-              "station": "Purple Zone",
-              "station_type": "main",
-              "dish_key": "ucd:baked-beans",
-              "nutrition": {
-                "kcal": 103.0,
-                "protein_g": 3.9,
-                "carbs_g": 20.1,
-                "fat_g": 0.6,
-                "fiber_g": null,
-                "sugar_g": 6.7,
-                "sodium_mg": null,
-                "serving": "3.99 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "alcohol"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Baked Potato",
-              "station": "Purple Zone",
-              "station_type": "main",
-              "dish_key": "ucd:baked-potato",
-              "nutrition": {
-                "kcal": 174.5,
-                "protein_g": 4.7,
-                "carbs_g": 39.7,
-                "fat_g": 0.2,
-                "fiber_g": null,
-                "sugar_g": 1.9,
-                "sodium_mg": null,
-                "serving": "8 oz",
+                "serving": "3.32 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1235,14 +1376,14 @@
               "station_type": "main",
               "dish_key": "ucd:assorted-vegetables",
               "nutrition": {
-                "kcal": 102.1,
-                "protein_g": 1.1,
-                "carbs_g": 10.1,
-                "fat_g": 7.2,
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
                 "fiber_g": null,
-                "sugar_g": 7.7,
+                "sugar_g": null,
                 "sodium_mg": null,
-                "serving": "100 g",
+                "serving": "",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1258,7 +1399,6 @@
                 "halal"
               ],
               "tags": [
-                "lighter",
                 "vegan"
               ],
               "carbon_kg": null,
@@ -1273,19 +1413,19 @@
           "end": "20:00",
           "items": [
             {
-              "name": "Grass-Fed Cheeseburger",
+              "name": "Spicy Fried Fish Po Boy",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:grass-fed-cheeseburger",
+              "dish_key": "ucd:spicy-fried-fish-po-boy",
               "nutrition": {
-                "kcal": 487.8,
-                "protein_g": 27.1,
-                "carbs_g": 25.3,
-                "fat_g": 30.5,
+                "kcal": 587.7,
+                "protein_g": 21.1,
+                "carbs_g": 58.5,
+                "fat_g": 29.3,
                 "fiber_g": null,
-                "sugar_g": 3.8,
+                "sugar_g": 5.8,
                 "sodium_mg": null,
-                "serving": "6.41 oz",
+                "serving": "12.48 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1301,11 +1441,10 @@
                 "soy",
                 "wheat",
                 "gluten",
-                "sesame"
+                "fish",
+                "alcohol"
               ],
-              "diets": [
-                "halal"
-              ],
+              "diets": [],
               "tags": [
                 "high_protein"
               ],
@@ -1313,19 +1452,19 @@
               "source_id": ""
             },
             {
-              "name": "Impossible Buffalo Burger",
+              "name": "Falafel Burger",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:impossible-buffalo-burger",
+              "dish_key": "ucd:falafel-burger",
               "nutrition": {
-                "kcal": 519.5,
-                "protein_g": 24.0,
-                "carbs_g": 33.7,
-                "fat_g": 32.4,
+                "kcal": 559.9,
+                "protein_g": 14.3,
+                "carbs_g": 67.0,
+                "fat_g": 26.8,
                 "fiber_g": null,
-                "sugar_g": 4.1,
+                "sugar_g": 11.0,
                 "sodium_mg": null,
-                "serving": "6.86 oz",
+                "serving": "10.44 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1346,22 +1485,21 @@
                 "halal"
               ],
               "tags": [
-                "high_protein",
                 "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Curly Fries",
+              "name": "Seasoned Waffle Fries",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:curly-fries",
+              "dish_key": "ucd:seasoned-waffle-fries",
               "nutrition": {
-                "kcal": 313.2,
+                "kcal": 299.7,
                 "protein_g": 2.7,
-                "carbs_g": 28.4,
-                "fat_g": 20.8,
+                "carbs_g": 31.1,
+                "fat_g": 18.1,
                 "fiber_g": null,
                 "sugar_g": null,
                 "sodium_mg": null,
@@ -1392,19 +1530,54 @@
               "source_id": ""
             },
             {
-              "name": "Sausage and Onion Pizza",
+              "name": "Chicken Parmesan with Pasta",
               "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:sausage-and-onion-pizza",
+              "dish_key": "ucd:chicken-parmesan-with-pasta",
               "nutrition": {
-                "kcal": 227.0,
-                "protein_g": 9.2,
-                "carbs_g": 28.8,
-                "fat_g": 8.5,
+                "kcal": 603.7,
+                "protein_g": 24.4,
+                "carbs_g": 53.0,
+                "fat_g": 32.9,
                 "fiber_g": null,
-                "sugar_g": 1.8,
+                "sugar_g": 5.0,
                 "sodium_mg": null,
-                "serving": "3.68 oz",
+                "serving": "11.32 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Salami and Mushroom Pizza",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:salami-and-mushroom-pizza",
+              "nutrition": {
+                "kcal": 236.2,
+                "protein_g": 10.5,
+                "carbs_g": 28.3,
+                "fat_g": 9.2,
+                "fiber_g": null,
+                "sugar_g": 1.3,
+                "sodium_mg": null,
+                "serving": "3.71 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1434,12 +1607,12 @@
               "station_type": "main",
               "dish_key": "ucd:cheese-pizza",
               "nutrition": {
-                "kcal": 199.7,
-                "protein_g": 8.8,
-                "carbs_g": 28.6,
-                "fat_g": 5.7,
+                "kcal": 201.7,
+                "protein_g": 8.6,
+                "carbs_g": 28.1,
+                "fat_g": 6.3,
                 "fiber_g": null,
-                "sugar_g": 1.5,
+                "sugar_g": 1.2,
                 "sodium_mg": null,
                 "serving": "3.2 oz",
                 "sat_fat_g": null,
@@ -1463,44 +1636,6 @@
               ],
               "tags": [
                 "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Creamy Marinara with Penne",
-              "station": "Yellow Zone",
-              "station_type": "main",
-              "dish_key": "ucd:creamy-marinara-with-penne",
-              "nutrition": {
-                "kcal": 456.5,
-                "protein_g": 13.3,
-                "carbs_g": 51.9,
-                "fat_g": 21.9,
-                "fiber_g": null,
-                "sugar_g": 7.1,
-                "sodium_mg": null,
-                "serving": "10.51 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
                 "vegetarian"
               ],
               "carbon_kg": null,
@@ -1583,17 +1718,17 @@
               "source_id": ""
             },
             {
-              "name": "Chicken Tikka Masala Soup",
+              "name": "Smoked Cheddar & Bacon Potato Salad",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:chicken-tikka-masala-soup",
+              "dish_key": "ucd:smoked-cheddar-bacon-potato-salad",
               "nutrition": {
-                "kcal": 82.0,
-                "protein_g": 4.5,
-                "carbs_g": 4.9,
-                "fat_g": 4.9,
+                "kcal": 207.0,
+                "protein_g": null,
+                "carbs_g": 12.9,
+                "fat_g": 15.7,
                 "fiber_g": null,
-                "sugar_g": 2.0,
+                "sugar_g": 1.4,
                 "sodium_mg": null,
                 "serving": "100 g",
                 "sat_fat_g": null,
@@ -1606,7 +1741,9 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk"
+                "milk",
+                "egg",
+                "soy"
               ],
               "diets": [],
               "tags": [
@@ -1616,17 +1753,97 @@
               "source_id": ""
             },
             {
-              "name": "Organic Smoky Split Pea Soup",
+              "name": "Cowboy Macaroni Salad",
               "station": "Green Zone",
               "station_type": "main",
-              "dish_key": "ucd:organic-smoky-split-pea-soup",
+              "dish_key": "ucd:cowboy-macaroni-salad",
               "nutrition": {
-                "kcal": 102.0,
-                "protein_g": 7.3,
-                "carbs_g": 15.9,
-                "fat_g": 0.8,
+                "kcal": 171.0,
+                "protein_g": 3.6,
+                "carbs_g": 21.4,
+                "fat_g": 7.9,
                 "fiber_g": null,
-                "sugar_g": 1.2,
+                "sugar_g": 2.1,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Tuscan Mushroom Bean Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:tuscan-mushroom-bean-soup",
+              "nutrition": {
+                "kcal": 44.0,
+                "protein_g": 1.8,
+                "carbs_g": 8.4,
+                "fat_g": 0.4,
+                "fiber_g": null,
+                "sugar_g": 0.9,
+                "sodium_mg": null,
+                "serving": "100 g",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "alcohol"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Mexican Chicken Tortilla Soup",
+              "station": "Green Zone",
+              "station_type": "main",
+              "dish_key": "ucd:mexican-chicken-tortilla-soup",
+              "nutrition": {
+                "kcal": 49.0,
+                "protein_g": 4.5,
+                "carbs_g": 5.7,
+                "fat_g": 1.0,
+                "fiber_g": null,
+                "sugar_g": 1.6,
                 "sodium_mg": null,
                 "serving": "100 g",
                 "sat_fat_g": null,
@@ -1639,31 +1856,27 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
+              "diets": [],
               "tags": [
-                "lighter",
-                "vegan"
+                "lighter"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Chicken Taco Soup",
+              "name": "BBQ Spiced Chicken Wings with Carolina Gold Sauce",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:chicken-taco-soup",
+              "dish_key": "ucd:bbq-spiced-chicken-wings-with-carolina-gold-sauce",
               "nutrition": {
-                "kcal": 204.7,
-                "protein_g": 20.2,
-                "carbs_g": 16.6,
-                "fat_g": 5.9,
+                "kcal": 253.9,
+                "protein_g": 19.9,
+                "carbs_g": 10.1,
+                "fat_g": 14.6,
                 "fiber_g": null,
-                "sugar_g": 2.5,
+                "sugar_g": 9.8,
                 "sodium_mg": null,
-                "serving": "5.96 oz",
+                "serving": "5.03 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1676,60 +1889,25 @@
               "allergens": [],
               "diets": [],
               "tags": [
-                "high_protein",
                 "lighter"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Assorted Vegetables",
+              "name": "Red Beans and Rice",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:assorted-vegetables",
+              "dish_key": "ucd:red-beans-and-rice",
               "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
+                "kcal": 105.7,
+                "protein_g": 2.6,
+                "carbs_g": 20.6,
+                "fat_g": 1.4,
                 "fiber_g": null,
-                "sugar_g": null,
+                "sugar_g": 1.5,
                 "sodium_mg": null,
-                "serving": "5.04 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Southwest Black Beans",
-              "station": "Purple Zone",
-              "station_type": "main",
-              "dish_key": "ucd:southwest-black-beans",
-              "nutrition": {
-                "kcal": 122.4,
-                "protein_g": 6.1,
-                "carbs_g": 21.1,
-                "fat_g": 1.5,
-                "fiber_g": null,
-                "sugar_g": 1.4,
-                "sodium_mg": null,
-                "serving": "5.04 oz",
+                "serving": "3.01 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -1752,19 +1930,54 @@
               "source_id": ""
             },
             {
-              "name": "Mexican Rice",
+              "name": "Roasted Cauliflower",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:mexican-rice",
+              "dish_key": "ucd:roasted-cauliflower",
               "nutrition": {
-                "kcal": 106.5,
-                "protein_g": 1.8,
-                "carbs_g": 18.8,
-                "fat_g": 2.5,
+                "kcal": 51.3,
+                "protein_g": 1.6,
+                "carbs_g": 4.3,
+                "fat_g": 3.7,
                 "fiber_g": null,
-                "sugar_g": 0.7,
+                "sugar_g": 1.6,
                 "sodium_mg": null,
-                "serving": "2.13 oz",
+                "serving": "3 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Double Roasted Cremini Mushrooms",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:double-roasted-cremini-mushrooms",
+              "nutrition": {
+                "kcal": 42.7,
+                "protein_g": 0.7,
+                "carbs_g": 1.3,
+                "fat_g": 4.2,
+                "fiber_g": null,
+                "sugar_g": 0.5,
+                "sodium_mg": null,
+                "serving": "1.21 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,

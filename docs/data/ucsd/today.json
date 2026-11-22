@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
-  "date": "2026-11-21",
-  "scraped_at": "2026-11-22T03:14:37+00:00",
+  "date": "2026-11-22",
+  "scraped_at": "2026-11-22T20:29:01+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1606,6 +1606,390 @@
           "end": "14:00",
           "items": [
             {
+              "name": "Blistered Tomato Fettuccini Alfredo",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:blistered-tomato-fettuccini-alfredo",
+              "nutrition": {
+                "kcal": 719.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "379:145003"
+            },
+            {
+              "name": "Gnocchi al Pesto Pomodorini",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:gnocchi-al-pesto-pomodorini",
+              "nutrition": {
+                "kcal": 426.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "382:181119"
+            },
+            {
+              "name": "Spaghetti Fra Diavolo",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:spaghetti-fra-diavolo",
+              "nutrition": {
+                "kcal": 345.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "1848:181117"
+            },
+            {
+              "name": "Fruit, Apple Whole",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:fruit-apple-whole",
+              "nutrition": {
+                "kcal": 119.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "4081:450351"
+            },
+            {
+              "name": "Fruit, Banana Whole",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:fruit-banana-whole",
+              "nutrition": {
+                "kcal": 175.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "4080:450352"
+            },
+            {
+              "name": "Hot Italian Sausage",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:hot-italian-sausage",
+              "nutrition": {
+                "kcal": 266.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "375:111008"
+            },
+            {
+              "name": "Lemon Oregano Chicken",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:lemon-oregano-chicken",
+              "nutrition": {
+                "kcal": 238.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "368:131003"
+            },
+            {
+              "name": "Soy Beans Based Bolognese",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:soy-beans-based-bolognese",
+              "nutrition": {
+                "kcal": 123.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "374:172026"
+            },
+            {
+              "name": "Turkey Meatballs",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:turkey-meatballs",
+              "nutrition": {
+                "kcal": 60.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "376:105050"
+            },
+            {
+              "name": "Caesar Side Salad",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:caesar-side-salad",
+              "nutrition": {
+                "kcal": 200.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "fish",
+                "egg",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "378:440037"
+            },
+            {
+              "name": "Roasted Garlic Breadsticks",
+              "station": "Al Dente",
+              "station_type": "main",
+              "dish_key": "ucsd:roasted-garlic-breadsticks",
+              "nutrition": {
+                "kcal": 209.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1766:241011"
+            },
+            {
               "name": "Fruit, Apple Whole",
               "station": "Garden Bar",
               "station_type": "main",
@@ -1987,12 +2371,12 @@
               "source_id": "378:440037"
             },
             {
-              "name": "Beef Chili Bowl",
+              "name": "Tomato and Red Pepper Bisque",
               "station": "Garden Bar",
               "station_type": "main",
-              "dish_key": "ucsd:beef-chili-bowl",
+              "dish_key": "ucsd:tomato-and-red-pepper-bisque",
               "nutrition": {
-                "kcal": 565.0,
+                "kcal": 350.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -2010,13 +2394,17 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk",
-                "soy"
+                "milk"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
               "carbon_kg": null,
-              "source_id": "1175:026001"
+              "source_id": "1773:021002"
             },
             {
               "name": "Carne Asada Bowl",
@@ -6283,12 +6671,12 @@
               "source_id": "378:440037"
             },
             {
-              "name": "Beef Chili Bowl",
+              "name": "Tomato and Red Pepper Bisque",
               "station": "Garden Bar",
               "station_type": "main",
-              "dish_key": "ucsd:beef-chili-bowl",
+              "dish_key": "ucsd:tomato-and-red-pepper-bisque",
               "nutrition": {
-                "kcal": 565.0,
+                "kcal": 350.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -6306,13 +6694,17 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk",
-                "soy"
+                "milk"
               ],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
               "carbon_kg": null,
-              "source_id": "1175:026001"
+              "source_id": "1773:021002"
             },
             {
               "name": "Carne Asada Bowl",
@@ -9047,6 +9439,629 @@
               ],
               "carbon_kg": null,
               "source_id": "304:191002"
+            },
+            {
+              "name": "Salmon - Hamachi Chirashi Bowl",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:salmon-hamachi-chirashi-bowl",
+              "nutrition": {
+                "kcal": 425.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "546:770435"
+            },
+            {
+              "name": "Seared Ahi - Salmon Chirashi Bowl",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:seared-ahi-salmon-chirashi-bowl",
+              "nutrition": {
+                "kcal": 414.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "542:770433"
+            },
+            {
+              "name": "Rainbow Roll",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:rainbow-roll",
+              "nutrition": {
+                "kcal": 430.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "fish",
+                "shellfish",
+                "egg",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "569:770482"
+            },
+            {
+              "name": "Spicy Salmon Roll",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:spicy-salmon-roll",
+              "nutrition": {
+                "kcal": 446.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "571:770613"
+            },
+            {
+              "name": "Spicy Tuna and Tempura Shrimp Roll",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:spicy-tuna-and-tempura-shrimp-roll",
+              "nutrition": {
+                "kcal": 605.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "fish",
+                "shellfish",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "568:770483"
+            },
+            {
+              "name": "Umi Nigiri Combo",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:umi-nigiri-combo",
+              "nutrition": {
+                "kcal": 379.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "584:770491"
+            },
+            {
+              "name": "Edamame",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:edamame",
+              "nutrition": {
+                "kcal": 95.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "534:770431"
+            },
+            {
+              "name": "Kimchi Cucumbers",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:kimchi-cucumbers",
+              "nutrition": {
+                "kcal": 49.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "sesame"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "533:195077"
+            },
+            {
+              "name": "Albacore Nigiri",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:albacore-nigiri",
+              "nutrition": {
+                "kcal": 136.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "583:770451"
+            },
+            {
+              "name": "Hamachi Nigiri",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:hamachi-nigiri",
+              "nutrition": {
+                "kcal": 145.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "582:770449"
+            },
+            {
+              "name": "Salmon Nigiri",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:salmon-nigiri",
+              "nutrition": {
+                "kcal": 164.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "580:770446"
+            },
+            {
+              "name": "Spicy Salmon Onigiri",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:spicy-salmon-onigiri",
+              "nutrition": {
+                "kcal": 208.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "557:770635"
+            },
+            {
+              "name": "Spicy Tuna Onigiri",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:spicy-tuna-onigiri",
+              "nutrition": {
+                "kcal": 188.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "555:770634"
+            },
+            {
+              "name": "Veggie Onigiri",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:veggie-onigiri",
+              "nutrition": {
+                "kcal": 191.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "552:770633"
+            },
+            {
+              "name": "Miso Soup",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:miso-soup",
+              "nutrition": {
+                "kcal": 54.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "fish"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "535:770200"
+            },
+            {
+              "name": "Moon God Roll",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:moon-god-roll",
+              "nutrition": {
+                "kcal": 603.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "tree_nuts",
+                "soy",
+                "wheat",
+                "fish",
+                "shellfish",
+                "egg",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1905:770616"
+            },
+            {
+              "name": "Sweet Potato Tempura Roll",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:sweet-potato-tempura-roll",
+              "nutrition": {
+                "kcal": 432.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "576:770619"
+            },
+            {
+              "name": "Umi Roll",
+              "station": "Umi",
+              "station_type": "main",
+              "dish_key": "ucsd:umi-roll",
+              "nutrition": {
+                "kcal": 707.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "fish",
+                "shellfish",
+                "egg",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "566:770462"
             },
             {
               "name": "Half Rice and Half Noodles",
@@ -21137,6 +22152,148 @@
               "source_id": "461:643022"
             },
             {
+              "name": "Calrose Rice",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:calrose-rice",
+              "nutrition": {
+                "kcal": 49.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "216:272031"
+            },
+            {
+              "name": "Bun Cha Pork Belly Noodle Bowl",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:bun-cha-pork-belly-noodle-bowl",
+              "nutrition": {
+                "kcal": 1006.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "fish",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "6231:770690"
+            },
+            {
+              "name": "Chicken Potstickers",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:chicken-potstickers",
+              "nutrition": {
+                "kcal": 89.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "460:643021"
+            },
+            {
+              "name": "Vegetable Spring Rolls",
+              "station": "Heat",
+              "station_type": "main",
+              "dish_key": "ucsd:vegetable-spring-rolls",
+              "nutrition": {
+                "kcal": 81.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "461:643022"
+            },
+            {
               "name": "Chocolate Chunk Cookie",
               "station": "Morning Fog",
               "station_type": "main",
@@ -21821,6 +22978,261 @@
               ],
               "carbon_kg": null,
               "source_id": "304:191002"
+            }
+          ]
+        },
+        {
+          "period": "Late Night",
+          "raw_period": "Late Night",
+          "start": "21:00",
+          "end": "23:00",
+          "items": [
+            {
+              "name": "Salt and Pepper Wings",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:salt-and-pepper-wings",
+              "nutrition": {
+                "kcal": 892.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "egg"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "5725:131209"
+            },
+            {
+              "name": "Mango Sorbet",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:mango-sorbet",
+              "nutrition": {
+                "kcal": 116.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "3806:290202"
+            },
+            {
+              "name": "Chocolate Gelato",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:chocolate-gelato",
+              "nutrition": {
+                "kcal": 189.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "egg"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2402:290193"
+            },
+            {
+              "name": "Vanilla Bean Gelato",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:vanilla-bean-gelato",
+              "nutrition": {
+                "kcal": 149.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2401:290201"
+            },
+            {
+              "name": "Hot Honey",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:hot-honey",
+              "nutrition": {
+                "kcal": 62.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "916:290450"
+            },
+            {
+              "name": "Buttermilk Ranch",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:buttermilk-ranch",
+              "nutrition": {
+                "kcal": 103.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "egg"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "182:051004"
+            },
+            {
+              "name": "CA Tomato Sauce",
+              "station": "Slice at Pines",
+              "station_type": "main",
+              "dish_key": "ucsd:ca-tomato-sauce",
+              "nutrition": {
+                "kcal": 13.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "2405:290078"
             }
           ]
         }
