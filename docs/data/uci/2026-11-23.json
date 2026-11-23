@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-22T20:24:35+00:00",
+  "scraped_at": "2026-11-23T03:44:39+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -4725,6 +4725,37 @@
               "source_id": "1821_122168_M2677_1_28367"
             },
             {
+              "name": "Chicken & Veggie Stir-Fry",
+              "station": "Compass",
+              "station_type": "main",
+              "dish_key": "uci:chicken-veggie-stir-fry",
+              "nutrition": {
+                "kcal": 122.0,
+                "protein_g": 11.3,
+                "carbs_g": 9.4,
+                "fat_g": 4.4,
+                "fiber_g": 1.6,
+                "sugar_g": 3.9,
+                "sodium_mg": 242.0,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 46.5,
+                "calcium_mg": 34.9,
+                "iron_mg": 0.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 24.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 72.2
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M41120_1_9236"
+            },
+            {
               "name": "Garlic Roasted Broccoli",
               "station": "Compass",
               "station_type": "main",
@@ -4754,6 +4785,37 @@
               ],
               "carbon_kg": null,
               "source_id": "1821_122168_M40751_1_43526"
+            },
+            {
+              "name": "Jasmine Rice",
+              "station": "Compass",
+              "station_type": "main",
+              "dish_key": "uci:jasmine-rice",
+              "nutrition": {
+                "kcal": 130.8,
+                "protein_g": 2.9,
+                "carbs_g": 29.1,
+                "fat_g": 0.0,
+                "fiber_g": 0.7,
+                "sugar_g": 0.0,
+                "sodium_mg": 2.4,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 2.4,
+                "iron_mg": 0.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M9650_1_11343"
             },
             {
               "name": "Mexi-Rice",

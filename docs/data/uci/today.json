@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-22",
-  "scraped_at": "2026-11-22T20:24:17+00:00",
+  "scraped_at": "2026-11-23T03:44:22+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -582,6 +582,101 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1923_101628_L397529_1_467499"
+            },
+            {
+              "name": "Blueberry Scone RTB",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:blueberry-scone-rtb",
+              "nutrition": {
+                "kcal": 205.6,
+                "protein_g": 2.5,
+                "carbs_g": 28.6,
+                "fat_g": 9.0,
+                "fiber_g": 1.0,
+                "sugar_g": 12.5,
+                "sodium_mg": 175.5,
+                "serving": "N/A each",
+                "sat_fat_g": 4.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 40.1,
+                "iron_mg": 1.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_L270076_1_459162"
+            },
+            {
+              "name": "Red Velvet Cupcake",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:red-velvet-cupcake",
+              "nutrition": {
+                "kcal": 154.5,
+                "protein_g": 1.0,
+                "carbs_g": 29.0,
+                "fat_g": 4.0,
+                "fiber_g": 0.5,
+                "sugar_g": 18.8,
+                "sodium_mg": 216.7,
+                "serving": "1 each",
+                "sat_fat_g": 2.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 5.3,
+                "iron_mg": 1.1,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M1884_1_3064"
+            },
+            {
+              "name": "Pumpkin Crumble Parfait",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:pumpkin-crumble-parfait",
+              "nutrition": {
+                "kcal": 230.2,
+                "protein_g": 2.7,
+                "carbs_g": 20.2,
+                "fat_g": 16.0,
+                "fiber_g": 1.8,
+                "sugar_g": 12.4,
+                "sodium_mg": 50.7,
+                "serving": "1 serving",
+                "sat_fat_g": 7.7,
+                "cholesterol_mg": 0.1,
+                "calcium_mg": 28.6,
+                "iron_mg": 0.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 202.2
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M32898_1_20960"
             },
             {
               "name": "Old Fashioned Oatmeal",
@@ -1217,6 +1312,101 @@
               "source_id": "1923_101628_L397529_1_467499"
             },
             {
+              "name": "Blueberry Scone RTB",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:blueberry-scone-rtb",
+              "nutrition": {
+                "kcal": 205.6,
+                "protein_g": 2.5,
+                "carbs_g": 28.6,
+                "fat_g": 9.0,
+                "fiber_g": 1.0,
+                "sugar_g": 12.5,
+                "sodium_mg": 175.5,
+                "serving": "N/A each",
+                "sat_fat_g": 4.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 40.1,
+                "iron_mg": 1.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_L270076_1_459162"
+            },
+            {
+              "name": "Red Velvet Cupcake",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:red-velvet-cupcake",
+              "nutrition": {
+                "kcal": 154.5,
+                "protein_g": 1.0,
+                "carbs_g": 29.0,
+                "fat_g": 4.0,
+                "fiber_g": 0.5,
+                "sugar_g": 18.8,
+                "sodium_mg": 216.7,
+                "serving": "1 each",
+                "sat_fat_g": 2.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 5.3,
+                "iron_mg": 1.1,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M1884_1_3064"
+            },
+            {
+              "name": "Pumpkin Crumble Parfait",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:pumpkin-crumble-parfait",
+              "nutrition": {
+                "kcal": 230.2,
+                "protein_g": 2.7,
+                "carbs_g": 20.2,
+                "fat_g": 16.0,
+                "fiber_g": 1.8,
+                "sugar_g": 12.4,
+                "sodium_mg": 50.7,
+                "serving": "1 serving",
+                "sat_fat_g": 7.7,
+                "cholesterol_mg": 0.1,
+                "calcium_mg": 28.6,
+                "iron_mg": 0.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 202.2
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M32898_1_20960"
+            },
+            {
               "name": "Old Fashioned Oatmeal",
               "station": "Farmer's Market",
               "station_type": "main",
@@ -1563,6 +1753,37 @@
           "start": "16:30",
           "end": "20:30",
           "items": [
+            {
+              "name": "Roasted Corn",
+              "station": "Home",
+              "station_type": "main",
+              "dish_key": "uci:roasted-corn",
+              "nutrition": {
+                "kcal": 108.1,
+                "protein_g": 3.0,
+                "carbs_g": 20.7,
+                "fat_g": 3.0,
+                "fiber_g": 2.1,
+                "sugar_g": 2.5,
+                "sodium_mg": 71.8,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.4,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 4.6,
+                "iron_mg": 0.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 10.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M10072_1_44337"
+            },
             {
               "name": "Texas Toast",
               "station": "Home",

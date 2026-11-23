@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-22T20:23:55+00:00",
+  "scraped_at": "2026-11-23T03:44:01+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -5727,40 +5727,6 @@
               "source_id": "467"
             },
             {
-              "name": "BBQ Braised Beef Brisket",
-              "station": "Kosher Station",
-              "station_type": "main",
-              "dish_key": "berkeley:bbq-braised-beef-brisket",
-              "nutrition": {
-                "kcal": 226.4,
-                "protein_g": 24.0,
-                "carbs_g": 8.0,
-                "fat_g": 10.9,
-                "fiber_g": 0.0,
-                "sugar_g": 7.1,
-                "sodium_mg": 337.7,
-                "serving": "4 oz",
-                "sat_fat_g": 4.2,
-                "cholesterol_mg": 79.0,
-                "calcium_mg": 15.7,
-                "iron_mg": 2.4,
-                "potassium_mg": 405.7,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.1,
-                "vitamin_a_iu": 4.7
-              },
-              "allergens": [],
-              "diets": [
-                "kosher"
-              ],
-              "tags": [
-                "high_protein",
-                "lighter"
-              ],
-              "carbon_kg": 0.5,
-              "source_id": "1591"
-            },
-            {
               "name": "Roasted Red Potatoes with Garlic",
               "station": "Kosher Station",
               "station_type": "main",
@@ -5865,6 +5831,73 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "693"
+            },
+            {
+              "name": "Kosher Herb Roasted Beef",
+              "station": "Kosher Station",
+              "station_type": "main",
+              "dish_key": "berkeley:kosher-herb-roasted-beef",
+              "nutrition": {
+                "kcal": 15.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 1.6,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 786.3,
+                "serving": "4 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.3,
+                "iron_mg": 0.0,
+                "potassium_mg": 1.3,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "kosher"
+              ],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "124"
+            },
+            {
+              "name": "BBQ Sauce",
+              "station": "Kosher Station",
+              "station_type": "main",
+              "dish_key": "berkeley:bbq-sauce",
+              "nutrition": {
+                "kcal": 40.5,
+                "protein_g": 0.8,
+                "carbs_g": 8.9,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 13.4,
+                "sodium_mg": 332.1,
+                "serving": "1 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 81.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1675"
             },
             {
               "name": "Penne Pasta",
@@ -18156,6 +18189,39 @@
               "source_id": "1554"
             },
             {
+              "name": "Broccoli Beef",
+              "station": "Allergen Friendly",
+              "station_type": "main",
+              "dish_key": "berkeley:broccoli-beef",
+              "nutrition": {
+                "kcal": 108.7,
+                "protein_g": 9.8,
+                "carbs_g": 5.3,
+                "fat_g": 5.6,
+                "fiber_g": 1.3,
+                "sugar_g": 2.0,
+                "sodium_mg": 327.0,
+                "serving": "3.93 oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 22.1,
+                "calcium_mg": 37.2,
+                "iron_mg": 1.1,
+                "potassium_mg": 309.1,
+                "vitamin_c_mg": 51.1,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": 1.5,
+              "source_id": "726"
+            },
+            {
               "name": "Vegan \"sausage\" Mixed Pepper Stir Fry",
               "station": "Allergen Friendly",
               "station_type": "main",
@@ -18188,6 +18254,40 @@
               ],
               "carbon_kg": 0.1,
               "source_id": "1348"
+            },
+            {
+              "name": "Brown Rice",
+              "station": "Allergen Friendly",
+              "station_type": "main",
+              "dish_key": "berkeley:brown-rice",
+              "nutrition": {
+                "kcal": 149.7,
+                "protein_g": 3.1,
+                "carbs_g": 31.1,
+                "fat_g": 1.3,
+                "fiber_g": 1.5,
+                "sugar_g": 0.3,
+                "sodium_mg": 2.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 3.7,
+                "iron_mg": 0.5,
+                "potassium_mg": 102.1,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1034"
             },
             {
               "name": "Navy Beans",
@@ -18291,73 +18391,6 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "1679"
-            },
-            {
-              "name": "Broccoli Beef",
-              "station": "Allergen Friendly",
-              "station_type": "main",
-              "dish_key": "berkeley:broccoli-beef",
-              "nutrition": {
-                "kcal": 108.7,
-                "protein_g": 9.8,
-                "carbs_g": 5.3,
-                "fat_g": 5.6,
-                "fiber_g": 1.3,
-                "sugar_g": 2.0,
-                "sodium_mg": 327.0,
-                "serving": "3.93 oz",
-                "sat_fat_g": 1.1,
-                "cholesterol_mg": 22.1,
-                "calcium_mg": 37.2,
-                "iron_mg": 1.1,
-                "potassium_mg": 309.1,
-                "vitamin_c_mg": 51.1,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "soy"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": 1.5,
-              "source_id": "726"
-            },
-            {
-              "name": "Brown Rice",
-              "station": "Allergen Friendly",
-              "station_type": "main",
-              "dish_key": "berkeley:brown-rice",
-              "nutrition": {
-                "kcal": 149.7,
-                "protein_g": 3.1,
-                "carbs_g": 31.1,
-                "fat_g": 1.3,
-                "fiber_g": 1.5,
-                "sugar_g": 0.3,
-                "sodium_mg": 2.0,
-                "serving": "4 oz",
-                "sat_fat_g": 0.2,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 3.7,
-                "iron_mg": 0.5,
-                "potassium_mg": 102.1,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "1034"
             },
             {
               "name": "Chicken Tikka Masala Soup",
