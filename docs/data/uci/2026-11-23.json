@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-24T01:01:03+00:00",
+  "scraped_at": "2026-11-24T06:58:25+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2208,6 +2208,41 @@
               "source_id": "1923_101628_L248459_1_482650"
             },
             {
+              "name": "Cheese Tortellini",
+              "station": "Noodle Bar",
+              "station_type": "main",
+              "dish_key": "uci:cheese-tortellini",
+              "nutrition": {
+                "kcal": 153.6,
+                "protein_g": 5.6,
+                "carbs_g": 25.9,
+                "fat_g": 3.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.7,
+                "sodium_mg": 236.3,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 9.9,
+                "calcium_mg": 33.1,
+                "iron_mg": 1.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 27.1
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M37959_1_29461"
+            },
+            {
               "name": "Pepperoni Pizza",
               "station": "Oven",
               "station_type": "main",
@@ -2499,40 +2534,6 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "1923_101628_M19596_1_7538"
-            },
-            {
-              "name": "Chocolate Crinkle Whoopie Pie",
-              "station": "Bakery",
-              "station_type": "dessert",
-              "dish_key": "uci:chocolate-crinkle-whoopie-pie",
-              "nutrition": {
-                "kcal": 261.7,
-                "protein_g": 2.2,
-                "carbs_g": 47.1,
-                "fat_g": 7.8,
-                "fiber_g": 1.3,
-                "sugar_g": 36.6,
-                "sodium_mg": 181.7,
-                "serving": "1 each",
-                "sat_fat_g": 3.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 0.3,
-                "iron_mg": 1.6,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M19654_1_29241"
             },
             {
               "name": "Craveworthy® Chocolate Chip Cookie",

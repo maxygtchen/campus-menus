@@ -1,7 +1,7 @@
 {
   "school": "ucsc",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-24T01:04:55+00:00",
+  "scraped_at": "2026-11-24T07:01:53+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1325,37 +1325,6 @@
                 "sodium_mg": 20.0,
                 "serving": "",
                 "sat_fat_g": 1.7,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Green Onion Slaw",
-              "station": "Entrees",
-              "station_type": "main",
-              "dish_key": "ucsc:green-onion-slaw",
-              "nutrition": {
-                "kcal": 17.0,
-                "protein_g": 0.4,
-                "carbs_g": null,
-                "fat_g": 0.9,
-                "fiber_g": 0.7,
-                "sugar_g": 1.0,
-                "sodium_mg": 16.2,
-                "serving": "",
-                "sat_fat_g": 0.1,
                 "cholesterol_mg": 0.0,
                 "calcium_mg": null,
                 "iron_mg": null,
@@ -3355,37 +3324,6 @@
               "source_id": ""
             },
             {
-              "name": "Bacon and Ranch Pizza",
-              "station": "Pizza",
-              "station_type": "main",
-              "dish_key": "ucsc:bacon-and-ranch-pizza",
-              "nutrition": {
-                "kcal": 237.0,
-                "protein_g": 13.5,
-                "carbs_g": null,
-                "fat_g": 10.4,
-                "fiber_g": 0.8,
-                "sugar_g": 1.6,
-                "sodium_mg": 622.6,
-                "serving": "",
-                "sat_fat_g": 4.1,
-                "cholesterol_mg": 33.6,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Cheese Pizza",
               "station": "Pizza",
               "station_type": "main",
@@ -4696,16 +4634,16 @@
               "station_type": "main",
               "dish_key": "ucsc:natural-bridges-tofu-scramble",
               "nutrition": {
-                "kcal": null,
-                "protein_g": null,
+                "kcal": 154.0,
+                "protein_g": 14.1,
                 "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
+                "fat_g": 10.1,
+                "fiber_g": 2.4,
+                "sugar_g": 1.1,
+                "sodium_mg": 228.8,
                 "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
+                "sat_fat_g": 1.5,
+                "cholesterol_mg": 0.0,
                 "calcium_mg": null,
                 "iron_mg": null,
                 "potassium_mg": null,
@@ -4715,7 +4653,9 @@
               },
               "allergens": [],
               "diets": [],
-              "tags": [],
+              "tags": [
+                "lighter"
+              ],
               "carbon_kg": null,
               "source_id": ""
             },

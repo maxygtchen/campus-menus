@@ -1,7 +1,7 @@
 {
   "school": "ucla",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-24T01:02:07+00:00",
+  "scraped_at": "2026-11-24T06:59:18+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1608,6 +1608,71 @@
               "source_id": "753"
             },
             {
+              "name": "Creamy Tomato Basil Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "ucla:creamy-tomato-basil-soup",
+              "nutrition": {
+                "kcal": 133.0,
+                "protein_g": 1.9,
+                "carbs_g": 10.1,
+                "fat_g": 9.3,
+                "fiber_g": 2.1,
+                "sugar_g": 5.5,
+                "sodium_mg": 229.1,
+                "serving": "6.05oz",
+                "sat_fat_g": 6.0,
+                "cholesterol_mg": 37.5,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "152"
+            },
+            {
+              "name": "Chicken Tortilla Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "ucla:chicken-tortilla-soup",
+              "nutrition": {
+                "kcal": 182.0,
+                "protein_g": 9.5,
+                "carbs_g": 25.7,
+                "fat_g": 4.8,
+                "fiber_g": 1.9,
+                "sugar_g": 14.9,
+                "sodium_mg": 183.0,
+                "serving": "6.05oz",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 28.5,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1976"
+            },
+            {
               "name": "Quinoa Vegetable Stir Fry w/ Egg",
               "station": "Freshly Bowled",
               "station_type": "main",
@@ -1863,20 +1928,20 @@
               "source_id": "957"
             },
             {
-              "name": "Sauteed Spinach & Kale",
+              "name": "Quinoa Pilaf",
               "station": "Farmstand",
               "station_type": "main",
-              "dish_key": "ucla:sauteed-spinach-kale",
+              "dish_key": "ucla:quinoa-pilaf",
               "nutrition": {
-                "kcal": 123.0,
-                "protein_g": 1.9,
-                "carbs_g": 4.1,
-                "fat_g": 11.4,
-                "fiber_g": 1.6,
-                "sugar_g": 1.0,
-                "sodium_mg": 45.8,
-                "serving": "1.64oz",
-                "sat_fat_g": 0.8,
+                "kcal": 118.0,
+                "protein_g": 2.3,
+                "carbs_g": 10.9,
+                "fat_g": 7.2,
+                "fiber_g": 1.4,
+                "sugar_g": 0.9,
+                "sodium_mg": 12.1,
+                "serving": "1.67oz",
+                "sat_fat_g": 0.6,
                 "cholesterol_mg": 0.0,
                 "calcium_mg": null,
                 "iron_mg": null,
@@ -1887,15 +1952,55 @@
               },
               "allergens": [],
               "diets": [
-                "vegan",
-                "halal"
+                "vegan"
               ],
               "tags": [
                 "lighter",
                 "vegan"
               ],
               "carbon_kg": null,
-              "source_id": "887"
+              "source_id": "2327"
+            },
+            {
+              "name": "Farm Stand Special",
+              "station": "Farmstand",
+              "station_type": "main",
+              "dish_key": "ucla:farm-stand-special",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": null,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": null,
+                "sodium_mg": 0.0,
+                "serving": "4oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "soy",
+                "shellfish",
+                "gluten",
+                "peanuts",
+                "tree_nuts",
+                "wheat",
+                "sesame",
+                "milk",
+                "egg",
+                "alcohol"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "5953"
             },
             {
               "name": "BBQ Pork Tortilla Pizza",
@@ -1973,21 +2078,21 @@
               "source_id": "4256"
             },
             {
-              "name": "Grilled Sundried Tomato Marinated Chicken Thigh",
+              "name": "Lemon Ginger Marinated Grilled Chicken Thigh",
               "station": "Simply Grilled",
               "station_type": "main",
-              "dish_key": "ucla:grilled-sundried-tomato-marinated-chicken-thigh",
+              "dish_key": "ucla:lemon-ginger-marinated-grilled-chicken-thigh",
               "nutrition": {
-                "kcal": 77.0,
-                "protein_g": 7.9,
-                "carbs_g": 1.1,
-                "fat_g": 3.8,
-                "fiber_g": 0.4,
-                "sugar_g": 3.2,
-                "sodium_mg": 141.9,
-                "serving": "1.78oz",
-                "sat_fat_g": 0.7,
-                "cholesterol_mg": 36.0,
+                "kcal": 58.0,
+                "protein_g": 7.7,
+                "carbs_g": 1.3,
+                "fat_g": 2.0,
+                "fiber_g": 0.1,
+                "sugar_g": 0.7,
+                "sodium_mg": 94.8,
+                "serving": "1.67oz",
+                "sat_fat_g": 0.4,
+                "cholesterol_mg": 35.9,
                 "calcium_mg": null,
                 "iron_mg": null,
                 "potassium_mg": null,
@@ -1996,14 +2101,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "alcohol"
+                "soy",
+                "gluten",
+                "wheat"
               ],
               "diets": [],
               "tags": [
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "2976"
+              "source_id": "2227"
             },
             {
               "name": "Black Bean & Brown Rice Stacker",
@@ -2610,52 +2717,19 @@
               "source_id": "2945"
             },
             {
-              "name": "Fig Compote",
+              "name": "Black Pepper Strawberry Compote",
               "station": "Sweet Bites",
               "station_type": "dessert",
-              "dish_key": "ucla:fig-compote",
+              "dish_key": "ucla:black-pepper-strawberry-compote",
               "nutrition": {
-                "kcal": 71.0,
-                "protein_g": 0.9,
-                "carbs_g": 17.4,
-                "fat_g": 0.3,
-                "fiber_g": 2.7,
-                "sugar_g": 13.0,
-                "sodium_mg": 68.4,
-                "serving": "1.27oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2728"
-            },
-            {
-              "name": "Butternut Squash Confit",
-              "station": "Sweet Bites",
-              "station_type": "dessert",
-              "dish_key": "ucla:butternut-squash-confit",
-              "nutrition": {
-                "kcal": 53.0,
-                "protein_g": 0.5,
-                "carbs_g": 13.8,
+                "kcal": 72.0,
+                "protein_g": 0.2,
+                "carbs_g": 18.5,
                 "fat_g": 0.1,
-                "fiber_g": 1.2,
-                "sugar_g": 10.4,
-                "sodium_mg": 10.9,
-                "serving": "2.08oz",
+                "fiber_g": 0.7,
+                "sugar_g": 17.5,
+                "sodium_mg": 0.5,
+                "serving": "2oz",
                 "sat_fat_g": 0.0,
                 "cholesterol_mg": 0.0,
                 "calcium_mg": null,
@@ -2667,13 +2741,13 @@
               },
               "allergens": [],
               "diets": [
-                "vegetarian"
+                "vegan"
               ],
               "tags": [
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
-              "source_id": "4614"
+              "source_id": "3703"
             },
             {
               "name": "Lowfat Greek Yogurt",
@@ -3872,6 +3946,39 @@
               "source_id": "887"
             },
             {
+              "name": "Roasted Lamb",
+              "station": "Farmstand",
+              "station_type": "main",
+              "dish_key": "ucla:roasted-lamb",
+              "nutrition": {
+                "kcal": 106.0,
+                "protein_g": 8.6,
+                "carbs_g": 1.1,
+                "fat_g": 7.2,
+                "fiber_g": 0.2,
+                "sugar_g": 0.2,
+                "sodium_mg": 41.9,
+                "serving": "2.17oz",
+                "sat_fat_g": 2.9,
+                "cholesterol_mg": 31.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "halal"
+              ],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1085"
+            },
+            {
               "name": "Spicy Pork Tortilla Pizza",
               "station": "Stone Fired",
               "station_type": "main",
@@ -4658,6 +4765,39 @@
               "source_id": "4614"
             },
             {
+              "name": "Black Pepper Strawberry Compote",
+              "station": "Sweet Bites",
+              "station_type": "dessert",
+              "dish_key": "ucla:black-pepper-strawberry-compote",
+              "nutrition": {
+                "kcal": 72.0,
+                "protein_g": 0.2,
+                "carbs_g": 18.5,
+                "fat_g": 0.1,
+                "fiber_g": 0.7,
+                "sugar_g": 17.5,
+                "sodium_mg": 0.5,
+                "serving": "2oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "3703"
+            },
+            {
               "name": "Lowfat Greek Yogurt",
               "station": "Yogurt Bar",
               "station_type": "bar",
@@ -4827,39 +4967,6 @@
               "source_id": "7041"
             },
             {
-              "name": "Apple Water",
-              "station": "Beverage Special",
-              "station_type": "bar",
-              "dish_key": "ucla:apple-water",
-              "nutrition": {
-                "kcal": 63.0,
-                "protein_g": 0.3,
-                "carbs_g": 15.0,
-                "fat_g": 0.1,
-                "fiber_g": 2.5,
-                "sugar_g": 11.4,
-                "sodium_mg": 11.0,
-                "serving": "12.56oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "3446"
-            },
-            {
               "name": "Apple Spritzer",
               "station": "Beverage Special",
               "station_type": "bar",
@@ -4957,6 +5064,39 @@
               ],
               "carbon_kg": null,
               "source_id": "8385"
+            },
+            {
+              "name": "Passion Fruit & Orange Water",
+              "station": "Beverage Special",
+              "station_type": "bar",
+              "dish_key": "ucla:passion-fruit-orange-water",
+              "nutrition": {
+                "kcal": 14.0,
+                "protein_g": 0.3,
+                "carbs_g": 3.1,
+                "fat_g": 0.0,
+                "fiber_g": 0.2,
+                "sugar_g": 2.1,
+                "sodium_mg": 11.7,
+                "serving": "10.42oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "3386"
             },
             {
               "name": "Romaine Lettuce",
@@ -6922,38 +7062,6 @@
               "source_id": "7308"
             },
             {
-              "name": "Aji Amarillo Roasted Chicken",
-              "station": "The Kitchen",
-              "station_type": "main",
-              "dish_key": "ucla:aji-amarillo-roasted-chicken",
-              "nutrition": {
-                "kcal": 346.0,
-                "protein_g": 24.8,
-                "carbs_g": 1.9,
-                "fat_g": 25.2,
-                "fiber_g": 0.4,
-                "sugar_g": 0.3,
-                "sodium_mg": 1912.9,
-                "serving": "5.78oz",
-                "sat_fat_g": 6.2,
-                "cholesterol_mg": 99.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "high_protein",
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "3099"
-            },
-            {
               "name": "Steak Cut Fries",
               "station": "The Kitchen",
               "station_type": "main",
@@ -7027,6 +7135,39 @@
               ],
               "carbon_kg": null,
               "source_id": "2219"
+            },
+            {
+              "name": "Country Fried Beef Steak",
+              "station": "The Kitchen",
+              "station_type": "main",
+              "dish_key": "ucla:country-fried-beef-steak",
+              "nutrition": {
+                "kcal": 556.0,
+                "protein_g": 16.7,
+                "carbs_g": 30.0,
+                "fat_g": 15.3,
+                "fiber_g": 1.3,
+                "sugar_g": 0.7,
+                "sodium_mg": 733.1,
+                "serving": "4oz",
+                "sat_fat_g": 4.0,
+                "cholesterol_mg": 33.3,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7343"
             },
             {
               "name": "Garlic Chicken Pizza",
@@ -7919,6 +8060,143 @@
               "source_id": "463"
             },
             {
+              "name": "Golden Beet & Greens Salad w/ Blood Orange Mint Vinaigrette",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:golden-beet-greens-salad-w-blood-orange-mint-vinaigrette",
+              "nutrition": {
+                "kcal": 40.0,
+                "protein_g": 0.9,
+                "carbs_g": 6.7,
+                "fat_g": 1.4,
+                "fiber_g": 2.2,
+                "sugar_g": 3.2,
+                "sodium_mg": 67.0,
+                "serving": "2oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "133"
+            },
+            {
+              "name": "Three-Bean Salad",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:three-bean-salad",
+              "nutrition": {
+                "kcal": 4920.0,
+                "protein_g": 159.7,
+                "carbs_g": 486.2,
+                "fat_g": 260.4,
+                "fiber_g": 169.2,
+                "sugar_g": 102.1,
+                "sodium_mg": 9331.5,
+                "serving": "160oz",
+                "sat_fat_g": 19.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "high_protein",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "10626"
+            },
+            {
+              "name": "Shrimp Ceviche Tostada Bar",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:shrimp-ceviche-tostada-bar",
+              "nutrition": {
+                "kcal": 71.0,
+                "protein_g": 12.7,
+                "carbs_g": 2.9,
+                "fat_g": 1.2,
+                "fiber_g": 0.9,
+                "sugar_g": 1.1,
+                "sodium_mg": 276.9,
+                "serving": "3.42oz",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 98.2,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "shellfish",
+                "milk"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7941"
+            },
+            {
+              "name": "Cajun Red Potato Salad",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:cajun-red-potato-salad",
+              "nutrition": {
+                "kcal": 74.0,
+                "protein_g": 1.1,
+                "carbs_g": 6.4,
+                "fat_g": 4.8,
+                "fiber_g": 0.8,
+                "sugar_g": 0.7,
+                "sodium_mg": 144.5,
+                "serving": "2oz",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 14.8,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "egg",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "10380"
+            },
+            {
               "name": "White Cupcake",
               "station": "The Sweet Stop",
               "station_type": "dessert",
@@ -8220,6 +8498,156 @@
               ],
               "carbon_kg": null,
               "source_id": "9600"
+            },
+            {
+              "name": "Pumpkin Bake",
+              "station": "The Sweet Stop",
+              "station_type": "dessert",
+              "dish_key": "ucla:pumpkin-bake",
+              "nutrition": {
+                "kcal": 327.0,
+                "protein_g": 5.8,
+                "carbs_g": 41.3,
+                "fat_g": 16.2,
+                "fiber_g": 2.9,
+                "sugar_g": 25.3,
+                "sodium_mg": 136.8,
+                "serving": "5.2oz",
+                "sat_fat_g": 7.1,
+                "cholesterol_mg": 64.9,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "gluten",
+                "tree_nuts",
+                "wheat",
+                "milk",
+                "egg"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "4849"
+            },
+            {
+              "name": "Banana Bread Pudding",
+              "station": "The Sweet Stop",
+              "station_type": "dessert",
+              "dish_key": "ucla:banana-bread-pudding",
+              "nutrition": {
+                "kcal": 413.0,
+                "protein_g": 8.0,
+                "carbs_g": 40.1,
+                "fat_g": 24.0,
+                "fiber_g": 0.4,
+                "sugar_g": 29.4,
+                "sodium_mg": 178.3,
+                "serving": "6.53oz",
+                "sat_fat_g": 14.7,
+                "cholesterol_mg": 202.2,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat",
+                "sesame",
+                "milk",
+                "egg"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "247"
+            },
+            {
+              "name": "Mixed Berry Crisp",
+              "station": "The Sweet Stop",
+              "station_type": "dessert",
+              "dish_key": "ucla:mixed-berry-crisp",
+              "nutrition": {
+                "kcal": 150.0,
+                "protein_g": 1.5,
+                "carbs_g": 29.6,
+                "fat_g": 3.2,
+                "fiber_g": 3.8,
+                "sugar_g": 19.6,
+                "sodium_mg": 64.9,
+                "serving": "3.2oz",
+                "sat_fat_g": 1.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "288"
+            },
+            {
+              "name": "Peach Cobbler",
+              "station": "The Sweet Stop",
+              "station_type": "dessert",
+              "dish_key": "ucla:peach-cobbler",
+              "nutrition": {
+                "kcal": 278.0,
+                "protein_g": 3.5,
+                "carbs_g": 52.0,
+                "fat_g": 11.2,
+                "fiber_g": 1.6,
+                "sugar_g": 32.8,
+                "sodium_mg": 32.0,
+                "serving": "5.55oz",
+                "sat_fat_g": 7.0,
+                "cholesterol_mg": 29.7,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "gluten",
+                "wheat",
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "4910"
             }
           ]
         },
@@ -8983,6 +9411,73 @@
               "source_id": "116"
             },
             {
+              "name": "Pork Carnitas with Salsa Verde",
+              "station": "Harvest Kitchen",
+              "station_type": "main",
+              "dish_key": "ucla:pork-carnitas-with-salsa-verde",
+              "nutrition": {
+                "kcal": 61.0,
+                "protein_g": 7.7,
+                "carbs_g": 1.1,
+                "fat_g": 2.7,
+                "fiber_g": 0.6,
+                "sugar_g": 0.5,
+                "sodium_mg": 373.5,
+                "serving": "2oz",
+                "sat_fat_g": 1.3,
+                "cholesterol_mg": 26.6,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "7419"
+            },
+            {
+              "name": "Peruvian Beef w/ Potato Stir Fry",
+              "station": "Harvest Kitchen",
+              "station_type": "main",
+              "dish_key": "ucla:peruvian-beef-w-potato-stir-fry",
+              "nutrition": {
+                "kcal": 281.0,
+                "protein_g": 10.8,
+                "carbs_g": 17.3,
+                "fat_g": 17.0,
+                "fiber_g": 1.2,
+                "sugar_g": 1.2,
+                "sodium_mg": 1789.0,
+                "serving": "6.3oz",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 25.2,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat",
+                "milk"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "7307"
+            },
+            {
               "name": "Roasted Fingerling Potato",
               "station": "Seasonal Sides",
               "station_type": "side",
@@ -9323,6 +9818,143 @@
               "source_id": "813"
             },
             {
+              "name": "Shrimp Ceviche Tostada Bar",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:shrimp-ceviche-tostada-bar",
+              "nutrition": {
+                "kcal": 71.0,
+                "protein_g": 12.7,
+                "carbs_g": 2.9,
+                "fat_g": 1.2,
+                "fiber_g": 0.9,
+                "sugar_g": 1.1,
+                "sodium_mg": 276.9,
+                "serving": "3.42oz",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 98.2,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "shellfish",
+                "milk"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "7941"
+            },
+            {
+              "name": "Three-Bean Salad",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:three-bean-salad",
+              "nutrition": {
+                "kcal": 4920.0,
+                "protein_g": 159.7,
+                "carbs_g": 486.2,
+                "fat_g": 260.4,
+                "fiber_g": 169.2,
+                "sugar_g": 102.1,
+                "sodium_mg": 9331.5,
+                "serving": "160oz",
+                "sat_fat_g": 19.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "high_protein",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "10626"
+            },
+            {
+              "name": "Golden Beet & Greens Salad w/ Blood Orange Mint Vinaigrette",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:golden-beet-greens-salad-w-blood-orange-mint-vinaigrette",
+              "nutrition": {
+                "kcal": 40.0,
+                "protein_g": 0.9,
+                "carbs_g": 6.7,
+                "fat_g": 1.4,
+                "fiber_g": 2.2,
+                "sugar_g": 3.2,
+                "sodium_mg": 67.0,
+                "serving": "2oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "133"
+            },
+            {
+              "name": "Cajun Red Potato Salad",
+              "station": "Market Salads & Fruit",
+              "station_type": "bar",
+              "dish_key": "ucla:cajun-red-potato-salad",
+              "nutrition": {
+                "kcal": 74.0,
+                "protein_g": 1.1,
+                "carbs_g": 6.4,
+                "fat_g": 4.8,
+                "fiber_g": 0.8,
+                "sugar_g": 0.7,
+                "sodium_mg": 144.5,
+                "serving": "2oz",
+                "sat_fat_g": 0.7,
+                "cholesterol_mg": 14.8,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "egg",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "10380"
+            },
+            {
               "name": "White Cupcake",
               "station": "The Sweet Stop",
               "station_type": "dessert",
@@ -9624,6 +10256,46 @@
               ],
               "carbon_kg": null,
               "source_id": "9600"
+            },
+            {
+              "name": "Red Velvet Brownie",
+              "station": "The Sweet Stop",
+              "station_type": "dessert",
+              "dish_key": "ucla:red-velvet-brownie",
+              "nutrition": {
+                "kcal": 290.0,
+                "protein_g": 6.6,
+                "carbs_g": 36.3,
+                "fat_g": 13.3,
+                "fiber_g": 5.1,
+                "sugar_g": 21.1,
+                "sodium_mg": 86.0,
+                "serving": "2.49oz",
+                "sat_fat_g": 8.1,
+                "cholesterol_mg": 53.4,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat",
+                "milk",
+                "egg",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "297"
             }
           ]
         }
@@ -10314,21 +10986,21 @@
               "source_id": "6306"
             },
             {
-              "name": "Beef Barley Soup",
+              "name": "Zatar Chicken & Yam Soup",
               "station": "Alimenti",
               "station_type": "main",
-              "dish_key": "ucla:beef-barley-soup",
+              "dish_key": "ucla:zatar-chicken-yam-soup",
               "nutrition": {
-                "kcal": 49.0,
-                "protein_g": 3.7,
-                "carbs_g": 6.2,
-                "fat_g": 1.1,
-                "fiber_g": 1.4,
-                "sugar_g": 1.6,
-                "sodium_mg": 51.2,
-                "serving": "4oz",
+                "kcal": 66.0,
+                "protein_g": 5.4,
+                "carbs_g": 7.6,
+                "fat_g": 1.6,
+                "fiber_g": 1.6,
+                "sugar_g": 1.8,
+                "sodium_mg": 1155.4,
+                "serving": "5.95oz",
                 "sat_fat_g": 0.3,
-                "cholesterol_mg": 8.4,
+                "cholesterol_mg": 21.5,
                 "calcium_mg": null,
                 "iron_mg": null,
                 "potassium_mg": null,
@@ -10337,7 +11009,7 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "gluten"
+                "sesame"
               ],
               "diets": [
                 "halal"
@@ -10346,7 +11018,7 @@
                 "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "8581"
+              "source_id": "8580"
             },
             {
               "name": "Creamy Tomato Basil Soup",
@@ -10501,42 +11173,6 @@
               "source_id": "299"
             },
             {
-              "name": "Lebanese Rice Pudding",
-              "station": "Dolce",
-              "station_type": "main",
-              "dish_key": "ucla:lebanese-rice-pudding",
-              "nutrition": {
-                "kcal": 142.0,
-                "protein_g": 3.2,
-                "carbs_g": 26.8,
-                "fat_g": 2.7,
-                "fiber_g": 0.1,
-                "sugar_g": 18.2,
-                "sodium_mg": 36.8,
-                "serving": "5oz",
-                "sat_fat_g": 1.5,
-                "cholesterol_mg": 8.1,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "10087"
-            },
-            {
               "name": "Greek Honey Pistachio Cake",
               "station": "Dolce",
               "station_type": "main",
@@ -10654,6 +11290,120 @@
               ],
               "carbon_kg": null,
               "source_id": "8016"
+            },
+            {
+              "name": "Rotini w/ Spinach & Pesto Sauce",
+              "station": "Mezze",
+              "station_type": "main",
+              "dish_key": "ucla:rotini-w-spinach-pesto-sauce",
+              "nutrition": {
+                "kcal": 453.0,
+                "protein_g": 14.8,
+                "carbs_g": 83.5,
+                "fat_g": 7.8,
+                "fiber_g": 4.3,
+                "sugar_g": 4.5,
+                "sodium_mg": 193.3,
+                "serving": "6.22oz",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 3.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "gluten",
+                "wheat",
+                "milk"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "2889"
+            },
+            {
+              "name": "Mint Couscous",
+              "station": "Mezze",
+              "station_type": "main",
+              "dish_key": "ucla:mint-couscous",
+              "nutrition": {
+                "kcal": 89.0,
+                "protein_g": 3.0,
+                "carbs_g": 18.3,
+                "fat_g": 0.1,
+                "fiber_g": 1.2,
+                "sugar_g": null,
+                "sodium_mg": 35.3,
+                "serving": "2oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "gluten",
+                "wheat"
+              ],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "1402"
+            },
+            {
+              "name": "Flageolet Bean Ragout",
+              "station": "Mezze",
+              "station_type": "main",
+              "dish_key": "ucla:flageolet-bean-ragout",
+              "nutrition": {
+                "kcal": 107.0,
+                "protein_g": 6.5,
+                "carbs_g": 19.7,
+                "fat_g": 0.8,
+                "fiber_g": 4.7,
+                "sugar_g": 2.0,
+                "sodium_mg": 29.5,
+                "serving": "2.92oz",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "3261"
             },
             {
               "name": "Focaccia",
@@ -11023,43 +11773,6 @@
               "source_id": "1511"
             },
             {
-              "name": "Cauliflower Skordalia Spread",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:cauliflower-skordalia-spread",
-              "nutrition": {
-                "kcal": 49.0,
-                "protein_g": 1.5,
-                "carbs_g": 3.7,
-                "fat_g": 3.3,
-                "fiber_g": 1.1,
-                "sugar_g": 0.6,
-                "sodium_mg": 63.5,
-                "serving": "1.21oz",
-                "sat_fat_g": 0.3,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "tree_nuts"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2565"
-            },
-            {
               "name": "Smoked Mozzarella Spread",
               "station": "Mezze",
               "station_type": "main",
@@ -11099,94 +11812,20 @@
               "source_id": "1105"
             },
             {
-              "name": "Paprika Garlic Spread",
+              "name": "Toum",
               "station": "Mezze",
               "station_type": "main",
-              "dish_key": "ucla:paprika-garlic-spread",
+              "dish_key": "ucla:toum",
               "nutrition": {
-                "kcal": 231.0,
-                "protein_g": 0.1,
-                "carbs_g": 0.4,
-                "fat_g": 24.0,
+                "kcal": 223.0,
+                "protein_g": 0.2,
+                "carbs_g": 1.3,
+                "fat_g": 23.2,
                 "fiber_g": 0.1,
-                "sugar_g": null,
-                "sodium_mg": 208.0,
-                "serving": "1.18oz",
-                "sat_fat_g": 3.3,
-                "cholesterol_mg": 21.8,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "egg"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "1277"
-            },
-            {
-              "name": "Tunisian Vegetable Dip",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:tunisian-vegetable-dip",
-              "nutrition": {
-                "kcal": 35.0,
-                "protein_g": 0.4,
-                "carbs_g": 4.2,
-                "fat_g": 2.0,
-                "fiber_g": 0.7,
-                "sugar_g": 2.4,
-                "sodium_mg": 33.1,
-                "serving": "1oz",
-                "sat_fat_g": 0.2,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "tree_nuts"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "1569"
-            },
-            {
-              "name": "Morrocan Spicy Lentil Dip",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:morrocan-spicy-lentil-dip",
-              "nutrition": {
-                "kcal": 190.0,
-                "protein_g": 12.4,
-                "carbs_g": 32.6,
-                "fat_g": 1.7,
-                "fiber_g": 5.6,
-                "sugar_g": 1.5,
-                "sodium_mg": 231.5,
-                "serving": "4.19oz",
-                "sat_fat_g": 0.2,
+                "sugar_g": 0.1,
+                "sodium_mg": 157.0,
+                "serving": "1.02oz",
+                "sat_fat_g": 1.7,
                 "cholesterol_mg": 0.0,
                 "calcium_mg": null,
                 "iron_mg": null,
@@ -11205,7 +11844,7 @@
                 "vegan"
               ],
               "carbon_kg": null,
-              "source_id": "1323"
+              "source_id": "1913"
             },
             {
               "name": "White Bean, Feta, & Za'atar Spread",
@@ -11355,110 +11994,6 @@
               "source_id": "1870"
             },
             {
-              "name": "Marinated Red Grape Tomatoes",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:marinated-red-grape-tomatoes",
-              "nutrition": {
-                "kcal": 307.0,
-                "protein_g": 0.9,
-                "carbs_g": 4.3,
-                "fat_g": 30.9,
-                "fiber_g": 1.2,
-                "sugar_g": 3.0,
-                "sodium_mg": 311.6,
-                "serving": "4.7oz",
-                "sat_fat_g": 2.2,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "alcohol"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "3852"
-            },
-            {
-              "name": "Pitted Kalamata Olives",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:pitted-kalamata-olives",
-              "nutrition": {
-                "kcal": 237.0,
-                "protein_g": 0.0,
-                "carbs_g": 9.4,
-                "fat_g": 28.2,
-                "fiber_g": 0.0,
-                "sugar_g": null,
-                "sodium_mg": 2444.0,
-                "serving": "1oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "6553"
-            },
-            {
-              "name": "Pickled Vegetables",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:pickled-vegetables",
-              "nutrition": {
-                "kcal": 15.0,
-                "protein_g": 0.3,
-                "carbs_g": 2.4,
-                "fat_g": 0.1,
-                "fiber_g": 0.7,
-                "sugar_g": 1.2,
-                "sodium_mg": 214.4,
-                "serving": "2.05oz",
-                "sat_fat_g": 0.0,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "1267"
-            },
-            {
               "name": "Dolma",
               "station": "Mezze",
               "station_type": "main",
@@ -11494,43 +12029,6 @@
               ],
               "carbon_kg": null,
               "source_id": "9172"
-            },
-            {
-              "name": "Grated Parmesan Cheese",
-              "station": "Mezze",
-              "station_type": "main",
-              "dish_key": "ucla:grated-parmesan-cheese",
-              "nutrition": {
-                "kcal": 95.0,
-                "protein_g": 9.4,
-                "carbs_g": null,
-                "fat_g": 4.7,
-                "fiber_g": 0.0,
-                "sugar_g": null,
-                "sodium_mg": 211.5,
-                "serving": "1oz",
-                "sat_fat_g": 4.7,
-                "cholesterol_mg": 23.5,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "7054"
             },
             {
               "name": "Cheese Pizza",
@@ -12759,6 +13257,123 @@
               ],
               "carbon_kg": null,
               "source_id": "8016"
+            },
+            {
+              "name": "Mezze Special",
+              "station": "Mezze",
+              "station_type": "main",
+              "dish_key": "ucla:mezze-special",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": null,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": null,
+                "sodium_mg": 0.0,
+                "serving": "4oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "fish",
+                "soy",
+                "shellfish",
+                "gluten",
+                "peanuts",
+                "tree_nuts",
+                "wheat",
+                "sesame",
+                "milk",
+                "egg",
+                "alcohol"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "5962"
+            },
+            {
+              "name": "Eggplant, Red Pepper &  Mozzarella Sandwich",
+              "station": "Mezze",
+              "station_type": "main",
+              "dish_key": "ucla:eggplant-red-pepper-mozzarella-sandwich",
+              "nutrition": {
+                "kcal": 158.0,
+                "protein_g": 6.8,
+                "carbs_g": 17.1,
+                "fat_g": 6.8,
+                "fiber_g": 1.9,
+                "sugar_g": 2.0,
+                "sodium_mg": 248.1,
+                "serving": "3.71oz",
+                "sat_fat_g": 2.3,
+                "cholesterol_mg": 8.9,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat",
+                "milk",
+                "egg"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "1177"
+            },
+            {
+              "name": "French Green Lentils",
+              "station": "Mezze",
+              "station_type": "main",
+              "dish_key": "ucla:french-green-lentils",
+              "nutrition": {
+                "kcal": 219.0,
+                "protein_g": 11.5,
+                "carbs_g": 30.6,
+                "fat_g": 5.9,
+                "fiber_g": 5.1,
+                "sugar_g": 1.3,
+                "sodium_mg": 239.1,
+                "serving": "2.18oz",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": "2719"
             },
             {
               "name": "Focaccia",
@@ -14806,6 +15421,44 @@
               ],
               "carbon_kg": null,
               "source_id": "2900"
+            },
+            {
+              "name": "Chicken Tikka Roll",
+              "station": "Stone Oven",
+              "station_type": "main",
+              "dish_key": "ucla:chicken-tikka-roll",
+              "nutrition": {
+                "kcal": 482.0,
+                "protein_g": 10.6,
+                "carbs_g": 52.8,
+                "fat_g": 24.3,
+                "fiber_g": 5.6,
+                "sugar_g": 8.5,
+                "sodium_mg": 1249.9,
+                "serving": "5.91oz",
+                "sat_fat_g": 10.1,
+                "cholesterol_mg": 63.4,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "gluten",
+                "wheat",
+                "sesame",
+                "milk",
+                "egg"
+              ],
+              "diets": [
+                "halal"
+              ],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "10717"
             },
             {
               "name": "Beef Scallion Pancake Roll",

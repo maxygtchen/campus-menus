@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-24",
-  "scraped_at": "2026-11-24T01:00:30+00:00",
+  "scraped_at": "2026-11-24T06:57:56+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -5548,61 +5548,163 @@
           "end": "21:00",
           "items": [
             {
-              "name": "Halal Glazed Beef Meatloaf",
+              "name": "Halal Beef Fajitas",
               "station": "Center Plate",
               "station_type": "main",
-              "dish_key": "berkeley:halal-glazed-beef-meatloaf",
+              "dish_key": "berkeley:halal-beef-fajitas",
               "nutrition": {
-                "kcal": 300.9,
-                "protein_g": 16.1,
-                "carbs_g": 18.4,
-                "fat_g": 17.4,
-                "fiber_g": 1.8,
-                "sugar_g": 5.2,
-                "sodium_mg": 576.6,
-                "serving": "6 oz",
-                "sat_fat_g": 5.8,
-                "cholesterol_mg": 152.7,
-                "calcium_mg": 36.7,
-                "iron_mg": 1.8,
-                "potassium_mg": 565.9,
-                "vitamin_c_mg": 0.3,
+                "kcal": 93.9,
+                "protein_g": 12.8,
+                "carbs_g": 3.3,
+                "fat_g": 3.4,
+                "fiber_g": 0.6,
+                "sugar_g": 1.1,
+                "sodium_mg": 145.4,
+                "serving": "3.18 oz",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 36.3,
+                "calcium_mg": 18.2,
+                "iron_mg": 1.4,
+                "potassium_mg": 272.0,
+                "vitamin_c_mg": 16.4,
                 "vitamin_d_iu": 0.1,
-                "vitamin_a_iu": 45.7
+                "vitamin_a_iu": 13.8
               },
-              "allergens": [
-                "egg",
-                "wheat",
-                "gluten"
-              ],
+              "allergens": [],
               "diets": [
                 "halal"
               ],
               "tags": [
                 "lighter"
               ],
-              "carbon_kg": 0.4,
-              "source_id": "1883"
+              "carbon_kg": 2.4,
+              "source_id": "600"
             },
             {
-              "name": "Vegan Celebration \"Roast\"",
+              "name": "Mexican Rice",
               "station": "Center Plate",
               "station_type": "main",
-              "dish_key": "berkeley:vegan-celebration-roast",
+              "dish_key": "berkeley:mexican-rice",
               "nutrition": {
-                "kcal": 208.9,
-                "protein_g": 20.9,
-                "carbs_g": 15.5,
-                "fat_g": 7.3,
-                "fiber_g": 4.8,
-                "sugar_g": 4.0,
-                "sodium_mg": 644.4,
-                "serving": "3.23 oz",
-                "sat_fat_g": 0.4,
+                "kcal": 120.3,
+                "protein_g": 2.1,
+                "carbs_g": 24.5,
+                "fat_g": 1.2,
+                "fiber_g": 0.9,
+                "sugar_g": 1.0,
+                "sodium_mg": 227.2,
+                "serving": "3.17 oz",
+                "sat_fat_g": 0.1,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 32.8,
-                "iron_mg": 1.5,
-                "potassium_mg": 4.0,
+                "calcium_mg": 10.7,
+                "iron_mg": 1.2,
+                "potassium_mg": 101.2,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1041"
+            },
+            {
+              "name": "Roasted Root Veggies",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:roasted-root-veggies",
+              "nutrition": {
+                "kcal": 74.8,
+                "protein_g": 1.5,
+                "carbs_g": 16.4,
+                "fat_g": 0.0,
+                "fiber_g": 3.0,
+                "sugar_g": 6.9,
+                "sodium_mg": 535.5,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 41.8,
+                "iron_mg": 0.0,
+                "potassium_mg": 268.9,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "2988"
+            },
+            {
+              "name": "Gardein Strip Fajitas",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:gardein-strip-fajitas",
+              "nutrition": {
+                "kcal": 141.2,
+                "protein_g": 10.2,
+                "carbs_g": 4.2,
+                "fat_g": 9.3,
+                "fiber_g": 1.8,
+                "sugar_g": 1.4,
+                "sodium_mg": 260.8,
+                "serving": "3.03 oz",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 16.7,
+                "iron_mg": 1.3,
+                "potassium_mg": 220.2,
+                "vitamin_c_mg": 12.6,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 10.4
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1118"
+            },
+            {
+              "name": "Flour Tortilla",
+              "station": "Center Plate",
+              "station_type": "main",
+              "dish_key": "berkeley:flour-tortilla",
+              "nutrition": {
+                "kcal": 88.3,
+                "protein_g": 2.2,
+                "carbs_g": 13.2,
+                "fat_g": 2.2,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 198.7,
+                "serving": "1.09 oz",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 22.1,
+                "iron_mg": 0.6,
+                "potassium_mg": 0.0,
                 "vitamin_c_mg": 0.0,
                 "vitamin_d_iu": 0.0,
                 "vitamin_a_iu": 0.0
@@ -5615,50 +5717,11 @@
                 "vegan"
               ],
               "tags": [
-                "high_protein",
                 "lighter",
                 "vegan"
               ],
-              "carbon_kg": 0.0,
-              "source_id": "1144"
-            },
-            {
-              "name": "Mashed Yukon Potato",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:mashed-yukon-potato",
-              "nutrition": {
-                "kcal": 102.6,
-                "protein_g": 2.3,
-                "carbs_g": 12.5,
-                "fat_g": 5.1,
-                "fiber_g": 1.5,
-                "sugar_g": 0.8,
-                "sodium_mg": 421.3,
-                "serving": "3.33 oz",
-                "sat_fat_g": 2.9,
-                "cholesterol_mg": 14.5,
-                "calcium_mg": 39.0,
-                "iron_mg": 0.3,
-                "potassium_mg": 328.2,
-                "vitamin_c_mg": 1.7,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 6.4
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal",
-                "kosher"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": 0.2,
-              "source_id": "1121"
+              "carbon_kg": 0.1,
+              "source_id": "1178"
             },
             {
               "name": "Sauteed Green Beans",
@@ -5693,78 +5756,6 @@
               ],
               "carbon_kg": 0.1,
               "source_id": "549"
-            },
-            {
-              "name": "Bell Pepper Brussels Sprout and Zucchini",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:bell-pepper-brussels-sprout-and-zucchini",
-              "nutrition": {
-                "kcal": 82.4,
-                "protein_g": 2.0,
-                "carbs_g": 7.8,
-                "fat_g": 5.2,
-                "fiber_g": 2.0,
-                "sugar_g": 2.3,
-                "sodium_mg": 501.3,
-                "serving": "3.28 oz",
-                "sat_fat_g": 0.6,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 33.5,
-                "iron_mg": 0.7,
-                "potassium_mg": 261.4,
-                "vitamin_c_mg": 29.6,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 12.8
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "1249"
-            },
-            {
-              "name": "Vegan Creamy Mushroom Gravy",
-              "station": "Center Plate",
-              "station_type": "main",
-              "dish_key": "berkeley:vegan-creamy-mushroom-gravy",
-              "nutrition": {
-                "kcal": 27.2,
-                "protein_g": 0.3,
-                "carbs_g": 3.8,
-                "fat_g": 1.2,
-                "fiber_g": 0.2,
-                "sugar_g": 1.3,
-                "sodium_mg": 173.8,
-                "serving": "3.14 oz",
-                "sat_fat_g": 0.4,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 5.8,
-                "iron_mg": 0.2,
-                "potassium_mg": 34.6,
-                "vitamin_c_mg": 0.8,
-                "vitamin_d_iu": 0.2,
-                "vitamin_a_iu": 1.1
-              },
-              "allergens": [
-                "wheat",
-                "soy",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": 0.0,
-              "source_id": "923"
             },
             {
               "name": "Grilled Cajun Salmon",
@@ -20499,6 +20490,73 @@
           "end": "21:00",
           "items": [
             {
+              "name": "Lemongrass Pork Chop",
+              "station": "Centerplate",
+              "station_type": "main",
+              "dish_key": "berkeley:lemongrass-pork-chop",
+              "nutrition": {
+                "kcal": 232.5,
+                "protein_g": 18.4,
+                "carbs_g": 2.2,
+                "fat_g": 16.0,
+                "fiber_g": 0.0,
+                "sugar_g": 1.1,
+                "sodium_mg": 325.2,
+                "serving": "3.77 oz",
+                "sat_fat_g": 4.4,
+                "cholesterol_mg": 57.1,
+                "calcium_mg": 35.2,
+                "iron_mg": 0.8,
+                "potassium_mg": 285.3,
+                "vitamin_c_mg": 0.3,
+                "vitamin_d_iu": 0.6,
+                "vitamin_a_iu": 5.4
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten",
+                "pork"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1470"
+            },
+            {
+              "name": "Harissa Roasted Chicken",
+              "station": "Centerplate",
+              "station_type": "main",
+              "dish_key": "berkeley:harissa-roasted-chicken",
+              "nutrition": {
+                "kcal": 346.6,
+                "protein_g": 19.4,
+                "carbs_g": 1.1,
+                "fat_g": 28.7,
+                "fiber_g": 0.1,
+                "sugar_g": 0.0,
+                "sodium_mg": 278.0,
+                "serving": "4.35 oz",
+                "sat_fat_g": 6.9,
+                "cholesterol_mg": 77.2,
+                "calcium_mg": 18.4,
+                "iron_mg": 1.5,
+                "potassium_mg": 257.5,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 56.6
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": 0.5,
+              "source_id": "834"
+            },
+            {
               "name": "Lemon Thyme Baked Chicken",
               "station": "Centerplate",
               "station_type": "main",
@@ -20562,41 +20620,6 @@
               ],
               "carbon_kg": 0.0,
               "source_id": "883"
-            },
-            {
-              "name": "Wild Rice Tofu Stuffed Peppers",
-              "station": "Centerplate",
-              "station_type": "main",
-              "dish_key": "berkeley:wild-rice-tofu-stuffed-peppers",
-              "nutrition": {
-                "kcal": 446.7,
-                "protein_g": 18.1,
-                "carbs_g": 50.4,
-                "fat_g": 18.7,
-                "fiber_g": 7.7,
-                "sugar_g": 4.9,
-                "sodium_mg": 949.6,
-                "serving": "10.23 oz",
-                "sat_fat_g": 4.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 226.7,
-                "iron_mg": 2.1,
-                "potassium_mg": 617.6,
-                "vitamin_c_mg": 0.3,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [
-                "soy"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": 0.3,
-              "source_id": "1313"
             },
             {
               "name": "Vegan Celebration \"Roast\"",

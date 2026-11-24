@@ -1,7 +1,7 @@
 {
   "school": "ucd",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-24T01:00:54+00:00",
+  "scraped_at": "2026-11-24T06:58:20+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2247,19 +2247,19 @@
               "source_id": ""
             },
             {
-              "name": "Baked Potato",
+              "name": "Choley Beans",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:baked-potato",
+              "dish_key": "ucd:choley-beans",
               "nutrition": {
-                "kcal": 174.5,
-                "protein_g": 4.7,
-                "carbs_g": 39.7,
-                "fat_g": 0.2,
+                "kcal": 130.7,
+                "protein_g": 5.1,
+                "carbs_g": 17.6,
+                "fat_g": 4.7,
                 "fiber_g": null,
-                "sugar_g": 1.9,
+                "sugar_g": 3.4,
                 "sodium_mg": null,
-                "serving": "8 oz",
+                "serving": "4.34 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -4406,19 +4406,19 @@
               "source_id": ""
             },
             {
-              "name": "Shoestring Potatoes",
+              "name": "Sea Salt Kettle Chips",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:shoestring-potatoes",
+              "dish_key": "ucd:sea-salt-kettle-chips",
               "nutrition": {
-                "kcal": 286.1,
-                "protein_g": 2.7,
-                "carbs_g": 31.1,
-                "fat_g": 17.4,
+                "kcal": 293.7,
+                "protein_g": 4.0,
+                "carbs_g": 30.4,
+                "fat_g": 18.2,
                 "fiber_g": null,
                 "sugar_g": null,
                 "sodium_mg": null,
-                "serving": "4 oz",
+                "serving": "2 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -4428,9 +4428,7 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [
-                "soy"
-              ],
+              "allergens": [],
               "diets": [
                 "vegan",
                 "halal"
@@ -4667,17 +4665,17 @@
               "source_id": ""
             },
             {
-              "name": "Kimchi Fried Rice",
+              "name": "Veggie Fried Rice",
               "station": "Blue Zone",
               "station_type": "main",
-              "dish_key": "ucd:kimchi-fried-rice",
+              "dish_key": "ucd:veggie-fried-rice",
               "nutrition": {
-                "kcal": 267.4,
-                "protein_g": 4.7,
-                "carbs_g": 50.0,
-                "fat_g": 4.8,
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
                 "fiber_g": null,
-                "sugar_g": 1.6,
+                "sugar_g": null,
                 "sodium_mg": null,
                 "serving": "6.2 oz",
                 "sat_fat_g": null,
@@ -4700,7 +4698,6 @@
                 "halal"
               ],
               "tags": [
-                "lighter",
                 "vegan"
               ],
               "carbon_kg": null,
@@ -5040,40 +5037,6 @@
               "source_id": ""
             },
             {
-              "name": "Roasted Broccolini",
-              "station": "Purple Zone",
-              "station_type": "main",
-              "dish_key": "ucd:roasted-broccolini",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Za'atar Lemon Chicken Drumstick",
               "station": "Purple Zone",
               "station_type": "main",
@@ -5101,6 +5064,76 @@
                 "halal"
               ],
               "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Assorted Vegetables",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:assorted-vegetables",
+              "nutrition": {
+                "kcal": 67.2,
+                "protein_g": 1.6,
+                "carbs_g": 3.8,
+                "fat_g": 5.8,
+                "fiber_g": null,
+                "sugar_g": 1.0,
+                "sodium_mg": null,
+                "serving": "2.21 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Roasted Marble Potatoes",
+              "station": "Purple Zone",
+              "station_type": "main",
+              "dish_key": "ucd:roasted-marble-potatoes",
+              "nutrition": {
+                "kcal": 79.6,
+                "protein_g": 1.9,
+                "carbs_g": 15.9,
+                "fat_g": 1.2,
+                "fiber_g": null,
+                "sugar_g": 0.7,
+                "sodium_mg": null,
+                "serving": "3.28 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan",
+                "halal"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -7006,10 +7039,10 @@
               "source_id": ""
             },
             {
-              "name": "Fettuccine with Roasted Aggie-Grown Tomato Sauce",
+              "name": "Pasta with Roasted Aggie-Grown Tomato Sauce",
               "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:fettuccine-with-roasted-aggie-grown-tomato-sauce",
+              "dish_key": "ucd:pasta-with-roasted-aggie-grown-tomato-sauce",
               "nutrition": {
                 "kcal": 418.6,
                 "protein_g": 10.7,
