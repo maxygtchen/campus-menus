@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-23",
-  "scraped_at": "2026-11-23T03:46:54+00:00",
+  "scraped_at": "2026-11-24T01:04:10+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -300,6 +300,105 @@
               "allergens": [],
               "diets": [],
               "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Maple Pecan Scone",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:maple-pecan-scone",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Banana Walnut Bread",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:banana-walnut-bread",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Double Chocolate Bread",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:double-chocolate-bread",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -7697,10 +7796,10 @@
               "source_id": ""
             },
             {
-              "name": "Vegetable Sushi Plate w/Brown Rice",
+              "name": "Vegetable Sushi Plate",
               "station": "International",
               "station_type": "main",
-              "dish_key": "ucsb:vegetable-sushi-plate-w-brown-rice",
+              "dish_key": "ucsb:vegetable-sushi-plate",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,

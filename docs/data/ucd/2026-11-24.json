@@ -1,7 +1,7 @@
 {
   "school": "ucd",
   "date": "2026-11-24",
-  "scraped_at": "2026-11-23T03:44:20+00:00",
+  "scraped_at": "2026-11-24T01:00:57+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2957,17 +2957,17 @@
           "end": "10:00",
           "items": [
             {
-              "name": "Build Your Own Omelette",
+              "name": "Build Your Own Omelette || Fried Eggs to Order",
               "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:build-your-own-omelette",
+              "dish_key": "ucd:build-your-own-omelette-fried-eggs-to-order",
               "nutrition": {
-                "kcal": 97.7,
-                "protein_g": 6.6,
-                "carbs_g": 5.4,
-                "fat_g": 5.9,
+                "kcal": 68.1,
+                "protein_g": 4.7,
+                "carbs_g": 5.5,
+                "fat_g": 3.5,
                 "fiber_g": null,
-                "sugar_g": 2.8,
+                "sugar_g": 3.0,
                 "sodium_mg": null,
                 "serving": "100 g",
                 "sat_fat_g": null,
@@ -2992,19 +2992,19 @@
               "source_id": ""
             },
             {
-              "name": "Build Your Own Veggie Omelette",
+              "name": "Scrambled Tofu || Just Egg (Plant-Based)",
               "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:build-your-own-veggie-omelette",
+              "dish_key": "ucd:scrambled-tofu-just-egg-plant-based",
               "nutrition": {
-                "kcal": 49.9,
-                "protein_g": 2.1,
-                "carbs_g": 5.7,
-                "fat_g": 2.5,
+                "kcal": 130.8,
+                "protein_g": 12.9,
+                "carbs_g": 4.2,
+                "fat_g": 8.1,
                 "fiber_g": null,
-                "sugar_g": 3.2,
+                "sugar_g": 0.8,
                 "sodium_mg": null,
-                "serving": "100 g",
+                "serving": "3 oz",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -3015,18 +3015,17 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk",
                 "soy",
                 "wheat",
                 "gluten"
               ],
               "diets": [
-                "vegetarian",
+                "vegan",
                 "halal"
               ],
               "tags": [
                 "lighter",
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
