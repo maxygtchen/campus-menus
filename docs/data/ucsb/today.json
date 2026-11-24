@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
-  "date": "2026-11-23",
-  "scraped_at": "2026-11-24T07:01:10+00:00",
+  "date": "2026-11-24",
+  "scraped_at": "2026-11-24T23:08:12+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -48,43 +48,10 @@
               "source_id": ""
             },
             {
-              "name": "Cream of Wheat",
+              "name": "Strawberry Pancake",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:cream-of-wheat",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Whole Wheat Pancake (Housemade)",
-              "station": "Grill (Cafe)",
-              "station_type": "main",
-              "dish_key": "ucsb:whole-wheat-pancake-housemade",
+              "dish_key": "ucsb:strawberry-pancake",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -114,10 +81,10 @@
               "source_id": ""
             },
             {
-              "name": "Chicken Chile Verde and Corn Tortillas",
+              "name": "Canadian Bacon",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:chicken-chile-verde-and-corn-tortillas",
+              "dish_key": "ucsb:canadian-bacon",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -143,10 +110,10 @@
               "source_id": ""
             },
             {
-              "name": "Diced Potatoes",
+              "name": "Roasted Red Breakfast Potatoes",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:diced-potatoes",
+              "dish_key": "ucsb:roasted-red-breakfast-potatoes",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -242,10 +209,10 @@
               "source_id": ""
             },
             {
-              "name": "Make Your Own Waffle",
+              "name": "Fluffy Whole Wheat Waffles",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:make-your-own-waffle",
+              "dish_key": "ucsb:fluffy-whole-wheat-waffles",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -275,10 +242,43 @@
               "source_id": ""
             },
             {
-              "name": "Assorted Bagels & Condiments",
+              "name": "Danish Pastry",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:assorted-bagels-condiments",
+              "dish_key": "ucsb:danish-pastry",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Raspberry Swirl Coffee Cake(vgn",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:raspberry-swirl-coffee-cake-vgn",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -300,138 +300,6 @@
               "allergens": [],
               "diets": [],
               "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Maple Pecan Scone",
-              "station": "Bakery",
-              "station_type": "dessert",
-              "dish_key": "ucsb:maple-pecan-scone",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Banana Walnut Bread",
-              "station": "Bakery",
-              "station_type": "dessert",
-              "dish_key": "ucsb:banana-walnut-bread",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Double Chocolate Bread",
-              "station": "Bakery",
-              "station_type": "dessert",
-              "dish_key": "ucsb:double-chocolate-bread",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Dried Cranberry Coconut Scone",
-              "station": "Bakery",
-              "station_type": "dessert",
-              "dish_key": "ucsb:dried-cranberry-coconut-scone",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
               "carbon_kg": null,
               "source_id": ""
             }
@@ -444,10 +312,10 @@
           "end": "14:30",
           "items": [
             {
-              "name": "Sliced Ham",
+              "name": "Sliced Roast Beef",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-ham",
+              "dish_key": "ucsb:sliced-roast-beef",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -473,10 +341,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Turkey",
+              "name": "Tuna Salad",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-turkey",
+              "dish_key": "ucsb:tuna-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -502,10 +370,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Provolone Cheese",
+              "name": "Sliced Swiss Cheese",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-provolone-cheese",
+              "dish_key": "ucsb:sliced-swiss-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -535,10 +403,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Pepper Jack Cheese",
+              "name": "Sliced Cheddar Cheese",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-pepper-jack-cheese",
+              "dish_key": "ucsb:sliced-cheddar-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -568,10 +436,10 @@
               "source_id": ""
             },
             {
-              "name": "Cod with Lemon Butter Sauce",
+              "name": "Beef Chop Suey",
               "station": "Mongolian Grill",
               "station_type": "main",
-              "dish_key": "ucsb:cod-with-lemon-butter-sauce",
+              "dish_key": "ucsb:beef-chop-suey",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -597,10 +465,10 @@
               "source_id": ""
             },
             {
-              "name": "Asian Vegetable Stir Fry",
+              "name": "Spicy Tofu w/Vegetables & Noodles",
               "station": "Mongolian Grill",
               "station_type": "main",
-              "dish_key": "ucsb:asian-vegetable-stir-fry",
+              "dish_key": "ucsb:spicy-tofu-w-vegetables-noodles",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -630,10 +498,10 @@
               "source_id": ""
             },
             {
-              "name": "Sticky Rice",
+              "name": "Brown Rice",
               "station": "Mongolian Grill",
               "station_type": "main",
-              "dish_key": "ucsb:sticky-rice",
+              "dish_key": "ucsb:brown-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -663,105 +531,10 @@
               "source_id": ""
             },
             {
-              "name": "Chicken & Penne Arrabiata with Bacon",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:chicken-penne-arrabiata-with-bacon",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Green Beans",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:green-beans",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Steamed Carrots",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:steamed-carrots",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Italian Tossed Greens",
+              "name": "Roasted Fall Vegetable Kale Salad",
               "station": "Salads",
               "station_type": "bar",
-              "dish_key": "ucsb:italian-tossed-greens",
+              "dish_key": "ucsb:roasted-fall-vegetable-kale-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -782,19 +555,81 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Tomato And Mozzarella Salad",
+              "name": "Pasta Salad with Grilled Veggies",
               "station": "Salads",
               "station_type": "bar",
-              "dish_key": "ucsb:tomato-and-mozzarella-salad",
+              "dish_key": "ucsb:pasta-salad-with-grilled-veggies",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Vietnamese Pork Banh Mi",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:vietnamese-pork-banh-mi",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Vegetable Fried Rice",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:vegetable-fried-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -824,10 +659,76 @@
               "source_id": ""
             },
             {
-              "name": "Salami Pizza",
+              "name": "Corn on the Cob",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:corn-on-the-cob",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Spinach with Garlic",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:spinach-with-garlic",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Smoked Barbeque Chicken Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsb:salami-pizza",
+              "dish_key": "ucsb:smoked-barbeque-chicken-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -886,10 +787,10 @@
               "source_id": ""
             },
             {
-              "name": "Onion & Jalapeno Pizza on Wheat",
+              "name": "Traditional Cheese Pizza on Wheat",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsb:onion-jalapeno-pizza-on-wheat",
+              "dish_key": "ucsb:traditional-cheese-pizza-on-wheat",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -919,109 +820,10 @@
               "source_id": ""
             },
             {
-              "name": "Potato Cheese Soup",
+              "name": "Chicken Rice Soup",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:potato-cheese-soup",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Gardenburger",
-              "station": "Grill (Cafe)",
-              "station_type": "main",
-              "dish_key": "ucsb:gardenburger",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Corn Quesadilla",
-              "station": "Grill (Cafe)",
-              "station_type": "main",
-              "dish_key": "ucsb:corn-quesadilla",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Grilled Turkey Burger",
-              "station": "Grill (Cafe)",
-              "station_type": "main",
-              "dish_key": "ucsb:grilled-turkey-burger",
+              "dish_key": "ucsb:chicken-rice-soup",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1047,10 +849,101 @@
               "source_id": ""
             },
             {
-              "name": "Krinkle Cut Fries",
+              "name": "Grilled Chicken Taco",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:krinkle-cut-fries",
+              "dish_key": "ucsb:grilled-chicken-taco",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Sweet Potato Burger",
+              "station": "Grill (Cafe)",
+              "station_type": "main",
+              "dish_key": "ucsb:sweet-potato-burger",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Char Burger",
+              "station": "Grill (Cafe)",
+              "station_type": "main",
+              "dish_key": "ucsb:char-burger",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Shoestring Fries",
+              "station": "Grill (Cafe)",
+              "station_type": "main",
+              "dish_key": "ucsb:shoestring-fries",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1146,10 +1039,10 @@
               "source_id": ""
             },
             {
-              "name": "Black Beans",
+              "name": "White Navy Beans",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:black-beans",
+              "dish_key": "ucsb:white-navy-beans",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1179,10 +1072,10 @@
               "source_id": ""
             },
             {
-              "name": "Pearl Barley",
+              "name": "Long Grain Rice",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:pearl-barley",
+              "dish_key": "ucsb:long-grain-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1212,10 +1105,10 @@
               "source_id": ""
             },
             {
-              "name": "Garlic French Bread",
+              "name": "Whole Wheat Sourdough Bread",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:garlic-french-bread",
+              "dish_key": "ucsb:whole-wheat-sourdough-bread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1245,10 +1138,10 @@
               "source_id": ""
             },
             {
-              "name": "Toll House Bar",
+              "name": "Hazelnut Butter Cookie",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:toll-house-bar",
+              "dish_key": "ucsb:hazelnut-butter-cookie",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1269,19 +1162,19 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Magic Walnut Cookie Bar",
+              "name": "Brownie with Chocolate Icing",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:magic-walnut-cookie-bar",
+              "dish_key": "ucsb:brownie-with-chocolate-icing",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1319,10 +1212,10 @@
           "end": "20:00",
           "items": [
             {
-              "name": "Tortilla Chips and Salsa",
+              "name": "Brazilian Black Bean Salad",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:tortilla-chips-and-salsa",
+              "dish_key": "ucsb:brazilian-black-bean-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1352,10 +1245,10 @@
               "source_id": ""
             },
             {
-              "name": "Hummus",
+              "name": "Red Potato Salad with Dill",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:hummus",
+              "dish_key": "ucsb:red-potato-salad-with-dill",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1376,43 +1269,10 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Pita Chips",
-              "station": "Deli",
-              "station_type": "bar",
-              "dish_key": "ucsb:pita-chips",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -1451,10 +1311,10 @@
               "source_id": ""
             },
             {
-              "name": "Chicken Fried Rice",
+              "name": "Sesame Beef with Broccoli",
               "station": "Mongolian Grill",
               "station_type": "main",
-              "dish_key": "ucsb:chicken-fried-rice",
+              "dish_key": "ucsb:sesame-beef-with-broccoli",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1480,10 +1340,10 @@
               "source_id": ""
             },
             {
-              "name": "Vegetable Fried Rice",
+              "name": "Orange Tofu",
               "station": "Mongolian Grill",
               "station_type": "main",
-              "dish_key": "ucsb:vegetable-fried-rice",
+              "dish_key": "ucsb:orange-tofu",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1504,19 +1364,19 @@
               },
               "allergens": [],
               "diets": [
-                "vegetarian"
+                "vegan"
               ],
               "tags": [
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Fasolada Soup",
+              "name": "Hearty Vegetable Soup",
               "station": "Mongolian Grill",
               "station_type": "main",
-              "dish_key": "ucsb:fasolada-soup",
+              "dish_key": "ucsb:hearty-vegetable-soup",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1546,196 +1406,10 @@
               "source_id": ""
             },
             {
-              "name": "Turkey Breast",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:turkey-breast",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Turkey Gravy",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:turkey-gravy",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Herb Stuffing",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:herb-stuffing",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Peas & Carrots",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:peas-carrots",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Stir Fry Vegetables",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:stir-fry-vegetables",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Garlic Red Mashed Potato",
-              "station": "Euro",
-              "station_type": "main",
-              "dish_key": "ucsb:garlic-red-mashed-potato",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Kale Walnut Salad w/Cranberry(vgn",
+              "name": "Caesar Salad",
               "station": "Salads",
               "station_type": "bar",
-              "dish_key": "ucsb:kale-walnut-salad-w-cranberry-vgn",
+              "dish_key": "ucsb:caesar-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1761,10 +1435,39 @@
               "source_id": ""
             },
             {
-              "name": "Mushroom Stroganoff",
-              "station": "Pasta",
+              "name": "Chicken Piccata",
+              "station": "Euro",
               "station_type": "main",
-              "dish_key": "ucsb:mushroom-stroganoff",
+              "dish_key": "ucsb:chicken-piccata",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Steamed Crookneck Squash",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:steamed-crookneck-squash",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1785,19 +1488,147 @@
               },
               "allergens": [],
               "diets": [
-                "vegetarian"
+                "vegan"
               ],
               "tags": [
-                "vegetarian"
+                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Spirals with Marinara Sauce",
+              "name": "Sauteed Zucchini with Garlic",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:sauteed-zucchini-with-garlic",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Rice Pilaf with Mushrooms",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:rice-pilaf-with-mushrooms",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Linguini Pasta",
               "station": "Pasta",
               "station_type": "main",
-              "dish_key": "ucsb:spirals-with-marinara-sauce",
+              "dish_key": "ucsb:linguini-pasta",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Bolognaise Sauce",
+              "station": "Pasta",
+              "station_type": "main",
+              "dish_key": "ucsb:bolognaise-sauce",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Pasta Pronto",
+              "station": "Pasta",
+              "station_type": "main",
+              "dish_key": "ucsb:pasta-pronto",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1893,10 +1724,10 @@
               "source_id": ""
             },
             {
-              "name": "Pinto Beans",
+              "name": "Black Beans",
               "station": "Pasta",
               "station_type": "main",
-              "dish_key": "ucsb:pinto-beans",
+              "dish_key": "ucsb:black-beans",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1926,10 +1757,10 @@
               "source_id": ""
             },
             {
-              "name": "Long Grain Rice",
+              "name": "Brown Rice",
               "station": "Pasta",
               "station_type": "main",
-              "dish_key": "ucsb:long-grain-rice",
+              "dish_key": "ucsb:brown-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1959,10 +1790,10 @@
               "source_id": ""
             },
             {
-              "name": "Salami Pizza",
+              "name": "Smoked Barbeque Chicken Pizza",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsb:salami-pizza",
+              "dish_key": "ucsb:smoked-barbeque-chicken-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2021,10 +1852,10 @@
               "source_id": ""
             },
             {
-              "name": "Onion & Jalapeno Pizza on Wheat",
+              "name": "Traditional Cheese Pizza on Wheat",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsb:onion-jalapeno-pizza-on-wheat",
+              "dish_key": "ucsb:traditional-cheese-pizza-on-wheat",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2054,10 +1885,10 @@
               "source_id": ""
             },
             {
-              "name": "Oatmeal Bread",
+              "name": "Cheese Bread",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:oatmeal-bread",
+              "dish_key": "ucsb:cheese-bread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2087,10 +1918,10 @@
               "source_id": ""
             },
             {
-              "name": "Pumpkin Pie",
+              "name": "Tres Leches Cake",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:pumpkin-pie",
+              "dish_key": "ucsb:tres-leches-cake",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2134,10 +1965,10 @@
           "end": "10:00",
           "items": [
             {
-              "name": "Oatmeal",
+              "name": "7 Grain Hot Cereal",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:oatmeal",
+              "dish_key": "ucsb:7-grain-hot-cereal",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2167,10 +1998,10 @@
               "source_id": ""
             },
             {
-              "name": "Banana Pancakes",
+              "name": "Cage Free Scrambled Eggs w/Bacon &Cheese",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:banana-pancakes",
+              "dish_key": "ucsb:cage-free-scrambled-eggs-w-bacon-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2190,12 +2021,8 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -2266,39 +2093,10 @@
               "source_id": ""
             },
             {
-              "name": "Grilled Ham",
+              "name": "Sliced Potato with Onions",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:grilled-ham",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Tater Tots",
-              "station": "Grill (Cafe)",
-              "station_type": "main",
-              "dish_key": "ucsb:tater-tots",
+              "dish_key": "ucsb:sliced-potato-with-onions",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2427,10 +2225,10 @@
               "source_id": ""
             },
             {
-              "name": "Blueberry Scone",
+              "name": "Strawberry Muffin",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:blueberry-scone",
+              "dish_key": "ucsb:strawberry-muffin",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2451,10 +2249,43 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Molasses Bread",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:molasses-bread",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -2468,10 +2299,10 @@
           "end": "14:30",
           "items": [
             {
-              "name": "Miso Soup",
+              "name": "Roasted Butternut Squash Soup",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:miso-soup",
+              "dish_key": "ucsb:roasted-butternut-squash-soup",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2492,19 +2323,19 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Reuben Sandwich",
+              "name": "Chicken Broccoli Bake",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:reuben-sandwich",
+              "dish_key": "ucsb:chicken-broccoli-bake",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2530,10 +2361,10 @@
               "source_id": ""
             },
             {
-              "name": "Fresh Broccoli Spears",
+              "name": "Steamed Zucchini",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:fresh-broccoli-spears",
+              "dish_key": "ucsb:steamed-zucchini",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2596,43 +2427,10 @@
               "source_id": ""
             },
             {
-              "name": "Baked Sweet Potato",
-              "station": "Blue Plate Special",
-              "station_type": "main",
-              "dish_key": "ucsb:baked-sweet-potato",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Chicken Soft Taco",
+              "name": "Beef Hard Shell Taco",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:chicken-soft-taco",
+              "dish_key": "ucsb:beef-hard-shell-taco",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2658,10 +2456,43 @@
               "source_id": ""
             },
             {
-              "name": "Vegetable Burrito",
+              "name": "Quesadilla",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:vegetable-burrito",
+              "dish_key": "ucsb:quesadilla",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Green Rice",
+              "station": "Taqueria (East Side)",
+              "station_type": "side",
+              "dish_key": "ucsb:green-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2691,43 +2522,10 @@
               "source_id": ""
             },
             {
-              "name": "Spanish Rice",
+              "name": "Pinto Beans",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:spanish-rice",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Refried Beans",
-              "station": "Taqueria (East Side)",
-              "station_type": "side",
-              "dish_key": "ucsb:refried-beans",
+              "dish_key": "ucsb:pinto-beans",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2856,10 +2654,10 @@
               "source_id": ""
             },
             {
-              "name": "Ranchero Salsa",
-              "station": "Taqueria (East Side)",
-              "station_type": "side",
-              "dish_key": "ucsb:ranchero-salsa",
+              "name": "Salami Pizza",
+              "station": "Pizza",
+              "station_type": "main",
+              "dish_key": "ucsb:salami-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2879,53 +2677,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Greek Pizza",
+              "name": "Four Cheese Pesto Pizza on Wheat",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsb:greek-pizza",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Cheese Pizza",
-              "station": "Pizza",
-              "station_type": "main",
-              "dish_key": "ucsb:cheese-pizza",
+              "dish_key": "ucsb:four-cheese-pesto-pizza-on-wheat",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2988,10 +2749,10 @@
               "source_id": ""
             },
             {
-              "name": "Chicken Chow Mein",
+              "name": "Fettuccine with Chicken Olives & Garlic",
               "station": "To Order",
               "station_type": "main",
-              "dish_key": "ucsb:chicken-chow-mein",
+              "dish_key": "ucsb:fettuccine-with-chicken-olives-garlic",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3017,10 +2778,10 @@
               "source_id": ""
             },
             {
-              "name": "Vegetable Chow Mein",
+              "name": "Cellentani with Vegetable Marinara",
               "station": "To Order",
               "station_type": "main",
-              "dish_key": "ucsb:vegetable-chow-mein",
+              "dish_key": "ucsb:cellentani-with-vegetable-marinara",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3050,10 +2811,10 @@
               "source_id": ""
             },
             {
-              "name": "Brown Rice",
+              "name": "Wild Rice Blend",
               "station": "To Order",
               "station_type": "main",
-              "dish_key": "ucsb:brown-rice",
+              "dish_key": "ucsb:wild-rice-blend",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3116,10 +2877,10 @@
               "source_id": ""
             },
             {
-              "name": "Cheeseburger",
+              "name": "Char Burger",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:cheeseburger",
+              "dish_key": "ucsb:char-burger",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3145,10 +2906,10 @@
               "source_id": ""
             },
             {
-              "name": "Sweet Potato Burger",
+              "name": "Veggie Burger on Whole Wheat Bun",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:sweet-potato-burger",
+              "dish_key": "ucsb:veggie-burger-on-whole-wheat-bun",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3178,10 +2939,10 @@
               "source_id": ""
             },
             {
-              "name": "Grilled Swiss on Sourdough",
+              "name": "Grilled Ham & Cheese on Sourdough",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:grilled-swiss-on-sourdough",
+              "dish_key": "ucsb:grilled-ham-cheese-on-sourdough",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3201,20 +2962,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Shoestring French Fries",
+              "name": "Krinkle Cut French Fries",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:shoestring-french-fries",
+              "dish_key": "ucsb:krinkle-cut-french-fries",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3244,10 +3001,10 @@
               "source_id": ""
             },
             {
-              "name": "Japanese Noodle Salad",
+              "name": "Strawberry Radicchio Salad",
               "station": "Salads/Deli (West Side)",
               "station_type": "bar",
-              "dish_key": "ucsb:japanese-noodle-salad",
+              "dish_key": "ucsb:strawberry-radicchio-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3277,10 +3034,10 @@
               "source_id": ""
             },
             {
-              "name": "Potato Roll",
+              "name": "Cracked Wheat Bread",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:potato-roll",
+              "dish_key": "ucsb:cracked-wheat-bread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3310,10 +3067,10 @@
               "source_id": ""
             },
             {
-              "name": "Lemon Bar",
+              "name": "Oatmeal Chocolate Chip Cookie",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:lemon-bar",
+              "dish_key": "ucsb:oatmeal-chocolate-chip-cookie",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3351,10 +3108,10 @@
           "end": "20:00",
           "items": [
             {
-              "name": "Vegetable Barley Soup",
+              "name": "Vegetable Soup",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:vegetable-barley-soup",
+              "dish_key": "ucsb:vegetable-soup",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3384,10 +3141,10 @@
               "source_id": ""
             },
             {
-              "name": "Teriyaki Chicken",
+              "name": "Sweet & Sour Pot Roast",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:teriyaki-chicken",
+              "dish_key": "ucsb:sweet-sour-pot-roast",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3413,10 +3170,10 @@
               "source_id": ""
             },
             {
-              "name": "Bok Choy with Garlic & Ginger",
+              "name": "Vegetable Medley",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:bok-choy-with-garlic-ginger",
+              "dish_key": "ucsb:vegetable-medley",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3446,10 +3203,10 @@
               "source_id": ""
             },
             {
-              "name": "Pineapple Rice",
+              "name": "Garlic Mashed Potatoes",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:pineapple-rice",
+              "dish_key": "ucsb:garlic-mashed-potatoes",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3470,10 +3227,10 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -3512,43 +3269,10 @@
               "source_id": ""
             },
             {
-              "name": "Baked Sweet Potato",
-              "station": "Blue Plate Special",
-              "station_type": "main",
-              "dish_key": "ucsb:baked-sweet-potato",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Beef Tostada",
+              "name": "Pork Chile Verde Burrito",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:beef-tostada",
+              "dish_key": "ucsb:pork-chile-verde-burrito",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3574,10 +3298,10 @@
               "source_id": ""
             },
             {
-              "name": "Black Bean & Rice Tostada",
+              "name": "Chipotle Bean Flauta",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:black-bean-rice-tostada",
+              "dish_key": "ucsb:chipotle-bean-flauta",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3607,10 +3331,10 @@
               "source_id": ""
             },
             {
-              "name": "Spanish Rice",
+              "name": "Green Rice",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:spanish-rice",
+              "dish_key": "ucsb:green-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3640,10 +3364,10 @@
               "source_id": ""
             },
             {
-              "name": "Refried Black Beans",
+              "name": "Pinto Beans",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:refried-black-beans",
+              "dish_key": "ucsb:pinto-beans",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3772,10 +3496,10 @@
               "source_id": ""
             },
             {
-              "name": "Ranchero Salsa",
-              "station": "Taqueria (East Side)",
-              "station_type": "side",
-              "dish_key": "ucsb:ranchero-salsa",
+              "name": "Salami Pizza",
+              "station": "Pizza",
+              "station_type": "main",
+              "dish_key": "ucsb:salami-pizza",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3795,53 +3519,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Greek Pizza",
+              "name": "Four Cheese Pesto Pizza on Wheat",
               "station": "Pizza",
               "station_type": "main",
-              "dish_key": "ucsb:greek-pizza",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Cheese Pizza",
-              "station": "Pizza",
-              "station_type": "main",
-              "dish_key": "ucsb:cheese-pizza",
+              "dish_key": "ucsb:four-cheese-pesto-pizza-on-wheat",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3904,10 +3591,10 @@
               "source_id": ""
             },
             {
-              "name": "Fettuccine Pasta",
+              "name": "Beef Ginger Stir Fry with Brown Rice",
               "station": "To Order",
               "station_type": "main",
-              "dish_key": "ucsb:fettuccine-pasta",
+              "dish_key": "ucsb:beef-ginger-stir-fry-with-brown-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -3927,86 +3614,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Garlic Cream Sauce with Vegetables",
+              "name": "Tofu Vegetable Stir Fry",
               "station": "To Order",
               "station_type": "main",
-              "dish_key": "ucsb:garlic-cream-sauce-with-vegetables",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Wheat Penne Pasta",
-              "station": "To Order",
-              "station_type": "main",
-              "dish_key": "ucsb:wheat-penne-pasta",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Tomato Leek Marinara",
-              "station": "To Order",
-              "station_type": "main",
-              "dish_key": "ucsb:tomato-leek-marinara",
+              "dish_key": "ucsb:tofu-vegetable-stir-fry",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -4102,43 +3719,10 @@
               "source_id": ""
             },
             {
-              "name": "Marinated Green Beans Salad",
+              "name": "Southwestern Chopped Salad",
               "station": "Salads/Deli (West Side)",
               "station_type": "bar",
-              "dish_key": "ucsb:marinated-green-beans-salad",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Cheese Bread",
-              "station": "Bakery",
-              "station_type": "dessert",
-              "dish_key": "ucsb:cheese-bread",
+              "dish_key": "ucsb:southwestern-chopped-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -4168,10 +3752,10 @@
               "source_id": ""
             },
             {
-              "name": "Apple Pie",
+              "name": "Mexican Chocolate Cake",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:apple-pie",
+              "dish_key": "ucsb:mexican-chocolate-cake",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6273,10 +5857,10 @@
               "source_id": ""
             },
             {
-              "name": "Strawberry Yogurt",
+              "name": "Vanilla Yogurt",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:strawberry-yogurt",
+              "dish_key": "ucsb:vanilla-yogurt",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6301,39 +5885,6 @@
               ],
               "tags": [
                 "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Watermelon",
-              "station": "Greens & Grains",
-              "station_type": "main",
-              "dish_key": "ucsb:watermelon",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -6372,10 +5923,10 @@
               "source_id": ""
             },
             {
-              "name": "Fresh Strawberry",
+              "name": "Watermelon",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:fresh-strawberry",
+              "dish_key": "ucsb:watermelon",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6405,10 +5956,10 @@
               "source_id": ""
             },
             {
-              "name": "Honeydew Melon",
+              "name": "Cantaloupe",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:honeydew-melon",
+              "dish_key": "ucsb:cantaloupe",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6471,39 +6022,6 @@
               "source_id": ""
             },
             {
-              "name": "Granola Berry Parfait",
-              "station": "Greens & Grains",
-              "station_type": "main",
-              "dish_key": "ucsb:granola-berry-parfait",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Cinnamon Maple Granola",
               "station": "Greens & Grains",
               "station_type": "main",
@@ -6537,10 +6055,10 @@
               "source_id": ""
             },
             {
-              "name": "Oatmeal",
+              "name": "Baked Oatmeal with Apple & Cinnamon",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:oatmeal",
+              "dish_key": "ucsb:baked-oatmeal-with-apple-cinnamon",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6561,10 +6079,43 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Cream of Wheat",
+              "station": "Greens & Grains",
+              "station_type": "main",
+              "dish_key": "ucsb:cream-of-wheat",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -6636,10 +6187,10 @@
               "source_id": ""
             },
             {
-              "name": "Lemon Poppy Seed Bread",
+              "name": "Carrot Walnut Bread",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:lemon-poppy-seed-bread",
+              "dish_key": "ucsb:carrot-walnut-bread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6669,10 +6220,39 @@
               "source_id": ""
             },
             {
-              "name": "Cinnamon Coffee Cake",
+              "name": "Bagels-Breads & Cereals- See for Choices",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:cinnamon-coffee-cake",
+              "dish_key": "ucsb:bagels-breads-cereals-see-for-choices",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Cream Cheese",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:cream-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6768,10 +6348,10 @@
               "source_id": ""
             },
             {
-              "name": "Buttermilk Pancakes",
+              "name": "Sourdough French Toast",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:buttermilk-pancakes",
+              "dish_key": "ucsb:sourdough-french-toast",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6801,10 +6381,10 @@
               "source_id": ""
             },
             {
-              "name": "Sausage Biscuits & Gravy",
+              "name": "Huevos Rancheros",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:sausage-biscuits-gravy",
+              "dish_key": "ucsb:huevos-rancheros",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6824,16 +6404,20 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Western Hash Brown",
+              "name": "Hash Browns",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:western-hash-brown",
+              "dish_key": "ucsb:hash-browns",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6863,10 +6447,10 @@
               "source_id": ""
             },
             {
-              "name": "Fresh Sauteed Spinach",
+              "name": "Fall Vegetable Hash",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:fresh-sauteed-spinach",
+              "dish_key": "ucsb:fall-vegetable-hash",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6887,10 +6471,10 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -6904,10 +6488,10 @@
           "end": "14:30",
           "items": [
             {
-              "name": "Spring Mix Salad w/Feta & Craisins",
+              "name": "Vegetarian Taco Salad",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:spring-mix-salad-w-feta-craisins",
+              "dish_key": "ucsb:vegetarian-taco-salad",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6937,10 +6521,10 @@
               "source_id": ""
             },
             {
-              "name": "Greek Chicken Wrap",
+              "name": "Chicken Chipotle Wrap",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:greek-chicken-wrap",
+              "dish_key": "ucsb:chicken-chipotle-wrap",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6966,10 +6550,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Ham",
+              "name": "Sliced Turkey",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:sliced-ham",
+              "dish_key": "ucsb:sliced-turkey",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -6995,10 +6579,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Turkey Pastrami",
+              "name": "Sliced Roast Beef",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:sliced-turkey-pastrami",
+              "dish_key": "ucsb:sliced-roast-beef",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7024,10 +6608,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Swiss Cheese",
+              "name": "Sliced Provolone Cheese",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:sliced-swiss-cheese",
+              "dish_key": "ucsb:sliced-provolone-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7123,10 +6707,10 @@
               "source_id": ""
             },
             {
-              "name": "Quinoa",
+              "name": "Long Grain Rice",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:quinoa",
+              "dish_key": "ucsb:long-grain-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7156,10 +6740,10 @@
               "source_id": ""
             },
             {
-              "name": "Swiss Chard & Lentil Soup",
+              "name": "Turkey Vegetable Soup",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:swiss-chard-lentil-soup",
+              "dish_key": "ucsb:turkey-vegetable-soup",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7179,12 +6763,8 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -7288,101 +6868,10 @@
               "source_id": ""
             },
             {
-              "name": "Sausage Mushroom Pizza",
+              "name": "Three Cheese Flatbread",
               "station": "The Brick",
               "station_type": "main",
-              "dish_key": "ucsb:sausage-mushroom-pizza",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Marinara Sauce with Chicken",
-              "station": "The Brick",
-              "station_type": "main",
-              "dish_key": "ucsb:marinara-sauce-with-chicken",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Penne Pasta",
-              "station": "The Brick",
-              "station_type": "main",
-              "dish_key": "ucsb:penne-pasta",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Alburro Sauce",
-              "station": "The Brick",
-              "station_type": "main",
-              "dish_key": "ucsb:alburro-sauce",
+              "dish_key": "ucsb:three-cheese-flatbread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7412,10 +6901,10 @@
               "source_id": ""
             },
             {
-              "name": "Spaghetti",
+              "name": "Greek Pasta w/Feta/Tom &Spinach",
               "station": "The Brick",
               "station_type": "main",
-              "dish_key": "ucsb:spaghetti",
+              "dish_key": "ucsb:greek-pasta-w-feta-tom-spinach",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7435,20 +6924,45 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Whole Wheat Sourdough Bread",
+              "name": "Cajun Shrimp Pasta",
+              "station": "The Brick",
+              "station_type": "main",
+              "dish_key": "ucsb:cajun-shrimp-pasta",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Oatmeal Bread",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:whole-wheat-sourdough-bread",
+              "dish_key": "ucsb:oatmeal-bread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7478,10 +6992,10 @@
               "source_id": ""
             },
             {
-              "name": "Oatmeal Raisin Quinoa Cookie",
+              "name": "Granola Peanut Bar",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:oatmeal-raisin-quinoa-cookie",
+              "dish_key": "ucsb:granola-peanut-bar",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7511,10 +7025,10 @@
               "source_id": ""
             },
             {
-              "name": "Gingerbread Cake",
+              "name": "Choc Cupcake w/Peanut Butter",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:gingerbread-cake",
+              "dish_key": "ucsb:choc-cupcake-w-peanut-butter",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7544,10 +7058,10 @@
               "source_id": ""
             },
             {
-              "name": "Char Grilled Cajun Chicken Sandwich",
+              "name": "Mojo Roasted Chicken (Pollo Asado)",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:char-grilled-cajun-chicken-sandwich",
+              "dish_key": "ucsb:mojo-roasted-chicken-pollo-asado",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7573,43 +7087,10 @@
               "source_id": ""
             },
             {
-              "name": "Ranch Potato Salad",
+              "name": "Rice with Cilantro & Onions",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:ranch-potato-salad",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Vegetables Steamed Brown Rice",
-              "station": "Chef's Choice",
-              "station_type": "main",
-              "dish_key": "ucsb:vegetables-steamed-brown-rice",
+              "dish_key": "ucsb:rice-with-cilantro-onions",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7639,10 +7120,10 @@
               "source_id": ""
             },
             {
-              "name": "Black Beans",
+              "name": "Ranchero Beans",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:black-beans",
+              "dish_key": "ucsb:ranchero-beans",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7672,10 +7153,43 @@
               "source_id": ""
             },
             {
-              "name": "Ginger Pepper Steak",
+              "name": "Steamed Fresh Broccoli",
+              "station": "Chef's Choice",
+              "station_type": "main",
+              "dish_key": "ucsb:steamed-fresh-broccoli",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Pork Dan Dan Noodle",
               "station": "International",
               "station_type": "main",
-              "dish_key": "ucsb:ginger-pepper-steak",
+              "dish_key": "ucsb:pork-dan-dan-noodle",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7701,10 +7215,10 @@
               "source_id": ""
             },
             {
-              "name": "Brown Rice",
+              "name": "Stir Fried Bok Choy",
               "station": "International",
               "station_type": "main",
-              "dish_key": "ucsb:brown-rice",
+              "dish_key": "ucsb:stir-fried-bok-choy",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7734,43 +7248,10 @@
               "source_id": ""
             },
             {
-              "name": "Spinach Stir Fried with Garlic",
+              "name": "Spicy Scallop Sushi Plate",
               "station": "International",
               "station_type": "main",
-              "dish_key": "ucsb:spinach-stir-fried-with-garlic",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Calamari Sushi Plate",
-              "station": "International",
-              "station_type": "main",
-              "dish_key": "ucsb:calamari-sushi-plate",
+              "dish_key": "ucsb:spicy-scallop-sushi-plate",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7796,10 +7277,10 @@
               "source_id": ""
             },
             {
-              "name": "Vegetable Sushi Plate",
+              "name": "Crunchy Onion Roll",
               "station": "International",
               "station_type": "main",
-              "dish_key": "ucsb:vegetable-sushi-plate",
+              "dish_key": "ucsb:crunchy-onion-roll",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7820,19 +7301,19 @@
               },
               "allergens": [],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Grilled Turkey Burger",
+              "name": "Cheeseburger",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:grilled-turkey-burger",
+              "dish_key": "ucsb:cheeseburger",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7858,10 +7339,10 @@
               "source_id": ""
             },
             {
-              "name": "Grilled Swiss & Tomato on Wheat",
+              "name": "Grilled Cheddar Cheese On Wheat",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:grilled-swiss-tomato-on-wheat",
+              "dish_key": "ucsb:grilled-cheddar-cheese-on-wheat",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7891,10 +7372,10 @@
               "source_id": ""
             },
             {
-              "name": "Banana Pancakes",
+              "name": "Sourdough French Toast",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:banana-pancakes",
+              "dish_key": "ucsb:sourdough-french-toast",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -7924,43 +7405,10 @@
               "source_id": ""
             },
             {
-              "name": "Shoestring Fries",
+              "name": "Steak Fries",
               "station": "The Grill",
               "station_type": "main",
-              "dish_key": "ucsb:shoestring-fries",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Spicy Mustard Sauce",
-              "station": "The Grill",
-              "station_type": "main",
-              "dish_key": "ucsb:spicy-mustard-sauce",
+              "dish_key": "ucsb:steak-fries",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8054,6 +7502,39 @@
               ],
               "carbon_kg": null,
               "source_id": ""
+            },
+            {
+              "name": "Spicy Mustard Sauce",
+              "station": "The Grill",
+              "station_type": "main",
+              "dish_key": "ucsb:spicy-mustard-sauce",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
             }
           ]
         },
@@ -8097,10 +7578,10 @@
               "source_id": ""
             },
             {
-              "name": "Long Grain Rice",
+              "name": "Jasmine Rice",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:long-grain-rice",
+              "dish_key": "ucsb:jasmine-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8130,10 +7611,10 @@
               "source_id": ""
             },
             {
-              "name": "Swiss Chard & Lentil Soup",
+              "name": "Turkey Vegetable Soup",
               "station": "Greens & Grains",
               "station_type": "main",
-              "dish_key": "ucsb:swiss-chard-lentil-soup",
+              "dish_key": "ucsb:turkey-vegetable-soup",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8153,12 +7634,8 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -8262,10 +7739,10 @@
               "source_id": ""
             },
             {
-              "name": "Sausage Mushroom Pizza",
+              "name": "Garlic Pizza on Wheat",
               "station": "The Brick",
               "station_type": "main",
-              "dish_key": "ucsb:sausage-mushroom-pizza",
+              "dish_key": "ucsb:garlic-pizza-on-wheat",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8285,16 +7762,20 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [],
-              "tags": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
               "carbon_kg": null,
               "source_id": ""
             },
             {
-              "name": "Bolognese Sauce with Pancetta",
+              "name": "Chicken with White Wine Garlic Sauce",
               "station": "The Brick",
               "station_type": "main",
-              "dish_key": "ucsb:bolognese-sauce-with-pancetta",
+              "dish_key": "ucsb:chicken-with-white-wine-garlic-sauce",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8353,43 +7834,10 @@
               "source_id": ""
             },
             {
-              "name": "Alburro Sauce",
+              "name": "Tomato and Roasted Garlic Sauce",
               "station": "The Brick",
               "station_type": "main",
-              "dish_key": "ucsb:alburro-sauce",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Spaghetti",
-              "station": "The Brick",
-              "station_type": "main",
-              "dish_key": "ucsb:spaghetti",
+              "dish_key": "ucsb:tomato-and-roasted-garlic-sauce",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8419,10 +7867,10 @@
               "source_id": ""
             },
             {
-              "name": "Chocolate Peanut Butter Cake",
+              "name": "Brownie Pie",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:chocolate-peanut-butter-cake",
+              "dish_key": "ucsb:brownie-pie",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8452,10 +7900,10 @@
               "source_id": ""
             },
             {
-              "name": "Whole Wheat Sourdough Bread",
+              "name": "Oatmeal Bread",
               "station": "Bakery",
               "station_type": "dessert",
-              "dish_key": "ucsb:whole-wheat-sourdough-bread",
+              "dish_key": "ucsb:oatmeal-bread",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8485,10 +7933,10 @@
               "source_id": ""
             },
             {
-              "name": "Pueblo Pork Roast",
+              "name": "Shredded Beef Soft Taco",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:pueblo-pork-roast",
+              "dish_key": "ucsb:shredded-beef-soft-taco",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8514,10 +7962,43 @@
               "source_id": ""
             },
             {
-              "name": "Papaya Cilantro Lime Salsa",
+              "name": "Cheese Quesadilla",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:papaya-cilantro-lime-salsa",
+              "dish_key": "ucsb:cheese-quesadilla",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Fire Roasted Tomato Salsa",
+              "station": "Chef's Choice",
+              "station_type": "main",
+              "dish_key": "ucsb:fire-roasted-tomato-salsa",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8547,10 +8028,10 @@
               "source_id": ""
             },
             {
-              "name": "Red Potatoes with Rosemary",
+              "name": "Roasted Broccoli and Red Onion",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:red-potatoes-with-rosemary",
+              "dish_key": "ucsb:roasted-broccoli-and-red-onion",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8613,10 +8094,72 @@
               "source_id": ""
             },
             {
-              "name": "Polenta Creamy",
+              "name": "Cilantro & Onion Mix",
               "station": "Chef's Choice",
               "station_type": "main",
-              "dish_key": "ucsb:polenta-creamy",
+              "dish_key": "ucsb:cilantro-onion-mix",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Thai Chicken Bowl",
+              "station": "International",
+              "station_type": "main",
+              "dish_key": "ucsb:thai-chicken-bowl",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Tofu Veggie Pad Thai w/Peanut",
+              "station": "International",
+              "station_type": "main",
+              "dish_key": "ucsb:tofu-veggie-pad-thai-w-peanut",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8646,10 +8189,109 @@
               "source_id": ""
             },
             {
-              "name": "Tandoori Spiced Chicken",
+              "name": "Spinach with Garlic & Ginger",
               "station": "International",
               "station_type": "main",
-              "dish_key": "ucsb:tandoori-spiced-chicken",
+              "dish_key": "ucsb:spinach-with-garlic-ginger",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Turmeric Roasted Cauliflower",
+              "station": "International",
+              "station_type": "main",
+              "dish_key": "ucsb:turmeric-roasted-cauliflower",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Crunchy Onion Roll",
+              "station": "International",
+              "station_type": "main",
+              "dish_key": "ucsb:crunchy-onion-roll",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Spicy Scallop Sushi Plate",
+              "station": "International",
+              "station_type": "main",
+              "dish_key": "ucsb:spicy-scallop-sushi-plate",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -8671,167 +8313,6 @@
               "allergens": [],
               "diets": [],
               "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Basmati Rice",
-              "station": "International",
-              "station_type": "main",
-              "dish_key": "ucsb:basmati-rice",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Stir Fried Bok Choy",
-              "station": "International",
-              "station_type": "main",
-              "dish_key": "ucsb:stir-fried-bok-choy",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Seasoned Vegetable Medley",
-              "station": "International",
-              "station_type": "main",
-              "dish_key": "ucsb:seasoned-vegetable-medley",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Calamari Sushi Plate",
-              "station": "International",
-              "station_type": "main",
-              "dish_key": "ucsb:calamari-sushi-plate",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Vegetable Roll",
-              "station": "International",
-              "station_type": "main",
-              "dish_key": "ucsb:vegetable-roll",
-              "nutrition": {
-                "kcal": null,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "vegan"
-              ],
               "carbon_kg": null,
               "source_id": ""
             }

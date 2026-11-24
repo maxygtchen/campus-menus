@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-25",
-  "scraped_at": "2026-11-24T06:59:01+00:00",
+  "scraped_at": "2026-11-24T23:05:58+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2141,41 +2141,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_M36777_1_391158"
-            },
-            {
-              "name": "Mediterranean Cheese Tortellini",
-              "station": "Noodle Bar",
-              "station_type": "main",
-              "dish_key": "uci:mediterranean-cheese-tortellini",
-              "nutrition": {
-                "kcal": 158.5,
-                "protein_g": 4.8,
-                "carbs_g": 21.3,
-                "fat_g": 6.3,
-                "fiber_g": 1.9,
-                "sugar_g": 1.7,
-                "sodium_mg": 401.4,
-                "serving": "N/A cup",
-                "sat_fat_g": 1.0,
-                "cholesterol_mg": 7.1,
-                "calcium_mg": 47.7,
-                "iron_mg": 1.0,
-                "potassium_mg": null,
-                "vitamin_c_mg": 19.4,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 33.3
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M32737_1_392842"
             },
             {
               "name": "Roasted Autumn Vegetables",
@@ -6131,69 +6096,6 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M35083_1_47127"
-            },
-            {
-              "name": "Craveworthy® Chocolate Chip Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
-              "nutrition": {
-                "kcal": 237.3,
-                "protein_g": 2.0,
-                "carbs_g": 31.3,
-                "fat_g": 11.6,
-                "fiber_g": 1.3,
-                "sugar_g": 17.2,
-                "sodium_mg": 200.5,
-                "serving": "1 cookie",
-                "sat_fat_g": 7.3,
-                "cholesterol_mg": 29.3,
-                "calcium_mg": 13.5,
-                "iron_mg": 1.6,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 15.0
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M33063_1_31218"
-            },
-            {
-              "name": "Sugar Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:sugar-cookie",
-              "nutrition": {
-                "kcal": 117.4,
-                "protein_g": 1.2,
-                "carbs_g": 16.6,
-                "fat_g": 5.1,
-                "fiber_g": 0.2,
-                "sugar_g": 9.0,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 2.6,
-                "iron_mg": 0.8,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M2030_1_7236"
             }
           ]
         },
@@ -6802,69 +6704,6 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M35083_1_47127"
-            },
-            {
-              "name": "Craveworthy® Chocolate Chip Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
-              "nutrition": {
-                "kcal": 237.3,
-                "protein_g": 2.0,
-                "carbs_g": 31.3,
-                "fat_g": 11.6,
-                "fiber_g": 1.3,
-                "sugar_g": 17.2,
-                "sodium_mg": 200.5,
-                "serving": "1 cookie",
-                "sat_fat_g": 7.3,
-                "cholesterol_mg": 29.3,
-                "calcium_mg": 13.5,
-                "iron_mg": 1.6,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 15.0
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M33063_1_31218"
-            },
-            {
-              "name": "Sugar Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:sugar-cookie",
-              "nutrition": {
-                "kcal": 117.4,
-                "protein_g": 1.2,
-                "carbs_g": 16.6,
-                "fat_g": 5.1,
-                "fiber_g": 0.2,
-                "sugar_g": 9.0,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 2.6,
-                "iron_mg": 0.8,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M2030_1_7236"
             }
           ]
         },
@@ -7537,69 +7376,6 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M35083_1_47127"
-            },
-            {
-              "name": "Craveworthy® Chocolate Chip Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
-              "nutrition": {
-                "kcal": 237.3,
-                "protein_g": 2.0,
-                "carbs_g": 31.3,
-                "fat_g": 11.6,
-                "fiber_g": 1.3,
-                "sugar_g": 17.2,
-                "sodium_mg": 200.5,
-                "serving": "1 cookie",
-                "sat_fat_g": 7.3,
-                "cholesterol_mg": 29.3,
-                "calcium_mg": 13.5,
-                "iron_mg": 1.6,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 15.0
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M33063_1_31218"
-            },
-            {
-              "name": "Sugar Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:sugar-cookie",
-              "nutrition": {
-                "kcal": 117.4,
-                "protein_g": 1.2,
-                "carbs_g": 16.6,
-                "fat_g": 5.1,
-                "fiber_g": 0.2,
-                "sugar_g": 9.0,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 2.6,
-                "iron_mg": 0.8,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M2030_1_7236"
             }
           ]
         },
@@ -8208,69 +7984,6 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M35083_1_47127"
-            },
-            {
-              "name": "Craveworthy® Chocolate Chip Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
-              "nutrition": {
-                "kcal": 237.3,
-                "protein_g": 2.0,
-                "carbs_g": 31.3,
-                "fat_g": 11.6,
-                "fiber_g": 1.3,
-                "sugar_g": 17.2,
-                "sodium_mg": 200.5,
-                "serving": "1 cookie",
-                "sat_fat_g": 7.3,
-                "cholesterol_mg": 29.3,
-                "calcium_mg": 13.5,
-                "iron_mg": 1.6,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 15.0
-              },
-              "allergens": [
-                "milk",
-                "egg",
-                "soy",
-                "wheat"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M33063_1_31218"
-            },
-            {
-              "name": "Sugar Cookie",
-              "station": "Desserts",
-              "station_type": "dessert",
-              "dish_key": "uci:sugar-cookie",
-              "nutrition": {
-                "kcal": 117.4,
-                "protein_g": 1.2,
-                "carbs_g": 16.6,
-                "fat_g": 5.1,
-                "fiber_g": 0.2,
-                "sugar_g": 9.0,
-                "sodium_mg": 70.7,
-                "serving": "1 cookie",
-                "sat_fat_g": 2.1,
-                "cholesterol_mg": 6.3,
-                "calcium_mg": 2.6,
-                "iron_mg": 0.8,
-                "potassium_mg": null,
-                "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 66.3
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "287868_133409_M2030_1_7236"
             }
           ]
         }

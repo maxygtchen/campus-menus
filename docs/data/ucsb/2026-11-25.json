@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-25",
-  "scraped_at": "2026-11-24T07:01:39+00:00",
+  "scraped_at": "2026-11-24T23:08:27+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -378,10 +378,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Turkey Pastrami",
+              "name": "Sliced Ham",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-turkey-pastrami",
+              "dish_key": "ucsb:sliced-ham",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -407,10 +407,10 @@
               "source_id": ""
             },
             {
-              "name": "Sliced Jack Cheese",
+              "name": "Sliced Cheddar Cheese",
               "station": "Deli",
               "station_type": "bar",
-              "dish_key": "ucsb:sliced-jack-cheese",
+              "dish_key": "ucsb:sliced-cheddar-cheese",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
