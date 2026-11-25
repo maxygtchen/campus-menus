@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-25",
-  "scraped_at": "2026-11-25T05:29:33+00:00",
+  "scraped_at": "2026-11-25T22:40:04+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -692,10 +692,43 @@
               "source_id": ""
             },
             {
-              "name": "Corn with Red Peppers",
+              "name": "Mexican Rice",
               "station": "Euro",
               "station_type": "main",
-              "dish_key": "ucsb:corn-with-red-peppers",
+              "dish_key": "ucsb:mexican-rice",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Vegetable Stir Fry",
+              "station": "Euro",
+              "station_type": "main",
+              "dish_key": "ucsb:vegetable-stir-fry",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1179,6 +1212,39 @@
               "source_id": ""
             },
             {
+              "name": "Tres Leches Cake",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "ucsb:tres-leches-cake",
+              "nutrition": {
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
               "name": "Rice Krispie Treat",
               "station": "Bakery",
               "station_type": "dessert",
@@ -1581,10 +1647,10 @@
               "source_id": ""
             },
             {
-              "name": "Open Face Grilled Eggplant Sandwich",
+              "name": "Chicken & Wild Mushroom Risotto",
               "station": "Blue Plate Special",
               "station_type": "main",
-              "dish_key": "ucsb:open-face-grilled-eggplant-sandwich",
+              "dish_key": "ucsb:chicken-wild-mushroom-risotto",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1604,12 +1670,8 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
@@ -1742,10 +1804,10 @@
               "source_id": ""
             },
             {
-              "name": "Bean & Cheese Entomatadas",
+              "name": "Bean and Cheese Hard Shell Taco",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:bean-cheese-entomatadas",
+              "dish_key": "ucsb:bean-and-cheese-hard-shell-taco",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -1775,10 +1837,10 @@
               "source_id": ""
             },
             {
-              "name": "Rice with Cilantro & Onions",
+              "name": "Mexican Rice",
               "station": "Taqueria (East Side)",
               "station_type": "side",
-              "dish_key": "ucsb:rice-with-cilantro-onions",
+              "dish_key": "ucsb:mexican-rice",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2225,10 +2287,10 @@
               "source_id": ""
             },
             {
-              "name": "Grilled Cheese on Wheat",
+              "name": "Grilled Ham & Swiss on Sourdough",
               "station": "Grill (Cafe)",
               "station_type": "main",
-              "dish_key": "ucsb:grilled-cheese-on-wheat",
+              "dish_key": "ucsb:grilled-ham-swiss-on-sourdough",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -2248,12 +2310,8 @@
                 "vitamin_a_iu": null
               },
               "allergens": [],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
+              "diets": [],
+              "tags": [],
               "carbon_kg": null,
               "source_id": ""
             },
