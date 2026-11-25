@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-25",
-  "scraped_at": "2026-11-24T23:05:58+00:00",
+  "scraped_at": "2026-11-25T05:27:08+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2108,39 +2108,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_L248459_1_482650"
-            },
-            {
-              "name": "Loaded Southern Style Tots",
-              "station": "Fire and Ice",
-              "station_type": "main",
-              "dish_key": "uci:loaded-southern-style-tots",
-              "nutrition": {
-                "kcal": 195.5,
-                "protein_g": 4.8,
-                "carbs_g": 10.2,
-                "fat_g": 15.3,
-                "fiber_g": 0.9,
-                "sugar_g": 1.3,
-                "sodium_mg": 357.1,
-                "serving": "N/A serving",
-                "sat_fat_g": 2.8,
-                "cholesterol_mg": 18.9,
-                "calcium_mg": 13.5,
-                "iron_mg": 0.5,
-                "potassium_mg": null,
-                "vitamin_c_mg": 3.2,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 3.4
-              },
-              "allergens": [
-                "egg"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M36777_1_391158"
             },
             {
               "name": "Roasted Autumn Vegetables",

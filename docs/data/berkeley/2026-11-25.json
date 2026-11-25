@@ -1,7 +1,7 @@
 {
   "school": "berkeley",
   "date": "2026-11-25",
-  "scraped_at": "2026-11-24T23:05:10+00:00",
+  "scraped_at": "2026-11-25T05:26:20+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -12037,37 +12037,40 @@
           "end": "16:00",
           "items": [
             {
-              "name": "Pork Pozole",
+              "name": "Chicken Enchiladas with Red Sauce",
               "station": "Centerplate",
               "station_type": "main",
-              "dish_key": "berkeley:pork-pozole",
+              "dish_key": "berkeley:chicken-enchiladas-with-red-sauce",
               "nutrition": {
-                "kcal": 224.8,
-                "protein_g": 15.9,
-                "carbs_g": 16.5,
-                "fat_g": 10.5,
-                "fiber_g": 2.5,
-                "sugar_g": 2.6,
-                "sodium_mg": 906.8,
-                "serving": "12.11 oz",
-                "sat_fat_g": 3.1,
-                "cholesterol_mg": 44.6,
-                "calcium_mg": 46.9,
-                "iron_mg": 1.5,
-                "potassium_mg": 394.6,
-                "vitamin_c_mg": 11.8,
-                "vitamin_d_iu": 0.3,
-                "vitamin_a_iu": 2.5
+                "kcal": 438.4,
+                "protein_g": 25.7,
+                "carbs_g": 41.2,
+                "fat_g": 13.2,
+                "fiber_g": 5.1,
+                "sugar_g": 0.0,
+                "sodium_mg": 996.7,
+                "serving": "8 oz",
+                "sat_fat_g": 6.1,
+                "cholesterol_mg": 72.5,
+                "calcium_mg": 394.8,
+                "iron_mg": 1.7,
+                "potassium_mg": 296.9,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.1,
+                "vitamin_a_iu": 0.0
               },
               "allergens": [
-                "pork"
+                "milk",
+                "wheat",
+                "soy",
+                "gluten"
               ],
               "diets": [],
               "tags": [
-                "lighter"
+                "high_protein"
               ],
-              "carbon_kg": 0.1,
-              "source_id": "1190"
+              "carbon_kg": 1.3,
+              "source_id": "2892"
             },
             {
               "name": "Shrimp Ceviche Tostada",
@@ -12136,6 +12139,40 @@
               ],
               "carbon_kg": 0.2,
               "source_id": "1191"
+            },
+            {
+              "name": "Cilantro and Lime Rice",
+              "station": "Centerplate",
+              "station_type": "main",
+              "dish_key": "berkeley:cilantro-and-lime-rice",
+              "nutrition": {
+                "kcal": 118.4,
+                "protein_g": 2.1,
+                "carbs_g": 23.4,
+                "fat_g": 1.7,
+                "fiber_g": 0.9,
+                "sugar_g": 0.3,
+                "sodium_mg": 102.8,
+                "serving": "5.78 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 17.2,
+                "iron_mg": 1.4,
+                "potassium_mg": 94.2,
+                "vitamin_c_mg": 3.2,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.2
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1064"
             },
             {
               "name": "Roasted Mexican Vegetable Blend",
@@ -12481,27 +12518,27 @@
               "source_id": "1472"
             },
             {
-              "name": "Five Spice Roasted Broccoli",
+              "name": "Sweet Chili Roasted Brussels Sprouts",
               "station": "Lemongrass",
               "station_type": "main",
-              "dish_key": "berkeley:five-spice-roasted-broccoli",
+              "dish_key": "berkeley:sweet-chili-roasted-brussels-sprouts",
               "nutrition": {
-                "kcal": 54.6,
-                "protein_g": 3.4,
-                "carbs_g": 5.7,
-                "fat_g": 2.8,
-                "fiber_g": 2.6,
-                "sugar_g": 1.7,
-                "sodium_mg": 47.0,
-                "serving": "4.09 oz",
-                "sat_fat_g": 0.3,
+                "kcal": 70.6,
+                "protein_g": 3.1,
+                "carbs_g": 15.8,
+                "fat_g": 0.3,
+                "fiber_g": 4.0,
+                "sugar_g": 8.3,
+                "sodium_mg": 196.7,
+                "serving": "3.74 oz",
+                "sat_fat_g": 0.1,
                 "cholesterol_mg": 0.0,
-                "calcium_mg": 54.4,
-                "iron_mg": 1.0,
-                "potassium_mg": 368.5,
-                "vitamin_c_mg": 105.7,
+                "calcium_mg": 38.4,
+                "iron_mg": 1.3,
+                "potassium_mg": 362.1,
+                "vitamin_c_mg": 82.8,
                 "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 0.0
+                "vitamin_a_iu": 41.5
               },
               "allergens": [],
               "diets": [
@@ -12512,7 +12549,7 @@
                 "vegan"
               ],
               "carbon_kg": 0.0,
-              "source_id": "453"
+              "source_id": "1414"
             },
             {
               "name": "Vegetable Potstickers",
@@ -12838,38 +12875,37 @@
               "source_id": "1554"
             },
             {
-              "name": "Halal Chicken Thigh",
+              "name": "Halal Ground Beef",
               "station": "Allergen Friendly",
               "station_type": "main",
-              "dish_key": "berkeley:halal-chicken-thigh",
+              "dish_key": "berkeley:halal-ground-beef",
               "nutrition": {
-                "kcal": 158.5,
-                "protein_g": 22.3,
-                "carbs_g": 0.0,
-                "fat_g": 6.9,
-                "fiber_g": 0.0,
+                "kcal": 311.9,
+                "protein_g": 19.6,
+                "carbs_g": 0.3,
+                "fat_g": 25.2,
+                "fiber_g": 0.1,
                 "sugar_g": 0.0,
-                "sodium_mg": 304.6,
+                "sodium_mg": 273.6,
                 "serving": "4 oz",
-                "sat_fat_g": 1.5,
-                "cholesterol_mg": 106.6,
-                "calcium_mg": 8.7,
-                "iron_mg": 0.9,
-                "potassium_mg": 277.4,
+                "sat_fat_g": 8.9,
+                "cholesterol_mg": 80.5,
+                "calcium_mg": 26.0,
+                "iron_mg": 2.5,
+                "potassium_mg": 328.6,
                 "vitamin_c_mg": 0.0,
-                "vitamin_d_iu": 0.0,
-                "vitamin_a_iu": 7.9
+                "vitamin_d_iu": 0.1,
+                "vitamin_a_iu": 4.5
               },
               "allergens": [],
               "diets": [
                 "halal"
               ],
               "tags": [
-                "high_protein",
                 "lighter"
               ],
               "carbon_kg": 0.5,
-              "source_id": "1571"
+              "source_id": "799"
             },
             {
               "name": "Chickpea Apricot Tagine",
@@ -24013,6 +24049,1823 @@
               ],
               "carbon_kg": null,
               "source_id": "pantry-bev-sparkling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eateries at the Student Union",
+      "kind": "market",
+      "meals": [
+        {
+          "period": "Lunch",
+          "raw_period": "Fall - Lunch",
+          "start": "11:00",
+          "end": "18:00",
+          "items": [
+            {
+              "name": "Grandma Mary's Chicken Soup",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:grandma-mary-s-chicken-soup",
+              "nutrition": {
+                "kcal": 180.6,
+                "protein_g": 18.1,
+                "carbs_g": 23.6,
+                "fat_g": 2.1,
+                "fiber_g": 2.8,
+                "sugar_g": 4.2,
+                "sodium_mg": 1180.3,
+                "serving": "12 oz",
+                "sat_fat_g": 1.4,
+                "cholesterol_mg": 48.6,
+                "calcium_mg": 55.5,
+                "iron_mg": 0.8,
+                "potassium_mg": 805.3,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "egg",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": 0.8,
+              "source_id": "511"
+            },
+            {
+              "name": "Chicken Tortilla Soup",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:chicken-tortilla-soup",
+              "nutrition": {
+                "kcal": 166.7,
+                "protein_g": 12.5,
+                "carbs_g": 20.8,
+                "fat_g": 4.2,
+                "fiber_g": 2.8,
+                "sugar_g": 4.2,
+                "sodium_mg": 1055.3,
+                "serving": "12 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 20.8,
+                "calcium_mg": 27.8,
+                "iron_mg": 1.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": 0.7,
+              "source_id": "515"
+            },
+            {
+              "name": "Turkey and Bean Chili",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:turkey-and-bean-chili",
+              "nutrition": {
+                "kcal": 375.1,
+                "protein_g": 27.8,
+                "carbs_g": 31.9,
+                "fat_g": 15.3,
+                "fiber_g": 9.7,
+                "sugar_g": 6.9,
+                "sodium_mg": 708.1,
+                "serving": "12 oz",
+                "sat_fat_g": 4.9,
+                "cholesterol_mg": 69.4,
+                "calcium_mg": 105.5,
+                "iron_mg": 5.5,
+                "potassium_mg": 930.3,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.8,
+              "source_id": "517"
+            },
+            {
+              "name": "New England Clam Chowder",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:new-england-clam-chowder",
+              "nutrition": {
+                "kcal": 472.9,
+                "protein_g": 8.3,
+                "carbs_g": 34.7,
+                "fat_g": 33.3,
+                "fiber_g": 2.8,
+                "sugar_g": 5.5,
+                "sodium_mg": 1596.8,
+                "serving": "12 oz",
+                "sat_fat_g": 16.7,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 111.1,
+                "iron_mg": 1.7,
+                "potassium_mg": 583.2,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "shellfish"
+              ],
+              "diets": [
+                "halal"
+              ],
+              "tags": [],
+              "carbon_kg": 0.1,
+              "source_id": "518"
+            },
+            {
+              "name": "Minestrone Soup",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:minestrone-soup",
+              "nutrition": {
+                "kcal": 92.7,
+                "protein_g": 4.6,
+                "carbs_g": 16.7,
+                "fat_g": 0.5,
+                "fiber_g": 4.6,
+                "sugar_g": 3.7,
+                "sodium_mg": 712.8,
+                "serving": "8 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 46.3,
+                "iron_mg": 1.9,
+                "potassium_mg": 564.7,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "523"
+            },
+            {
+              "name": "Chicken Hot and Sour Soup",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:chicken-hot-and-sour-soup",
+              "nutrition": {
+                "kcal": 106.6,
+                "protein_g": 8.8,
+                "carbs_g": 6.9,
+                "fat_g": 5.0,
+                "fiber_g": 0.6,
+                "sugar_g": 0.0,
+                "sodium_mg": 766.1,
+                "serving": "8 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": 0.0,
+              "source_id": "3216"
+            },
+            {
+              "name": "Organic Mac & Cheese Soup",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:organic-mac-cheese-soup",
+              "nutrition": {
+                "kcal": 450.7,
+                "protein_g": 23.0,
+                "carbs_g": 37.0,
+                "fat_g": 24.0,
+                "fiber_g": 2.0,
+                "sugar_g": 2.0,
+                "sodium_mg": 521.9,
+                "serving": "8.64 oz",
+                "sat_fat_g": 13.0,
+                "cholesterol_mg": 70.0,
+                "calcium_mg": 509.9,
+                "iron_mg": 0.3,
+                "potassium_mg": 149.9,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "high_protein",
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1735"
+            },
+            {
+              "name": "Tomato Bisque Soup",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:tomato-bisque-soup",
+              "nutrition": {
+                "kcal": 264.0,
+                "protein_g": 4.2,
+                "carbs_g": 27.8,
+                "fat_g": 15.3,
+                "fiber_g": 4.2,
+                "sugar_g": 13.9,
+                "sodium_mg": 680.4,
+                "serving": "12 oz",
+                "sat_fat_g": 9.7,
+                "cholesterol_mg": 62.5,
+                "calcium_mg": 102.7,
+                "iron_mg": 1.5,
+                "potassium_mg": 374.9,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian",
+                "halal"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "522"
+            },
+            {
+              "name": "Choice of Cheese Topping",
+              "station": "Ladle and Leaf - Soup",
+              "station_type": "side",
+              "dish_key": "berkeley:choice-of-cheese-topping",
+              "nutrition": {
+                "kcal": 50.7,
+                "protein_g": 3.5,
+                "carbs_g": 0.0,
+                "fat_g": 2.5,
+                "fiber_g": 0.1,
+                "sugar_g": 0.0,
+                "sodium_mg": 86.1,
+                "serving": "0.5 oz",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 12.7,
+                "calcium_mg": 106.3,
+                "iron_mg": 0.1,
+                "potassium_mg": 10.1,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "3272"
+            },
+            {
+              "name": "Vegan Chicken Salad Sandwich",
+              "station": "Ladle and Leaf - Sandwich",
+              "station_type": "main",
+              "dish_key": "berkeley:vegan-chicken-salad-sandwich",
+              "nutrition": {
+                "kcal": 202.2,
+                "protein_g": 8.5,
+                "carbs_g": 14.7,
+                "fat_g": 12.1,
+                "fiber_g": 0.9,
+                "sugar_g": 1.2,
+                "sodium_mg": 684.6,
+                "serving": "3.39 oz",
+                "sat_fat_g": 1.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 28.8,
+                "iron_mg": 1.5,
+                "potassium_mg": 109.2,
+                "vitamin_c_mg": 1.2,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 64.2
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "3215"
+            },
+            {
+              "name": "Turkey Pesto Sandwich",
+              "station": "Ladle and Leaf - Sandwich",
+              "station_type": "main",
+              "dish_key": "berkeley:turkey-pesto-sandwich",
+              "nutrition": {
+                "kcal": 231.6,
+                "protein_g": 17.6,
+                "carbs_g": 17.3,
+                "fat_g": 10.4,
+                "fiber_g": 1.5,
+                "sugar_g": 3.7,
+                "sodium_mg": 706.5,
+                "serving": "5.17 oz",
+                "sat_fat_g": 1.7,
+                "cholesterol_mg": 34.5,
+                "calcium_mg": 48.6,
+                "iron_mg": 1.6,
+                "potassium_mg": 151.2,
+                "vitamin_c_mg": 4.7,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 78.2
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": 0.4,
+              "source_id": "1107"
+            },
+            {
+              "name": "Asian Chicken Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:asian-chicken-salad",
+              "nutrition": {
+                "kcal": 502.4,
+                "protein_g": 24.0,
+                "carbs_g": 20.6,
+                "fat_g": 31.6,
+                "fiber_g": 4.6,
+                "sugar_g": 4.4,
+                "sodium_mg": 671.3,
+                "serving": "11 oz",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 50.5,
+                "calcium_mg": 128.1,
+                "iron_mg": 3.6,
+                "potassium_mg": 1074.6,
+                "vitamin_c_mg": 34.9,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 617.0
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "1359"
+            },
+            {
+              "name": "Half Asian Chicken Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:half-asian-chicken-salad",
+              "nutrition": {
+                "kcal": 381.5,
+                "protein_g": 15.4,
+                "carbs_g": 14.4,
+                "fat_g": 26.0,
+                "fiber_g": 3.1,
+                "sugar_g": 3.3,
+                "sodium_mg": 540.5,
+                "serving": "8 oz",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 31.6,
+                "calcium_mg": 87.7,
+                "iron_mg": 2.4,
+                "potassium_mg": 737.6,
+                "vitamin_c_mg": 23.9,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 422.1
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": 0.2,
+              "source_id": "1704"
+            },
+            {
+              "name": "Asian Tofu Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:asian-tofu-salad",
+              "nutrition": {
+                "kcal": 475.9,
+                "protein_g": 16.6,
+                "carbs_g": 24.1,
+                "fat_g": 31.0,
+                "fiber_g": 5.8,
+                "sugar_g": 4.4,
+                "sodium_mg": 589.2,
+                "serving": "10.75 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 241.4,
+                "iron_mg": 3.3,
+                "potassium_mg": 925.5,
+                "vitamin_c_mg": 34.9,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 610.7
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.3,
+              "source_id": "1360"
+            },
+            {
+              "name": "Half Asian Tofu Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:half-asian-tofu-salad",
+              "nutrition": {
+                "kcal": 371.2,
+                "protein_g": 11.5,
+                "carbs_g": 16.9,
+                "fat_g": 25.8,
+                "fiber_g": 4.0,
+                "sugar_g": 3.3,
+                "sodium_mg": 489.2,
+                "serving": "8 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 168.9,
+                "iron_mg": 2.3,
+                "potassium_mg": 651.7,
+                "vitamin_c_mg": 23.9,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 418.2
+              },
+              "allergens": [
+                "wheat",
+                "soy",
+                "gluten",
+                "sesame"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "1706"
+            },
+            {
+              "name": "Cabo Chicken Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:cabo-chicken-salad",
+              "nutrition": {
+                "kcal": 501.8,
+                "protein_g": 27.7,
+                "carbs_g": 37.6,
+                "fat_g": 28.8,
+                "fiber_g": 12.1,
+                "sugar_g": 5.7,
+                "sodium_mg": 175.5,
+                "serving": "15.77 oz",
+                "sat_fat_g": 4.7,
+                "cholesterol_mg": 50.5,
+                "calcium_mg": 125.6,
+                "iron_mg": 4.2,
+                "potassium_mg": 1374.2,
+                "vitamin_c_mg": 22.9,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 696.6
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1363"
+            },
+            {
+              "name": "Half Cabo Chicken Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:half-cabo-chicken-salad",
+              "nutrition": {
+                "kcal": 377.0,
+                "protein_g": 17.4,
+                "carbs_g": 26.7,
+                "fat_g": 21.8,
+                "fiber_g": 7.3,
+                "sugar_g": 5.3,
+                "sodium_mg": 434.0,
+                "serving": "12.07 oz",
+                "sat_fat_g": 2.8,
+                "cholesterol_mg": 31.6,
+                "calcium_mg": 83.8,
+                "iron_mg": 2.8,
+                "potassium_mg": 887.9,
+                "vitamin_c_mg": 14.2,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 504.4
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": 0.2,
+              "source_id": "1708"
+            },
+            {
+              "name": "Brussels Caesar Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:brussels-caesar-salad",
+              "nutrition": {
+                "kcal": 529.6,
+                "protein_g": 13.9,
+                "carbs_g": 37.2,
+                "fat_g": 40.5,
+                "fiber_g": 11.2,
+                "sugar_g": 3.8,
+                "sodium_mg": 724.5,
+                "serving": "12.01 oz",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 17.9,
+                "calcium_mg": 326.7,
+                "iron_mg": 2.5,
+                "potassium_mg": 1149.7,
+                "vitamin_c_mg": 160.8,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 453.7
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.3,
+              "source_id": "1358"
+            },
+            {
+              "name": "Half Brussels Caesar  Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:half-brussels-caesar-salad",
+              "nutrition": {
+                "kcal": 442.4,
+                "protein_g": 14.2,
+                "carbs_g": 28.1,
+                "fat_g": 33.5,
+                "fiber_g": 6.8,
+                "sugar_g": 2.5,
+                "sodium_mg": 770.4,
+                "serving": "8.92 oz",
+                "sat_fat_g": 7.0,
+                "cholesterol_mg": 26.1,
+                "calcium_mg": 363.0,
+                "iron_mg": 1.6,
+                "potassium_mg": 735.3,
+                "vitamin_c_mg": 107.7,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 302.3
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.4,
+              "source_id": "1707"
+            },
+            {
+              "name": "Chicken Caesar Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:chicken-caesar-salad",
+              "nutrition": {
+                "kcal": 438.9,
+                "protein_g": 24.0,
+                "carbs_g": 22.4,
+                "fat_g": 29.8,
+                "fiber_g": 3.5,
+                "sugar_g": 1.9,
+                "sodium_mg": 739.3,
+                "serving": "11.38 oz",
+                "sat_fat_g": 5.0,
+                "cholesterol_mg": 68.4,
+                "calcium_mg": 219.0,
+                "iron_mg": 1.8,
+                "potassium_mg": 705.6,
+                "vitamin_c_mg": 6.2,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 686.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.3,
+              "source_id": "1357"
+            },
+            {
+              "name": "Half Chicken Caesar Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:half-chicken-caesar-salad",
+              "nutrition": {
+                "kcal": 413.0,
+                "protein_g": 22.6,
+                "carbs_g": 19.5,
+                "fat_g": 28.6,
+                "fiber_g": 2.8,
+                "sugar_g": 1.4,
+                "sodium_mg": 787.3,
+                "serving": "9.42 oz",
+                "sat_fat_g": 6.4,
+                "cholesterol_mg": 63.9,
+                "calcium_mg": 295.4,
+                "iron_mg": 1.3,
+                "potassium_mg": 541.9,
+                "vitamin_c_mg": 4.5,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 499.1
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.4,
+              "source_id": "1709"
+            },
+            {
+              "name": "Chipotle Chicken Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:chipotle-chicken-salad",
+              "nutrition": {
+                "kcal": 615.8,
+                "protein_g": 29.7,
+                "carbs_g": 43.7,
+                "fat_g": 36.0,
+                "fiber_g": 12.4,
+                "sugar_g": 5.2,
+                "sodium_mg": 475.5,
+                "serving": "16.38 oz",
+                "sat_fat_g": 7.4,
+                "cholesterol_mg": 73.9,
+                "calcium_mg": 296.3,
+                "iron_mg": 6.5,
+                "potassium_mg": 1579.1,
+                "vitamin_c_mg": 34.4,
+                "vitamin_d_iu": 0.1,
+                "vitamin_a_iu": 447.7
+              },
+              "allergens": [
+                "milk",
+                "egg"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.4,
+              "source_id": "1362"
+            },
+            {
+              "name": "Half Chicken Chipotle Salad",
+              "station": "Ladle and Leaf - Salad",
+              "station_type": "bar",
+              "dish_key": "berkeley:half-chicken-chipotle-salad",
+              "nutrition": {
+                "kcal": 403.9,
+                "protein_g": 19.0,
+                "carbs_g": 27.8,
+                "fat_g": 23.9,
+                "fiber_g": 7.2,
+                "sugar_g": 3.6,
+                "sodium_mg": 333.3,
+                "serving": "10.9 oz",
+                "sat_fat_g": 4.8,
+                "cholesterol_mg": 48.6,
+                "calcium_mg": 201.0,
+                "iron_mg": 4.1,
+                "potassium_mg": 993.1,
+                "vitamin_c_mg": 22.2,
+                "vitamin_d_iu": 0.1,
+                "vitamin_a_iu": 308.3
+              },
+              "allergens": [
+                "milk",
+                "egg"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": 0.3,
+              "source_id": "1710"
+            },
+            {
+              "name": "Pico Kale Chicken Bowl",
+              "station": "Ladle and Leaf - Grain Bowl",
+              "station_type": "main",
+              "dish_key": "berkeley:pico-kale-chicken-bowl",
+              "nutrition": {
+                "kcal": 741.8,
+                "protein_g": 28.8,
+                "carbs_g": 56.8,
+                "fat_g": 45.4,
+                "fiber_g": 14.4,
+                "sugar_g": 5.9,
+                "sodium_mg": 999.2,
+                "serving": "18.51 oz",
+                "sat_fat_g": 4.9,
+                "cholesterol_mg": 50.5,
+                "calcium_mg": 217.5,
+                "iron_mg": 6.5,
+                "potassium_mg": 1579.9,
+                "vitamin_c_mg": 118.3,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 438.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "1364"
+            },
+            {
+              "name": "Pico Kale Tofu Bowl",
+              "station": "Ladle and Leaf - Grain Bowl",
+              "station_type": "main",
+              "dish_key": "berkeley:pico-kale-tofu-bowl",
+              "nutrition": {
+                "kcal": 715.4,
+                "protein_g": 21.3,
+                "carbs_g": 60.4,
+                "fat_g": 44.7,
+                "fiber_g": 15.5,
+                "sugar_g": 5.9,
+                "sodium_mg": 917.1,
+                "serving": "18.26 oz",
+                "sat_fat_g": 4.3,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 330.8,
+                "iron_mg": 6.2,
+                "potassium_mg": 1430.7,
+                "vitamin_c_mg": 118.3,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 432.2
+              },
+              "allergens": [
+                "soy"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "high_protein",
+                "vegan"
+              ],
+              "carbon_kg": 0.3,
+              "source_id": "1365"
+            },
+            {
+              "name": "Avocado Quinoa Chicken Bowl",
+              "station": "Ladle and Leaf - Grain Bowl",
+              "station_type": "main",
+              "dish_key": "berkeley:avocado-quinoa-chicken-bowl",
+              "nutrition": {
+                "kcal": 647.0,
+                "protein_g": 27.3,
+                "carbs_g": 32.9,
+                "fat_g": 43.9,
+                "fiber_g": 10.1,
+                "sugar_g": 1.5,
+                "sodium_mg": 747.1,
+                "serving": "15.75 oz",
+                "sat_fat_g": 6.1,
+                "cholesterol_mg": 63.1,
+                "calcium_mg": 275.3,
+                "iron_mg": 4.5,
+                "potassium_mg": 1651.1,
+                "vitamin_c_mg": 35.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 445.3
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": 0.4,
+              "source_id": "1366"
+            },
+            {
+              "name": "Avocado Tofu Quinoa Bowl",
+              "station": "Ladle and Leaf - Grain Bowl",
+              "station_type": "main",
+              "dish_key": "berkeley:avocado-tofu-quinoa-bowl",
+              "nutrition": {
+                "kcal": 630.5,
+                "protein_g": 20.2,
+                "carbs_g": 38.3,
+                "fat_g": 43.2,
+                "fiber_g": 12.0,
+                "sugar_g": 2.9,
+                "sodium_mg": 666.3,
+                "serving": "16.63 oz",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 12.6,
+                "calcium_mg": 390.8,
+                "iron_mg": 4.4,
+                "potassium_mg": 1569.6,
+                "vitamin_c_mg": 35.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 439.1
+              },
+              "allergens": [
+                "milk",
+                "soy"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "high_protein",
+                "vegetarian"
+              ],
+              "carbon_kg": 0.5,
+              "source_id": "1367"
+            },
+            {
+              "name": "Basmati Rice",
+              "station": "Monsoon Katora Bowl Grain",
+              "station_type": "main",
+              "dish_key": "berkeley:basmati-rice",
+              "nutrition": {
+                "kcal": 181.6,
+                "protein_g": 3.6,
+                "carbs_g": 42.3,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "5.76 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 1.3,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1031"
+            },
+            {
+              "name": "Ancient Grains Blend",
+              "station": "Monsoon Katora Bowl Grain",
+              "station_type": "main",
+              "dish_key": "berkeley:ancient-grains-blend",
+              "nutrition": {
+                "kcal": 285.9,
+                "protein_g": 7.1,
+                "carbs_g": 46.4,
+                "fat_g": 8.0,
+                "fiber_g": 5.3,
+                "sugar_g": 1.8,
+                "sodium_mg": 625.0,
+                "serving": "8 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 71.4,
+                "iron_mg": 1.9,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.2,
+              "source_id": "1739"
+            },
+            {
+              "name": "Chicken Tikka Masala",
+              "station": "Monsoon Katora Bowl Entree",
+              "station_type": "main",
+              "dish_key": "berkeley:chicken-tikka-masala",
+              "nutrition": {
+                "kcal": 179.5,
+                "protein_g": 21.9,
+                "carbs_g": 2.0,
+                "fat_g": 9.1,
+                "fiber_g": 0.5,
+                "sugar_g": 0.5,
+                "sodium_mg": 450.3,
+                "serving": "4.53 oz",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 103.0,
+                "calcium_mg": 10.1,
+                "iron_mg": 1.1,
+                "potassium_mg": 281.8,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.1,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1116"
+            },
+            {
+              "name": "Palak Paneer",
+              "station": "Monsoon Katora Bowl Entree",
+              "station_type": "main",
+              "dish_key": "berkeley:palak-paneer",
+              "nutrition": {
+                "kcal": 90.4,
+                "protein_g": 5.2,
+                "carbs_g": 5.9,
+                "fat_g": 5.8,
+                "fiber_g": 2.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 340.5,
+                "serving": "3.16 oz",
+                "sat_fat_g": 2.2,
+                "cholesterol_mg": 9.6,
+                "calcium_mg": 130.3,
+                "iron_mg": 1.3,
+                "potassium_mg": 242.4,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "749"
+            },
+            {
+              "name": "Cauliflower Coconut Curry",
+              "station": "Monsoon Katora Bowl Entree",
+              "station_type": "main",
+              "dish_key": "berkeley:cauliflower-coconut-curry",
+              "nutrition": {
+                "kcal": 109.3,
+                "protein_g": 2.1,
+                "carbs_g": 9.3,
+                "fat_g": 7.8,
+                "fiber_g": 2.1,
+                "sugar_g": 1.5,
+                "sodium_mg": 305.9,
+                "serving": "3.95 oz",
+                "sat_fat_g": 3.7,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 26.0,
+                "iron_mg": 0.9,
+                "potassium_mg": 237.3,
+                "vitamin_c_mg": 13.1,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "lighter",
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1738"
+            },
+            {
+              "name": "Aloo Chole",
+              "station": "Monsoon Katora Bowl Side",
+              "station_type": "side",
+              "dish_key": "berkeley:aloo-chole",
+              "nutrition": {
+                "kcal": 85.1,
+                "protein_g": 3.6,
+                "carbs_g": 12.2,
+                "fat_g": 3.0,
+                "fiber_g": 3.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 267.2,
+                "serving": "3.05 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 30.5,
+                "iron_mg": 1.4,
+                "potassium_mg": 207.8,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "535"
+            },
+            {
+              "name": "Tarka Dal",
+              "station": "Monsoon Katora Bowl Side",
+              "station_type": "side",
+              "dish_key": "berkeley:tarka-dal",
+              "nutrition": {
+                "kcal": 76.8,
+                "protein_g": 4.3,
+                "carbs_g": 11.5,
+                "fat_g": 2.2,
+                "fiber_g": 5.3,
+                "sugar_g": 0.0,
+                "sodium_mg": 244.7,
+                "serving": "2.73 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 19.3,
+                "iron_mg": 1.2,
+                "potassium_mg": 73.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "1254"
+            },
+            {
+              "name": "Naan Bread",
+              "station": "Monsoon Katora Bowl Side",
+              "station_type": "side",
+              "dish_key": "berkeley:naan-bread",
+              "nutrition": {
+                "kcal": 108.0,
+                "protein_g": 3.6,
+                "carbs_g": 18.7,
+                "fat_g": 1.8,
+                "fiber_g": 0.0,
+                "sugar_g": 2.2,
+                "sodium_mg": 129.5,
+                "serving": "1.32 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 7.2,
+                "iron_mg": 0.7,
+                "potassium_mg": 14.4,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan",
+                "kosher"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.1,
+              "source_id": "525"
+            },
+            {
+              "name": "Samosa",
+              "station": "Monsoon Katora Bowl Side",
+              "station_type": "side",
+              "dish_key": "berkeley:samosa",
+              "nutrition": {
+                "kcal": 95.4,
+                "protein_g": 1.4,
+                "carbs_g": 11.5,
+                "fat_g": 4.7,
+                "fiber_g": 0.7,
+                "sugar_g": 0.8,
+                "sodium_mg": 172.5,
+                "serving": "1.23 oz",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 7.2,
+                "iron_mg": 0.7,
+                "potassium_mg": 64.7,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "318"
+            },
+            {
+              "name": "Kachumber Salad",
+              "station": "Monsoon Katora Bowl Toppings",
+              "station_type": "bar",
+              "dish_key": "berkeley:kachumber-salad",
+              "nutrition": {
+                "kcal": 4.4,
+                "protein_g": 0.2,
+                "carbs_g": 1.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.2,
+                "sugar_g": 0.5,
+                "sodium_mg": 167.8,
+                "serving": "1 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 4.4,
+                "iron_mg": 0.1,
+                "potassium_mg": 40.7,
+                "vitamin_c_mg": 0.9,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 1.4
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "614"
+            },
+            {
+              "name": "Cilantro Chutney",
+              "station": "Monsoon Katora Bowl Toppings",
+              "station_type": "bar",
+              "dish_key": "berkeley:cilantro-chutney",
+              "nutrition": {
+                "kcal": 5.1,
+                "protein_g": 0.0,
+                "carbs_g": 1.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 106.3,
+                "serving": "0.5 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 5.1,
+                "iron_mg": 0.1,
+                "potassium_mg": 15.2,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1658"
+            },
+            {
+              "name": "Tamarind Chutney",
+              "station": "Monsoon Katora Bowl Toppings",
+              "station_type": "bar",
+              "dish_key": "berkeley:tamarind-chutney",
+              "nutrition": {
+                "kcal": 35.5,
+                "protein_g": 0.0,
+                "carbs_g": 8.6,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 7.6,
+                "sodium_mg": 75.9,
+                "serving": "0.5 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.1,
+                "potassium_mg": 5.1,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1659"
+            },
+            {
+              "name": "Tomato Chutney",
+              "station": "Monsoon Katora Bowl Toppings",
+              "station_type": "bar",
+              "dish_key": "berkeley:tomato-chutney",
+              "nutrition": {
+                "kcal": 12.7,
+                "protein_g": 0.0,
+                "carbs_g": 2.5,
+                "fat_g": 0.2,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 58.2,
+                "serving": "0.5 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 5.1,
+                "iron_mg": 0.1,
+                "potassium_mg": 45.6,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1660"
+            },
+            {
+              "name": "Chaat Samosa",
+              "station": "Monsoon A La Carte",
+              "station_type": "main",
+              "dish_key": "berkeley:chaat-samosa",
+              "nutrition": {
+                "kcal": 546.0,
+                "protein_g": 9.8,
+                "carbs_g": 75.5,
+                "fat_g": 22.6,
+                "fiber_g": 6.2,
+                "sugar_g": 11.7,
+                "sodium_mg": 1263.9,
+                "serving": "12 oz",
+                "sat_fat_g": 0.8,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 83.5,
+                "iron_mg": 4.6,
+                "potassium_mg": 662.1,
+                "vitamin_c_mg": 1.6,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 2.8
+              },
+              "allergens": [
+                "wheat",
+                "gluten"
+              ],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "912"
+            },
+            {
+              "name": "Cappuccino Chip Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:cappuccino-chip-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1715"
+            },
+            {
+              "name": "Green Tea Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:green-tea-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1716"
+            },
+            {
+              "name": "Mint Chip Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:mint-chip-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "soy"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1717"
+            },
+            {
+              "name": "Oreo Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:oreo-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "soy",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1718"
+            },
+            {
+              "name": "Pistachio Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:pistachio-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "tree_nuts"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1719"
+            },
+            {
+              "name": "Rose Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:rose-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "alcohol"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1720"
+            },
+            {
+              "name": "Stracciatella Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:stracciatella-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "soy"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1721"
+            },
+            {
+              "name": "Toasted Almond Caramelized Fig Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:toasted-almond-caramelized-fig-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "tree_nuts"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1722"
+            },
+            {
+              "name": "Ube Gelato",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:ube-gelato",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "vegetarian"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1723"
+            },
+            {
+              "name": "Mango Sorbet",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:mango-sorbet",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1724"
+            },
+            {
+              "name": "Strawberry Sorbet",
+              "station": "Almare Gelato",
+              "station_type": "main",
+              "dish_key": "berkeley:strawberry-sorbet",
+              "nutrition": {
+                "kcal": 0.0,
+                "protein_g": 0.0,
+                "carbs_g": 0.0,
+                "fat_g": 0.0,
+                "fiber_g": 0.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 0.0,
+                "serving": "4 oz",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 0.0,
+                "iron_mg": 0.0,
+                "potassium_mg": 0.0,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": 0.0,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [
+                "vegan"
+              ],
+              "tags": [
+                "vegan"
+              ],
+              "carbon_kg": 0.0,
+              "source_id": "1725"
             }
           ]
         }

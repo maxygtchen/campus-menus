@@ -1,7 +1,7 @@
 {
   "school": "uci",
   "date": "2026-11-24",
-  "scraped_at": "2026-11-24T23:05:40+00:00",
+  "scraped_at": "2026-11-25T05:26:52+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1943,68 +1943,6 @@
               ],
               "carbon_kg": null,
               "source_id": "1923_101628_M32251_1_25100"
-            },
-            {
-              "name": "Braised Cabbage",
-              "station": "Home",
-              "station_type": "main",
-              "dish_key": "uci:braised-cabbage",
-              "nutrition": {
-                "kcal": 95.8,
-                "protein_g": 3.1,
-                "carbs_g": 15.4,
-                "fat_g": 2.1,
-                "fiber_g": 3.0,
-                "sugar_g": 12.2,
-                "sodium_mg": 322.2,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.9,
-                "cholesterol_mg": 366.9,
-                "calcium_mg": 47.8,
-                "iron_mg": 0.6,
-                "potassium_mg": null,
-                "vitamin_c_mg": 42.9,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 5.8
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M9898_1_36960"
-            },
-            {
-              "name": "Roasted Garlic Rice",
-              "station": "Home",
-              "station_type": "main",
-              "dish_key": "uci:roasted-garlic-rice",
-              "nutrition": {
-                "kcal": 137.0,
-                "protein_g": 3.0,
-                "carbs_g": 27.9,
-                "fat_g": 1.4,
-                "fiber_g": 0.8,
-                "sugar_g": 0.0,
-                "sodium_mg": 71.7,
-                "serving": "N/A cup",
-                "sat_fat_g": 0.1,
-                "cholesterol_mg": 0.0,
-                "calcium_mg": 30.0,
-                "iron_mg": 1.0,
-                "potassium_mg": null,
-                "vitamin_c_mg": 1.1,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": 0.0
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1923_101628_M36073_1_44185"
             },
             {
               "name": "Country Chicken Gravy",
@@ -6115,6 +6053,39 @@
               "source_id": "287868_133409_M5360_1_21293"
             },
             {
+              "name": "Grilled Black Bean Burger",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M8170_1_36590"
+            },
+            {
               "name": "Hamburger",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -6213,6 +6184,35 @@
               "source_id": "287868_133409_A16075_1_521385"
             },
             {
+              "name": "Classic Grilled Cheese",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 314.9,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 18.7,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.0,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M7941_1_36678"
+            },
+            {
               "name": "Chicken Cheesesteak",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -6304,6 +6304,66 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M21174_1_22814"
+            },
+            {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
+              "name": "Crispy Homestyle French Fries",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:crispy-homestyle-french-fries",
+              "nutrition": {
+                "kcal": 121.3,
+                "protein_g": 1.5,
+                "carbs_g": 20.9,
+                "fat_g": 3.6,
+                "fiber_g": 1.6,
+                "sugar_g": 0.8,
+                "sodium_mg": 389.6,
+                "serving": "3 ozw",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 10.6,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 5.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M9879_1_19500"
             },
             {
               "name": "White Bread",
@@ -6869,6 +6929,39 @@
               "source_id": "287868_133409_M5360_1_21293"
             },
             {
+              "name": "Grilled Black Bean Burger",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M8170_1_36590"
+            },
+            {
               "name": "Hamburger",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -6967,6 +7060,35 @@
               "source_id": "287868_133409_A16075_1_521385"
             },
             {
+              "name": "Classic Grilled Cheese",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 314.9,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 18.7,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.0,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M7941_1_36678"
+            },
+            {
               "name": "Chicken Cheesesteak",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -7058,6 +7180,66 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M21174_1_22814"
+            },
+            {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
+              "name": "Crispy Homestyle French Fries",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:crispy-homestyle-french-fries",
+              "nutrition": {
+                "kcal": 121.3,
+                "protein_g": 1.5,
+                "carbs_g": 20.9,
+                "fat_g": 3.6,
+                "fiber_g": 1.6,
+                "sugar_g": 0.8,
+                "sodium_mg": 389.6,
+                "serving": "3 ozw",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 10.6,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 5.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M9879_1_19500"
             },
             {
               "name": "White Bread",
@@ -7716,6 +7898,39 @@
               "source_id": "287868_133409_M5360_1_21293"
             },
             {
+              "name": "Grilled Black Bean Burger",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M8170_1_36590"
+            },
+            {
               "name": "Hamburger",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -7814,6 +8029,35 @@
               "source_id": "287868_133409_A16075_1_521385"
             },
             {
+              "name": "Classic Grilled Cheese",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 314.9,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 18.7,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.0,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M7941_1_36678"
+            },
+            {
               "name": "Chicken Cheesesteak",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -7905,6 +8149,66 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M21174_1_22814"
+            },
+            {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
+              "name": "Crispy Homestyle French Fries",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:crispy-homestyle-french-fries",
+              "nutrition": {
+                "kcal": 121.3,
+                "protein_g": 1.5,
+                "carbs_g": 20.9,
+                "fat_g": 3.6,
+                "fiber_g": 1.6,
+                "sugar_g": 0.8,
+                "sodium_mg": 389.6,
+                "serving": "3 ozw",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 10.6,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 5.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M9879_1_19500"
             },
             {
               "name": "White Bread",
@@ -8397,6 +8701,37 @@
               "source_id": "287868_133409_M9560_1_47496"
             },
             {
+              "name": "Baked Cheese Ravioli",
+              "station": "Main",
+              "station_type": "main",
+              "dish_key": "uci:baked-cheese-ravioli",
+              "nutrition": {
+                "kcal": 243.3,
+                "protein_g": 11.6,
+                "carbs_g": 21.8,
+                "fat_g": 12.4,
+                "fiber_g": 1.6,
+                "sugar_g": 3.1,
+                "sodium_mg": 376.9,
+                "serving": "N/A cup",
+                "sat_fat_g": 5.7,
+                "cholesterol_mg": 37.0,
+                "calcium_mg": 152.7,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 7.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 33.6
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M39194_1_11799"
+            },
+            {
               "name": "Vegetable & Quinoa Fried Rice",
               "station": "Saute",
               "station_type": "main",
@@ -8563,6 +8898,39 @@
               "source_id": "287868_133409_M5360_1_21293"
             },
             {
+              "name": "Grilled Black Bean Burger",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M8170_1_36590"
+            },
+            {
               "name": "Hamburger",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -8661,6 +9029,35 @@
               "source_id": "287868_133409_A16075_1_521385"
             },
             {
+              "name": "Classic Grilled Cheese",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 314.9,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 18.7,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.0,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M7941_1_36678"
+            },
+            {
               "name": "Chicken Cheesesteak",
               "station": "Grill/Deli",
               "station_type": "bar",
@@ -8752,6 +9149,66 @@
               ],
               "carbon_kg": null,
               "source_id": "287868_133409_M21174_1_22814"
+            },
+            {
+              "name": "Turkey Sandwich",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:turkey-sandwich",
+              "nutrition": {
+                "kcal": 227.2,
+                "protein_g": 21.6,
+                "carbs_g": 30.3,
+                "fat_g": 2.5,
+                "fiber_g": 3.4,
+                "sugar_g": 4.8,
+                "sodium_mg": 960.8,
+                "serving": "1 each",
+                "sat_fat_g": 0.3,
+                "cholesterol_mg": 38.0,
+                "calcium_mg": 69.6,
+                "iron_mg": 1.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.3
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "287868_133409_A15353_1_500322"
+            },
+            {
+              "name": "Crispy Homestyle French Fries",
+              "station": "Grill/Deli",
+              "station_type": "bar",
+              "dish_key": "uci:crispy-homestyle-french-fries",
+              "nutrition": {
+                "kcal": 121.3,
+                "protein_g": 1.5,
+                "carbs_g": 20.9,
+                "fat_g": 3.6,
+                "fiber_g": 1.6,
+                "sugar_g": 0.8,
+                "sodium_mg": 389.6,
+                "serving": "3 ozw",
+                "sat_fat_g": 0.5,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 10.6,
+                "iron_mg": 0.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 5.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "287868_133409_M9879_1_19500"
             },
             {
               "name": "White Bread",

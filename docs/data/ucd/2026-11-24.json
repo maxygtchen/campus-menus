@@ -1,7 +1,7 @@
 {
   "school": "ucd",
   "date": "2026-11-24",
-  "scraped_at": "2026-11-24T23:05:34+00:00",
+  "scraped_at": "2026-11-25T05:26:44+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -1495,18 +1495,20 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
+                "milk",
                 "egg",
                 "soy",
                 "wheat",
-                "gluten"
+                "gluten",
+                "sesame"
               ],
               "diets": [
-                "vegan",
+                "vegetarian",
                 "halal"
               ],
               "tags": [
                 "lighter",
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -1585,41 +1587,6 @@
               "tags": [
                 "lighter",
                 "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Shrimp Low Boil",
-              "station": "Blue Zone",
-              "station_type": "main",
-              "dish_key": "ucd:shrimp-low-boil",
-              "nutrition": {
-                "kcal": 53.3,
-                "protein_g": 3.4,
-                "carbs_g": 4.3,
-                "fat_g": 2.7,
-                "fiber_g": null,
-                "sugar_g": 0.7,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "fish",
-                "shellfish"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
               ],
               "carbon_kg": null,
               "source_id": ""
@@ -3131,86 +3098,10 @@
           "end": "14:00",
           "items": [
             {
-              "name": "BBQ Pulled Pork Sandwich with Slaw",
+              "name": "Sea Salt Kettle Chips",
               "station": "Red Zone",
               "station_type": "main",
-              "dish_key": "ucd:bbq-pulled-pork-sandwich-with-slaw",
-              "nutrition": {
-                "kcal": 592.6,
-                "protein_g": 20.1,
-                "carbs_g": 68.4,
-                "fat_g": 15.3,
-                "fiber_g": null,
-                "sugar_g": 25.7,
-                "sodium_mg": null,
-                "serving": "0.69 lb",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "egg",
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [
-                "high_protein"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Falafel Burger",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:falafel-burger",
-              "nutrition": {
-                "kcal": 559.9,
-                "protein_g": 14.3,
-                "carbs_g": 67.0,
-                "fat_g": 26.8,
-                "fiber_g": null,
-                "sugar_g": 11.0,
-                "sodium_mg": null,
-                "serving": "10.44 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Sea Salt Kettle Chips || Jalapeño Kettle Chips",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:sea-salt-kettle-chips-jalape-o-kettle-chips",
+              "dish_key": "ucd:sea-salt-kettle-chips",
               "nutrition": {
                 "kcal": 293.7,
                 "protein_g": 4.0,
@@ -3218,41 +3109,6 @@
                 "fat_g": 18.2,
                 "fiber_g": null,
                 "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
-              "name": "Jalapeño Kettle Chips",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:jalape-o-kettle-chips",
-              "nutrition": {
-                "kcal": 303.9,
-                "protein_g": 4.0,
-                "carbs_g": 31.4,
-                "fat_g": 18.2,
-                "fiber_g": null,
-                "sugar_g": 2.0,
                 "sodium_mg": null,
                 "serving": "2 oz",
                 "sat_fat_g": null,
@@ -3719,10 +3575,10 @@
               "source_id": ""
             },
             {
-              "name": "Indian Spiced Potatoes || Chole",
+              "name": "Chole||White Rice",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:indian-spiced-potatoes-chole",
+              "dish_key": "ucd:chole-white-rice",
               "nutrition": {
                 "kcal": 71.7,
                 "protein_g": 1.4,
@@ -4145,41 +4001,6 @@
               "source_id": ""
             },
             {
-              "name": "Jalapeño Kettle Chips || Sea Salt Kettle Chips",
-              "station": "Red Zone",
-              "station_type": "main",
-              "dish_key": "ucd:jalape-o-kettle-chips-sea-salt-kettle-chips",
-              "nutrition": {
-                "kcal": 303.9,
-                "protein_g": 4.0,
-                "carbs_g": 31.4,
-                "fat_g": 18.2,
-                "fiber_g": null,
-                "sugar_g": 2.0,
-                "sodium_mg": null,
-                "serving": "2 oz",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Seared Salmon with Tomato and Fresh Corn",
               "station": "Yellow Zone",
               "station_type": "main",
@@ -4257,10 +4078,10 @@
               "source_id": ""
             },
             {
-              "name": "Veggie Phesto Pizza",
+              "name": "Veggie Phesto Pizza||Cheese Pizza",
               "station": "Yellow Zone",
               "station_type": "main",
-              "dish_key": "ucd:veggie-phesto-pizza",
+              "dish_key": "ucd:veggie-phesto-pizza-cheese-pizza",
               "nutrition": {
                 "kcal": 126.8,
                 "protein_g": 5.6,
@@ -4297,10 +4118,48 @@
               "source_id": ""
             },
             {
-              "name": "Barbacoa Loco Burrito",
+              "name": "Spicy Louisiana Soup",
+              "station": "Yellow Zone",
+              "station_type": "main",
+              "dish_key": "ucd:spicy-louisiana-soup",
+              "nutrition": {
+                "kcal": 136.6,
+                "protein_g": 9.8,
+                "carbs_g": 1.9,
+                "fat_g": 9.8,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "3.17 oz",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "gluten",
+                "fish",
+                "shellfish"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": ""
+            },
+            {
+              "name": "Barbacoa Loco Burrito Bar",
               "station": "Blue Zone",
               "station_type": "main",
-              "dish_key": "ucd:barbacoa-loco-burrito",
+              "dish_key": "ucd:barbacoa-loco-burrito-bar",
               "nutrition": {
                 "kcal": 519.0,
                 "protein_g": 23.6,
@@ -4556,44 +4415,6 @@
               "source_id": ""
             },
             {
-              "name": "Picnic Potato Salad",
-              "station": "Green Zone",
-              "station_type": "main",
-              "dish_key": "ucd:picnic-potato-salad",
-              "nutrition": {
-                "kcal": 143.0,
-                "protein_g": 1.4,
-                "carbs_g": 14.3,
-                "fat_g": 9.3,
-                "fiber_g": null,
-                "sugar_g": 1.4,
-                "sodium_mg": null,
-                "serving": "100 g",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "egg",
-                "soy"
-              ],
-              "diets": [
-                "vegetarian",
-                "halal"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": ""
-            },
-            {
               "name": "Sriracha Macaroni Salad",
               "station": "Green Zone",
               "station_type": "main",
@@ -4772,19 +4593,19 @@
               "source_id": ""
             },
             {
-              "name": "Locally Grown Brown Rice",
+              "name": "White Rice",
               "station": "Purple Zone",
               "station_type": "main",
-              "dish_key": "ucd:locally-grown-brown-rice",
+              "dish_key": "ucd:white-rice",
               "nutrition": {
-                "kcal": 102.7,
-                "protein_g": 2.1,
-                "carbs_g": 21.6,
-                "fat_g": 0.8,
+                "kcal": null,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
                 "fiber_g": null,
                 "sugar_g": null,
                 "sodium_mg": null,
-                "serving": "3 oz",
+                "serving": "",
                 "sat_fat_g": null,
                 "cholesterol_mg": null,
                 "calcium_mg": null,
@@ -4800,7 +4621,6 @@
                 "halal"
               ],
               "tags": [
-                "lighter",
                 "vegan"
               ],
               "carbon_kg": null,

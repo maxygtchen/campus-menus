@@ -1,7 +1,7 @@
 {
   "school": "ucsb",
   "date": "2026-11-24",
-  "scraped_at": "2026-11-24T23:08:12+00:00",
+  "scraped_at": "2026-11-25T05:29:17+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -3799,10 +3799,10 @@
           "end": "14:30",
           "items": [
             {
-              "name": "Creamy Pesto Pasta with Chicken",
+              "name": "Creamy Pesto Penne Pasta with Chicken",
               "station": "Entrees",
               "station_type": "main",
-              "dish_key": "ucsb:creamy-pesto-pasta-with-chicken",
+              "dish_key": "ucsb:creamy-pesto-penne-pasta-with-chicken",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
@@ -4823,10 +4823,10 @@
               "source_id": ""
             },
             {
-              "name": "Creamy Pesto Pasta with Chicken",
+              "name": "Creamy Pesto Penne Pasta with Chicken",
               "station": "Entrees",
               "station_type": "main",
-              "dish_key": "ucsb:creamy-pesto-pasta-with-chicken",
+              "dish_key": "ucsb:creamy-pesto-penne-pasta-with-chicken",
               "nutrition": {
                 "kcal": null,
                 "protein_g": null,
