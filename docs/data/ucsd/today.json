@@ -1,7 +1,7 @@
 {
   "school": "ucsd",
-  "date": "2026-11-25",
-  "scraped_at": "2026-11-26T05:06:40+00:00",
+  "date": "2026-11-26",
+  "scraped_at": "2026-11-26T22:30:01+00:00",
   "timezone": "America/Los_Angeles",
   "locations": [
     {
@@ -2571,12 +2571,12 @@
               "source_id": "378:440037"
             },
             {
-              "name": "Tomato and Red Pepper Bisque",
+              "name": "House Chicken Noodle Soup",
               "station": "Garden Bar",
               "station_type": "main",
-              "dish_key": "ucsd:tomato-and-red-pepper-bisque",
+              "dish_key": "ucsd:house-chicken-noodle-soup",
               "nutrition": {
-                "kcal": 350.0,
+                "kcal": 153.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -2594,17 +2594,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk"
+                "wheat",
+                "egg",
+                "gluten"
               ],
-              "diets": [
-                "vegetarian"
-              ],
+              "diets": [],
               "tags": [
-                "lighter",
-                "vegetarian"
+                "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1773:021002"
+              "source_id": "1180:023008"
             },
             {
               "name": "Beyond Beef Picadillo Bowl",
@@ -7491,12 +7490,12 @@
               "source_id": "378:440037"
             },
             {
-              "name": "Tomato and Red Pepper Bisque",
+              "name": "House Chicken Noodle Soup",
               "station": "Garden Bar",
               "station_type": "main",
-              "dish_key": "ucsd:tomato-and-red-pepper-bisque",
+              "dish_key": "ucsd:house-chicken-noodle-soup",
               "nutrition": {
-                "kcal": 350.0,
+                "kcal": 153.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -7514,17 +7513,16 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "milk"
+                "wheat",
+                "egg",
+                "gluten"
               ],
-              "diets": [
-                "vegetarian"
-              ],
+              "diets": [],
               "tags": [
-                "lighter",
-                "vegetarian"
+                "lighter"
               ],
               "carbon_kg": null,
-              "source_id": "1773:021002"
+              "source_id": "1180:023008"
             },
             {
               "name": "Beyond Beef Picadillo Bowl",
@@ -17915,12 +17913,12 @@
               "source_id": "894:141153"
             },
             {
-              "name": "Chicken Curry Soup",
+              "name": "Tomato and Red Pepper Bisque",
               "station": "Fresh",
               "station_type": "main",
-              "dish_key": "ucsd:chicken-curry-soup",
+              "dish_key": "ucsd:tomato-and-red-pepper-bisque",
               "nutrition": {
-                "kcal": 225.0,
+                "kcal": 350.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -17937,13 +17935,18 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [],
-              "diets": [],
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
-              "source_id": "2175:814045"
+              "source_id": "1773:021002"
             },
             {
               "name": "Crispy Onions",
@@ -19400,662 +19403,12 @@
           "end": "21:00",
           "items": [
             {
-              "name": "Noodles, Yakisoba",
+              "name": "Banana Nut Dulce de Leche Crepes",
               "station": "360",
               "station_type": "main",
-              "dish_key": "ucsd:noodles-yakisoba",
+              "dish_key": "ucsd:banana-nut-dulce-de-leche-crepes",
               "nutrition": {
-                "kcal": 70.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "453:643004"
-            },
-            {
-              "name": "Mongolian BBQ Beef Bowl",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:mongolian-bbq-beef-bowl",
-              "nutrition": {
-                "kcal": 934.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "2209:813004"
-            },
-            {
-              "name": "Mongolian BBQ Chicken Bowl",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:mongolian-bbq-chicken-bowl",
-              "nutrition": {
-                "kcal": 845.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "2210:813005"
-            },
-            {
-              "name": "Mongolian BBQ Tofu Bowl",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:mongolian-bbq-tofu-bowl",
-              "nutrition": {
-                "kcal": 940.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "2208:813000"
-            },
-            {
-              "name": "Mongolian BBQ Vegetable Bowl",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:mongolian-bbq-vegetable-bowl",
-              "nutrition": {
-                "kcal": 770.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "2206:813006"
-            },
-            {
-              "name": "Baby Corn",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:baby-corn",
-              "nutrition": {
-                "kcal": 9.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2200:193116"
-            },
-            {
-              "name": "Bamboo Shoots",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:bamboo-shoots",
-              "nutrition": {
-                "kcal": 4.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "1267:192001"
-            },
-            {
-              "name": "Bean Sprouts",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:bean-sprouts",
-              "nutrition": {
-                "kcal": 9.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2202:193023"
-            },
-            {
-              "name": "Chinese Long Beans",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:chinese-long-beans",
-              "nutrition": {
-                "kcal": 12.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "1266:193227"
-            },
-            {
-              "name": "Rice Noodles",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:rice-noodles",
-              "nutrition": {
-                "kcal": 314.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "1268:643067"
-            },
-            {
-              "name": "Shiitake Mushrooms",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:shiitake-mushrooms",
-              "nutrition": {
-                "kcal": 6.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "1110:193134"
-            },
-            {
-              "name": "Shredded Napa Cabbage",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:shredded-napa-cabbage",
-              "nutrition": {
-                "kcal": 3.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "971:193038"
-            },
-            {
-              "name": "Sliced Carrot",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:sliced-carrot",
-              "nutrition": {
-                "kcal": 11.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2196:193024"
-            },
-            {
-              "name": "Sliced Green Onion",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:sliced-green-onion",
-              "nutrition": {
-                "kcal": 9.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "969:193022"
-            },
-            {
-              "name": "Sliced Jalapeno",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:sliced-jalapeno",
-              "nutrition": {
-                "kcal": 8.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2166:193149"
-            },
-            {
-              "name": "Sliced Red Bell Pepper",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:sliced-red-bell-pepper",
-              "nutrition": {
-                "kcal": 8.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2198:193069"
-            },
-            {
-              "name": "Sliced Red Onion",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:sliced-red-onion",
-              "nutrition": {
-                "kcal": 12.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2199:193070"
-            },
-            {
-              "name": "Snap Peas",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:snap-peas",
-              "nutrition": {
-                "kcal": 8.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2197:041040"
-            },
-            {
-              "name": "Water Chestnuts",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:water-chestnuts",
-              "nutrition": {
-                "kcal": 11.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2382:192002"
-            },
-            {
-              "name": "Milk Tea Pudding",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:milk-tea-pudding",
-              "nutrition": {
-                "kcal": 446.0,
+                "kcal": 633.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20074,75 +19427,7 @@
               },
               "allergens": [
                 "milk",
-                "egg"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "2211:217043"
-            },
-            {
-              "name": "360 Garnish Mix",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:360-garnish-mix",
-              "nutrition": {
-                "kcal": 10.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "2203:811267"
-            },
-            {
-              "name": "Fried Wonton Chips",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:fried-wonton-chips",
-              "nutrition": {
-                "kcal": 86.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
+                "tree_nuts",
                 "wheat",
                 "egg",
                 "gluten"
@@ -20151,19 +19436,18 @@
                 "vegetarian"
               ],
               "tags": [
-                "lighter",
                 "vegetarian"
               ],
               "carbon_kg": null,
-              "source_id": "898:012003"
+              "source_id": "2922:811496"
             },
             {
-              "name": "House Mongolian Sauce",
+              "name": "Nutella Banana Crepes",
               "station": "360",
               "station_type": "main",
-              "dish_key": "ucsd:house-mongolian-sauce",
+              "dish_key": "ucsd:nutella-banana-crepes",
               "nutrition": {
-                "kcal": 5.0,
+                "kcal": 804.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20181,25 +19465,29 @@
                 "vitamin_a_iu": null
               },
               "allergens": [
-                "soy"
+                "milk",
+                "tree_nuts",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
               ],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "lighter",
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
-              "source_id": "2195:813026"
+              "source_id": "2923:811542"
             },
             {
-              "name": "Lemongrass Ginger Stir Fry Sauce",
+              "name": "Apple Cinnamon Crepes",
               "station": "360",
               "station_type": "main",
-              "dish_key": "ucsd:lemongrass-ginger-stir-fry-sauce",
+              "dish_key": "ucsd:apple-cinnamon-crepes",
               "nutrition": {
-                "kcal": 76.0,
+                "kcal": 454.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20216,24 +19504,28 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
               "diets": [
-                "vegan"
+                "vegetarian"
               ],
               "tags": [
-                "lighter",
-                "vegan"
+                "vegetarian"
               ],
               "carbon_kg": null,
-              "source_id": "2193:170145"
+              "source_id": "5615:811497"
             },
             {
-              "name": "Oil, Chili Garlic",
+              "name": "Chicken and Rajas Crepes",
               "station": "360",
               "station_type": "main",
-              "dish_key": "ucsd:oil-chili-garlic",
+              "dish_key": "ucsd:chicken-and-rajas-crepes",
               "nutrition": {
-                "kcal": 223.0,
+                "kcal": 887.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -20250,49 +19542,16 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [],
+              "allergens": [
+                "milk",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
               "diets": [],
-              "tags": [
-                "lighter"
-              ],
+              "tags": [],
               "carbon_kg": null,
-              "source_id": "458:170072"
-            },
-            {
-              "name": "Spicy Chili Dragon Sauce",
-              "station": "360",
-              "station_type": "main",
-              "dish_key": "ucsd:spicy-chili-dragon-sauce",
-              "nutrition": {
-                "kcal": 40.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy"
-              ],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "2194:813318"
+              "source_id": "2927:813114"
             },
             {
               "name": "Calrose Rice",
@@ -21533,12 +20792,12 @@
               "source_id": "894:141153"
             },
             {
-              "name": "Chicken Curry Soup",
+              "name": "Tomato and Red Pepper Bisque",
               "station": "Fresh",
               "station_type": "main",
-              "dish_key": "ucsd:chicken-curry-soup",
+              "dish_key": "ucsd:tomato-and-red-pepper-bisque",
               "nutrition": {
-                "kcal": 225.0,
+                "kcal": 350.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -21555,13 +20814,18 @@
                 "vitamin_d_iu": null,
                 "vitamin_a_iu": null
               },
-              "allergens": [],
-              "diets": [],
+              "allergens": [
+                "milk"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
               "tags": [
-                "lighter"
+                "lighter",
+                "vegetarian"
               ],
               "carbon_kg": null,
-              "source_id": "2175:814045"
+              "source_id": "1773:021002"
             },
             {
               "name": "Crispy Onions",
@@ -22729,285 +21993,6 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "6979:812091"
-            },
-            {
-              "name": "Apple Date \"Rice Pudding\" Kheer",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:apple-date-rice-pudding-kheer",
-              "nutrition": {
-                "kcal": 439.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "2306:811392"
-            },
-            {
-              "name": "Butter Chicken Plate",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:butter-chicken-plate",
-              "nutrition": {
-                "kcal": 690.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "3781:811391"
-            },
-            {
-              "name": "Paneer Masala Plate",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:paneer-masala-plate",
-              "nutrition": {
-                "kcal": 831.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "3787:811396"
-            },
-            {
-              "name": "Salmon Vindaloo Plate",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:salmon-vindaloo-plate",
-              "nutrition": {
-                "kcal": 797.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "fish",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "3784:811397"
-            },
-            {
-              "name": "Biryani Rice",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:biryani-rice",
-              "nutrition": {
-                "kcal": 206.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "2301:813316"
-            },
-            {
-              "name": "Naan",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:naan",
-              "nutrition": {
-                "kcal": 389.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "2302:195089"
-            },
-            {
-              "name": "Tandoori Slaw",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:tandoori-slaw",
-              "nutrition": {
-                "kcal": 11.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1587:193167"
-            },
-            {
-              "name": "Vegetables, Tandoori Stew",
-              "station": "Quick Service",
-              "station_type": "main",
-              "dish_key": "ucsd:vegetables-tandoori-stew",
-              "nutrition": {
-                "kcal": 52.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "2296:194045"
             }
           ]
         }
@@ -27129,139 +26114,6 @@
               "source_id": "1941:330210"
             },
             {
-              "name": "Avocado",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:avocado",
-              "nutrition": {
-                "kcal": 90.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [
-                "vegan"
-              ],
-              "tags": [
-                "lighter",
-                "vegan"
-              ],
-              "carbon_kg": null,
-              "source_id": "193:200006"
-            },
-            {
-              "name": "Beef Patty",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:beef-patty",
-              "nutrition": {
-                "kcal": 289.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "217:641427"
-            },
-            {
-              "name": "Black Bean Burger",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:black-bean-burger",
-              "nutrition": {
-                "kcal": 469.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1944:331019"
-            },
-            {
-              "name": "Cheeseburger",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:cheeseburger",
-              "nutrition": {
-                "kcal": 683.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "soy",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1946:330096"
-            },
-            {
               "name": "Chocolate Chunk Cookie",
               "station": "Foodworx Impinger",
               "station_type": "main",
@@ -27300,6 +26152,46 @@
               ],
               "carbon_kg": null,
               "source_id": "210:212001"
+            },
+            {
+              "name": "Cinnamon Sugar Churro",
+              "station": "Foodworx Impinger",
+              "station_type": "main",
+              "dish_key": "ucsd:cinnamon-sugar-churro",
+              "nutrition": {
+                "kcal": 224.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat",
+                "egg",
+                "gluten"
+              ],
+              "diets": [
+                "vegetarian"
+              ],
+              "tags": [
+                "lighter",
+                "vegetarian"
+              ],
+              "carbon_kg": null,
+              "source_id": "751:219052"
             },
             {
               "name": "White Chocolate Macadamia Cookie",
@@ -27341,106 +26233,6 @@
               ],
               "carbon_kg": null,
               "source_id": "211:212009"
-            },
-            {
-              "name": "Cheddar Cheese",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:cheddar-cheese",
-              "nutrition": {
-                "kcal": 81.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [
-                "vegetarian"
-              ],
-              "tags": [
-                "lighter",
-                "vegetarian"
-              ],
-              "carbon_kg": null,
-              "source_id": "1667:152009"
-            },
-            {
-              "name": "Pepper Jack Cheese",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:pepper-jack-cheese",
-              "nutrition": {
-                "kcal": 81.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk"
-              ],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "2611:152006"
-            },
-            {
-              "name": "Bacon",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:bacon",
-              "nutrition": {
-                "kcal": 39.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [],
-              "diets": [],
-              "tags": [
-                "lighter"
-              ],
-              "carbon_kg": null,
-              "source_id": "1697:110999"
             },
             {
               "name": "Personal Cheese Pizza",
@@ -27687,40 +26479,6 @@
               "source_id": "194:880174"
             },
             {
-              "name": "Chimichurri Grilled Chicken Sandwich",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:chimichurri-grilled-chicken-sandwich",
-              "nutrition": {
-                "kcal": 774.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "milk",
-                "wheat",
-                "egg",
-                "gluten"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1947:131022"
-            },
-            {
               "name": "City Slicker Sandwich",
               "station": "Foodworx Impinger",
               "station_type": "main",
@@ -27754,40 +26512,6 @@
               "tags": [],
               "carbon_kg": null,
               "source_id": "197:910189"
-            },
-            {
-              "name": "Hot Dog",
-              "station": "Foodworx Impinger",
-              "station_type": "main",
-              "dish_key": "ucsd:hot-dog",
-              "nutrition": {
-                "kcal": 429.0,
-                "protein_g": null,
-                "carbs_g": null,
-                "fat_g": null,
-                "fiber_g": null,
-                "sugar_g": null,
-                "sodium_mg": null,
-                "serving": "",
-                "sat_fat_g": null,
-                "cholesterol_mg": null,
-                "calcium_mg": null,
-                "iron_mg": null,
-                "potassium_mg": null,
-                "vitamin_c_mg": null,
-                "vitamin_d_iu": null,
-                "vitamin_a_iu": null
-              },
-              "allergens": [
-                "soy",
-                "wheat",
-                "gluten",
-                "sesame"
-              ],
-              "diets": [],
-              "tags": [],
-              "carbon_kg": null,
-              "source_id": "1945:061012"
             },
             {
               "name": "Italian Sub",
@@ -27897,6 +26621,107 @@
               ],
               "carbon_kg": null,
               "source_id": "207:880067"
+            },
+            {
+              "name": "Carne Asada Tacos",
+              "station": "Foodworx Impinger",
+              "station_type": "main",
+              "dish_key": "ucsd:carne-asada-tacos",
+              "nutrition": {
+                "kcal": 296.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1950:331022"
+            },
+            {
+              "name": "Ensenada Fishless Tacos",
+              "station": "Foodworx Impinger",
+              "station_type": "main",
+              "dish_key": "ucsd:ensenada-fishless-tacos",
+              "nutrition": {
+                "kcal": 334.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "gluten"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1951:123000"
+            },
+            {
+              "name": "Grilled Chicken Tacos",
+              "station": "Foodworx Impinger",
+              "station_type": "main",
+              "dish_key": "ucsd:grilled-chicken-tacos",
+              "nutrition": {
+                "kcal": 272.0,
+                "protein_g": null,
+                "carbs_g": null,
+                "fat_g": null,
+                "fiber_g": null,
+                "sugar_g": null,
+                "sodium_mg": null,
+                "serving": "",
+                "sat_fat_g": null,
+                "cholesterol_mg": null,
+                "calcium_mg": null,
+                "iron_mg": null,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1948:331023"
             }
           ]
         }
@@ -27996,7 +26821,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plain-bagel",
               "nutrition": {
-                "kcal": 381.0,
+                "kcal": 389.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28065,7 +26890,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chocolate-banana-protein-shake",
               "nutrition": {
-                "kcal": 503.0,
+                "kcal": 510.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28100,7 +26925,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pineapple-mango-smoothie",
               "nutrition": {
-                "kcal": 310.0,
+                "kcal": 353.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28134,7 +26959,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pomegranate-blueberry-smoothie",
               "nutrition": {
-                "kcal": 372.0,
+                "kcal": 336.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28170,7 +26995,7 @@
               "station_type": "main",
               "dish_key": "ucsd:acai-bowl",
               "nutrition": {
-                "kcal": 516.0,
+                "kcal": 484.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28203,7 +27028,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mango-bowl",
               "nutrition": {
-                "kcal": 711.0,
+                "kcal": 704.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28236,7 +27061,7 @@
               "station_type": "main",
               "dish_key": "ucsd:blt-breakfast-bagel-sandwich",
               "nutrition": {
-                "kcal": 977.0,
+                "kcal": 1009.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28310,7 +27135,7 @@
               "station_type": "main",
               "dish_key": "ucsd:continental-breakfast-bagel-sandwich",
               "nutrition": {
-                "kcal": 716.0,
+                "kcal": 717.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28345,7 +27170,7 @@
               "station_type": "main",
               "dish_key": "ucsd:smoked-salmon-bagel-sandwich",
               "nutrition": {
-                "kcal": 717.0,
+                "kcal": 738.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28381,7 +27206,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plant-based-protein-boost",
               "nutrition": {
-                "kcal": 138.0,
+                "kcal": 135.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28448,7 +27273,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jalapeno-cream-cheese",
               "nutrition": {
-                "kcal": 148.0,
+                "kcal": 150.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28675,7 +27500,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plain-bagel",
               "nutrition": {
-                "kcal": 381.0,
+                "kcal": 389.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28744,7 +27569,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chocolate-banana-protein-shake",
               "nutrition": {
-                "kcal": 503.0,
+                "kcal": 510.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28779,7 +27604,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pineapple-mango-smoothie",
               "nutrition": {
-                "kcal": 310.0,
+                "kcal": 353.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28813,7 +27638,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pomegranate-blueberry-smoothie",
               "nutrition": {
-                "kcal": 372.0,
+                "kcal": 336.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28849,7 +27674,7 @@
               "station_type": "main",
               "dish_key": "ucsd:acai-bowl",
               "nutrition": {
-                "kcal": 516.0,
+                "kcal": 484.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28882,7 +27707,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mango-bowl",
               "nutrition": {
-                "kcal": 711.0,
+                "kcal": 704.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28915,7 +27740,7 @@
               "station_type": "main",
               "dish_key": "ucsd:smoked-salmon-bagel-sandwich",
               "nutrition": {
-                "kcal": 717.0,
+                "kcal": 738.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28951,7 +27776,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chocolate-chunk-cookie",
               "nutrition": {
-                "kcal": 489.0,
+                "kcal": 463.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -28990,7 +27815,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lemon-fruit-tart",
               "nutrition": {
-                "kcal": 738.0,
+                "kcal": 769.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -29029,7 +27854,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plant-based-protein-boost",
               "nutrition": {
-                "kcal": 138.0,
+                "kcal": 135.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -29134,7 +27959,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vanilla-bean-gelato",
               "nutrition": {
-                "kcal": 191.0,
+                "kcal": 183.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -29170,7 +27995,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jalapeno-cream-cheese",
               "nutrition": {
-                "kcal": 148.0,
+                "kcal": 150.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -29684,7 +28509,7 @@
               "station_type": "main",
               "dish_key": "ucsd:buffalo-chicken-detroit-pizza",
               "nutrition": {
-                "kcal": 1550.0,
+                "kcal": 1304.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -29719,7 +28544,7 @@
               "station_type": "main",
               "dish_key": "ucsd:classic-red-top-detroit-style-pizza",
               "nutrition": {
-                "kcal": 1282.0,
+                "kcal": 1265.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -29756,7 +28581,7 @@
               "station_type": "main",
               "dish_key": "ucsd:old-world-pepperoni-detroit-style-pizza",
               "nutrition": {
-                "kcal": 1247.0,
+                "kcal": 1273.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30001,7 +28826,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spaghetti-marinara",
               "nutrition": {
-                "kcal": 1035.0,
+                "kcal": 1061.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30034,7 +28859,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spaghetti-with-turkey-meatballs",
               "nutrition": {
-                "kcal": 1217.0,
+                "kcal": 1245.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30168,7 +28993,7 @@
               "station_type": "main",
               "dish_key": "ucsd:byo-salad",
               "nutrition": {
-                "kcal": 769.0,
+                "kcal": 790.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30206,7 +29031,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-parmesan-sandwich",
               "nutrition": {
-                "kcal": 1045.0,
+                "kcal": 1069.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30240,7 +29065,7 @@
               "station_type": "main",
               "dish_key": "ucsd:focaccia-caprese-sandwich",
               "nutrition": {
-                "kcal": 1200.0,
+                "kcal": 1139.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30273,7 +29098,7 @@
               "station_type": "main",
               "dish_key": "ucsd:turkey-meatball-sub",
               "nutrition": {
-                "kcal": 970.0,
+                "kcal": 996.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30307,7 +29132,7 @@
               "station_type": "main",
               "dish_key": "ucsd:buttermilk-ranch",
               "nutrition": {
-                "kcal": 170.0,
+                "kcal": 163.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30416,7 +29241,7 @@
               "station_type": "main",
               "dish_key": "ucsd:caesar-side-salad",
               "nutrition": {
-                "kcal": 489.0,
+                "kcal": 473.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30452,7 +29277,7 @@
               "station_type": "main",
               "dish_key": "ucsd:ov-side-salad",
               "nutrition": {
-                "kcal": 128.0,
+                "kcal": 129.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -30987,7 +29812,7 @@
               "station_type": "main",
               "dish_key": "ucsd:cali-chicken-bacon-ranch-pizza",
               "nutrition": {
-                "kcal": 1721.0,
+                "kcal": 1693.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31022,7 +29847,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-pesto-pizza",
               "nutrition": {
-                "kcal": 2419.0,
+                "kcal": 2239.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31055,7 +29880,7 @@
               "station_type": "main",
               "dish_key": "ucsd:margherita-pizza",
               "nutrition": {
-                "kcal": 2285.0,
+                "kcal": 2303.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31092,7 +29917,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pepperoni-pizza",
               "nutrition": {
-                "kcal": 2035.0,
+                "kcal": 1971.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31125,7 +29950,7 @@
               "station_type": "main",
               "dish_key": "ucsd:signature-cheese-pizza",
               "nutrition": {
-                "kcal": 1932.0,
+                "kcal": 2054.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31162,7 +29987,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-meat-lovers-pizza",
               "nutrition": {
-                "kcal": 2283.0,
+                "kcal": 2537.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31195,7 +30020,7 @@
               "station_type": "main",
               "dish_key": "ucsd:the-4-0",
               "nutrition": {
-                "kcal": 1970.0,
+                "kcal": 1961.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31228,7 +30053,7 @@
               "station_type": "main",
               "dish_key": "ucsd:wild-mushroom-and-garlic-pizza",
               "nutrition": {
-                "kcal": 2379.0,
+                "kcal": 2321.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31498,7 +30323,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-mazza-bowl",
               "nutrition": {
-                "kcal": 1077.0,
+                "kcal": 1090.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31531,7 +30356,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-mazza-bowl",
               "nutrition": {
-                "kcal": 767.0,
+                "kcal": 776.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31564,7 +30389,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-mazza-bowl",
               "nutrition": {
-                "kcal": 988.0,
+                "kcal": 1117.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31601,7 +30426,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-mazza-bowl",
               "nutrition": {
-                "kcal": 1248.0,
+                "kcal": 1306.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31639,7 +30464,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mediterranean-salmon-mazza-bowl",
               "nutrition": {
-                "kcal": 752.0,
+                "kcal": 753.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31673,7 +30498,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-garlic-fries",
               "nutrition": {
-                "kcal": 1399.0,
+                "kcal": 1368.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31704,7 +30529,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-garlic-fries",
               "nutrition": {
-                "kcal": 1093.0,
+                "kcal": 1090.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31735,7 +30560,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-garlic-fries",
               "nutrition": {
-                "kcal": 1305.0,
+                "kcal": 1293.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31770,7 +30595,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-garlic-fries",
               "nutrition": {
-                "kcal": 1881.0,
+                "kcal": 1827.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31806,7 +30631,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-medi-plate",
               "nutrition": {
-                "kcal": 1278.0,
+                "kcal": 1244.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31840,7 +30665,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-medi-plate",
               "nutrition": {
-                "kcal": 971.0,
+                "kcal": 1028.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31874,7 +30699,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-plate",
               "nutrition": {
-                "kcal": 1349.0,
+                "kcal": 1335.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31912,7 +30737,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-medi-plate",
               "nutrition": {
-                "kcal": 1480.0,
+                "kcal": 1587.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -31950,7 +30775,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mediterranean-salmon-medi-plate",
               "nutrition": {
-                "kcal": 961.0,
+                "kcal": 978.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32083,7 +30908,7 @@
               "station_type": "main",
               "dish_key": "ucsd:salmon-mediterranean",
               "nutrition": {
-                "kcal": 221.0,
+                "kcal": 215.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32152,7 +30977,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-greek-salad",
               "nutrition": {
-                "kcal": 1296.0,
+                "kcal": 1231.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32183,7 +31008,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-greek-salad",
               "nutrition": {
-                "kcal": 737.0,
+                "kcal": 694.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32214,7 +31039,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-greek-salad",
               "nutrition": {
-                "kcal": 866.0,
+                "kcal": 975.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32249,7 +31074,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-greek-salad",
               "nutrition": {
-                "kcal": 1388.0,
+                "kcal": 1303.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32285,7 +31110,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mediterranean-salmon-greek-salad",
               "nutrition": {
-                "kcal": 718.0,
+                "kcal": 729.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32317,7 +31142,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-pita-wrap",
               "nutrition": {
-                "kcal": 1178.0,
+                "kcal": 1259.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32350,7 +31175,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-pita-wrap",
               "nutrition": {
-                "kcal": 630.0,
+                "kcal": 628.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32383,7 +31208,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-pita-wrap",
               "nutrition": {
-                "kcal": 1213.0,
+                "kcal": 1308.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32421,7 +31246,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-pita-wrap",
               "nutrition": {
-                "kcal": 1614.0,
+                "kcal": 1683.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32601,7 +31426,7 @@
               "station_type": "main",
               "dish_key": "ucsd:basmati-rice",
               "nutrition": {
-                "kcal": 345.0,
+                "kcal": 496.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32623,7 +31448,6 @@
                 "vegan"
               ],
               "tags": [
-                "lighter",
                 "vegan"
               ],
               "carbon_kg": null,
@@ -32635,7 +31459,7 @@
               "station_type": "main",
               "dish_key": "ucsd:bulgur-tabbouleh",
               "nutrition": {
-                "kcal": 157.0,
+                "kcal": 237.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32672,7 +31496,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-with-sauce",
               "nutrition": {
-                "kcal": 614.0,
+                "kcal": 802.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32708,7 +31532,7 @@
               "station_type": "main",
               "dish_key": "ucsd:garlic-fries",
               "nutrition": {
-                "kcal": 380.0,
+                "kcal": 367.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32741,7 +31565,7 @@
               "station_type": "main",
               "dish_key": "ucsd:grilled-pita",
               "nutrition": {
-                "kcal": 179.0,
+                "kcal": 197.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32779,7 +31603,7 @@
               "station_type": "main",
               "dish_key": "ucsd:hummus-and-pita",
               "nutrition": {
-                "kcal": 339.0,
+                "kcal": 358.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32818,7 +31642,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lemon-turmeric-rice",
               "nutrition": {
-                "kcal": 255.0,
+                "kcal": 237.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32851,7 +31675,7 @@
               "station_type": "main",
               "dish_key": "ucsd:roasted-mediterranean-vegetables",
               "nutrition": {
-                "kcal": 140.0,
+                "kcal": 146.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -32885,7 +31709,7 @@
               "station_type": "main",
               "dish_key": "ucsd:shepherds-salad",
               "nutrition": {
-                "kcal": 41.0,
+                "kcal": 39.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33005,7 +31829,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plain-bagel",
               "nutrition": {
-                "kcal": 381.0,
+                "kcal": 389.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33074,7 +31898,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chocolate-banana-protein-shake",
               "nutrition": {
-                "kcal": 503.0,
+                "kcal": 510.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33109,7 +31933,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pineapple-mango-smoothie",
               "nutrition": {
-                "kcal": 310.0,
+                "kcal": 353.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33143,7 +31967,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pomegranate-blueberry-smoothie",
               "nutrition": {
-                "kcal": 372.0,
+                "kcal": 336.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33179,7 +32003,7 @@
               "station_type": "main",
               "dish_key": "ucsd:acai-bowl",
               "nutrition": {
-                "kcal": 516.0,
+                "kcal": 484.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33212,7 +32036,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mango-bowl",
               "nutrition": {
-                "kcal": 711.0,
+                "kcal": 704.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33245,7 +32069,7 @@
               "station_type": "main",
               "dish_key": "ucsd:smoked-salmon-bagel-sandwich",
               "nutrition": {
-                "kcal": 717.0,
+                "kcal": 738.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33281,7 +32105,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chocolate-chunk-cookie",
               "nutrition": {
-                "kcal": 489.0,
+                "kcal": 463.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33320,7 +32144,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lemon-fruit-tart",
               "nutrition": {
-                "kcal": 738.0,
+                "kcal": 769.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33359,7 +32183,7 @@
               "station_type": "main",
               "dish_key": "ucsd:plant-based-protein-boost",
               "nutrition": {
-                "kcal": 138.0,
+                "kcal": 135.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33464,7 +32288,7 @@
               "station_type": "main",
               "dish_key": "ucsd:vanilla-bean-gelato",
               "nutrition": {
-                "kcal": 191.0,
+                "kcal": 183.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -33500,7 +32324,7 @@
               "station_type": "main",
               "dish_key": "ucsd:jalapeno-cream-cheese",
               "nutrition": {
-                "kcal": 148.0,
+                "kcal": 150.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34014,7 +32838,7 @@
               "station_type": "main",
               "dish_key": "ucsd:buffalo-chicken-detroit-pizza",
               "nutrition": {
-                "kcal": 1550.0,
+                "kcal": 1304.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34049,7 +32873,7 @@
               "station_type": "main",
               "dish_key": "ucsd:classic-red-top-detroit-style-pizza",
               "nutrition": {
-                "kcal": 1282.0,
+                "kcal": 1265.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34086,7 +32910,7 @@
               "station_type": "main",
               "dish_key": "ucsd:old-world-pepperoni-detroit-style-pizza",
               "nutrition": {
-                "kcal": 1247.0,
+                "kcal": 1273.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34365,7 +33189,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spaghetti-marinara",
               "nutrition": {
-                "kcal": 1035.0,
+                "kcal": 1061.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34398,7 +33222,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spaghetti-with-turkey-meatballs",
               "nutrition": {
-                "kcal": 1217.0,
+                "kcal": 1245.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34532,7 +33356,7 @@
               "station_type": "main",
               "dish_key": "ucsd:byo-salad",
               "nutrition": {
-                "kcal": 769.0,
+                "kcal": 790.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34570,7 +33394,7 @@
               "station_type": "main",
               "dish_key": "ucsd:buttermilk-ranch",
               "nutrition": {
-                "kcal": 170.0,
+                "kcal": 163.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34679,7 +33503,7 @@
               "station_type": "main",
               "dish_key": "ucsd:caesar-side-salad",
               "nutrition": {
-                "kcal": 489.0,
+                "kcal": 473.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -34715,7 +33539,7 @@
               "station_type": "main",
               "dish_key": "ucsd:ov-side-salad",
               "nutrition": {
-                "kcal": 128.0,
+                "kcal": 129.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35250,7 +34074,7 @@
               "station_type": "main",
               "dish_key": "ucsd:cali-chicken-bacon-ranch-pizza",
               "nutrition": {
-                "kcal": 1721.0,
+                "kcal": 1693.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35285,7 +34109,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-pesto-pizza",
               "nutrition": {
-                "kcal": 2419.0,
+                "kcal": 2239.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35318,7 +34142,7 @@
               "station_type": "main",
               "dish_key": "ucsd:margherita-pizza",
               "nutrition": {
-                "kcal": 2285.0,
+                "kcal": 2303.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35355,7 +34179,7 @@
               "station_type": "main",
               "dish_key": "ucsd:pepperoni-pizza",
               "nutrition": {
-                "kcal": 2035.0,
+                "kcal": 1971.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35388,7 +34212,7 @@
               "station_type": "main",
               "dish_key": "ucsd:signature-cheese-pizza",
               "nutrition": {
-                "kcal": 1932.0,
+                "kcal": 2054.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35425,7 +34249,7 @@
               "station_type": "main",
               "dish_key": "ucsd:spicy-meat-lovers-pizza",
               "nutrition": {
-                "kcal": 2283.0,
+                "kcal": 2537.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35458,7 +34282,7 @@
               "station_type": "main",
               "dish_key": "ucsd:the-4-0",
               "nutrition": {
-                "kcal": 1970.0,
+                "kcal": 1961.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35491,7 +34315,7 @@
               "station_type": "main",
               "dish_key": "ucsd:wild-mushroom-and-garlic-pizza",
               "nutrition": {
-                "kcal": 2379.0,
+                "kcal": 2321.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35761,7 +34585,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-mazza-bowl",
               "nutrition": {
-                "kcal": 1077.0,
+                "kcal": 1090.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35794,7 +34618,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-mazza-bowl",
               "nutrition": {
-                "kcal": 767.0,
+                "kcal": 776.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35827,7 +34651,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-mazza-bowl",
               "nutrition": {
-                "kcal": 988.0,
+                "kcal": 1117.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35864,7 +34688,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-mazza-bowl",
               "nutrition": {
-                "kcal": 1248.0,
+                "kcal": 1306.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35902,7 +34726,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mediterranean-salmon-mazza-bowl",
               "nutrition": {
-                "kcal": 752.0,
+                "kcal": 753.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35936,7 +34760,7 @@
               "station_type": "main",
               "dish_key": "ucsd:rotisserie-chicken-plate",
               "nutrition": {
-                "kcal": 1442.0,
+                "kcal": 1432.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -35969,7 +34793,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-garlic-fries",
               "nutrition": {
-                "kcal": 1399.0,
+                "kcal": 1368.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36000,7 +34824,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-garlic-fries",
               "nutrition": {
-                "kcal": 1093.0,
+                "kcal": 1090.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36031,7 +34855,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-garlic-fries",
               "nutrition": {
-                "kcal": 1305.0,
+                "kcal": 1293.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36066,7 +34890,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-garlic-fries",
               "nutrition": {
-                "kcal": 1881.0,
+                "kcal": 1827.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36102,7 +34926,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-medi-plate",
               "nutrition": {
-                "kcal": 1278.0,
+                "kcal": 1244.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36136,7 +34960,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-medi-plate",
               "nutrition": {
-                "kcal": 971.0,
+                "kcal": 1028.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36170,7 +34994,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-plate",
               "nutrition": {
-                "kcal": 1349.0,
+                "kcal": 1335.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36208,7 +35032,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-medi-plate",
               "nutrition": {
-                "kcal": 1480.0,
+                "kcal": 1587.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36246,7 +35070,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mediterranean-salmon-medi-plate",
               "nutrition": {
-                "kcal": 961.0,
+                "kcal": 978.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36379,7 +35203,7 @@
               "station_type": "main",
               "dish_key": "ucsd:salmon-mediterranean",
               "nutrition": {
-                "kcal": 221.0,
+                "kcal": 215.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36448,7 +35272,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-greek-salad",
               "nutrition": {
-                "kcal": 1296.0,
+                "kcal": 1231.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36479,7 +35303,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-greek-salad",
               "nutrition": {
-                "kcal": 737.0,
+                "kcal": 694.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36510,7 +35334,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-greek-salad",
               "nutrition": {
-                "kcal": 866.0,
+                "kcal": 975.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36545,7 +35369,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-greek-salad",
               "nutrition": {
-                "kcal": 1388.0,
+                "kcal": 1303.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36581,7 +35405,7 @@
               "station_type": "main",
               "dish_key": "ucsd:mediterranean-salmon-greek-salad",
               "nutrition": {
-                "kcal": 718.0,
+                "kcal": 729.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36613,7 +35437,7 @@
               "station_type": "main",
               "dish_key": "ucsd:beef-kofta-pita-wrap",
               "nutrition": {
-                "kcal": 1178.0,
+                "kcal": 1259.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36646,7 +35470,7 @@
               "station_type": "main",
               "dish_key": "ucsd:chicken-shawarma-pita-wrap",
               "nutrition": {
-                "kcal": 630.0,
+                "kcal": 628.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36679,7 +35503,7 @@
               "station_type": "main",
               "dish_key": "ucsd:crispy-curry-tofu-pita-wrap",
               "nutrition": {
-                "kcal": 1213.0,
+                "kcal": 1308.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36717,7 +35541,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-pita-wrap",
               "nutrition": {
-                "kcal": 1614.0,
+                "kcal": 1683.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36897,7 +35721,7 @@
               "station_type": "main",
               "dish_key": "ucsd:basmati-rice",
               "nutrition": {
-                "kcal": 345.0,
+                "kcal": 496.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36919,7 +35743,6 @@
                 "vegan"
               ],
               "tags": [
-                "lighter",
                 "vegan"
               ],
               "carbon_kg": null,
@@ -36931,7 +35754,7 @@
               "station_type": "main",
               "dish_key": "ucsd:bulgur-tabbouleh",
               "nutrition": {
-                "kcal": 157.0,
+                "kcal": 237.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -36968,7 +35791,7 @@
               "station_type": "main",
               "dish_key": "ucsd:falafel-with-sauce",
               "nutrition": {
-                "kcal": 614.0,
+                "kcal": 802.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37004,7 +35827,7 @@
               "station_type": "main",
               "dish_key": "ucsd:garlic-fries",
               "nutrition": {
-                "kcal": 380.0,
+                "kcal": 367.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37037,7 +35860,7 @@
               "station_type": "main",
               "dish_key": "ucsd:grilled-pita",
               "nutrition": {
-                "kcal": 179.0,
+                "kcal": 197.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37075,7 +35898,7 @@
               "station_type": "main",
               "dish_key": "ucsd:hummus-and-pita",
               "nutrition": {
-                "kcal": 339.0,
+                "kcal": 358.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37114,7 +35937,7 @@
               "station_type": "main",
               "dish_key": "ucsd:lemon-turmeric-rice",
               "nutrition": {
-                "kcal": 255.0,
+                "kcal": 237.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37147,7 +35970,7 @@
               "station_type": "main",
               "dish_key": "ucsd:roasted-mediterranean-vegetables",
               "nutrition": {
-                "kcal": 140.0,
+                "kcal": 146.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
@@ -37181,7 +36004,7 @@
               "station_type": "main",
               "dish_key": "ucsd:shepherds-salad",
               "nutrition": {
-                "kcal": 41.0,
+                "kcal": 39.0,
                 "protein_g": null,
                 "carbs_g": null,
                 "fat_g": null,
