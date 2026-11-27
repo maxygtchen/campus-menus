@@ -1,0 +1,3188 @@
+{
+  "school": "uci",
+  "date": "2026-11-29",
+  "scraped_at": "2026-11-27T22:06:45+00:00",
+  "timezone": "America/Los_Angeles",
+  "locations": [
+    {
+      "name": "The Anteatery",
+      "kind": "dining_hall",
+      "meals": [
+        {
+          "period": "All Day",
+          "raw_period": "All Day",
+          "start": "07:00",
+          "end": "22:00",
+          "items": [
+            {
+              "name": "Crispy  Breaded Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:crispy-breaded-chicken",
+              "nutrition": {
+                "kcal": 263.2,
+                "protein_g": 15.2,
+                "carbs_g": 17.2,
+                "fat_g": 15.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 658.1,
+                "serving": "1 each",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 35.4,
+                "calcium_mg": 20.2,
+                "iron_mg": 0.8,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M5080_1_4322"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8321_1_32333"
+            },
+            {
+              "name": "Classic Grilled Cheese",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 326.8,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 20.1,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.6,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M7941_1_36678"
+            },
+            {
+              "name": "AE Grill Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:ae-grill-chicken",
+              "nutrition": {
+                "kcal": 270.1,
+                "protein_g": 26.1,
+                "carbs_g": 1.5,
+                "fat_g": 17.8,
+                "fiber_g": 0.3,
+                "sugar_g": 0.1,
+                "sodium_mg": 272.5,
+                "serving": "4 ozw",
+                "sat_fat_g": 2.8,
+                "cholesterol_mg": 67.8,
+                "calcium_mg": 8.3,
+                "iron_mg": 0.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_L248459_1_482650"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 372.9,
+                "protein_g": 15.8,
+                "carbs_g": 47.0,
+                "fat_g": 13.8,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 886.5,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.5,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40418_1_30821"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34425_1_32162"
+            }
+          ]
+        },
+        {
+          "period": "Brunch",
+          "raw_period": "Brunch",
+          "start": "10:00",
+          "end": "14:00",
+          "items": [
+            {
+              "name": "Crispy  Breaded Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:crispy-breaded-chicken",
+              "nutrition": {
+                "kcal": 263.2,
+                "protein_g": 15.2,
+                "carbs_g": 17.2,
+                "fat_g": 15.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 658.1,
+                "serving": "1 each",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 35.4,
+                "calcium_mg": 20.2,
+                "iron_mg": 0.8,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M5080_1_4322"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8321_1_32333"
+            },
+            {
+              "name": "Classic Grilled Cheese",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 326.8,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 20.1,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.6,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M7941_1_36678"
+            },
+            {
+              "name": "AE Grill Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:ae-grill-chicken",
+              "nutrition": {
+                "kcal": 270.1,
+                "protein_g": 26.1,
+                "carbs_g": 1.5,
+                "fat_g": 17.8,
+                "fiber_g": 0.3,
+                "sugar_g": 0.1,
+                "sodium_mg": 272.5,
+                "serving": "4 ozw",
+                "sat_fat_g": 2.8,
+                "cholesterol_mg": 67.8,
+                "calcium_mg": 8.3,
+                "iron_mg": 0.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_L248459_1_482650"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 372.9,
+                "protein_g": 15.8,
+                "carbs_g": 47.0,
+                "fat_g": 13.8,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 886.5,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.5,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40418_1_30821"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34425_1_32162"
+            }
+          ]
+        },
+        {
+          "period": "Lunch",
+          "raw_period": "Lunch",
+          "start": "11:00",
+          "end": "14:30",
+          "items": [
+            {
+              "name": "Crispy  Breaded Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:crispy-breaded-chicken",
+              "nutrition": {
+                "kcal": 263.2,
+                "protein_g": 15.2,
+                "carbs_g": 17.2,
+                "fat_g": 15.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 658.1,
+                "serving": "1 each",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 35.4,
+                "calcium_mg": 20.2,
+                "iron_mg": 0.8,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M5080_1_4322"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8321_1_32333"
+            },
+            {
+              "name": "Classic Grilled Cheese",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 326.8,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 20.1,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.6,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M7941_1_36678"
+            },
+            {
+              "name": "AE Grill Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:ae-grill-chicken",
+              "nutrition": {
+                "kcal": 270.1,
+                "protein_g": 26.1,
+                "carbs_g": 1.5,
+                "fat_g": 17.8,
+                "fiber_g": 0.3,
+                "sugar_g": 0.1,
+                "sodium_mg": 272.5,
+                "serving": "4 ozw",
+                "sat_fat_g": 2.8,
+                "cholesterol_mg": 67.8,
+                "calcium_mg": 8.3,
+                "iron_mg": 0.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_L248459_1_482650"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 372.9,
+                "protein_g": 15.8,
+                "carbs_g": 47.0,
+                "fat_g": 13.8,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 886.5,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.5,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40418_1_30821"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34425_1_32162"
+            }
+          ]
+        },
+        {
+          "period": "Dinner",
+          "raw_period": "Dinner",
+          "start": "16:30",
+          "end": "20:30",
+          "items": [
+            {
+              "name": "Steamed Green Peas",
+              "station": "Home",
+              "station_type": "main",
+              "dish_key": "uci:steamed-green-peas",
+              "nutrition": {
+                "kcal": 69.2,
+                "protein_g": 4.7,
+                "carbs_g": 12.3,
+                "fat_g": 0.4,
+                "fiber_g": 4.0,
+                "sugar_g": 4.4,
+                "sodium_mg": 95.3,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.1,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 19.7,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 15.8,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 90.6
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M10181_1_28762"
+            },
+            {
+              "name": "Crispy  Breaded Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:crispy-breaded-chicken",
+              "nutrition": {
+                "kcal": 263.2,
+                "protein_g": 15.2,
+                "carbs_g": 17.2,
+                "fat_g": 15.2,
+                "fiber_g": 1.0,
+                "sugar_g": 0.0,
+                "sodium_mg": 658.1,
+                "serving": "1 each",
+                "sat_fat_g": 2.5,
+                "cholesterol_mg": 35.4,
+                "calcium_mg": 20.2,
+                "iron_mg": 0.8,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M5080_1_4322"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 257.2,
+                "protein_g": 16.5,
+                "carbs_g": 46.2,
+                "fat_g": 4.3,
+                "fiber_g": 9.0,
+                "sugar_g": 5.5,
+                "sodium_mg": 1000.6,
+                "serving": "1 each",
+                "sat_fat_g": 0.6,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 104.9,
+                "iron_mg": 4.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M8321_1_32333"
+            },
+            {
+              "name": "Classic Grilled Cheese",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:classic-grilled-cheese",
+              "nutrition": {
+                "kcal": 326.8,
+                "protein_g": 10.0,
+                "carbs_g": 27.0,
+                "fat_g": 20.1,
+                "fiber_g": 0.2,
+                "sugar_g": 3.0,
+                "sodium_mg": 475.4,
+                "serving": "1 each",
+                "sat_fat_g": 10.6,
+                "cholesterol_mg": 18.9,
+                "calcium_mg": 219.6,
+                "iron_mg": 1.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M7941_1_36678"
+            },
+            {
+              "name": "AE Grill Chicken",
+              "station": "Sizzle Grill",
+              "station_type": "main",
+              "dish_key": "uci:ae-grill-chicken",
+              "nutrition": {
+                "kcal": 270.1,
+                "protein_g": 26.1,
+                "carbs_g": 1.5,
+                "fat_g": 17.8,
+                "fiber_g": 0.3,
+                "sugar_g": 0.1,
+                "sodium_mg": 272.5,
+                "serving": "4 ozw",
+                "sat_fat_g": 2.8,
+                "cholesterol_mg": 67.8,
+                "calcium_mg": 8.3,
+                "iron_mg": 0.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.0
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_L248459_1_482650"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Oven",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 372.9,
+                "protein_g": 15.8,
+                "carbs_g": 47.0,
+                "fat_g": 13.8,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 886.5,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.5,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M40418_1_30821"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M34425_1_32162"
+            },
+            {
+              "name": "Craveworthy® Chocolate Chip Cookie",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
+              "nutrition": {
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
+                "serving": "1 cookie",
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 15.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M33063_1_31218"
+            },
+            {
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "nutrition": {
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
+                "serving": "1 cookie",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 16.4
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M33064_1_29486"
+            },
+            {
+              "name": "Craveworthy®Sugar Cookie",
+              "station": "Bakery",
+              "station_type": "dessert",
+              "dish_key": "uci:craveworthy-sugar-cookie",
+              "nutrition": {
+                "kcal": 231.8,
+                "protein_g": 1.8,
+                "carbs_g": 33.1,
+                "fat_g": 10.2,
+                "fiber_g": 0.3,
+                "sugar_g": 17.4,
+                "sodium_mg": 250.2,
+                "serving": "1 cookie",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 8.4,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 19.6
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1923_101628_M33187_1_16363"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brandywine",
+      "kind": "dining_hall",
+      "meals": [
+        {
+          "period": "All Day",
+          "raw_period": "All Day",
+          "start": "07:00",
+          "end": "22:00",
+          "items": [
+            {
+              "name": "Classic Cheese Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:classic-cheese-pizza",
+              "nutrition": {
+                "kcal": 347.6,
+                "protein_g": 14.9,
+                "carbs_g": 47.0,
+                "fat_g": 11.5,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 851.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 187.0,
+                "iron_mg": 3.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.2
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40391_1_28974"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 373.3,
+                "protein_g": 15.9,
+                "carbs_g": 47.1,
+                "fat_g": 13.8,
+                "fiber_g": 2.3,
+                "sugar_g": 4.4,
+                "sodium_mg": 946.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.4,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40418_1_30821"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 325.0,
+                "protein_g": 20.1,
+                "carbs_g": 56.1,
+                "fat_g": 6.2,
+                "fiber_g": 9.8,
+                "sugar_g": 7.2,
+                "sodium_mg": 716.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.0,
+                "cholesterol_mg": 1.2,
+                "calcium_mg": 136.1,
+                "iron_mg": 4.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.8,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 40.8
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8321_1_32333"
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:crispy-chicken-sandwich",
+              "nutrition": {
+                "kcal": 379.3,
+                "protein_g": 17.4,
+                "carbs_g": 43.1,
+                "fat_g": 15.5,
+                "fiber_g": 1.4,
+                "sugar_g": 4.2,
+                "sodium_mg": 856.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 31.4,
+                "calcium_mg": 62.1,
+                "iron_mg": 2.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 8.4
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8095_1_16627"
+            },
+            {
+              "name": "Grilled Herb Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-herb-chicken-sandwich",
+              "nutrition": {
+                "kcal": 306.9,
+                "protein_g": 31.1,
+                "carbs_g": 30.4,
+                "fat_g": 6.3,
+                "fiber_g": 1.0,
+                "sugar_g": 4.2,
+                "sodium_mg": 321.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.2,
+                "cholesterol_mg": 82.8,
+                "calcium_mg": 56.4,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 10.3
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8295_1_10195"
+            },
+            {
+              "name": "Grilled Cheese Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-cheese-sandwich",
+              "nutrition": {
+                "kcal": 445.4,
+                "protein_g": 8.7,
+                "carbs_g": 44.7,
+                "fat_g": 25.7,
+                "fiber_g": 2.0,
+                "sugar_g": 4.8,
+                "sodium_mg": 712.8,
+                "serving": "1 each",
+                "sat_fat_g": 10.7,
+                "cholesterol_mg": 19.0,
+                "calcium_mg": 267.7,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M35712_1_4725"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34425_1_32162"
+            },
+            {
+              "name": "Dinner Roll",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:dinner-roll",
+              "nutrition": {
+                "kcal": 57.5,
+                "protein_g": 1.7,
+                "carbs_g": 11.4,
+                "fat_g": 0.6,
+                "fiber_g": 0.1,
+                "sugar_g": 1.4,
+                "sodium_mg": 111.4,
+                "serving": "1 roll",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 17.3,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M32944_1_26488"
+            },
+            {
+              "name": "Craveworthy® Chocolate Chip Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
+              "nutrition": {
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
+                "serving": "1 cookie",
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 15.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33063_1_31218"
+            },
+            {
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "nutrition": {
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
+                "serving": "1 cookie",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 16.4
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33064_1_29486"
+            },
+            {
+              "name": "Craveworthy®Sugar Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-sugar-cookie",
+              "nutrition": {
+                "kcal": 231.8,
+                "protein_g": 1.8,
+                "carbs_g": 33.1,
+                "fat_g": 10.2,
+                "fiber_g": 0.3,
+                "sugar_g": 17.4,
+                "sodium_mg": 250.2,
+                "serving": "1 cookie",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 8.4,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 19.6
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33187_1_16363"
+            }
+          ]
+        },
+        {
+          "period": "Brunch",
+          "raw_period": "Brunch",
+          "start": "10:00",
+          "end": "14:00",
+          "items": [
+            {
+              "name": "Classic Cheese Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:classic-cheese-pizza",
+              "nutrition": {
+                "kcal": 347.6,
+                "protein_g": 14.9,
+                "carbs_g": 47.0,
+                "fat_g": 11.5,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 851.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 187.0,
+                "iron_mg": 3.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.2
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40391_1_28974"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 373.3,
+                "protein_g": 15.9,
+                "carbs_g": 47.1,
+                "fat_g": 13.8,
+                "fiber_g": 2.3,
+                "sugar_g": 4.4,
+                "sodium_mg": 946.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.4,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40418_1_30821"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 325.0,
+                "protein_g": 20.1,
+                "carbs_g": 56.1,
+                "fat_g": 6.2,
+                "fiber_g": 9.8,
+                "sugar_g": 7.2,
+                "sodium_mg": 716.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.0,
+                "cholesterol_mg": 1.2,
+                "calcium_mg": 136.1,
+                "iron_mg": 4.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.8,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 40.8
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8321_1_32333"
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:crispy-chicken-sandwich",
+              "nutrition": {
+                "kcal": 379.3,
+                "protein_g": 17.4,
+                "carbs_g": 43.1,
+                "fat_g": 15.5,
+                "fiber_g": 1.4,
+                "sugar_g": 4.2,
+                "sodium_mg": 856.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 31.4,
+                "calcium_mg": 62.1,
+                "iron_mg": 2.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 8.4
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8095_1_16627"
+            },
+            {
+              "name": "Grilled Herb Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-herb-chicken-sandwich",
+              "nutrition": {
+                "kcal": 306.9,
+                "protein_g": 31.1,
+                "carbs_g": 30.4,
+                "fat_g": 6.3,
+                "fiber_g": 1.0,
+                "sugar_g": 4.2,
+                "sodium_mg": 321.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.2,
+                "cholesterol_mg": 82.8,
+                "calcium_mg": 56.4,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 10.3
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8295_1_10195"
+            },
+            {
+              "name": "Grilled Cheese Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-cheese-sandwich",
+              "nutrition": {
+                "kcal": 445.4,
+                "protein_g": 8.7,
+                "carbs_g": 44.7,
+                "fat_g": 25.7,
+                "fiber_g": 2.0,
+                "sugar_g": 4.8,
+                "sodium_mg": 712.8,
+                "serving": "1 each",
+                "sat_fat_g": 10.7,
+                "cholesterol_mg": 19.0,
+                "calcium_mg": 267.7,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M35712_1_4725"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34425_1_32162"
+            },
+            {
+              "name": "Dinner Roll",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:dinner-roll",
+              "nutrition": {
+                "kcal": 57.5,
+                "protein_g": 1.7,
+                "carbs_g": 11.4,
+                "fat_g": 0.6,
+                "fiber_g": 0.1,
+                "sugar_g": 1.4,
+                "sodium_mg": 111.4,
+                "serving": "1 roll",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 17.3,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M32944_1_26488"
+            },
+            {
+              "name": "Craveworthy® Chocolate Chip Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
+              "nutrition": {
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
+                "serving": "1 cookie",
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 15.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33063_1_31218"
+            },
+            {
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "nutrition": {
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
+                "serving": "1 cookie",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 16.4
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33064_1_29486"
+            },
+            {
+              "name": "Craveworthy®Sugar Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-sugar-cookie",
+              "nutrition": {
+                "kcal": 231.8,
+                "protein_g": 1.8,
+                "carbs_g": 33.1,
+                "fat_g": 10.2,
+                "fiber_g": 0.3,
+                "sugar_g": 17.4,
+                "sodium_mg": 250.2,
+                "serving": "1 cookie",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 8.4,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 19.6
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33187_1_16363"
+            }
+          ]
+        },
+        {
+          "period": "Lunch",
+          "raw_period": "Lunch",
+          "start": "11:00",
+          "end": "14:30",
+          "items": [
+            {
+              "name": "Classic Cheese Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:classic-cheese-pizza",
+              "nutrition": {
+                "kcal": 347.6,
+                "protein_g": 14.9,
+                "carbs_g": 47.0,
+                "fat_g": 11.5,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 851.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 187.0,
+                "iron_mg": 3.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.2
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40391_1_28974"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 373.3,
+                "protein_g": 15.9,
+                "carbs_g": 47.1,
+                "fat_g": 13.8,
+                "fiber_g": 2.3,
+                "sugar_g": 4.4,
+                "sodium_mg": 946.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.4,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40418_1_30821"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 325.0,
+                "protein_g": 20.1,
+                "carbs_g": 56.1,
+                "fat_g": 6.2,
+                "fiber_g": 9.8,
+                "sugar_g": 7.2,
+                "sodium_mg": 716.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.0,
+                "cholesterol_mg": 1.2,
+                "calcium_mg": 136.1,
+                "iron_mg": 4.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.8,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 40.8
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8321_1_32333"
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:crispy-chicken-sandwich",
+              "nutrition": {
+                "kcal": 379.3,
+                "protein_g": 17.4,
+                "carbs_g": 43.1,
+                "fat_g": 15.5,
+                "fiber_g": 1.4,
+                "sugar_g": 4.2,
+                "sodium_mg": 856.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 31.4,
+                "calcium_mg": 62.1,
+                "iron_mg": 2.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 8.4
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8095_1_16627"
+            },
+            {
+              "name": "Grilled Herb Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-herb-chicken-sandwich",
+              "nutrition": {
+                "kcal": 306.9,
+                "protein_g": 31.1,
+                "carbs_g": 30.4,
+                "fat_g": 6.3,
+                "fiber_g": 1.0,
+                "sugar_g": 4.2,
+                "sodium_mg": 321.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.2,
+                "cholesterol_mg": 82.8,
+                "calcium_mg": 56.4,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 10.3
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8295_1_10195"
+            },
+            {
+              "name": "Grilled Cheese Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-cheese-sandwich",
+              "nutrition": {
+                "kcal": 445.4,
+                "protein_g": 8.7,
+                "carbs_g": 44.7,
+                "fat_g": 25.7,
+                "fiber_g": 2.0,
+                "sugar_g": 4.8,
+                "sodium_mg": 712.8,
+                "serving": "1 each",
+                "sat_fat_g": 10.7,
+                "cholesterol_mg": 19.0,
+                "calcium_mg": 267.7,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M35712_1_4725"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34425_1_32162"
+            },
+            {
+              "name": "Dinner Roll",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:dinner-roll",
+              "nutrition": {
+                "kcal": 57.5,
+                "protein_g": 1.7,
+                "carbs_g": 11.4,
+                "fat_g": 0.6,
+                "fiber_g": 0.1,
+                "sugar_g": 1.4,
+                "sodium_mg": 111.4,
+                "serving": "1 roll",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 17.3,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M32944_1_26488"
+            },
+            {
+              "name": "Craveworthy® Chocolate Chip Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
+              "nutrition": {
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
+                "serving": "1 cookie",
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 15.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33063_1_31218"
+            },
+            {
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "nutrition": {
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
+                "serving": "1 cookie",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 16.4
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33064_1_29486"
+            },
+            {
+              "name": "Craveworthy®Sugar Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-sugar-cookie",
+              "nutrition": {
+                "kcal": 231.8,
+                "protein_g": 1.8,
+                "carbs_g": 33.1,
+                "fat_g": 10.2,
+                "fiber_g": 0.3,
+                "sugar_g": 17.4,
+                "sodium_mg": 250.2,
+                "serving": "1 cookie",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 8.4,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 19.6
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33187_1_16363"
+            }
+          ]
+        },
+        {
+          "period": "Dinner",
+          "raw_period": "Dinner",
+          "start": "16:30",
+          "end": "20:30",
+          "items": [
+            {
+              "name": "Broccoli & Cauliflower",
+              "station": "Grubb",
+              "station_type": "main",
+              "dish_key": "uci:broccoli-cauliflower",
+              "nutrition": {
+                "kcal": 17.8,
+                "protein_g": 1.7,
+                "carbs_g": 3.4,
+                "fat_g": 0.2,
+                "fiber_g": 1.9,
+                "sugar_g": 1.3,
+                "sodium_mg": 17.1,
+                "serving": "N/A cup",
+                "sat_fat_g": 0.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 27.3,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 37.4,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 18.1
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M10521_1_21648"
+            },
+            {
+              "name": "Whole Grain Garlic Toast",
+              "station": "Grubb",
+              "station_type": "main",
+              "dish_key": "uci:whole-grain-garlic-toast",
+              "nutrition": {
+                "kcal": 120.0,
+                "protein_g": 3.0,
+                "carbs_g": 16.0,
+                "fat_g": 4.5,
+                "fiber_g": 2.0,
+                "sugar_g": 1.0,
+                "sodium_mg": 115.0,
+                "serving": "1 each",
+                "sat_fat_g": 1.0,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 10.0,
+                "iron_mg": 1.0,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40314_1_41165"
+            },
+            {
+              "name": "Beef Harissa Rice Bowl",
+              "station": "Compass",
+              "station_type": "main",
+              "dish_key": "uci:beef-harissa-rice-bowl",
+              "nutrition": {
+                "kcal": 281.7,
+                "protein_g": 13.7,
+                "carbs_g": 33.4,
+                "fat_g": 10.5,
+                "fiber_g": 2.4,
+                "sugar_g": 5.4,
+                "sodium_mg": 1044.4,
+                "serving": "1 serving",
+                "sat_fat_g": 1.1,
+                "cholesterol_mg": 25.4,
+                "calcium_mg": 34.9,
+                "iron_mg": 1.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 9.9,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 62.5
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34751_1_33642"
+            },
+            {
+              "name": "Classic Cheese Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:classic-cheese-pizza",
+              "nutrition": {
+                "kcal": 347.6,
+                "protein_g": 14.9,
+                "carbs_g": 47.0,
+                "fat_g": 11.5,
+                "fiber_g": 2.2,
+                "sugar_g": 4.3,
+                "sodium_mg": 851.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 25.5,
+                "calcium_mg": 187.0,
+                "iron_mg": 3.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 54.2
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40391_1_28974"
+            },
+            {
+              "name": "Pepperoni Pizza",
+              "station": "Hearth",
+              "station_type": "main",
+              "dish_key": "uci:pepperoni-pizza",
+              "nutrition": {
+                "kcal": 373.3,
+                "protein_g": 15.9,
+                "carbs_g": 47.1,
+                "fat_g": 13.8,
+                "fiber_g": 2.3,
+                "sugar_g": 4.4,
+                "sodium_mg": 946.7,
+                "serving": "N/A cut",
+                "sat_fat_g": 7.6,
+                "cholesterol_mg": 30.9,
+                "calcium_mg": 188.4,
+                "iron_mg": 3.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 6.6,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 55.3
+              },
+              "allergens": [
+                "milk",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M40418_1_30821"
+            },
+            {
+              "name": "Cheeseburger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:cheeseburger",
+              "nutrition": {
+                "kcal": 415.2,
+                "protein_g": 23.1,
+                "carbs_g": 31.2,
+                "fat_g": 22.3,
+                "fiber_g": 0.9,
+                "sugar_g": 4.2,
+                "sodium_mg": 446.6,
+                "serving": "1 each",
+                "sat_fat_g": 9.6,
+                "cholesterol_mg": 70.4,
+                "calcium_mg": 149.7,
+                "iron_mg": 3.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 39.6
+              },
+              "allergens": [
+                "milk",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M21942_1_5331"
+            },
+            {
+              "name": "Grilled Black Bean Burger",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-black-bean-burger",
+              "nutrition": {
+                "kcal": 325.0,
+                "protein_g": 20.1,
+                "carbs_g": 56.1,
+                "fat_g": 6.2,
+                "fiber_g": 9.8,
+                "sugar_g": 7.2,
+                "sodium_mg": 716.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.0,
+                "cholesterol_mg": 1.2,
+                "calcium_mg": 136.1,
+                "iron_mg": 4.7,
+                "potassium_mg": null,
+                "vitamin_c_mg": 10.8,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 40.8
+              },
+              "allergens": [
+                "soy",
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8170_1_36590"
+            },
+            {
+              "name": "Classic Hot Dog",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:classic-hot-dog",
+              "nutrition": {
+                "kcal": 305.1,
+                "protein_g": 10.9,
+                "carbs_g": 26.4,
+                "fat_g": 17.8,
+                "fiber_g": 1.2,
+                "sugar_g": 3.1,
+                "sodium_mg": 755.7,
+                "serving": "1 each",
+                "sat_fat_g": 6.7,
+                "cholesterol_mg": 27.0,
+                "calcium_mg": 48.3,
+                "iron_mg": 2.4,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 0.5
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8321_1_32333"
+            },
+            {
+              "name": "Crispy Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:crispy-chicken-sandwich",
+              "nutrition": {
+                "kcal": 379.3,
+                "protein_g": 17.4,
+                "carbs_g": 43.1,
+                "fat_g": 15.5,
+                "fiber_g": 1.4,
+                "sugar_g": 4.2,
+                "sodium_mg": 856.1,
+                "serving": "1 each",
+                "sat_fat_g": 3.0,
+                "cholesterol_mg": 31.4,
+                "calcium_mg": 62.1,
+                "iron_mg": 2.3,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 8.4
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8095_1_16627"
+            },
+            {
+              "name": "Grilled Herb Chicken Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-herb-chicken-sandwich",
+              "nutrition": {
+                "kcal": 306.9,
+                "protein_g": 31.1,
+                "carbs_g": 30.4,
+                "fat_g": 6.3,
+                "fiber_g": 1.0,
+                "sugar_g": 4.2,
+                "sodium_mg": 321.1,
+                "serving": "1 each",
+                "sat_fat_g": 1.2,
+                "cholesterol_mg": 82.8,
+                "calcium_mg": 56.4,
+                "iron_mg": 2.2,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.1,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 10.3
+              },
+              "allergens": [
+                "wheat",
+                "sesame"
+              ],
+              "diets": [],
+              "tags": [
+                "high_protein",
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M8295_1_10195"
+            },
+            {
+              "name": "Grilled Cheese Sandwich",
+              "station": "Ember",
+              "station_type": "main",
+              "dish_key": "uci:grilled-cheese-sandwich",
+              "nutrition": {
+                "kcal": 445.4,
+                "protein_g": 8.7,
+                "carbs_g": 44.7,
+                "fat_g": 25.7,
+                "fiber_g": 2.0,
+                "sugar_g": 4.8,
+                "sodium_mg": 712.8,
+                "serving": "1 each",
+                "sat_fat_g": 10.7,
+                "cholesterol_mg": 19.0,
+                "calcium_mg": 267.7,
+                "iron_mg": 0.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 223.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M35712_1_4725"
+            },
+            {
+              "name": "Grilled Vegetable Quesadilla",
+              "station": "The Twisted Root",
+              "station_type": "main",
+              "dish_key": "uci:grilled-vegetable-quesadilla",
+              "nutrition": {
+                "kcal": 365.4,
+                "protein_g": 6.7,
+                "carbs_g": 50.8,
+                "fat_g": 14.9,
+                "fiber_g": 3.7,
+                "sugar_g": 4.4,
+                "sodium_mg": 757.6,
+                "serving": "1 each",
+                "sat_fat_g": 6.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 611.3,
+                "iron_mg": 2.9,
+                "potassium_mg": null,
+                "vitamin_c_mg": 48.7,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 284.6
+              },
+              "allergens": [
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34963_1_48357"
+            },
+            {
+              "name": "Cream of Mushroom Soup",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:cream-of-mushroom-soup",
+              "nutrition": {
+                "kcal": 149.6,
+                "protein_g": 4.8,
+                "carbs_g": 12.1,
+                "fat_g": 9.5,
+                "fiber_g": 0.7,
+                "sugar_g": 5.3,
+                "sodium_mg": 132.0,
+                "serving": "6 fl oz",
+                "sat_fat_g": 3.2,
+                "cholesterol_mg": 8.5,
+                "calcium_mg": 101.6,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 1.3,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 76.9
+              },
+              "allergens": [
+                "milk",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M34425_1_32162"
+            },
+            {
+              "name": "Dinner Roll",
+              "station": "Soups ",
+              "station_type": "side",
+              "dish_key": "uci:dinner-roll",
+              "nutrition": {
+                "kcal": 57.5,
+                "protein_g": 1.7,
+                "carbs_g": 11.4,
+                "fat_g": 0.6,
+                "fiber_g": 0.1,
+                "sugar_g": 1.4,
+                "sodium_mg": 111.4,
+                "serving": "1 roll",
+                "sat_fat_g": 0.2,
+                "cholesterol_mg": 0.0,
+                "calcium_mg": 17.3,
+                "iron_mg": 0.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": null,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": null
+              },
+              "allergens": [],
+              "diets": [],
+              "tags": [],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M32944_1_26488"
+            },
+            {
+              "name": "Craveworthy® Chocolate Chip Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-chocolate-chip-cookie",
+              "nutrition": {
+                "kcal": 237.3,
+                "protein_g": 2.0,
+                "carbs_g": 31.3,
+                "fat_g": 11.6,
+                "fiber_g": 1.3,
+                "sugar_g": 17.2,
+                "sodium_mg": 200.5,
+                "serving": "1 cookie",
+                "sat_fat_g": 7.3,
+                "cholesterol_mg": 29.3,
+                "calcium_mg": 13.5,
+                "iron_mg": 1.6,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 15.0
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "soy",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33063_1_31218"
+            },
+            {
+              "name": "Craveworthy® Oatmeal Raisin Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-oatmeal-raisin-cookie",
+              "nutrition": {
+                "kcal": 220.0,
+                "protein_g": 2.3,
+                "carbs_g": 32.1,
+                "fat_g": 9.2,
+                "fiber_g": 1.2,
+                "sugar_g": 16.1,
+                "sodium_mg": 226.9,
+                "serving": "1 cookie",
+                "sat_fat_g": 5.6,
+                "cholesterol_mg": 30.2,
+                "calcium_mg": 20.0,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.2,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 16.4
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33064_1_29486"
+            },
+            {
+              "name": "Craveworthy®Sugar Cookie",
+              "station": "Honeycakes",
+              "station_type": "main",
+              "dish_key": "uci:craveworthy-sugar-cookie",
+              "nutrition": {
+                "kcal": 231.8,
+                "protein_g": 1.8,
+                "carbs_g": 33.1,
+                "fat_g": 10.2,
+                "fiber_g": 0.3,
+                "sugar_g": 17.4,
+                "sodium_mg": 250.2,
+                "serving": "1 cookie",
+                "sat_fat_g": 6.5,
+                "cholesterol_mg": 39.4,
+                "calcium_mg": 8.4,
+                "iron_mg": 1.5,
+                "potassium_mg": null,
+                "vitamin_c_mg": 0.0,
+                "vitamin_d_iu": null,
+                "vitamin_a_iu": 19.6
+              },
+              "allergens": [
+                "milk",
+                "egg",
+                "wheat"
+              ],
+              "diets": [],
+              "tags": [
+                "lighter"
+              ],
+              "carbon_kg": null,
+              "source_id": "1821_122168_M33187_1_16363"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
